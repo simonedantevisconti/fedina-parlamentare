@@ -1,88 +1,4 @@
-/**
- * Fedina Parlamentare — Deputati della XIX Legislatura
- *
- * Elenco dei deputati attualmente in carica verificato
- * il 16 settembre 2026.
- *
- * Fonte istituzionale:
- * Camera dei deputati.
- *
- * IMPORTANTE:
- * - `party` è mantenuto temporaneamente per compatibilità
- *   con i componenti già esistenti;
- * - in realtà rappresenta il GRUPPO PARLAMENTARE corrente;
- * - `parliamentaryGroup` contiene lo stesso dato
- *   con il nome semanticamente corretto;
- * - nessuna verifica giudiziaria è stata ancora effettuata;
- * - tutti partono da `judicialStatus: "not-reviewed"`.
- */
-
-const GROUPS = {
-  FDI: {
-    name: "Fratelli d'Italia",
-    acronym: "FDI",
-  },
-
-  PD: {
-    name: "Partito Democratico - Italia Democratica e Progressista",
-    acronym: "PD-IDP",
-  },
-
-  LEGA: {
-    name: "Lega - Salvini Premier",
-    acronym: "LEGA",
-  },
-
-  FI: {
-    name: "Forza Italia - Berlusconi Presidente - PPE",
-    acronym: "FI-PPE",
-  },
-
-  M5S: {
-    name: "MoVimento 5 Stelle",
-    acronym: "M5S",
-  },
-
-  AZIONE: {
-    name: "Azione-Popolari europeisti riformatori-Renew Europe",
-    acronym: "AZ-PER-RE",
-  },
-
-  AVS: {
-    name: "Alleanza Verdi e Sinistra",
-    acronym: "AVS",
-  },
-
-  NM: {
-    name: "NOI MODERATI (NOI CON L'ITALIA, CORAGGIO ITALIA, UDC E ITALIA AL CENTRO)-MAIE-CENTRO POPOLARE",
-    acronym: "NM(N-C-U-I)M-CP",
-  },
-
-  IV: {
-    name: "Italia Viva-Casa Riformista",
-    acronym: "IV-CR",
-  },
-
-  FNV: {
-    name: "MISTO-Futuro Nazionale Vannacci - Free",
-    acronym: "MISTO-FNV-F",
-  },
-
-  MINLING: {
-    name: "MISTO-Minoranze Linguistiche",
-    acronym: "MISTO-MIN.LING.",
-  },
-
-  EUROPA: {
-    name: "MISTO-+Europa - Stati Uniti d'Europa",
-    acronym: "MISTO-+EUROPA-SUE",
-  },
-
-  MISTO: {
-    name: "MISTO",
-    acronym: "MISTO",
-  },
-};
+import { getParty } from "./parties";
 
 const slugify = (value) =>
   value
@@ -93,10 +9,8 @@ const slugify = (value) =>
     .replace(/^-+|-+$/g, "")
     .toLowerCase();
 
-const createDeputy = ({ firstName, lastName, group }) => {
+const createDeputy = ({ firstName, lastName, party }) => {
   const id = slugify(`${firstName}-${lastName}`);
-
-  const parliamentaryGroup = GROUPS[group];
 
   return {
     id,
@@ -106,15 +20,7 @@ const createDeputy = ({ firstName, lastName, group }) => {
 
     chamber: "camera",
 
-    /*
-     * Alias temporaneo.
-     * Verrà eliminato quando aggiorneremo
-     * i componenti per usare direttamente
-     * parliamentaryGroup.
-     */
-    party: parliamentaryGroup,
-
-    parliamentaryGroup,
+    party: getParty(party),
 
     photo: `/politici/${id}.jpg`,
 
@@ -139,10 +45,7 @@ const createDeputy = ({ firstName, lastName, group }) => {
 
     institutionalVerification: {
       lastVerifiedAt: "2026-09-16",
-
       sourceUrl: "https://www.camera.it/deputati/elenco",
-
-      sourceDocumentUrl: "https://www.camera.it/leg19/368",
     },
 
     judicialStatus: "not-reviewed",
@@ -156,7 +59,11 @@ const createDeputy = ({ firstName, lastName, group }) => {
   };
 };
 
-const DEPUTIES_BY_GROUP = {
+const DEPUTIES_BY_PARTY = {
+  // ======================================================
+  // FRATELLI D'ITALIA
+  // ======================================================
+
   FDI: [
     "Lucia|Albano",
     "Cristina|Almici",
@@ -278,6 +185,10 @@ const DEPUTIES_BY_GROUP = {
     "Immacolata|Zurzolo",
   ],
 
+  // ======================================================
+  // PARTITO DEMOCRATICO
+  // ======================================================
+
   PD: [
     "Vincenzo|Amendola",
     "Anna|Ascani",
@@ -349,6 +260,10 @@ const DEPUTIES_BY_GROUP = {
     "Francesca|Viggiano",
   ],
 
+  // ======================================================
+  // LEGA
+  // ======================================================
+
   LEGA: [
     "Giorgia|Andreuzza",
     "Antonio|Angelucci",
@@ -408,6 +323,10 @@ const DEPUTIES_BY_GROUP = {
     "Eugenio|Zoffili",
   ],
 
+  // ======================================================
+  // FORZA ITALIA
+  // ======================================================
+
   FI: [
     "Giovanni|Arruzzolo",
     "Roberto|Bagnasco",
@@ -463,6 +382,10 @@ const DEPUTIES_BY_GROUP = {
     "Chiara|Tenerini",
   ],
 
+  // ======================================================
+  // MOVIMENTO 5 STELLE
+  // ======================================================
+
   M5S: [
     "Davide|Aiello",
     "Enrica|Alifano",
@@ -514,7 +437,11 @@ const DEPUTIES_BY_GROUP = {
     "Riccardo|Tucci",
   ],
 
-  AZIONE: [
+  // ======================================================
+  // AZIONE
+  // ======================================================
+
+  AZ: [
     "Fabrizio|Benzoni",
     "Elena|Bonetti",
     "Antonio|D'Alessio",
@@ -526,6 +453,10 @@ const DEPUTIES_BY_GROUP = {
     "Daniela|Ruffino",
     "Giulio Cesare|Sottanelli",
   ],
+
+  // ======================================================
+  // ALLEANZA VERDI E SINISTRA
+  // ======================================================
 
   AVS: [
     "Angelo|Bonelli",
@@ -540,6 +471,10 @@ const DEPUTIES_BY_GROUP = {
     "Filiberto|Zaratti",
   ],
 
+  // ======================================================
+  // NOI MODERATI
+  // ======================================================
+
   NM: [
     "Michela Vittoria|Brambilla",
     "Maria Rosaria|Carfagna",
@@ -551,6 +486,10 @@ const DEPUTIES_BY_GROUP = {
     "Franco|Tirelli",
   ],
 
+  // ======================================================
+  // ITALIA VIVA
+  // ======================================================
+
   IV: [
     "Francesco|Bonifazi",
     "Maria Elena|Boschi",
@@ -561,7 +500,16 @@ const DEPUTIES_BY_GROUP = {
     "Maria Anna|Madia",
   ],
 
-  FNV: [
+  // ======================================================
+  // MISTO
+  //
+  // Qui confluiscono anche le precedenti categorie:
+  // - Futuro Nazionale Vannacci - Free
+  // - Minoranze Linguistiche
+  // - +Europa / Stati Uniti d'Europa
+  // ======================================================
+
+  MISTO: [
     "Davide|Bergamini",
     "Gianangelo|Bof",
     "Domenico|Furgiuele",
@@ -570,18 +518,16 @@ const DEPUTIES_BY_GROUP = {
     "Laura|Ravetto",
     "Rossano|Sasso",
     "Edoardo|Ziello",
-  ],
 
-  MINLING: [
     "Renate|Gebhard",
     "Franco|Manes",
     "Manfred|Schullian",
     "Dieter|Steger",
-  ],
 
-  EUROPA: ["Benedetto|Della Vedova", "Riccardo|Magi", "Luca|Pastorino"],
+    "Benedetto|Della Vedova",
+    "Riccardo|Magi",
+    "Luca|Pastorino",
 
-  MISTO: [
     "Lorenzo|Cesa",
     "Francesco|Gallo",
     "Luigi|Marattin",
@@ -591,15 +537,15 @@ const DEPUTIES_BY_GROUP = {
   ],
 };
 
-const deputies = Object.entries(DEPUTIES_BY_GROUP)
-  .flatMap(([group, members]) =>
+const deputies = Object.entries(DEPUTIES_BY_PARTY)
+  .flatMap(([party, members]) =>
     members.map((member) => {
       const [firstName, lastName] = member.split("|");
 
       return createDeputy({
         firstName,
         lastName,
-        group,
+        party,
       });
     }),
   )

@@ -1,49 +1,4 @@
-const GROUPS = {
-  FDI: {
-    name: "Fratelli d'Italia",
-    acronym: "FDI",
-  },
-
-  PD: {
-    name: "Partito Democratico - Italia Democratica e Progressista",
-    acronym: "PD-IDP",
-  },
-
-  LEGA: {
-    name: "Lega Salvini Premier - Partito Sardo d'Azione",
-    acronym: "LSP-PSd'Az",
-  },
-
-  M5S: {
-    name: "MoVimento 5 Stelle",
-    acronym: "M5S",
-  },
-
-  FI: {
-    name: "Forza Italia - Berlusconi Presidente - PPE",
-    acronym: "FI-BP-PPE",
-  },
-
-  IV: {
-    name: "Italia Viva - Casa Riformista",
-    acronym: "IV-CR",
-  },
-
-  CIVICI: {
-    name: "Civici d'Italia-UDC-Noi Moderati (Noi con l'Italia, Coraggio Italia, Italia al Centro)-MAIE-Centro Popolare",
-    acronym: "Cd'I-UDC-NM-MAIE-CP",
-  },
-
-  AUT: {
-    name: "Per le Autonomie (SVP-PATT, Campobase)",
-    acronym: "Aut (SVP-PATT, Cb)",
-  },
-
-  MISTO: {
-    name: "Misto",
-    acronym: "MISTO",
-  },
-};
+import { getParty } from "./parties";
 
 const slugify = (value) =>
   value
@@ -57,13 +12,11 @@ const slugify = (value) =>
 const createSenator = ({
   firstName,
   lastName,
-  group,
+  party,
   senatorType = "elected",
   startDate = null,
 }) => {
   const id = slugify(`${firstName}-${lastName}`);
-
-  const parliamentaryGroup = GROUPS[group];
 
   return {
     id,
@@ -73,14 +26,7 @@ const createSenator = ({
 
     chamber: "senato",
 
-    /*
-     * Alias temporaneo:
-     * manteniamo "party" per compatibilità con
-     * PoliticianCard, ChamberHemicycle e gli altri componenti.
-     */
-    party: parliamentaryGroup,
-
-    parliamentaryGroup,
+    party: getParty(party),
 
     photo: `/politici/${id}.jpg`,
 
@@ -168,7 +114,11 @@ const SENATOR_OVERRIDES = {
   },
 };
 
-const SENATORS_BY_GROUP = {
+const SENATORS_BY_PARTY = {
+  // ======================================================
+  // FRATELLI D'ITALIA
+  // ======================================================
+
   FDI: [
     "Paola|Ambrogio",
     "Bartolomeo|Amidei",
@@ -235,6 +185,10 @@ const SENATORS_BY_GROUP = {
     "Ignazio|Zullo",
   ],
 
+  // ======================================================
+  // PARTITO DEMOCRATICO
+  // ======================================================
+
   PD: [
     "Alessandro|Alfieri",
     "Lorenzo|Basso",
@@ -274,6 +228,10 @@ const SENATORS_BY_GROUP = {
     "Sandra|Zampa",
   ],
 
+  // ======================================================
+  // LEGA
+  // ======================================================
+
   LEGA: [
     "Giorgio Maria|Bergesio",
     "Mara|Bizzotto",
@@ -306,6 +264,37 @@ const SENATORS_BY_GROUP = {
     "Paolo|Tosato",
   ],
 
+  // ======================================================
+  // FORZA ITALIA
+  // ======================================================
+
+  FI: [
+    "Maria Elisabetta|Alberti Casellati",
+    "Alberto|Barachini",
+    "Anna Maria|Bernini",
+    "Stefania Gabriella Anastasia|Craxi",
+    "Dario|Damiani",
+    "Raffaele|De Rosa",
+    "Claudio|Fazzone",
+    "Adriano|Galliani",
+    "Maurizio|Gasparri",
+    "Claudio|Lotito",
+    "Mario|Occhiuto",
+    "Adriano|Paroli",
+    "Licia|Ronzulli",
+    "Roberto|Rosso",
+    "Francesco|Silvestro",
+    "Francesco Paolo|Sisto",
+    "Daniela|Ternullo",
+    "Antonio Salvatore|Trevisi",
+    "Pierantonio|Zanettin",
+    "Paolo|Zangrillo",
+  ],
+
+  // ======================================================
+  // MOVIMENTO 5 STELLE
+  // ======================================================
+
   M5S: [
     "Vincenza|Aloisio",
     "Dolores|Bevilacqua",
@@ -335,28 +324,46 @@ const SENATORS_BY_GROUP = {
     "Mario|Turco",
   ],
 
-  FI: [
-    "Maria Elisabetta|Alberti Casellati",
-    "Alberto|Barachini",
-    "Anna Maria|Bernini",
-    "Stefania Gabriella Anastasia|Craxi",
-    "Dario|Damiani",
-    "Raffaele|De Rosa",
-    "Claudio|Fazzone",
-    "Adriano|Galliani",
-    "Maurizio|Gasparri",
-    "Claudio|Lotito",
-    "Mario|Occhiuto",
-    "Adriano|Paroli",
-    "Licia|Ronzulli",
-    "Roberto|Rosso",
-    "Francesco|Silvestro",
-    "Francesco Paolo|Sisto",
-    "Daniela|Ternullo",
-    "Antonio Salvatore|Trevisi",
-    "Pierantonio|Zanettin",
-    "Paolo|Zangrillo",
+  // ======================================================
+  // AZIONE
+  // ======================================================
+  //
+  // Nessun blocco proveniente dalla precedente
+  // classificazione del Senato viene forzato qui.
+  //
+
+  AZ: [],
+
+  // ======================================================
+  // ALLEANZA VERDI E SINISTRA
+  // ======================================================
+  //
+  // Nessun blocco proveniente dalla precedente
+  // classificazione del Senato viene forzato qui.
+  //
+
+  AVS: [],
+
+  // ======================================================
+  // NOI MODERATI
+  //
+  // Ex gruppo CIVICI normalizzato come NM
+  // ======================================================
+
+  NM: [
+    "Michaela|Biancofiore",
+    "Mario Alejandro|Borghese",
+    "Antonio|De Poli",
+    "Mariastella|Gelmini",
+    "Antonio|Guidi",
+    "Giovanna|Petrenga",
+    "Giorgio|Salvitti",
+    "Giusy|Versace",
   ],
+
+  // ======================================================
+  // ITALIA VIVA
+  // ======================================================
 
   IV: [
     "Enrico|Borghi",
@@ -369,18 +376,17 @@ const SENATORS_BY_GROUP = {
     "Ivan|Scalfarotto",
   ],
 
-  CIVICI: [
-    "Michaela|Biancofiore",
-    "Mario Alejandro|Borghese",
-    "Antonio|De Poli",
-    "Mariastella|Gelmini",
-    "Antonio|Guidi",
-    "Giovanna|Petrenga",
-    "Giorgio|Salvitti",
-    "Giusy|Versace",
-  ],
+  // ======================================================
+  // MISTO
+  //
+  // Qui confluiscono:
+  // - ex gruppo Per le Autonomie
+  // - ex Gruppo Misto
+  //
+  // Questo è un accorpamento interno all'app.
+  // ======================================================
 
-  AUT: [
+  MISTO: [
     "Elena|Cattaneo",
     "Meinhard|Durnwalder",
     "Aurora|Floridia",
@@ -388,9 +394,7 @@ const SENATORS_BY_GROUP = {
     "Carlo|Rubbia",
     "Luigi|Spagnolli",
     "Julia|Unterberger",
-  ],
 
-  MISTO: [
     "Carlo|Calenda",
     "Ilaria|Cucchi",
     "Peppe|De Cristofaro",
@@ -402,8 +406,8 @@ const SENATORS_BY_GROUP = {
   ],
 };
 
-const senators = Object.entries(SENATORS_BY_GROUP)
-  .flatMap(([group, members]) =>
+const senators = Object.entries(SENATORS_BY_PARTY)
+  .flatMap(([party, members]) =>
     members.map((member) => {
       const [firstName, lastName] = member.split("|");
 
@@ -412,8 +416,10 @@ const senators = Object.entries(SENATORS_BY_GROUP)
       return createSenator({
         firstName,
         lastName,
-        group,
+        party,
+
         senatorType: override.senatorType ?? "elected",
+
         startDate: override.startDate ?? null,
       });
     }),
