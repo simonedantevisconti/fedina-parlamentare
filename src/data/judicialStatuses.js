@@ -10,8 +10,8 @@ const judicialStatuses = {
 
   clean: {
     id: "clean",
-    label: "Nessun procedimento noto",
-    shortLabel: "Nessun procedimento noto",
+    label: "Nessun procedimento pubblico noto",
+    shortLabel: "Nessun procedimento pubblico noto",
     category: "clean",
     color: "#3a9d67",
     final: false,
@@ -78,6 +78,24 @@ const judicialStatuses = {
     category: "concluded",
     color: "#71819b",
     final: true,
+  },
+
+  dismissed: {
+    id: "dismissed",
+    label: "Prosciolto / non luogo a procedere",
+    shortLabel: "Prosciolto",
+    category: "concluded",
+    color: "#71819b",
+    final: true,
+  },
+
+  multiple: {
+    id: "multiple",
+    label: "Più procedimenti documentati",
+    shortLabel: "Più procedimenti",
+    category: "multiple",
+    color: "#667085",
+    final: false,
   },
 };
 
