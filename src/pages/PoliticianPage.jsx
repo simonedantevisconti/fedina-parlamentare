@@ -1,19 +1,9 @@
 import { Link, useParams } from "react-router-dom";
 
 import politicians from "../data/politicians";
+import { getJudicialStatus } from "../data/judicialStatuses";
 
 import "../styles/politician-page.css";
-
-const statusLabels = {
-  clean: "Nessun procedimento noto",
-  investigated: "Indagato",
-  charged: "Imputato",
-  trial: "Processo in corso",
-  "convicted-non-final": "Condanna non definitiva",
-  "convicted-final": "Condanna definitiva",
-  acquitted: "Assolto",
-  archived: "Procedimento archiviato",
-};
 
 const formatDate = (date) => {
   if (!date) {
@@ -65,6 +55,8 @@ const PoliticianPage = () => {
   const chamberPath = politician.chamber === "senato" ? "/senato" : "/camera";
 
   const proceedings = politician.proceedings ?? [];
+
+  const judicialStatus = getJudicialStatus(politician.judicialStatus);
 
   return (
     <div className="politician-page">
@@ -172,6 +164,13 @@ const PoliticianPage = () => {
                     <dt>Circoscrizione</dt>
                     <dd>{politician.constituency}</dd>
                   </div>
+
+                  {politician.lastVerifiedAt && (
+                    <div>
+                      <dt>Ultima verifica</dt>
+                      <dd>{formatDate(politician.lastVerifiedAt)}</dd>
+                    </div>
+                  )}
                 </dl>
               </div>
             </aside>
@@ -196,10 +195,7 @@ const PoliticianPage = () => {
                   <span className="politician-page__status-dot"></span>
 
                   <div>
-                    <strong>
-                      {statusLabels[politician.judicialStatus] ??
-                        "Stato non disponibile"}
-                    </strong>
+                    <strong>{judicialStatus.label}</strong>
 
                     <p>
                       Lo stato riportato rappresenta l'ultima informazione
@@ -245,118 +241,128 @@ const PoliticianPage = () => {
                   </div>
                 ) : (
                   <div className="politician-page__proceedings-list">
-                    {proceedings.map((proceeding) => (
-                      <article
-                        className="politician-page__proceeding"
-                        key={proceeding.id}
-                      >
-                        <div className="politician-page__proceeding-header">
-                          <div>
-                            <p>{statusLabels[proceeding.status]}</p>
+                    {proceedings.map((proceeding) => {
+                      const proceedingStatus = getJudicialStatus(
+                        proceeding.status,
+                      );
 
-                            <h3>{proceeding.title}</h3>
-                          </div>
+                      return (
+                        <article
+                          className="politician-page__proceeding"
+                          key={proceeding.id}
+                        >
+                          <div className="politician-page__proceeding-header">
+                            <div>
+                              <p>{proceedingStatus.label}</p>
 
-                          <span
-                            className={`politician-page__proceeding-badge politician-page__proceeding-badge--${proceeding.status}`}
-                          >
-                            {statusLabels[proceeding.status]}
-                          </span>
-                        </div>
+                              <h3>{proceeding.title}</h3>
+                            </div>
 
-                        <div className="politician-page__proceeding-grid">
-                          <div>
-                            <span>
-                              {proceeding.finalJudgment
-                                ? "Reato"
-                                : "Ipotesi di reato"}
+                            <span
+                              className={`politician-page__proceeding-badge politician-page__proceeding-badge--${proceeding.status}`}
+                            >
+                              {proceedingStatus.label}
                             </span>
-
-                            <strong>
-                              {proceeding.offence ??
-                                proceeding.allegedOffence ??
-                                "Non disponibile"}
-                            </strong>
                           </div>
 
-                          <div>
-                            <span>Autorità giudiziaria</span>
+                          <div className="politician-page__proceeding-grid">
+                            <div>
+                              <span>
+                                {proceeding.finalJudgment
+                                  ? "Reato"
+                                  : "Ipotesi di reato"}
+                              </span>
 
-                            <strong>
-                              {proceeding.court ?? "Non disponibile"}
-                            </strong>
-                          </div>
+                              <strong>
+                                {proceeding.offence ??
+                                  proceeding.allegedOffence ??
+                                  "Non disponibile"}
+                              </strong>
+                            </div>
 
-                          <div>
-                            <span>Inizio</span>
+                            <div>
+                              <span>Autorità giudiziaria</span>
 
-                            <strong>{formatDate(proceeding.startDate)}</strong>
-                          </div>
+                              <strong>
+                                {proceeding.court ?? "Non disponibile"}
+                              </strong>
+                            </div>
 
-                          <div>
-                            <span>Ultimo aggiornamento</span>
+                            <div>
+                              <span>Inizio</span>
 
-                            <strong>{formatDate(proceeding.lastUpdate)}</strong>
-                          </div>
-                        </div>
+                              <strong>
+                                {formatDate(proceeding.startDate)}
+                              </strong>
+                            </div>
 
-                        {proceeding.description && (
-                          <div className="politician-page__proceeding-description">
-                            <p>{proceeding.description}</p>
-                          </div>
-                        )}
+                            <div>
+                              <span>Ultimo aggiornamento</span>
 
-                        {proceeding.timeline?.length > 0 && (
-                          <div className="politician-page__timeline">
-                            <h4>Evoluzione del procedimento</h4>
-
-                            <div className="politician-page__timeline-list">
-                              {proceeding.timeline.map((event, index) => (
-                                <div
-                                  className="politician-page__timeline-item"
-                                  key={`${event.date}-${index}`}
-                                >
-                                  <div className="politician-page__timeline-marker">
-                                    <span></span>
-                                  </div>
-
-                                  <div>
-                                    <time>{formatDate(event.date)}</time>
-
-                                    <strong>{event.title}</strong>
-                                  </div>
-                                </div>
-                              ))}
+                              <strong>
+                                {formatDate(proceeding.lastUpdate)}
+                              </strong>
                             </div>
                           </div>
-                        )}
 
-                        {proceeding.sources?.length > 0 && (
-                          <div className="politician-page__sources">
-                            <h4>Fonti</h4>
+                          {proceeding.description && (
+                            <div className="politician-page__proceeding-description">
+                              <p>{proceeding.description}</p>
+                            </div>
+                          )}
 
-                            <div className="politician-page__sources-list">
-                              {proceeding.sources.map((source, index) =>
-                                source.url === "#" ? (
-                                  <span key={`${source.name}-${index}`}>
-                                    {source.name}
-                                  </span>
-                                ) : (
-                                  <a
-                                    key={`${source.name}-${index}`}
-                                    href={source.url}
-                                    target="_blank"
-                                    rel="noreferrer"
+                          {proceeding.timeline?.length > 0 && (
+                            <div className="politician-page__timeline">
+                              <h4>Evoluzione del procedimento</h4>
+
+                              <div className="politician-page__timeline-list">
+                                {proceeding.timeline.map((event, index) => (
+                                  <div
+                                    className="politician-page__timeline-item"
+                                    key={`${event.date}-${index}`}
                                   >
-                                    {source.name} ↗
-                                  </a>
-                                ),
-                              )}
+                                    <div className="politician-page__timeline-marker">
+                                      <span></span>
+                                    </div>
+
+                                    <div>
+                                      <time>{formatDate(event.date)}</time>
+
+                                      <strong>{event.title}</strong>
+                                    </div>
+                                  </div>
+                                ))}
+                              </div>
                             </div>
-                          </div>
-                        )}
-                      </article>
-                    ))}
+                          )}
+
+                          {proceeding.sources?.length > 0 && (
+                            <div className="politician-page__sources">
+                              <h4>Fonti</h4>
+
+                              <div className="politician-page__sources-list">
+                                {proceeding.sources.map((source, index) =>
+                                  source.url === "#" ? (
+                                    <span key={`${source.name}-${index}`}>
+                                      {source.name}
+                                    </span>
+                                  ) : (
+                                    <a
+                                      key={`${source.name}-${index}`}
+                                      href={source.url}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      {source.name} ↗
+                                    </a>
+                                  ),
+                                )}
+                              </div>
+                            </div>
+                          )}
+                        </article>
+                      );
+                    })}
                   </div>
                 )}
               </section>

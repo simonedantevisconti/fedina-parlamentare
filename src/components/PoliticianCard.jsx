@@ -1,23 +1,16 @@
 import { Link } from "react-router-dom";
 
-import "../styles/politician-card.css";
+import { getJudicialStatus } from "../data/judicialStatuses";
 
-const statusLabels = {
-  clean: "Nessun procedimento noto",
-  investigated: "Indagato",
-  charged: "Imputato",
-  trial: "Processo in corso",
-  "convicted-non-final": "Condanna non definitiva",
-  "convicted-final": "Condanna definitiva",
-  acquitted: "Assolto",
-  archived: "Procedimento archiviato",
-};
+import "../styles/politician-card.css";
 
 const PoliticianCard = ({ politician }) => {
   const fullName = `${politician.firstName} ${politician.lastName}`;
 
   const institutionalRole =
     politician.chamber === "senato" ? "Senatore" : "Deputato";
+
+  const judicialStatus = getJudicialStatus(politician.judicialStatus);
 
   return (
     <Link to={`/politico/${politician.id}`} className="politician-card">
@@ -74,7 +67,7 @@ const PoliticianCard = ({ politician }) => {
         >
           <span className="politician-card__status-dot"></span>
 
-          {statusLabels[politician.judicialStatus] ?? "Stato non disponibile"}
+          {judicialStatus.label}
         </div>
       </div>
     </Link>
