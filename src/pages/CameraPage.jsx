@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 
 import AlphabetFilter from "../components/AlphabetFilter";
+import ChamberHemicycle from "../components/ChamberHemicycle";
 import PoliticianCard from "../components/PoliticianCard";
 import PoliticianSearch from "../components/PoliticianSearch";
 
@@ -51,6 +52,7 @@ const CameraPage = () => {
 
   return (
     <div className="camera-page">
+      {/* HERO */}
       <section className="camera-page__hero">
         <div className="container">
           <p className="camera-page__eyebrow">Parlamento Italiano</p>
@@ -65,8 +67,10 @@ const CameraPage = () => {
         </div>
       </section>
 
+      {/* DIRECTORY */}
       <section className="camera-page__directory">
         <div className="container">
+          {/* SEARCH */}
           <div className="camera-page__toolbar">
             <div className="camera-page__search">
               <PoliticianSearch
@@ -85,6 +89,22 @@ const CameraPage = () => {
             </div>
           </div>
 
+          {/* EMICICLO */}
+          <div className="camera-page__hemicycle">
+            <div className="camera-page__hemicycle-heading">
+              <div>
+                <p>Composizione della Camera</p>
+
+                <h2>Emiciclo</h2>
+              </div>
+
+              <span>{deputies.length} deputati</span>
+            </div>
+
+            <ChamberHemicycle politicians={deputies} mode="party" />
+          </div>
+
+          {/* FILTRO ALFABETICO */}
           <div className="camera-page__alphabet">
             <p>Filtra per iniziale del cognome</p>
 
@@ -95,6 +115,7 @@ const CameraPage = () => {
             />
           </div>
 
+          {/* CARDS */}
           {filteredDeputies.length > 0 ? (
             <div className="row g-4">
               {filteredDeputies.map((politician) => (

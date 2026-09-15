@@ -150,6 +150,49 @@
   font-weight: 700;
 }
 
+.camera-page__hemicycle {
+  margin-bottom: 44px;
+}
+
+.camera-page__hemicycle-heading {
+  margin-bottom: 18px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.camera-page__hemicycle-heading p {
+  margin: 0 0 5px;
+
+  color: #8b92a0;
+
+  font-size: 0.72rem;
+  font-weight: 800;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.camera-page__hemicycle-heading h2 {
+  margin: 0;
+
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.camera-page__hemicycle-heading span {
+  color: #7c8494;
+
+  font-size: 0.82rem;
+}
+
 @media (max-width: 767px) {
   .camera-page__hero {
     padding: 68px 0 54px;

@@ -1,0 +1,54 @@
+.chamber-hemicycle {
+  width: 100%;
+
+  overflow-x: auto;
+
+  border: 1px solid #e2e5ea;
+  border-radius: 12px;
+
+  background-color: #ffffff;
+
+  padding: 20px;
+}
+
+.chamber-hemicycle__svg {
+  width: 100%;
+  min-width: 700px;
+
+  display: block;
+}
+
+.chamber-hemicycle__member {
+  cursor: pointer;
+}
+
+.chamber-hemicycle__dot {
+  stroke: #ffffff;
+  stroke-width: 3;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease,
+    filter 0.2s ease;
+
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.chamber-hemicycle__member:hover .chamber-hemicycle__dot {
+  transform: scale(1.35);
+
+  filter: drop-shadow(0 4px 5px rgba(23, 32, 51, 0.18));
+}
+
+.chamber-hemicycle__member:focus .chamber-hemicycle__dot {
+  outline: none;
+
+  transform: scale(1.35);
+}
+
+@media (max-width: 767px) {
+  .chamber-hemicycle {
+    padding: 12px;
+  }
+}

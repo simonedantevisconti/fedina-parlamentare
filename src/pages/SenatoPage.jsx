@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 
 import AlphabetFilter from "../components/AlphabetFilter";
+import ChamberHemicycle from "../components/ChamberHemicycle";
 import PoliticianCard from "../components/PoliticianCard";
 import PoliticianSearch from "../components/PoliticianSearch";
 
@@ -69,6 +70,7 @@ const SenatoPage = () => {
       {/* DIRECTORY */}
       <section className="senato-page__directory">
         <div className="container">
+          {/* SEARCH */}
           <div className="senato-page__toolbar">
             <div className="senato-page__search">
               <PoliticianSearch
@@ -87,6 +89,22 @@ const SenatoPage = () => {
             </div>
           </div>
 
+          {/* EMICICLO */}
+          <div className="senato-page__hemicycle">
+            <div className="senato-page__hemicycle-heading">
+              <div>
+                <p>Composizione del Senato</p>
+
+                <h2>Emiciclo</h2>
+              </div>
+
+              <span>{senators.length} senatori</span>
+            </div>
+
+            <ChamberHemicycle politicians={senators} mode="party" />
+          </div>
+
+          {/* FILTRO ALFABETICO */}
           <div className="senato-page__alphabet">
             <p>Filtra per iniziale del cognome</p>
 
@@ -97,6 +115,7 @@ const SenatoPage = () => {
             />
           </div>
 
+          {/* CARDS */}
           {filteredSenators.length > 0 ? (
             <div className="row g-4">
               {filteredSenators.map((politician) => (
