@@ -7,6 +7,7 @@ import CameraPage from "./pages/CameraPage";
 import SenatoPage from "./pages/SenatoPage";
 import PoliticianPage from "./pages/PoliticianPage";
 import MethodologyPage from "./pages/MethodologyPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
           <Route path="/politico/:id" element={<PoliticianPage />} />
 
           <Route path="/metodologia" element={<MethodologyPage />} />
+
+          <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
     </BrowserRouter>
