@@ -12,6 +12,8 @@ const PoliticianCard = ({ politician }) => {
 
   const judicialStatus = getJudicialStatus(politician.judicialStatus);
 
+  const proceedingCount = politician.judicialSummary?.proceedingCount ?? 0;
+
   return (
     <Link to={`/politico/${politician.id}`} className="politician-card">
       <div className="politician-card__photo-wrapper">
@@ -48,17 +50,20 @@ const PoliticianCard = ({ politician }) => {
         <div className="politician-card__details">
           <div>
             <span>Partito</span>
+
             <strong>{politician.party.name}</strong>
           </div>
 
           <div>
             <span>Legislatura</span>
+
             <strong>{politician.legislature}</strong>
           </div>
 
           <div>
             <span>Mandato</span>
-            <strong>{politician.mandateNumber}</strong>
+
+            <strong>{politician.mandateNumber ?? "N/D"}</strong>
           </div>
         </div>
 
@@ -67,7 +72,18 @@ const PoliticianCard = ({ politician }) => {
         >
           <span className="politician-card__status-dot"></span>
 
-          {judicialStatus.label}
+          <div className="politician-card__status-content">
+            <span>{judicialStatus.label}</span>
+
+            {politician.judicialStatus === "multiple" &&
+              proceedingCount > 0 && (
+                <small>
+                  {proceedingCount}{" "}
+                  {proceedingCount === 1 ? "procedimento" : "procedimenti"}{" "}
+                  documentati
+                </small>
+              )}
+          </div>
         </div>
       </div>
     </Link>

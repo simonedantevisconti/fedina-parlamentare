@@ -208,6 +208,27 @@
   background-color: #71819b;
 }
 
+.politician-card__status-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.politician-card__status-content small {
+  font-size: 0.76rem;
+  font-weight: 600;
+  opacity: 0.72;
+}
+
+.politician-card__status--multiple {
+  color: #667085;
+  background-color: rgba(102, 112, 133, 0.1);
+}
+
+.politician-card__status--multiple .politician-card__status-dot {
+  background-color: #667085;
+}
+
 @media (max-width: 575px) {
   .politician-card__details {
     grid-template-columns: 1fr 1fr;

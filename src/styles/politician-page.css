@@ -1,9 +1,7 @@
-/* ======================================================
-   POLITICIAN PAGE
-====================================================== */
-
 .politician-page {
-  background-color: #ffffff;
+  min-height: 100vh;
+  background-color: #f7f8fa;
+  color: #172033;
 }
 
 /* ======================================================
@@ -11,225 +9,214 @@
 ====================================================== */
 
 .politician-page__hero {
-  padding: 48px 0 70px;
-
-  border-bottom: 1px solid #e6e8ed;
+  padding: 40px 0 48px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e2e5ea;
 }
 
 .politician-page__back {
   display: inline-flex;
-
-  margin-bottom: 40px;
-
-  color: #6f7787;
-
-  font-size: 0.86rem;
+  align-items: center;
+  margin-bottom: 28px;
+  color: #667085;
+  font-size: 0.92rem;
   font-weight: 700;
-
   text-decoration: none;
-
-  transition: color 0.2s ease;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .politician-page__back:hover {
   color: #172033;
+  transform: translateX(-2px);
 }
 
 .politician-page__hero-grid {
   display: grid;
-  grid-template-columns: 240px 1fr;
-
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 36px;
   align-items: center;
-
-  gap: 55px;
 }
 
 .politician-page__photo-wrapper {
   position: relative;
-
-  width: 240px;
-  aspect-ratio: 4 / 5;
-
+  width: 190px;
+  height: 220px;
   overflow: hidden;
-
-  border-radius: 12px;
-
-  background-color: #edf0f4;
+  border: 1px solid #e2e5ea;
+  border-radius: 18px;
+  background-color: #eef0f3;
 }
 
 .politician-page__photo {
   position: relative;
   z-index: 2;
-
   width: 100%;
   height: 100%;
-
+  display: block;
   object-fit: cover;
 }
 
 .politician-page__photo-fallback {
   position: absolute;
   inset: 0;
-
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: linear-gradient(145deg, #f2f4f7, #e4e7ec);
+}
 
-  color: #9299a6;
-
-  font-family: "Open Sans", sans-serif;
-
-  font-size: 4rem;
+.politician-page__photo-fallback span {
+  color: #667085;
+  font-size: 2.2rem;
   font-weight: 800;
 }
 
-.politician-page__eyebrow,
-.politician-page__section-label {
-  margin: 0 0 10px;
+.politician-page__identity {
+  min-width: 0;
+}
 
-  color: #858c9a;
-
-  font-size: 0.74rem;
+.politician-page__eyebrow {
+  margin: 0 0 8px;
+  color: #667085;
+  font-size: 0.78rem;
   font-weight: 800;
-
-  letter-spacing: 0.13em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .politician-page__identity h1 {
   margin: 0;
-
   color: #172033;
-
   font-family: "Open Sans", sans-serif;
-
-  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-size: clamp(2rem, 4vw, 3.2rem);
   font-weight: 800;
-
-  letter-spacing: -0.055em;
-  line-height: 1;
+  line-height: 1.1;
 }
 
 .politician-page__party {
-  margin-top: 25px;
-
   display: flex;
   align-items: center;
-
-  gap: 12px;
+  gap: 10px;
+  margin-top: 18px;
 }
 
 .politician-page__party span {
-  padding: 7px 10px;
-
-  border-radius: 5px;
-
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  border-radius: 8px;
   background-color: #172033;
-
   color: #ffffff;
-
-  font-size: 0.74rem;
+  font-size: 0.78rem;
   font-weight: 800;
 }
 
 .politician-page__party strong {
-  color: #50596b;
-
+  color: #475467;
   font-size: 0.95rem;
 }
 
 .politician-page__meta {
-  margin-top: 38px;
-
   display: flex;
   flex-wrap: wrap;
-
-  gap: 42px;
+  gap: 30px;
+  margin-top: 30px;
 }
 
 .politician-page__meta div {
   display: flex;
   flex-direction: column;
-
-  gap: 5px;
+  gap: 4px;
 }
 
 .politician-page__meta span {
-  color: #939aa7;
-
-  font-size: 0.72rem;
+  color: #98a2b3;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .politician-page__meta strong {
-  color: #424c5e;
-
-  font-size: 0.9rem;
+  color: #344054;
+  font-size: 0.95rem;
 }
 
 /* ======================================================
-   CONTENT
+   CONTENUTO
 ====================================================== */
 
 .politician-page__content {
-  padding: 80px 0 120px;
-
-  background-color: #f8f9fb;
+  padding: 48px 0 70px;
 }
 
 .politician-page__layout {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr);
-
+  grid-template-columns: 290px minmax(0, 1fr);
+  gap: 32px;
   align-items: start;
-
-  gap: 50px;
 }
 
 /* ======================================================
    SIDEBAR
 ====================================================== */
 
+.politician-page__sidebar {
+  position: sticky;
+  top: 100px;
+}
+
 .politician-page__info-card {
-  padding: 26px;
-
-  border: 1px solid #e1e4e9;
-  border-radius: 12px;
-
+  padding: 24px;
+  border: 1px solid #e2e5ea;
+  border-radius: 16px;
   background-color: #ffffff;
 }
 
-.politician-page__info-card dl {
+.politician-page__section-label {
   margin: 0;
+  color: #667085;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
-.politician-page__info-card dl div {
-  padding: 15px 0;
+.politician-page__info-card dl {
+  margin: 20px 0 0;
+}
 
+.politician-page__info-card dl > div {
+  padding: 14px 0;
   border-bottom: 1px solid #edf0f3;
 }
 
-.politician-page__info-card dl div:last-child {
-  padding-bottom: 0;
+.politician-page__info-card dl > div:first-child {
+  padding-top: 0;
+}
 
+.politician-page__info-card dl > div:last-child {
+  padding-bottom: 0;
   border-bottom: 0;
 }
 
 .politician-page__info-card dt {
-  margin-bottom: 5px;
-
-  color: #969da9;
-
-  font-size: 0.72rem;
-  font-weight: 600;
+  margin-bottom: 4px;
+  color: #98a2b3;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
 .politician-page__info-card dd {
   margin: 0;
-
-  color: #3f495b;
-
-  font-size: 0.88rem;
+  color: #344054;
+  font-size: 0.92rem;
   font-weight: 700;
+  overflow-wrap: anywhere;
 }
 
 /* ======================================================
@@ -242,11 +229,9 @@
 
 .politician-page__judicial-section,
 .politician-page__proceedings {
-  padding: 34px;
-
-  border: 1px solid #e1e4e9;
-  border-radius: 12px;
-
+  padding: 28px;
+  border: 1px solid #e2e5ea;
+  border-radius: 16px;
   background-color: #ffffff;
 }
 
@@ -255,163 +240,286 @@
 }
 
 .politician-page__section-heading {
-  margin-bottom: 28px;
-
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-
   gap: 20px;
+  margin-bottom: 22px;
 }
 
 .politician-page__section-heading h2 {
-  margin: 0;
-
+  margin: 5px 0 0;
   color: #172033;
-
   font-family: "Open Sans", sans-serif;
-
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 800;
-
-  letter-spacing: -0.035em;
 }
 
 /* ======================================================
-   STATUS
+   STATO GIUDIZIARIO
 ====================================================== */
 
 .politician-page__status {
-  padding: 22px;
-
   display: flex;
   align-items: flex-start;
-
-  gap: 15px;
-
-  border: 1px solid #e3e6ea;
-  border-radius: 9px;
-
-  background-color: #fafbfc;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid #e2e5ea;
+  border-radius: 12px;
+  background-color: #f8f9fb;
 }
 
 .politician-page__status-dot {
   width: 11px;
   height: 11px;
-
-  margin-top: 6px;
-
-  flex-shrink: 0;
-
+  flex: 0 0 11px;
+  margin-top: 5px;
   border-radius: 50%;
-
-  background-color: #87909f;
+  background-color: #8b92a0;
 }
 
 .politician-page__status strong {
   display: block;
-
-  color: #313b4d;
-
+  color: #344054;
   font-size: 1rem;
 }
 
 .politician-page__status p {
   margin: 5px 0 0;
-
-  color: #7b8392;
-
-  font-size: 0.86rem;
-
+  color: #667085;
+  font-size: 0.9rem;
   line-height: 1.6;
 }
 
+.politician-page__status p strong {
+  display: inline;
+  color: inherit;
+}
+
+/* Da verificare */
+
+.politician-page__status--not-reviewed {
+  border-color: rgba(156, 163, 175, 0.3);
+  background-color: rgba(156, 163, 175, 0.08);
+}
+
+.politician-page__status--not-reviewed .politician-page__status-dot {
+  background-color: #9ca3af;
+}
+
+/* Nessun procedimento pubblico noto */
+
+.politician-page__status--clean {
+  border-color: rgba(58, 157, 103, 0.3);
+  background-color: rgba(58, 157, 103, 0.08);
+}
+
 .politician-page__status--clean .politician-page__status-dot {
-  background-color: #3d9d69;
+  background-color: #3a9d67;
+}
+
+/* Procedimenti in corso */
+
+.politician-page__status--investigated,
+.politician-page__status--charged,
+.politician-page__status--trial {
+  border-color: rgba(215, 154, 39, 0.35);
+  background-color: rgba(215, 154, 39, 0.08);
 }
 
 .politician-page__status--investigated .politician-page__status-dot,
 .politician-page__status--charged .politician-page__status-dot,
 .politician-page__status--trial .politician-page__status-dot {
-  background-color: #d49a2d;
+  background-color: #d79a27;
+}
+
+/* Condanna non definitiva */
+
+.politician-page__status--convicted-non-final {
+  border-color: rgba(199, 107, 53, 0.35);
+  background-color: rgba(199, 107, 53, 0.08);
 }
 
 .politician-page__status--convicted-non-final .politician-page__status-dot {
   background-color: #c76b35;
 }
 
+/* Condanna definitiva */
+
+.politician-page__status--convicted-final {
+  border-color: rgba(181, 61, 61, 0.35);
+  background-color: rgba(181, 61, 61, 0.08);
+}
+
 .politician-page__status--convicted-final .politician-page__status-dot {
-  background-color: #b83f3f;
+  background-color: #b53d3d;
+}
+
+/* Assolto / archiviato / prosciolto */
+
+.politician-page__status--acquitted,
+.politician-page__status--archived,
+.politician-page__status--dismissed {
+  border-color: rgba(113, 129, 155, 0.3);
+  background-color: rgba(113, 129, 155, 0.08);
 }
 
 .politician-page__status--acquitted .politician-page__status-dot,
-.politician-page__status--archived .politician-page__status-dot {
+.politician-page__status--archived .politician-page__status-dot,
+.politician-page__status--dismissed .politician-page__status-dot {
   background-color: #71819b;
 }
 
+/* Più procedimenti */
+
+.politician-page__status--multiple {
+  border-color: rgba(102, 112, 133, 0.3);
+  background-color: rgba(102, 112, 133, 0.08);
+}
+
+.politician-page__status--multiple .politician-page__status-dot {
+  background-color: #667085;
+}
+
 /* ======================================================
-   PRESUNZIONE
+   RIEPILOGO GIUDIZIARIO
+====================================================== */
+
+.politician-page__judicial-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.politician-page__judicial-summary span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px 10px;
+  border: 1px solid #e2e5ea;
+  border-radius: 999px;
+  background-color: #f8f9fb;
+  color: #394150;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+/* ======================================================
+   PRESUNZIONE DI INNOCENZA
 ====================================================== */
 
 .politician-page__presumption {
-  margin-top: 22px;
-  padding: 18px 20px;
-
+  margin-top: 20px;
+  padding: 18px;
   border-left: 3px solid #172033;
-
-  background-color: #f7f8fa;
+  border-radius: 0 10px 10px 0;
+  background-color: #f8f9fb;
 }
 
 .politician-page__presumption strong {
-  color: #303a4b;
-
-  font-size: 0.86rem;
+  color: #172033;
+  font-size: 0.92rem;
 }
 
 .politician-page__presumption p {
-  margin: 7px 0 0;
-
-  color: #727a89;
-
-  font-size: 0.82rem;
-
-  line-height: 1.7;
+  margin: 6px 0 0;
+  color: #667085;
+  font-size: 0.87rem;
+  line-height: 1.65;
 }
 
 /* ======================================================
-   PROCEDIMENTI
+   VERIFICA GIUDIZIARIA
+====================================================== */
+
+.politician-page__verification {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4px 16px;
+  align-items: center;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid #edf0f3;
+}
+
+.politician-page__verification > span {
+  color: #667085;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.politician-page__verification > strong {
+  color: #344054;
+  font-size: 0.82rem;
+  text-align: right;
+}
+
+.politician-page__verification small {
+  grid-column: 1 / -1;
+  color: #98a2b3;
+  font-size: 0.76rem;
+}
+
+/* ======================================================
+   NUMERO PROCEDIMENTI
 ====================================================== */
 
 .politician-page__proceedings-count {
-  min-width: 38px;
-  height: 38px;
-
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-
-  border-radius: 50%;
-
-  background-color: #f0f2f5;
-
-  color: #172033;
-
+  min-width: 34px;
+  height: 34px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background-color: #172033;
+  color: #ffffff;
+  font-size: 0.8rem;
   font-weight: 800;
 }
+
+/* ======================================================
+   EMPTY STATE
+====================================================== */
+
+.politician-page__empty {
+  padding: 26px;
+  border: 1px dashed #d9dde4;
+  border-radius: 12px;
+  background-color: #fafbfc;
+  text-align: center;
+}
+
+.politician-page__empty h3 {
+  margin: 0;
+  color: #344054;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.politician-page__empty p {
+  max-width: 620px;
+  margin: 8px auto 0;
+  color: #667085;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+/* ======================================================
+   LISTA PROCEDIMENTI
+====================================================== */
 
 .politician-page__proceedings-list {
   display: flex;
   flex-direction: column;
-
   gap: 22px;
 }
 
 .politician-page__proceeding {
-  padding: 26px;
-
-  border: 1px solid #e3e6eb;
-  border-radius: 10px;
-
+  overflow: hidden;
+  border: 1px solid #e2e5ea;
+  border-radius: 14px;
   background-color: #ffffff;
 }
 
@@ -419,91 +527,116 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  gap: 20px;
+  padding: 22px;
+  border-bottom: 1px solid #edf0f3;
+}
 
-  gap: 25px;
+.politician-page__proceeding-header > div {
+  min-width: 0;
 }
 
 .politician-page__proceeding-header p {
-  margin: 0 0 6px;
-
-  color: #8c93a0;
-
-  font-size: 0.7rem;
+  margin: 0 0 5px;
+  color: #667085;
+  font-size: 0.75rem;
   font-weight: 800;
-
-  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
-.politician-page__proceeding h3 {
+.politician-page__proceeding-header h3 {
   margin: 0;
-
   color: #172033;
-
-  font-family: "Open Sans", sans-serif;
-
-  font-size: 1.25rem;
+  font-size: 1.08rem;
   font-weight: 800;
+  line-height: 1.45;
 }
 
 .politician-page__proceeding-badge {
   flex-shrink: 0;
-
-  padding: 7px 10px;
-
-  border-radius: 5px;
-
-  background-color: #f0f2f5;
-
-  color: #5e6676;
-
-  font-size: 0.7rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background-color: #eef0f3;
+  color: #667085;
+  font-size: 0.73rem;
   font-weight: 800;
+  white-space: nowrap;
 }
+
+/* Badge procedimento */
+
+.politician-page__proceeding-badge--investigated,
+.politician-page__proceeding-badge--charged,
+.politician-page__proceeding-badge--trial {
+  background-color: rgba(215, 154, 39, 0.12);
+  color: #996b15;
+}
+
+.politician-page__proceeding-badge--convicted-non-final {
+  background-color: rgba(199, 107, 53, 0.12);
+  color: #9a4f27;
+}
+
+.politician-page__proceeding-badge--convicted-final {
+  background-color: rgba(181, 61, 61, 0.12);
+  color: #9a3131;
+}
+
+.politician-page__proceeding-badge--acquitted,
+.politician-page__proceeding-badge--archived,
+.politician-page__proceeding-badge--dismissed {
+  background-color: rgba(113, 129, 155, 0.12);
+  color: #52627c;
+}
+
+/* ======================================================
+   GRID PROCEDIMENTO
+====================================================== */
 
 .politician-page__proceeding-grid {
-  margin-top: 25px;
-
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-
   gap: 20px;
+  padding: 22px;
 }
 
-.politician-page__proceeding-grid div {
-  display: flex;
-  flex-direction: column;
-
-  gap: 4px;
+.politician-page__proceeding-grid > div {
+  min-width: 0;
 }
 
 .politician-page__proceeding-grid span {
-  color: #989eaa;
-
-  font-size: 0.7rem;
+  display: block;
+  margin-bottom: 4px;
+  color: #98a2b3;
+  font-size: 0.73rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .politician-page__proceeding-grid strong {
-  color: #4a5363;
-
-  font-size: 0.84rem;
+  display: block;
+  color: #344054;
+  font-size: 0.9rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
 }
 
-.politician-page__proceeding-description {
-  margin-top: 24px;
-  padding-top: 22px;
+/* ======================================================
+   DESCRIZIONE
+====================================================== */
 
-  border-top: 1px solid #eceef2;
+.politician-page__proceeding-description {
+  margin: 0 22px 22px;
+  padding: 18px;
+  border-radius: 10px;
+  background-color: #f8f9fb;
 }
 
 .politician-page__proceeding-description p {
   margin: 0;
-
-  color: #687080;
-
-  font-size: 0.88rem;
-
-  line-height: 1.75;
+  color: #475467;
+  font-size: 0.9rem;
+  line-height: 1.7;
 }
 
 /* ======================================================
@@ -511,19 +644,15 @@
 ====================================================== */
 
 .politician-page__timeline {
-  margin-top: 28px;
-  padding-top: 25px;
-
-  border-top: 1px solid #eceef2;
+  padding: 22px;
+  border-top: 1px solid #edf0f3;
 }
 
 .politician-page__timeline h4,
 .politician-page__sources h4 {
-  margin: 0 0 20px;
-
-  color: #424b5d;
-
-  font-size: 0.85rem;
+  margin: 0 0 16px;
+  color: #344054;
+  font-size: 0.88rem;
   font-weight: 800;
 }
 
@@ -533,135 +662,99 @@
 }
 
 .politician-page__timeline-item {
-  position: relative;
-
   display: grid;
-  grid-template-columns: 22px 1fr;
-
+  grid-template-columns: 18px 1fr;
   gap: 12px;
-}
-
-.politician-page__timeline-item:not(:last-child) {
-  padding-bottom: 22px;
+  min-height: 58px;
 }
 
 .politician-page__timeline-marker {
   position: relative;
-
   display: flex;
   justify-content: center;
+}
+
+.politician-page__timeline-marker::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  bottom: -1px;
+  width: 1px;
+  background-color: #dfe3e8;
+}
+
+.politician-page__timeline-item:last-child
+  .politician-page__timeline-marker::after {
+  display: none;
 }
 
 .politician-page__timeline-marker span {
   position: relative;
   z-index: 2;
-
   width: 9px;
   height: 9px;
-
   margin-top: 4px;
-
+  border: 2px solid #ffffff;
   border-radius: 50%;
-
-  background-color: #172033;
-}
-
-.politician-page__timeline-item:not(:last-child)
-  .politician-page__timeline-marker::after {
-  content: "";
-
-  position: absolute;
-
-  top: 12px;
-  bottom: -4px;
-
-  width: 1px;
-
-  background-color: #d9dde4;
+  background-color: #71819b;
+  box-shadow: 0 0 0 1px #cdd3dc;
 }
 
 .politician-page__timeline-item time {
   display: block;
-
-  margin-bottom: 3px;
-
-  color: #989eaa;
-
-  font-size: 0.7rem;
+  margin-bottom: 2px;
+  color: #98a2b3;
+  font-size: 0.74rem;
 }
 
 .politician-page__timeline-item strong {
-  color: #50596a;
-
-  font-size: 0.84rem;
+  display: block;
+  color: #475467;
+  font-size: 0.87rem;
+  line-height: 1.5;
 }
 
 /* ======================================================
-   SOURCES
+   FONTI
 ====================================================== */
 
 .politician-page__sources {
-  margin-top: 28px;
-  padding-top: 25px;
-
-  border-top: 1px solid #eceef2;
+  padding: 22px;
+  border-top: 1px solid #edf0f3;
 }
 
 .politician-page__sources-list {
   display: flex;
   flex-wrap: wrap;
-
-  gap: 10px;
+  gap: 8px;
 }
 
 .politician-page__sources-list a,
 .politician-page__sources-list span {
-  padding: 8px 11px;
-
-  border: 1px solid #dfe3e8;
-  border-radius: 6px;
-
-  color: #596273;
-
-  font-size: 0.76rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 6px 11px;
+  border: 1px solid #e2e5ea;
+  border-radius: 8px;
+  background-color: #ffffff;
+  color: #475467;
+  font-size: 0.78rem;
   font-weight: 700;
-
   text-decoration: none;
+}
+
+.politician-page__sources-list a {
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease;
 }
 
 .politician-page__sources-list a:hover {
   border-color: #172033;
-
+  background-color: #f8f9fb;
   color: #172033;
-}
-
-/* ======================================================
-   EMPTY
-====================================================== */
-
-.politician-page__empty {
-  padding: 48px 25px;
-
-  border: 1px dashed #d9dde3;
-  border-radius: 9px;
-
-  text-align: center;
-}
-
-.politician-page__empty h3 {
-  margin: 0 0 8px;
-
-  color: #394355;
-
-  font-size: 1rem;
-}
-
-.politician-page__empty p {
-  margin: 0;
-
-  color: #89909d;
-
-  font-size: 0.84rem;
 }
 
 /* ======================================================
@@ -669,44 +762,41 @@
 ====================================================== */
 
 .politician-page--not-found {
-  padding: 130px 0;
+  display: flex;
+  align-items: center;
+  min-height: 70vh;
 }
 
 .politician-page__not-found {
-  max-width: 650px;
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
 }
 
 .politician-page__not-found h1 {
-  margin: 0;
-
+  margin: 5px 0 12px;
   color: #172033;
-
   font-family: "Open Sans", sans-serif;
-
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 2.4rem;
 }
 
-.politician-page__not-found > p {
-  margin: 18px 0 0;
-
-  color: #737b89;
+.politician-page__not-found > p:not(.politician-page__eyebrow) {
+  margin: 0;
+  color: #667085;
 }
 
 .politician-page__back-button {
-  margin-top: 28px;
-  padding: 12px 18px;
-
   display: inline-flex;
-
-  border-radius: 6px;
-
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  margin-top: 24px;
+  padding: 8px 16px;
+  border-radius: 9px;
   background-color: #172033;
-
   color: #ffffff;
-
-  font-weight: 700;
-
+  font-weight: 800;
   text-decoration: none;
 }
 
@@ -715,68 +805,103 @@
 ====================================================== */
 
 @media (max-width: 991px) {
-  .politician-page__hero-grid {
-    grid-template-columns: 190px 1fr;
-
-    gap: 35px;
-  }
-
-  .politician-page__photo-wrapper {
-    width: 190px;
-  }
-
   .politician-page__layout {
     grid-template-columns: 1fr;
+  }
+
+  .politician-page__sidebar {
+    position: static;
+  }
+
+  .politician-page__info-card dl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 24px;
   }
 }
 
 @media (max-width: 767px) {
   .politician-page__hero {
-    padding: 36px 0 55px;
-  }
-
-  .politician-page__back {
-    margin-bottom: 30px;
+    padding: 28px 0 36px;
   }
 
   .politician-page__hero-grid {
     grid-template-columns: 1fr;
-
-    gap: 28px;
+    gap: 22px;
   }
 
   .politician-page__photo-wrapper {
-    width: 180px;
+    width: 140px;
+    height: 165px;
   }
 
   .politician-page__identity h1 {
-    font-size: 2.7rem;
+    font-size: 2rem;
   }
 
   .politician-page__meta {
-    gap: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 18px;
   }
 
   .politician-page__content {
-    padding: 55px 0 80px;
+    padding: 30px 0 50px;
   }
 
   .politician-page__judicial-section,
   .politician-page__proceedings {
-    padding: 24px;
-  }
-
-  .politician-page__proceeding {
     padding: 20px;
   }
 
   .politician-page__proceeding-header {
     flex-direction: column;
-
-    gap: 12px;
+    padding: 18px;
   }
 
   .politician-page__proceeding-grid {
     grid-template-columns: 1fr;
+    padding: 18px;
+  }
+
+  .politician-page__proceeding-description {
+    margin: 0 18px 18px;
+  }
+
+  .politician-page__timeline,
+  .politician-page__sources {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .politician-page__info-card dl {
+    grid-template-columns: 1fr;
+  }
+
+  .politician-page__meta {
+    grid-template-columns: 1fr;
+  }
+
+  .politician-page__section-heading {
+    align-items: center;
+  }
+
+  .politician-page__judicial-summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .politician-page__verification {
+    grid-template-columns: 1fr;
+  }
+
+  .politician-page__verification > strong {
+    text-align: left;
+  }
+
+  .politician-page__party {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }

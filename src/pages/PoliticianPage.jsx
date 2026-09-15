@@ -10,11 +10,37 @@ const formatDate = (date) => {
     return "Non disponibile";
   }
 
+  const parsedDate = new Date(date);
+
+  if (Number.isNaN(parsedDate.getTime())) {
+    return "Non disponibile";
+  }
+
   return new Intl.DateTimeFormat("it-IT", {
     day: "2-digit",
     month: "long",
     year: "numeric",
-  }).format(new Date(date));
+  }).format(parsedDate);
+};
+
+const displayValue = (value) => {
+  if (value === null || value === undefined || value === "") {
+    return "Non disponibile";
+  }
+
+  return value;
+};
+
+const getOffenceLabel = (proceeding) => {
+  if (proceeding.status === "convicted-final") {
+    return "Reato oggetto di condanna definitiva";
+  }
+
+  if (proceeding.status === "convicted-non-final") {
+    return "Reato contestato";
+  }
+
+  return "Ipotesi di reato";
 };
 
 const PoliticianPage = () => {
@@ -58,9 +84,25 @@ const PoliticianPage = () => {
 
   const judicialStatus = getJudicialStatus(politician.judicialStatus);
 
+  const judicialSummary = politician.judicialSummary;
+
+  const proceedingCount =
+    judicialSummary?.proceedingCount ?? proceedings.length;
+
+  const judicialReviewed = politician.judicialVerification?.reviewed === true;
+
+  const judicialLastVerifiedAt =
+    politician.judicialVerification?.lastVerifiedAt;
+
+  const institutionalLastVerifiedAt =
+    politician.institutionalVerification?.lastVerifiedAt;
+
   return (
     <div className="politician-page">
-      {/* HERO */}
+      {/* ==================================================
+          HERO
+      ================================================== */}
+
       <section className="politician-page__hero">
         <div className="container">
           <Link to={chamberPath} className="politician-page__back">
@@ -102,17 +144,20 @@ const PoliticianPage = () => {
               <div className="politician-page__meta">
                 <div>
                   <span>Legislatura</span>
-                  <strong>{politician.legislature}</strong>
+
+                  <strong>{displayValue(politician.legislature)}</strong>
                 </div>
 
                 <div>
                   <span>Mandati</span>
-                  <strong>{politician.mandateNumber}</strong>
+
+                  <strong>{displayValue(politician.mandateNumber)}</strong>
                 </div>
 
                 <div>
                   <span>Circoscrizione</span>
-                  <strong>{politician.constituency}</strong>
+
+                  <strong>{displayValue(politician.constituency)}</strong>
                 </div>
               </div>
             </div>
@@ -120,11 +165,17 @@ const PoliticianPage = () => {
         </div>
       </section>
 
-      {/* CONTENUTO */}
+      {/* ==================================================
+          CONTENUTO
+      ================================================== */}
+
       <section className="politician-page__content">
         <div className="container">
           <div className="politician-page__layout">
-            {/* SIDEBAR */}
+            {/* ============================================
+                SIDEBAR
+            ============================================ */}
+
             <aside className="politician-page__sidebar">
               <div className="politician-page__info-card">
                 <p className="politician-page__section-label">Informazioni</p>
@@ -132,52 +183,87 @@ const PoliticianPage = () => {
                 <dl>
                   <div>
                     <dt>Nome</dt>
+
                     <dd>{politician.firstName}</dd>
                   </div>
 
                   <div>
                     <dt>Cognome</dt>
+
                     <dd>{politician.lastName}</dd>
                   </div>
 
                   <div>
                     <dt>Carica</dt>
+
                     <dd>{institutionalRole}</dd>
                   </div>
 
                   <div>
                     <dt>Partito</dt>
+
                     <dd>{politician.party.name}</dd>
                   </div>
 
                   <div>
                     <dt>Data di nascita</dt>
+
                     <dd>{formatDate(politician.birthDate)}</dd>
                   </div>
 
                   <div>
                     <dt>Luogo di nascita</dt>
-                    <dd>{politician.birthPlace ?? "Non disponibile"}</dd>
+
+                    <dd>{displayValue(politician.birthPlace)}</dd>
                   </div>
 
                   <div>
                     <dt>Circoscrizione</dt>
-                    <dd>{politician.constituency}</dd>
+
+                    <dd>{displayValue(politician.constituency)}</dd>
                   </div>
 
-                  {politician.lastVerifiedAt && (
+                  {politician.chamber === "senato" &&
+                    politician.senatorType && (
+                      <div>
+                        <dt>Tipo di mandato</dt>
+
+                        <dd>
+                          {politician.senatorType === "life"
+                            ? "Senatore a vita"
+                            : "Senatore eletto"}
+                        </dd>
+                      </div>
+                    )}
+
+                  {institutionalLastVerifiedAt && (
                     <div>
-                      <dt>Ultima verifica</dt>
-                      <dd>{formatDate(politician.lastVerifiedAt)}</dd>
+                      <dt>Dati istituzionali verificati</dt>
+
+                      <dd>{formatDate(institutionalLastVerifiedAt)}</dd>
+                    </div>
+                  )}
+
+                  {judicialLastVerifiedAt && (
+                    <div>
+                      <dt>Dati giudiziari verificati</dt>
+
+                      <dd>{formatDate(judicialLastVerifiedAt)}</dd>
                     </div>
                   )}
                 </dl>
               </div>
             </aside>
 
-            {/* MAIN */}
+            {/* ============================================
+                MAIN
+            ============================================ */}
+
             <div className="politician-page__main">
-              {/* STATO GIUDIZIARIO */}
+              {/* ==========================================
+                  STATO GIUDIZIARIO
+              ========================================== */}
+
               <section className="politician-page__judicial-section">
                 <div className="politician-page__section-heading">
                   <div>
@@ -185,7 +271,7 @@ const PoliticianPage = () => {
                       Situazione giudiziaria
                     </p>
 
-                    <h2>Stato attuale</h2>
+                    <h2>Quadro documentato</h2>
                   </div>
                 </div>
 
@@ -197,26 +283,110 @@ const PoliticianPage = () => {
                   <div>
                     <strong>{judicialStatus.label}</strong>
 
-                    <p>
-                      Lo stato riportato rappresenta l'ultima informazione
-                      censita nel database.
-                    </p>
+                    {politician.judicialStatus === "not-reviewed" && (
+                      <p>
+                        La verifica delle fonti giudiziarie per questa scheda
+                        non è stata ancora completata.
+                      </p>
+                    )}
+
+                    {politician.judicialStatus === "clean" && (
+                      <p>
+                        Alla data dell&apos;ultima verifica non sono stati
+                        individuati procedimenti giudiziari pubblicamente
+                        documentati nelle fonti consultate.
+                      </p>
+                    )}
+
+                    {politician.judicialStatus === "multiple" && (
+                      <p>
+                        Sono presenti <strong>{proceedingCount}</strong>{" "}
+                        procedimenti documentati con stati o esiti differenti.
+                      </p>
+                    )}
+
+                    {politician.judicialStatus !== "not-reviewed" &&
+                      politician.judicialStatus !== "clean" &&
+                      politician.judicialStatus !== "multiple" && (
+                        <p>
+                          Lo stato riportato deriva dai procedimenti e dalle
+                          fonti censite nella scheda.
+                        </p>
+                      )}
                   </div>
                 </div>
+
+                {/* ========================================
+                    RIEPILOGO MULTI-PROCEDIMENTO
+                ======================================== */}
+
+                {judicialSummary && proceedingCount > 0 && (
+                  <div className="politician-page__judicial-summary">
+                    {judicialSummary.hasFinalConviction && (
+                      <span>Condanna definitiva documentata</span>
+                    )}
+
+                    {judicialSummary.hasNonFinalConviction && (
+                      <span>Condanna non definitiva documentata</span>
+                    )}
+
+                    {judicialSummary.hasOngoingProceedings && (
+                      <span>Procedimento in corso</span>
+                    )}
+
+                    {judicialSummary.hasAcquittals && (
+                      <span>Assoluzione documentata</span>
+                    )}
+
+                    {judicialSummary.hasArchivedProceedings && (
+                      <span>Archiviazione documentata</span>
+                    )}
+
+                    {judicialSummary.hasDismissedProceedings && (
+                      <span>Proscioglimento documentato</span>
+                    )}
+                  </div>
+                )}
+
+                {/* ========================================
+                    PRESUNZIONE DI INNOCENZA
+                ======================================== */}
 
                 <div className="politician-page__presumption">
                   <strong>Presunzione di innocenza</strong>
 
                   <p>
-                    La presenza di un'indagine o di un procedimento giudiziario
-                    non implica responsabilità penale. La responsabilità viene
-                    considerata accertata in questa piattaforma solamente in
-                    presenza di una condanna definitiva.
+                    La presenza di un&apos;indagine o di un procedimento
+                    giudiziario non implica responsabilità penale. La
+                    responsabilità viene considerata accertata in questa
+                    piattaforma solamente in presenza di una condanna
+                    definitiva.
                   </p>
+                </div>
+
+                {/* ========================================
+                    VERIFICA
+                ======================================== */}
+
+                <div className="politician-page__verification">
+                  <span>Verifica giudiziaria</span>
+
+                  <strong>
+                    {judicialReviewed ? "Effettuata" : "Non ancora effettuata"}
+                  </strong>
+
+                  {judicialLastVerifiedAt && (
+                    <small>
+                      Ultimo controllo: {formatDate(judicialLastVerifiedAt)}
+                    </small>
+                  )}
                 </div>
               </section>
 
-              {/* PROCEDIMENTI */}
+              {/* ==========================================
+                  PROCEDIMENTI
+              ========================================== */}
+
               <section className="politician-page__proceedings">
                 <div className="politician-page__section-heading">
                   <div>
@@ -232,12 +402,26 @@ const PoliticianPage = () => {
 
                 {proceedings.length === 0 ? (
                   <div className="politician-page__empty">
-                    <h3>Nessun procedimento registrato</h3>
+                    {judicialReviewed ? (
+                      <>
+                        <h3>Nessun procedimento pubblico registrato</h3>
 
-                    <p>
-                      Al momento non sono presenti procedimenti associati a
-                      questa scheda.
-                    </p>
+                        <p>
+                          Nelle fonti consultate durante l&apos;ultima verifica
+                          non risultano procedimenti pubblicamente documentati
+                          associati a questa scheda.
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <h3>Verifica non ancora completata</h3>
+
+                        <p>
+                          La ricerca delle fonti giudiziarie per questa scheda
+                          non è stata ancora effettuata o completata.
+                        </p>
+                      </>
+                    )}
                   </div>
                 ) : (
                   <div className="politician-page__proceedings-list">
@@ -251,6 +435,10 @@ const PoliticianPage = () => {
                           className="politician-page__proceeding"
                           key={proceeding.id}
                         >
+                          {/* ============================
+                                HEADER PROCEDIMENTO
+                            ============================ */}
+
                           <div className="politician-page__proceeding-header">
                             <div>
                               <p>{proceedingStatus.label}</p>
@@ -265,13 +453,13 @@ const PoliticianPage = () => {
                             </span>
                           </div>
 
+                          {/* ============================
+                                DATI PROCEDIMENTO
+                            ============================ */}
+
                           <div className="politician-page__proceeding-grid">
                             <div>
-                              <span>
-                                {proceeding.finalJudgment
-                                  ? "Reato"
-                                  : "Ipotesi di reato"}
-                              </span>
+                              <span>{getOffenceLabel(proceeding)}</span>
 
                               <strong>
                                 {proceeding.offence ??
@@ -283,9 +471,7 @@ const PoliticianPage = () => {
                             <div>
                               <span>Autorità giudiziaria</span>
 
-                              <strong>
-                                {proceeding.court ?? "Non disponibile"}
-                              </strong>
+                              <strong>{displayValue(proceeding.court)}</strong>
                             </div>
 
                             <div>
@@ -303,13 +489,31 @@ const PoliticianPage = () => {
                                 {formatDate(proceeding.lastUpdate)}
                               </strong>
                             </div>
+
+                            {proceeding.finalJudgmentDate && (
+                              <div>
+                                <span>Data esito definitivo</span>
+
+                                <strong>
+                                  {formatDate(proceeding.finalJudgmentDate)}
+                                </strong>
+                              </div>
+                            )}
                           </div>
+
+                          {/* ============================
+                                DESCRIZIONE
+                            ============================ */}
 
                           {proceeding.description && (
                             <div className="politician-page__proceeding-description">
                               <p>{proceeding.description}</p>
                             </div>
                           )}
+
+                          {/* ============================
+                                TIMELINE
+                            ============================ */}
 
                           {proceeding.timeline?.length > 0 && (
                             <div className="politician-page__timeline">
@@ -336,13 +540,17 @@ const PoliticianPage = () => {
                             </div>
                           )}
 
+                          {/* ============================
+                                FONTI
+                            ============================ */}
+
                           {proceeding.sources?.length > 0 && (
                             <div className="politician-page__sources">
                               <h4>Fonti</h4>
 
                               <div className="politician-page__sources-list">
                                 {proceeding.sources.map((source, index) =>
-                                  source.url === "#" ? (
+                                  !source.url || source.url === "#" ? (
                                     <span key={`${source.name}-${index}`}>
                                       {source.name}
                                     </span>
