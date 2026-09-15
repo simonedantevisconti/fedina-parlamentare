@@ -1,28 +1,72 @@
 import { Link } from "react-router-dom";
+
+import politicians from "../data/politicians";
+
 import "../styles/home.css";
 
 const HomePage = () => {
+  const totalPoliticians = politicians.length;
+
+  const cleanCount = politicians.filter(
+    (politician) => politician.judicialStatus === "clean",
+  ).length;
+
+  const ongoingStatuses = [
+    "investigated",
+    "charged",
+    "trial",
+    "convicted-non-final",
+  ];
+
+  const ongoingCount = politicians.filter((politician) =>
+    ongoingStatuses.includes(politician.judicialStatus),
+  ).length;
+
+  const convictedCount = politicians.filter(
+    (politician) => politician.judicialStatus === "convicted-final",
+  ).length;
+
+  const concludedCount = politicians.filter((politician) =>
+    ["acquitted", "archived"].includes(politician.judicialStatus),
+  ).length;
+
+  const getPercentage = (value) => {
+    if (totalPoliticians === 0) {
+      return 0;
+    }
+
+    return Math.round((value / totalPoliticians) * 100);
+  };
+
   const stats = [
     {
       id: "clean",
-      value: "—",
+      count: cleanCount,
+      percentage: getPercentage(cleanCount),
       label: "Nessun procedimento noto",
       description:
-        "Parlamentari per i quali non risultano procedimenti giudiziari censiti.",
+        "Parlamentari per i quali non risultano procedimenti registrati nel dataset.",
     },
     {
       id: "ongoing",
-      value: "—",
+      count: ongoingCount,
+      percentage: getPercentage(ongoingCount),
       label: "Procedimenti in corso",
-      description:
-        "Indagini, procedimenti o processi non ancora conclusi definitivamente.",
+      description: "Indagini, imputazioni, processi o condanne non definitive.",
     },
     {
       id: "convicted",
-      value: "—",
+      count: convictedCount,
+      percentage: getPercentage(convictedCount),
       label: "Condanne definitive",
-      description:
-        "Condanne passate in giudicato e registrate nelle fonti utilizzate.",
+      description: "Casi registrati con una condanna definitiva.",
+    },
+    {
+      id: "concluded",
+      count: concludedCount,
+      percentage: getPercentage(concludedCount),
+      label: "Assolti o archiviati",
+      description: "Procedimenti conclusi con assoluzione o archiviazione.",
     },
   ];
 
@@ -71,7 +115,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* INTRO STATISTICHE */}
+      {/* STATISTICHE */}
       <section className="home-stats">
         <div className="container">
           <div className="home-section-heading">
@@ -83,40 +127,105 @@ const HomePage = () => {
               <h2>Situazione giudiziaria</h2>
             </div>
 
-            <p className="home-section-heading__description">
-              Una panoramica sintetica dello stato delle informazioni
-              giudiziarie censite nel database.
-            </p>
+            <div className="home-section-heading__side">
+              <strong>{totalPoliticians}</strong>
+
+              <span>parlamentari presenti nel dataset</span>
+            </div>
           </div>
 
           <div className="row g-4">
             {stats.map((stat) => (
-              <div className="col-12 col-md-4" key={stat.id}>
+              <div className="col-12 col-md-6 col-xl-3" key={stat.id}>
                 <article
                   className={`home-stat-card home-stat-card--${stat.id}`}
                 >
-                  <div className="home-stat-card__top">
-                    <span className="home-stat-card__indicator"></span>
-
-                    <span className="home-stat-card__value">{stat.value}</span>
+                  <div
+                    className="home-stat-card__chart"
+                    style={{
+                      "--percentage": `${stat.percentage}%`,
+                    }}
+                  >
+                    <div className="home-stat-card__chart-inner">
+                      <strong>{stat.percentage}%</strong>
+                    </div>
                   </div>
 
-                  <h3>{stat.label}</h3>
+                  <div className="home-stat-card__content">
+                    <div className="home-stat-card__heading">
+                      <span className="home-stat-card__indicator"></span>
 
-                  <p>{stat.description}</p>
+                      <span className="home-stat-card__count">
+                        {stat.count}
+                      </span>
+                    </div>
+
+                    <h3>{stat.label}</h3>
+
+                    <p>{stat.description}</p>
+                  </div>
                 </article>
               </div>
             ))}
           </div>
 
           <p className="home-stats__note">
-            I dati statistici saranno disponibili quando verrà completato il
-            primo popolamento del database.
+            Le statistiche sono calcolate automaticamente sulle schede
+            attualmente presenti nel dataset.
           </p>
         </div>
       </section>
 
-      {/* PRINCIPIO EDITORIALE */}
+      {/* CAMERA / SENATO */}
+      <section className="home-chambers">
+        <div className="container">
+          <div className="home-section-heading">
+            <div>
+              <p className="home-section-heading__eyebrow">
+                Consulta il Parlamento
+              </p>
+
+              <h2>Camera e Senato</h2>
+            </div>
+          </div>
+
+          <div className="row g-4">
+            <div className="col-12 col-lg-6">
+              <Link to="/camera" className="home-chamber-card">
+                <div>
+                  <p>Camera dei Deputati</p>
+
+                  <h3>Consulta i deputati</h3>
+
+                  <span>
+                    Cerca per nome o cognome e consulta le singole schede.
+                  </span>
+                </div>
+
+                <strong aria-hidden="true">→</strong>
+              </Link>
+            </div>
+
+            <div className="col-12 col-lg-6">
+              <Link to="/senato" className="home-chamber-card">
+                <div>
+                  <p>Senato della Repubblica</p>
+
+                  <h3>Consulta i senatori</h3>
+
+                  <span>
+                    Esplora i membri censiti e le informazioni associate.
+                  </span>
+                </div>
+
+                <strong aria-hidden="true">→</strong>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PRINCIPIO */}
       <section className="home-principle">
         <div className="container">
           <div className="home-principle__card">
@@ -136,8 +245,9 @@ const HomePage = () => {
               </p>
 
               <p>
-                La responsabilità penale viene considerata accertata solamente
-                nei casi in cui sia presente una sentenza definitiva.
+                La responsabilità penale viene considerata accertata nella
+                piattaforma solamente quando il procedimento registrato risulta
+                concluso con una condanna definitiva.
               </p>
             </div>
           </div>
