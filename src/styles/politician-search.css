@@ -1,0 +1,93 @@
+.politician-search {
+  position: relative;
+
+  width: 100%;
+  max-width: 620px;
+}
+
+.politician-search__icon {
+  position: absolute;
+
+  top: 50%;
+  left: 18px;
+
+  width: 20px;
+  height: 20px;
+
+  color: #7e8696;
+
+  transform: translateY(-50%);
+
+  pointer-events: none;
+}
+
+.politician-search__icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.politician-search__input {
+  width: 100%;
+  height: 54px;
+
+  padding: 0 52px 0 52px;
+
+  border: 1px solid #dfe2e8;
+  border-radius: 9px;
+
+  background-color: #ffffff;
+
+  color: #172033;
+
+  outline: none;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.politician-search__input::placeholder {
+  color: #9ca2ae;
+}
+
+.politician-search__input:focus {
+  border-color: #172033;
+
+  box-shadow: 0 0 0 3px rgba(23, 32, 51, 0.06);
+}
+
+.politician-search__clear {
+  position: absolute;
+
+  top: 50%;
+  right: 14px;
+
+  width: 30px;
+  height: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 0;
+  border-radius: 50%;
+
+  background-color: transparent;
+
+  color: #8b92a0;
+
+  font-size: 1.4rem;
+  line-height: 1;
+
+  transform: translateY(-50%);
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.politician-search__clear:hover {
+  background-color: #f0f2f5;
+
+  color: #172033;
+}

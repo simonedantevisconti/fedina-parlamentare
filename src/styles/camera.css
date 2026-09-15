@@ -1,0 +1,168 @@
+.camera-page {
+  background-color: #ffffff;
+}
+
+.camera-page__hero {
+  padding: 88px 0 70px;
+
+  border-bottom: 1px solid #e6e8ed;
+
+  background-color: #ffffff;
+}
+
+.camera-page__eyebrow {
+  margin: 0 0 13px;
+
+  color: #858c9a;
+
+  font-size: 0.76rem;
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.camera-page__hero h1 {
+  margin: 0;
+
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: clamp(2.5rem, 6vw, 4.8rem);
+  font-weight: 800;
+
+  letter-spacing: -0.05em;
+}
+
+.camera-page__description {
+  max-width: 720px;
+
+  margin: 24px 0 0;
+
+  color: #697183;
+
+  font-size: 1.05rem;
+
+  line-height: 1.8;
+}
+
+.camera-page__directory {
+  padding: 70px 0 110px;
+
+  background-color: #f8f9fb;
+}
+
+.camera-page__toolbar {
+  margin-bottom: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.camera-page__search {
+  flex: 1;
+}
+
+.camera-page__count {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: baseline;
+
+  gap: 7px;
+
+  color: #8a919f;
+}
+
+.camera-page__count strong {
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.camera-page__count span {
+  font-size: 0.85rem;
+}
+
+.camera-page__alphabet {
+  margin-bottom: 44px;
+}
+
+.camera-page__alphabet > p {
+  margin: 0 0 13px;
+
+  color: #7f8796;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.camera-page__empty {
+  padding: 80px 30px;
+
+  text-align: center;
+
+  border: 1px solid #e1e4e9;
+  border-radius: 12px;
+
+  background-color: #ffffff;
+}
+
+.camera-page__empty h2 {
+  margin: 0 0 10px;
+
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.camera-page__empty p {
+  margin: 0 auto;
+
+  max-width: 500px;
+
+  color: #777f8e;
+
+  line-height: 1.7;
+}
+
+.camera-page__empty button {
+  margin-top: 24px;
+  padding: 11px 18px;
+
+  border: 1px solid #172033;
+  border-radius: 6px;
+
+  background-color: #172033;
+
+  color: #ffffff;
+
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .camera-page__hero {
+    padding: 68px 0 54px;
+  }
+
+  .camera-page__directory {
+    padding: 50px 0 80px;
+  }
+
+  .camera-page__toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 18px;
+  }
+}
