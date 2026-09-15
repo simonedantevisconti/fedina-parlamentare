@@ -1,4 +1,13 @@
 const judicialStatuses = {
+  "not-reviewed": {
+    id: "not-reviewed",
+    label: "Verifica giudiziaria non effettuata",
+    shortLabel: "Da verificare",
+    category: "not-reviewed",
+    color: "#9ca3af",
+    final: false,
+  },
+
   clean: {
     id: "clean",
     label: "Nessun procedimento noto",
