@@ -302,6 +302,14 @@
   background-color: #71819b;
 }
 
+.camera-page__legend-dot--not-reviewed {
+  background-color: #9ca3af;
+}
+
+.camera-page__legend-dot--multiple {
+  background-color: #667085;
+}
+
 @media (max-width: 575px) {
   .camera-page__hemicycle-controls {
     align-items: flex-start;

@@ -141,8 +141,13 @@ const SenatoPage = () => {
             {hemicycleMode === "status" && (
               <div className="senato-page__legend">
                 <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--not-reviewed"></span>
+                  Verifica non effettuata
+                </div>
+
+                <div>
                   <span className="senato-page__legend-dot senato-page__legend-dot--clean"></span>
-                  Nessun procedimento noto
+                  Nessun procedimento pubblico noto
                 </div>
 
                 <div>
@@ -162,7 +167,12 @@ const SenatoPage = () => {
 
                 <div>
                   <span className="senato-page__legend-dot senato-page__legend-dot--concluded"></span>
-                  Assolto / archiviato
+                  Assolto / archiviato / prosciolto
+                </div>
+
+                <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--multiple"></span>
+                  Più procedimenti documentati
                 </div>
               </div>
             )}

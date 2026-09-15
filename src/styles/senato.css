@@ -328,6 +328,14 @@
   background-color: #71819b;
 }
 
+.senato-page__legend-dot--not-reviewed {
+  background-color: #9ca3af;
+}
+
+.senato-page__legend-dot--multiple {
+  background-color: #667085;
+}
+
 /* ======================================================
    RESPONSIVE
 ====================================================== */

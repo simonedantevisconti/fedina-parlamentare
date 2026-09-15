@@ -1,54 +1,103 @@
 .chamber-hemicycle {
   width: 100%;
-
-  overflow-x: auto;
-
+  overflow: hidden;
   border: 1px solid #e2e5ea;
-  border-radius: 12px;
-
+  border-radius: 16px;
   background-color: #ffffff;
+}
 
-  padding: 20px;
+.chamber-hemicycle__canvas {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 18px 18px 0;
 }
 
 .chamber-hemicycle__svg {
   width: 100%;
-  min-width: 700px;
-
+  min-width: 920px;
   display: block;
+}
+
+.chamber-hemicycle__guide {
+  fill: none;
+  stroke: #edf0f3;
+  stroke-width: 2;
+  stroke-linecap: round;
 }
 
 .chamber-hemicycle__member {
   cursor: pointer;
+  outline: none;
 }
 
 .chamber-hemicycle__dot {
   stroke: #ffffff;
-  stroke-width: 3;
-
+  stroke-width: 2;
   transition:
-    transform 0.2s ease,
-    opacity 0.2s ease,
-    filter 0.2s ease;
+    transform 0.16s ease,
+    opacity 0.16s ease,
+    filter 0.16s ease,
+    stroke-width 0.16s ease;
 
   transform-box: fill-box;
   transform-origin: center;
 }
 
 .chamber-hemicycle__member:hover .chamber-hemicycle__dot {
-  transform: scale(1.35);
-
-  filter: drop-shadow(0 4px 5px rgba(23, 32, 51, 0.18));
+  transform: scale(1.7);
+  stroke-width: 2.5;
+  filter: drop-shadow(0 4px 5px rgba(23, 32, 51, 0.2));
 }
 
-.chamber-hemicycle__member:focus .chamber-hemicycle__dot {
-  outline: none;
+.chamber-hemicycle__member:focus-visible .chamber-hemicycle__dot {
+  transform: scale(1.7);
+  stroke-width: 3;
+  filter: drop-shadow(0 4px 5px rgba(23, 32, 51, 0.2));
+}
 
-  transform: scale(1.35);
+.chamber-hemicycle__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding: 12px 18px 14px;
+
+  border-top: 1px solid #edf0f3;
+
+  background-color: #fafbfc;
+
+  color: #667085;
+
+  font-size: 0.76rem;
+  font-weight: 700;
+}
+
+.chamber-hemicycle__footer span:first-child {
+  color: #344054;
+}
+
+@media (max-width: 991px) {
+  .chamber-hemicycle__svg {
+    min-width: 820px;
+  }
 }
 
 @media (max-width: 767px) {
-  .chamber-hemicycle {
-    padding: 12px;
+  .chamber-hemicycle__canvas {
+    padding: 12px 12px 0;
+  }
+
+  .chamber-hemicycle__svg {
+    min-width: 760px;
+  }
+
+  .chamber-hemicycle__footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+
+    padding: 10px 12px 12px;
   }
 }
