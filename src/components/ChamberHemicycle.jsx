@@ -1,26 +1,9 @@
 import { useNavigate } from "react-router-dom";
 
+import { getJudicialStatus } from "../data/judicialStatuses";
+import { getParty } from "../data/parties";
+
 import "../styles/chamber-hemicycle.css";
-
-const partyColors = {
-  PD: "#d94b4b",
-  FDI: "#213a75",
-  M5S: "#e0b62d",
-  FI: "#4b74c9",
-  LEGA: "#4a9f65",
-  AVS: "#6aaa55",
-};
-
-const statusColors = {
-  clean: "#3a9d67",
-  investigated: "#d79a27",
-  charged: "#d79a27",
-  trial: "#d79a27",
-  "convicted-non-final": "#c76b35",
-  "convicted-final": "#b53d3d",
-  acquitted: "#71819b",
-  archived: "#71819b",
-};
 
 const ChamberHemicycle = ({ politicians, mode = "party" }) => {
   const navigate = useNavigate();
@@ -41,10 +24,10 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
 
   const getColor = (politician) => {
     if (mode === "status") {
-      return statusColors[politician.judicialStatus] ?? "#8b92a0";
+      return getJudicialStatus(politician.judicialStatus).color;
     }
 
-    return partyColors[politician.party.acronym] ?? "#8b92a0";
+    return getParty(politician.party.acronym).color;
   };
 
   return (
@@ -73,6 +56,8 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
 
             const y = centerY + Math.sin(angle) * radius;
 
+            const fullName = `${politician.firstName} ${politician.lastName}`;
+
             return (
               <g
                 key={politician.id}
@@ -95,8 +80,10 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
                 />
 
                 <title>
-                  {politician.firstName} {politician.lastName} —{" "}
-                  {politician.party.acronym}
+                  {fullName} —{" "}
+                  {mode === "status"
+                    ? getJudicialStatus(politician.judicialStatus).label
+                    : politician.party.acronym}
                 </title>
               </g>
             );
