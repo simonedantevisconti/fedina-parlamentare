@@ -7,14 +7,14 @@ import PoliticianSearch from "../components/PoliticianSearch";
 
 import politicians from "../data/politicians";
 
-import "../styles/camera.css";
+import "../styles/senato.css";
 
-const CameraPage = () => {
+const SenatoPage = () => {
   const [search, setSearch] = useState("");
   const [selectedLetter, setSelectedLetter] = useState("");
 
-  const deputies = useMemo(
-    () => politicians.filter((politician) => politician.chamber === "camera"),
+  const senators = useMemo(
+    () => politicians.filter((politician) => politician.chamber === "senato"),
     [],
   );
 
@@ -22,18 +22,18 @@ const CameraPage = () => {
     () =>
       [
         ...new Set(
-          deputies.map((politician) =>
+          senators.map((politician) =>
             politician.lastName.charAt(0).toUpperCase(),
           ),
         ),
       ].sort(),
-    [deputies],
+    [senators],
   );
 
-  const filteredDeputies = useMemo(() => {
+  const filteredSenators = useMemo(() => {
     const normalizedSearch = search.trim().toLowerCase();
 
-    return deputies
+    return senators
       .filter((politician) => {
         const fullName =
           `${politician.firstName} ${politician.lastName}`.toLowerCase();
@@ -48,19 +48,19 @@ const CameraPage = () => {
         return politician.lastName.charAt(0).toUpperCase() === selectedLetter;
       })
       .sort((a, b) => a.lastName.localeCompare(b.lastName, "it"));
-  }, [deputies, search, selectedLetter]);
+  }, [senators, search, selectedLetter]);
 
   return (
-    <div className="camera-page">
+    <div className="senato-page">
       {/* HERO */}
-      <section className="camera-page__hero">
+      <section className="senato-page__hero">
         <div className="container">
-          <p className="camera-page__eyebrow">Parlamento Italiano</p>
+          <p className="senato-page__eyebrow">Parlamento Italiano</p>
 
-          <h1>Camera dei Deputati</h1>
+          <h1>Senato della Repubblica</h1>
 
-          <p className="camera-page__description">
-            Consulta i deputati censiti, cerca per nome o cognome e visualizza
+          <p className="senato-page__description">
+            Consulta i senatori censiti, cerca per nome o cognome e visualizza
             le informazioni relative al mandato e allo stato giudiziario
             registrato.
           </p>
@@ -68,44 +68,44 @@ const CameraPage = () => {
       </section>
 
       {/* DIRECTORY */}
-      <section className="camera-page__directory">
+      <section className="senato-page__directory">
         <div className="container">
           {/* SEARCH */}
-          <div className="camera-page__toolbar">
-            <div className="camera-page__search">
+          <div className="senato-page__toolbar">
+            <div className="senato-page__search">
               <PoliticianSearch
                 value={search}
                 onChange={setSearch}
-                placeholder="Cerca un deputato per nome o cognome"
+                placeholder="Cerca un senatore per nome o cognome"
               />
             </div>
 
-            <div className="camera-page__count">
-              <strong>{filteredDeputies.length}</strong>
+            <div className="senato-page__count">
+              <strong>{filteredSenators.length}</strong>
 
               <span>
-                {filteredDeputies.length === 1 ? "deputato" : "deputati"}
+                {filteredSenators.length === 1 ? "senatore" : "senatori"}
               </span>
             </div>
           </div>
 
           {/* EMICICLO */}
-          <div className="camera-page__hemicycle">
-            <div className="camera-page__hemicycle-heading">
+          <div className="senato-page__hemicycle">
+            <div className="senato-page__hemicycle-heading">
               <div>
-                <p>Composizione della Camera</p>
+                <p>Composizione del Senato</p>
 
                 <h2>Emiciclo</h2>
               </div>
 
-              <span>{deputies.length} deputati</span>
+              <span>{senators.length} senatori</span>
             </div>
 
-            <ChamberHemicycle politicians={deputies} mode="party" />
+            <ChamberHemicycle politicians={senators} mode="party" />
           </div>
 
           {/* FILTRO ALFABETICO */}
-          <div className="camera-page__alphabet">
+          <div className="senato-page__alphabet">
             <p>Filtra per iniziale del cognome</p>
 
             <AlphabetFilter
@@ -116,17 +116,17 @@ const CameraPage = () => {
           </div>
 
           {/* CARDS */}
-          {filteredDeputies.length > 0 ? (
+          {filteredSenators.length > 0 ? (
             <div className="row g-4">
-              {filteredDeputies.map((politician) => (
+              {filteredSenators.map((politician) => (
                 <div className="col-12 col-md-6 col-xl-4" key={politician.id}>
                   <PoliticianCard politician={politician} />
                 </div>
               ))}
             </div>
           ) : (
-            <div className="camera-page__empty">
-              <h2>Nessun deputato trovato</h2>
+            <div className="senato-page__empty">
+              <h2>Nessun senatore trovato</h2>
 
               <p>
                 Prova a modificare il nome cercato oppure il filtro alfabetico
@@ -150,4 +150,4 @@ const CameraPage = () => {
   );
 };
 
-export default CameraPage;
+export default SenatoPage;

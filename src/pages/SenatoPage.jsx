@@ -12,6 +12,7 @@ import "../styles/senato.css";
 const SenatoPage = () => {
   const [search, setSearch] = useState("");
   const [selectedLetter, setSelectedLetter] = useState("");
+  const [hemicycleMode, setHemicycleMode] = useState("party");
 
   const senators = useMemo(
     () => politicians.filter((politician) => politician.chamber === "senato"),
@@ -52,7 +53,6 @@ const SenatoPage = () => {
 
   return (
     <div className="senato-page">
-      {/* HERO */}
       <section className="senato-page__hero">
         <div className="container">
           <p className="senato-page__eyebrow">Parlamento Italiano</p>
@@ -67,7 +67,6 @@ const SenatoPage = () => {
         </div>
       </section>
 
-      {/* DIRECTORY */}
       <section className="senato-page__directory">
         <div className="container">
           {/* SEARCH */}
@@ -101,7 +100,72 @@ const SenatoPage = () => {
               <span>{senators.length} senatori</span>
             </div>
 
-            <ChamberHemicycle politicians={senators} mode="party" />
+            <div className="senato-page__hemicycle-controls">
+              <span className="senato-page__hemicycle-controls-label">
+                Visualizza per
+              </span>
+
+              <div
+                className="senato-page__hemicycle-toggle"
+                role="group"
+                aria-label="Modalità visualizzazione emiciclo"
+              >
+                <button
+                  type="button"
+                  className={
+                    hemicycleMode === "party"
+                      ? "senato-page__hemicycle-toggle-button senato-page__hemicycle-toggle-button--active"
+                      : "senato-page__hemicycle-toggle-button"
+                  }
+                  onClick={() => setHemicycleMode("party")}
+                >
+                  Partito
+                </button>
+
+                <button
+                  type="button"
+                  className={
+                    hemicycleMode === "status"
+                      ? "senato-page__hemicycle-toggle-button senato-page__hemicycle-toggle-button--active"
+                      : "senato-page__hemicycle-toggle-button"
+                  }
+                  onClick={() => setHemicycleMode("status")}
+                >
+                  Stato giudiziario
+                </button>
+              </div>
+            </div>
+
+            <ChamberHemicycle politicians={senators} mode={hemicycleMode} />
+
+            {hemicycleMode === "status" && (
+              <div className="senato-page__legend">
+                <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--clean"></span>
+                  Nessun procedimento noto
+                </div>
+
+                <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--ongoing"></span>
+                  Procedimento in corso
+                </div>
+
+                <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--non-final"></span>
+                  Condanna non definitiva
+                </div>
+
+                <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--final"></span>
+                  Condanna definitiva
+                </div>
+
+                <div>
+                  <span className="senato-page__legend-dot senato-page__legend-dot--concluded"></span>
+                  Assolto / archiviato
+                </div>
+              </div>
+            )}
           </div>
 
           {/* FILTRO ALFABETICO */}

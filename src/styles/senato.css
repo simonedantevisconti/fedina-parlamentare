@@ -219,6 +219,115 @@
   font-size: 0.82rem;
 }
 
+.senato-page__hemicycle-controls {
+  margin-bottom: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+
+.senato-page__hemicycle-controls-label {
+  color: #7f8796;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.senato-page__hemicycle-toggle {
+  padding: 4px;
+
+  display: inline-flex;
+
+  border: 1px solid #dde1e7;
+  border-radius: 8px;
+
+  background-color: #ffffff;
+}
+
+.senato-page__hemicycle-toggle-button {
+  padding: 8px 13px;
+
+  border: 0;
+  border-radius: 5px;
+
+  background-color: transparent;
+
+  color: #777f8e;
+
+  font-size: 0.78rem;
+  font-weight: 800;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.senato-page__hemicycle-toggle-button:hover {
+  color: #172033;
+}
+
+.senato-page__hemicycle-toggle-button--active {
+  background-color: #172033;
+
+  color: #ffffff;
+}
+
+.senato-page__hemicycle-toggle-button--active:hover {
+  color: #ffffff;
+}
+
+.senato-page__legend {
+  margin-top: 18px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px 22px;
+
+  color: #656e7f;
+
+  font-size: 0.76rem;
+}
+
+.senato-page__legend > div {
+  display: flex;
+  align-items: center;
+
+  gap: 7px;
+}
+
+.senato-page__legend-dot {
+  width: 9px;
+  height: 9px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+}
+
+.senato-page__legend-dot--clean {
+  background-color: #3a9d67;
+}
+
+.senato-page__legend-dot--ongoing {
+  background-color: #d79a27;
+}
+
+.senato-page__legend-dot--non-final {
+  background-color: #c76b35;
+}
+
+.senato-page__legend-dot--final {
+  background-color: #b53d3d;
+}
+
+.senato-page__legend-dot--concluded {
+  background-color: #71819b;
+}
+
 /* ======================================================
    RESPONSIVE
 ====================================================== */
@@ -237,5 +346,20 @@
     flex-direction: column;
 
     gap: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .senato-page__hemicycle-controls {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .senato-page__hemicycle-toggle {
+    width: 100%;
+  }
+
+  .senato-page__hemicycle-toggle-button {
+    flex: 1;
   }
 }
