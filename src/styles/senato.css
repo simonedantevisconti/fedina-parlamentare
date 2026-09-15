@@ -1,0 +1,198 @@
+.senato-page {
+  background-color: #ffffff;
+}
+
+/* ======================================================
+   HERO
+====================================================== */
+
+.senato-page__hero {
+  padding: 88px 0 70px;
+
+  border-bottom: 1px solid #e6e8ed;
+
+  background-color: #ffffff;
+}
+
+.senato-page__eyebrow {
+  margin: 0 0 13px;
+
+  color: #858c9a;
+
+  font-size: 0.76rem;
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.senato-page__hero h1 {
+  margin: 0;
+
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: clamp(2.5rem, 6vw, 4.8rem);
+  font-weight: 800;
+
+  letter-spacing: -0.05em;
+}
+
+.senato-page__description {
+  max-width: 720px;
+
+  margin: 24px 0 0;
+
+  color: #697183;
+
+  font-size: 1.05rem;
+
+  line-height: 1.8;
+}
+
+/* ======================================================
+   DIRECTORY
+====================================================== */
+
+.senato-page__directory {
+  padding: 70px 0 110px;
+
+  background-color: #f8f9fb;
+}
+
+.senato-page__toolbar {
+  margin-bottom: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 30px;
+}
+
+.senato-page__search {
+  flex: 1;
+}
+
+.senato-page__count {
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: baseline;
+
+  gap: 7px;
+
+  color: #8a919f;
+}
+
+.senato-page__count strong {
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+
+.senato-page__count span {
+  font-size: 0.85rem;
+}
+
+/* ======================================================
+   ALPHABET
+====================================================== */
+
+.senato-page__alphabet {
+  margin-bottom: 44px;
+}
+
+.senato-page__alphabet > p {
+  margin: 0 0 13px;
+
+  color: #7f8796;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+/* ======================================================
+   EMPTY STATE
+====================================================== */
+
+.senato-page__empty {
+  padding: 80px 30px;
+
+  text-align: center;
+
+  border: 1px solid #e1e4e9;
+  border-radius: 12px;
+
+  background-color: #ffffff;
+}
+
+.senato-page__empty h2 {
+  margin: 0 0 10px;
+
+  color: #172033;
+
+  font-family: "Open Sans", sans-serif;
+
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.senato-page__empty p {
+  max-width: 500px;
+
+  margin: 0 auto;
+
+  color: #777f8e;
+
+  line-height: 1.7;
+}
+
+.senato-page__empty button {
+  margin-top: 24px;
+  padding: 11px 18px;
+
+  border: 1px solid #172033;
+  border-radius: 6px;
+
+  background-color: #172033;
+
+  color: #ffffff;
+
+  font-weight: 700;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.senato-page__empty button:hover {
+  background-color: #2a354b;
+
+  transform: translateY(-1px);
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 767px) {
+  .senato-page__hero {
+    padding: 68px 0 54px;
+  }
+
+  .senato-page__directory {
+    padding: 50px 0 80px;
+  }
+
+  .senato-page__toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+
+    gap: 18px;
+  }
+}

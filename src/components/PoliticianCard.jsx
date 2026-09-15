@@ -16,6 +16,9 @@ const statusLabels = {
 const PoliticianCard = ({ politician }) => {
   const fullName = `${politician.firstName} ${politician.lastName}`;
 
+  const institutionalRole =
+    politician.chamber === "senato" ? "Senatore" : "Deputato";
+
   return (
     <Link to={`/politico/${politician.id}`} className="politician-card">
       <div className="politician-card__photo-wrapper">
@@ -39,7 +42,7 @@ const PoliticianCard = ({ politician }) => {
       <div className="politician-card__content">
         <div className="politician-card__header">
           <div>
-            <p className="politician-card__role">Deputato</p>
+            <p className="politician-card__role">{institutionalRole}</p>
 
             <h2>{fullName}</h2>
           </div>
@@ -71,7 +74,7 @@ const PoliticianCard = ({ politician }) => {
         >
           <span className="politician-card__status-dot"></span>
 
-          {statusLabels[politician.judicialStatus]}
+          {statusLabels[politician.judicialStatus] ?? "Stato non disponibile"}
         </div>
       </div>
     </Link>

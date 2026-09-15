@@ -60,12 +60,12 @@ const HomePage = () => {
                 Esplora la Camera
               </Link>
 
-              <button
-                type="button"
+              <Link
+                to="/senato"
                 className="home-hero__button home-hero__button--secondary"
               >
                 Esplora il Senato
-              </button>
+              </Link>
             </div>
           </div>
         </div>
