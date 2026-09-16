@@ -89,6 +89,24 @@ const judicialStatuses = {
     final: true,
   },
 
+  prescribed: {
+    id: "prescribed",
+    label: "Reato prescritto",
+    shortLabel: "Prescrizione",
+    category: "concluded",
+    color: "#71819b",
+    final: true,
+  },
+
+  "plea-bargain": {
+    id: "plea-bargain",
+    label: "Patteggiamento",
+    shortLabel: "Patteggiamento",
+    category: "concluded",
+    color: "#71819b",
+    final: true,
+  },
+
   multiple: {
     id: "multiple",
     label: "Più procedimenti documentati",

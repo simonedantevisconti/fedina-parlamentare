@@ -181,7 +181,7 @@ const judicialReviewLog = {
     readyForClean: false,
   },
 
-  "mirco-bof": {
+  "gianangelo-bof": {
     stage: "preliminary",
     lastCheckedAt: "2026-09-16",
     result: "no-supported-personal-proceeding-found",
@@ -220,12 +220,12 @@ const judicialReviewLog = {
   },
 
   "ugo-cappellacci": {
-    stage: "complete-with-model-update-needed",
+    stage: "complete-with-follow-up",
     lastCheckedAt: "2026-09-16",
     result: "multiple-public-proceedings-found",
     readyForClean: false,
     notes:
-      "Esistono più procedimenti documentati, incluso un procedimento concluso con prescrizione nel febbraio 2026. Prima dell'inserimento completo va aggiunto lo status prescribed al modello dati.",
+      "Esistono più procedimenti documentati, incluso un procedimento concluso con prescrizione nel febbraio 2026. Il modello dati supporta ora lo stato prescribed; resta da monitorare l'eventuale evoluzione successiva.",
   },
   "giuseppe-castiglione": {
     stage: "complete-with-follow-up",
@@ -374,14 +374,7 @@ const judicialReviewLog = {
     notes:
       "Procedimento per peculato relativo ai fondi del gruppo PDL. Assolto dal Tribunale di Roma il 6 aprile 2016 perché il fatto non sussiste. Non ancora verificata documentalmente l'eventuale irrevocabilità della sentenza.",
   },
-  "plea-bargain": {
-    id: "plea-bargain",
-    label: "Patteggiamento",
-    shortLabel: "Patteggiamento",
-    category: "concluded",
-    color: "#71819b",
-    final: true,
-  },
+
   "giulio-tremonti": {
     stage: "complete-with-follow-up",
     lastCheckedAt: "2026-09-16",
@@ -409,7 +402,7 @@ const judicialReviewLog = {
     notes:
       "Procedimento Fondazione Open. Non luogo a procedere pronunciato dal GUP di Firenze il 19 dicembre 2024. La Procura non ha impugnato la decisione nell'aprile 2025, rendendo definitivo il proscioglimento.",
   },
-  "daniela-santanche": {
+  "daniela-garnero-santanche": {
     stage: "complete-with-follow-up",
     lastCheckedAt: "2026-09-16",
     result: "multiple-public-proceedings-found",
