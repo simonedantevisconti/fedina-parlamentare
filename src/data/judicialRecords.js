@@ -3964,6 +3964,452 @@ const judicialRecords = {
 
     proceedings: [],
   },
+  "alessandro-alfieri": {
+    judicialStatus: "archived",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "alessandro-alfieri-001",
+
+        title:
+          "Procedimento sui rimborsi dei gruppi consiliari della Regione Lombardia",
+
+        allegedOffence: "Peculato",
+
+        offence: null,
+
+        status: "archived",
+
+        court: "Tribunale di Milano",
+
+        startDate: "2013-01-30",
+
+        lastUpdate: "2014-03-13",
+
+        description:
+          "Alessandro Alfieri, all'epoca consigliere regionale della Lombardia, risultò coinvolto nell'inchiesta della Procura di Milano sui rimborsi dei gruppi consiliari regionali, nell'ambito della quale veniva contestato il reato di peculato. Nel dicembre 2013 la Procura chiese l'archiviazione della sua posizione. Il 13 marzo 2014 il GIP del Tribunale di Milano dispose l'archiviazione.",
+
+        finalJudgment: true,
+
+        finalJudgmentDate: "2014-03-13",
+
+        timeline: [
+          {
+            date: "2013-01-30",
+            title:
+              "Alfieri risulta tra i consiglieri coinvolti nell'inchiesta sui rimborsi regionali",
+          },
+
+          {
+            date: "2013-12-16",
+            title: "La Procura di Milano chiede l'archiviazione",
+          },
+
+          {
+            date: "2014-03-13",
+            title: "Il GIP dispone l'archiviazione",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Le spese del Pirellone, indagato Spreafico",
+            publisher: "La Provincia",
+            url: "https://www.laprovinciaunicatv.it/stories/homepage/le-spese-del-pirelloneindagato-spreafico-o_347583_11/",
+            publicationDate: "2013-01-30",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+
+          {
+            name: "Rimborsi, Renzo Bossi e Nicole Minetti",
+            publisher: "La Stampa",
+            url: "https://www.lastampa.it/cronaca/2013/12/16/news/rimborsi-renzo-bossi-e-nicole-minetti-1.35946954/",
+            publicationDate: "2013-12-16",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+
+          {
+            name: "Rimborsi, archiviazione per Civati e altri 32 ex consiglieri regionali",
+            publisher: "Corriere della Sera",
+            url: "https://milano.corriere.it/notizie/cronaca/14_marzo_13/rimborsi-archiviazione-civati-altri-32-ex-consiglieri-regionali-95de9b6e-aaba-11e3-a415-108350ae7b5e.shtml",
+            publicationDate: "2014-03-13",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "vincenza-aloisio": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "alfredo-bazoli": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "anna-maria-bernini": {
+    judicialStatus: "charged",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "anna-maria-bernini-001",
+
+        title:
+          "Procedimento per diffamazione relativo alle dichiarazioni sul processo Mediaset",
+
+        allegedOffence: "Diffamazione aggravata",
+
+        offence: null,
+
+        status: "charged",
+
+        court: "Tribunale di Roma",
+
+        startDate: null,
+
+        lastUpdate: "2021-12-03",
+
+        description:
+          "Anna Maria Bernini è stata coinvolta in un procedimento per diffamazione aggravata relativo a dichiarazioni rese nel luglio 2020 durante la trasmissione Quarta Repubblica nei confronti dei magistrati Antonio Esposito e Claudio D'Isa. Nel marzo 2021 risultava pendente presso la Procura di Roma il procedimento n. 4722/21 R.G.N.R. Nel maggio 2021 il Senato ha riconosciuto l'insindacabilità parlamentare delle dichiarazioni ai sensi dell'articolo 68, primo comma, della Costituzione. Nel dicembre 2021 la Procura di Roma ha chiesto il rinvio a giudizio anche per Bernini. Nelle fonti affidabili consultate fino al 16 settembre 2026 non è stato trovato un successivo esito giudiziario sufficientemente documentato.",
+
+        finalJudgment: false,
+
+        finalJudgmentDate: null,
+
+        timeline: [
+          {
+            date: "2021-03-04",
+            title:
+              "Il Senato dà atto della pendenza del procedimento n. 4722/21 R.G.N.R. presso la Procura di Roma",
+          },
+
+          {
+            date: "2021-05-19",
+            title:
+              "Il Senato riconosce l'insindacabilità parlamentare delle dichiarazioni",
+          },
+
+          {
+            date: "2021-12-03",
+            title:
+              "La Procura di Roma chiede il rinvio a giudizio per diffamazione aggravata",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Giunta delle elezioni e delle immunità parlamentari - Resoconto del 4 marzo 2021",
+            publisher: "Senato della Repubblica",
+            url: "https://www.senato.it/Web/AutorizzazioniAProcedere.nsf/dfbec5c17bce92adc1257be500450dad/104abebb62ed4ddfc12585fa005f00a8/%24FILE/04.03.2021.pdf",
+            publicationDate: "2021-03-04",
+            accessedAt: "2026-09-16",
+            type: "institutional",
+          },
+
+          {
+            name: "Resoconto stenografico della seduta del 19 maggio 2021",
+            publisher: "Senato della Repubblica",
+            url: "https://www.senato.it/printable/route/sen_showdoc.show_doc_controller_structure?id=1298062&idoggetto=0&leg=18&legislature=19&part=doc_dc-ressten_rs-gentit_ddddiqn1-trattazione_ddv&printable_format=print&tipodoc=Resaula",
+            publicationDate: "2021-05-19",
+            accessedAt: "2026-09-16",
+            type: "institutional",
+          },
+
+          {
+            name: "Chiesto il processo per 14 tra giornalisti e politici: diffamarono il giudice Esposito",
+            publisher: "La Stampa",
+            url: "https://www.lastampa.it/cronaca/2021/12/03/news/chiesto-il-processo-per-14-tra-giornalisti-e-politici-diffamarono-il-giudice-esposito-per-avere-condannato-berlusconi-1.40990713/",
+            publicationDate: "2021-12-03",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "giulia-bongiorno": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "mario-alejandro-borghese": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "stefano-borghesi": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "claudio-borghi": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "enrico-borghi": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "lucia-borgonzoni": {
+    judicialStatus: "prescribed",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "lucia-borgonzoni-001",
+
+        title: "Procedimento sui rimborsi della Lega Nord Emilia",
+
+        allegedOffence: "Appropriazione indebita aggravata",
+
+        offence: null,
+
+        status: "prescribed",
+
+        court: "Tribunale di Reggio Emilia",
+
+        startDate: null,
+
+        lastUpdate: "2016-12-01",
+
+        description:
+          "Lucia Borgonzoni risultò coinvolta nell'inchiesta sui rimborsi della Lega Nord Emilia relativa a spese sostenute durante la campagna elettorale per le provinciali del 2009. Nel maggio 2016 la Procura di Reggio Emilia chiese il rinvio a giudizio, contestando un'ipotesi di appropriazione indebita aggravata relativa a 764 euro. Il 1° dicembre 2016 la sua posizione venne stralciata dal processo per intervenuta prescrizione.",
+
+        finalJudgment: true,
+
+        finalJudgmentDate: "2016-12-01",
+
+        timeline: [
+          {
+            date: "2016-05-16",
+            title: "La Procura di Reggio Emilia chiede il rinvio a giudizio",
+          },
+
+          {
+            date: "2016-12-01",
+            title: "La posizione viene stralciata per intervenuta prescrizione",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Pm Reggio, 'Lucia Borgonzoni a processo'",
+            publisher: "ANSA",
+            url: "https://www.ansa.it/emiliaromagna/notizie/2016/05/16/pm-reggio-lucia-borgonzoni-a-processo_b0d59cfb-8101-4873-905a-428bd88ecbd4.html",
+            publicationDate: "2016-05-16",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+
+          {
+            name: "Rimborsopoli, il caso-Giovannini va in prescrizione",
+            publisher: "Gazzetta di Reggio",
+            url: "https://www.gazzettadireggio.it/reggio/cronaca/2016/12/02/news/rimborsopoli-il-caso-giovannini-va-in-prescrizione-1.14508462",
+            publicationDate: "2016-12-02",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "carmela-bucalo": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "alessio-butti": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "nicola-calandrini": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "susanna-donatella-campione": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "susanna-lina-giulia-camusso": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "gianluca-cantalamessa": {
+    judicialStatus: "investigated",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "gianluca-cantalamessa-001",
+
+        title:
+          "Inchiesta sulle presunte firme false per le elezioni comunali di Giugliano",
+
+        allegedOffence: null,
+
+        offence: null,
+
+        status: "investigated",
+
+        court: "Procura della Repubblica di Napoli Nord",
+
+        startDate: null,
+
+        lastUpdate: "2026-04-15",
+
+        description:
+          "Gianluca Cantalamessa risulta tra gli indagati nell'inchiesta della Procura di Napoli Nord sulle presunte irregolarità nell'autenticazione delle sottoscrizioni necessarie alla presentazione delle liste per le elezioni comunali di Giugliano in Campania del maggio 2025. Il 15 aprile 2026 è stato reso noto l'avviso di conclusione delle indagini preliminari. Secondo le fonti, alcune firme sarebbero state autenticate come apposte in presenza dei firmatari, circostanza contestata dagli investigatori. Alla data dell'ultima verifica non è stato trovato un successivo esito affidabile relativo a rinvio a giudizio, archiviazione o sentenza. Lo stato di indagato non implica responsabilità penale.",
+
+        finalJudgment: false,
+
+        finalJudgmentDate: null,
+
+        timeline: [
+          {
+            date: "2026-04-15",
+            title:
+              "Notificato l'avviso di conclusione delle indagini preliminari",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Firme false per le elezioni comunali, arriva l'avviso di chiusura indagini",
+            publisher: "Rai News - TGR Campania",
+            url: "https://www.rainews.it/tgr/campania/articoli/2026/04/firme-false-per-le-elezioni-comunali-arriva-lavviso-di-chiusura-indagini-0e2c29c7-c19c-40da-811e-36de03b5f7da.html",
+            publicationDate: "2026-04-15",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+
+          {
+            name: "Firme false per le Comunali a Giugliano, indagini chiuse per parlamentari e politici: coinvolti Cantalamessa e Patriarca",
+            publisher: "Corriere della Sera - Napoli",
+            url: "https://napoli.corriere.it/notizie/cronaca/26_aprile_15/firme-false-per-le-comunali-a-giugliano-indagini-chiuse-per-parlamentari-e-politici-coinvolti-cantalamessa-e-patriarca-d29d072c-0d64-4e27-9bcd-de3e6dd13xlk_amp.shtml",
+            publicationDate: "2026-04-15",
+            accessedAt: "2026-09-16",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "maria-cristina-cantu": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
 };
 
 export default judicialRecords;
