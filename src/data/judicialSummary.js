@@ -1,6 +1,12 @@
 const ONGOING_STATUSES = ["investigated", "charged", "trial"];
 
-const CONCLUDED_STATUSES = ["acquitted", "archived", "dismissed"];
+const CONCLUDED_STATUSES = [
+  "acquitted",
+  "archived",
+  "dismissed",
+  "prescribed",
+  "plea-bargain",
+];
 
 export const buildJudicialSummary = ({
   judicialStatus,
@@ -27,6 +33,10 @@ export const buildJudicialSummary = ({
 
   const hasDismissedProceedings = statuses.includes("dismissed");
 
+  const hasPrescribedProceedings = statuses.includes("prescribed");
+
+  const hasPleaBargain = statuses.includes("plea-bargain");
+
   const hasConcludedProceedings = statuses.some((status) =>
     CONCLUDED_STATUSES.includes(status),
   );
@@ -36,16 +46,17 @@ export const buildJudicialSummary = ({
   let displayStatus = judicialStatus ?? "not-reviewed";
 
   /*
-   * Se esistono più procedimenti con esiti/stati differenti,
-   * non ne scegliamo arbitrariamente uno come rappresentativo.
+   * Se esistono più procedimenti con
+   * esiti/stati differenti, non scegliamo
+   * arbitrariamente uno stato principale.
    */
   if (uniqueStatuses.length > 1) {
     displayStatus = "multiple";
   }
 
   /*
-   * Se esiste un solo tipo di stato nei procedimenti,
-   * possiamo mostrarlo direttamente.
+   * Se tutti i procedimenti hanno
+   * lo stesso stato, mostriamo quello.
    */
   if (uniqueStatuses.length === 1) {
     displayStatus = uniqueStatuses[0];
@@ -53,14 +64,15 @@ export const buildJudicialSummary = ({
 
   /*
    * Nessun procedimento e verifica completata:
-   * manteniamo lo stato registrato, normalmente "clean".
+   * manteniamo lo stato registrato,
+   * normalmente "clean".
    */
   if (proceedingCount === 0 && judicialVerification?.reviewed) {
     displayStatus = judicialStatus ?? "clean";
   }
 
   /*
-   * Nessuna verifica:
+   * Nessun procedimento e nessuna verifica:
    * resta "not-reviewed".
    */
   if (proceedingCount === 0 && !judicialVerification?.reviewed) {
@@ -87,6 +99,10 @@ export const buildJudicialSummary = ({
     hasArchivedProceedings,
 
     hasDismissedProceedings,
+
+    hasPrescribedProceedings,
+
+    hasPleaBargain,
   };
 };
 
