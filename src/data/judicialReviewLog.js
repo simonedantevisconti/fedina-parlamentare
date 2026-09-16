@@ -492,6 +492,96 @@ const judicialReviewLog = {
     notes:
       "Procedimento per falso elettorale relativo alle elezioni comunali di Moncalieri del 2020. Assolto dal Tribunale di Torino il 10 novembre 2023 perché il fatto non sussiste. Nel maggio 2025 la Procura generale ha rinunciato all'appello; la sentenza è diventata definitiva.",
   },
+  "lucia-albano": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "enrica-alifano": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano prevalentemente attività parlamentare e interventi in materia giudiziaria riferiti ad altri soggetti. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "davide-aiello": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e interventi pubblici. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "giorgia-andreuzza": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e legislativa. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "giovanni-arruzzolo": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e verifiche di incompatibilità con precedenti cariche regionali, che non costituiscono procedimenti penali. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "anna-ascani": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e istituzionale. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "stefania-ascari": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e legislativa. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "carmela-auriemma": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. Alcuni risultati giudiziari pertinenti al nome riguardano attività professionale come avvocata o soggetti omonimi, non procedimenti a suo carico. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "valentina-barzotti": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e professionale. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
+  "alessandro-battilocchio": {
+    stage: "preliminary",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e istituzionale. Da sottoporre a deep review prima di un eventuale stato clean.",
+  },
 };
 
 export default judicialReviewLog;

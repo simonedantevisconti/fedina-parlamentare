@@ -3953,6 +3953,17 @@ const judicialRecords = {
       },
     ],
   },
+  "gaetano-amato": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
 };
 
 export default judicialRecords;
