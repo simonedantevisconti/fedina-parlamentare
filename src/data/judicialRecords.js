@@ -590,10 +590,91 @@ const judicialRecords = {
   },
 
   "alessandro-manuel-benvenuto": {
-    stage: "preliminary",
-    lastCheckedAt: "2026-09-16",
-    result: "no-supported-personal-proceeding-found",
-    readyForClean: false,
+    judicialStatus: "acquitted",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "alessandro-manuel-benvenuto-001",
+
+        title:
+          "Procedimento per falso elettorale relativo alle elezioni comunali di Moncalieri",
+
+        allegedOffence: "Concorso in falso ideologico in materia elettorale",
+
+        offence: null,
+
+        status: "acquitted",
+
+        court: "Tribunale di Torino / Corte d'Appello di Torino",
+
+        startDate: null,
+
+        lastUpdate: "2025-05-15",
+
+        description:
+          "Alessandro Manuel Benvenuto è stato imputato, insieme a Riccardo Molinari e Fabrizio Bruno, in un procedimento relativo alla cancellazione di un candidato dalla lista della Lega per le elezioni comunali di Moncalieri del 2020. Il 10 novembre 2023 il Tribunale di Torino lo ha assolto perché il fatto non sussiste. Nel maggio 2025 il procuratore generale presso la Corte d'Appello di Torino ha rinunciato all'appello proposto contro la sentenza, rendendo definitiva l'assoluzione.",
+
+        finalJudgment: true,
+
+        finalJudgmentDate: "2025-05-15",
+
+        timeline: [
+          {
+            date: null,
+            title:
+              "Nel 2021 viene disposto il rinvio a giudizio nel procedimento relativo alle elezioni comunali di Moncalieri",
+          },
+
+          {
+            date: "2023-11-10",
+            title:
+              "Il Tribunale di Torino assolve Benvenuto perché il fatto non sussiste",
+          },
+
+          {
+            date: "2025-05-15",
+            title:
+              "La Procura generale rinuncia all'appello e l'assoluzione diventa definitiva",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Falso elettorale, assolto Riccardo Molinari",
+
+            publisher: "ANSA",
+
+            url: "https://www.ansa.it/sito/notizie/cronaca/2023/11/10/falso-elettorale-assolto-riccardo-molinari_235b33fa-51fd-427f-8a10-11e90e71ef26.html",
+
+            publicationDate: "2023-11-10",
+
+            accessedAt: "2026-09-16",
+
+            type: "journalistic",
+          },
+
+          {
+            name: "Elezioni Moncalieri, diventa definitiva l'assoluzione di Molinari",
+
+            publisher: "Rai News",
+
+            url: "https://www.rainews.it/tgr/piemonte/articoli/2025/05/elezioni-moncalieri-diventa-definitiva-lassoluzione-di-molinari-2aa4b463-f81f-4249-a9bf-beb6a2e7b486.html",
+
+            publicationDate: "2025-05-15",
+
+            accessedAt: "2026-09-16",
+
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
   },
 
   "fabrizio-benzoni": {

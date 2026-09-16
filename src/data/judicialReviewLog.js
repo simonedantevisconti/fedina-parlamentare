@@ -483,6 +483,15 @@ const judicialReviewLog = {
     notes:
       "Due procedimenti verificati. Rimborsopoli Piemonte: condanna in appello nel 2018 e successiva assoluzione in Cassazione nel novembre 2019. Falso elettorale Moncalieri: assoluzione nel novembre 2023 perché il fatto non sussiste, diventata definitiva nel maggio 2025 dopo la rinuncia della Procura generale all'appello.",
   },
+  "alessandro-manuel-benvenuto": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-16",
+    result: "public-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Procedimento per falso elettorale relativo alle elezioni comunali di Moncalieri del 2020. Assolto dal Tribunale di Torino il 10 novembre 2023 perché il fatto non sussiste. Nel maggio 2025 la Procura generale ha rinunciato all'appello; la sentenza è diventata definitiva.",
+  },
 };
 
 export default judicialReviewLog;
