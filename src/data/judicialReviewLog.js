@@ -746,6 +746,141 @@ const judicialReviewLog = {
     notes:
       "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Maria Cristina Cantù. Nel 2014 comparve in vicende giudiziarie relative alla Regione Lombardia come assessora dissenziente rispetto a una delibera oggetto di indagine contro ignoti e come testimone nel processo Maugeri, non come imputata. Successive notizie su accessi abusivi a banche dati la riguardano come soggetto delle consultazioni, non come accusata.",
   },
+  "pier-ferdinando-casini": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-16",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Pier Ferdinando Casini. Le principali occorrenze giudiziarie individuate lo riguardano in ruoli istituzionali, come presidente della Camera o di commissioni parlamentari d'inchiesta, oppure come destinatario di comunicazioni su procedimenti concernenti terzi.",
+  },
+  "guido-castelli": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "public-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Verifica definitiva completata. Guido Castelli risultò coinvolto nel procedimento sulle spese dei gruppi consiliari della Regione Marche relativo al periodo 2008-2012, con contestazioni di peculato. ANSA ha riportato nel giugno 2023 che per la sua posizione era già intervenuta la prescrizione. La prescrizione non equivale a una condanna né a un accertamento definitivo di responsabilità penale.",
+  },
+  "maria-domenica-castellone": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Maria Domenica Castellone. Le occorrenze giudiziarie individuate riguardano prevalentemente la sua attività parlamentare e istituzionale oppure procedimenti concernenti terzi.",
+  },
+  "roberto-cataldi": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Roberto Cataldi. Le occorrenze giudiziarie individuate riguardano prevalentemente la sua attività professionale di avvocato o la sua attività parlamentare su materie penali e processuali.",
+  },
+  "elena-cattaneo": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice a vita Elena Cattaneo. Le occorrenze giudiziarie individuate riguardano prevalentemente la sua attività istituzionale o procedimenti concernenti terzi.",
+  },
+  "gian-marco-centinaio": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Gian Marco Centinaio. Le occorrenze giudiziarie individuate riguardano prevalentemente minacce ricevute dallo stesso, nelle quali risulta parte offesa, oppure procedimenti concernenti terzi.",
+  },
+  "luca-ciriani": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Luca Ciriani. Le occorrenze giudiziarie individuate riguardano prevalentemente la sua attività istituzionale e parlamentare su procedimenti concernenti terzi o su materie di giustizia.",
+  },
+  "giulia-cosenza": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Giulia Cosenza. Nel 2014 il suo nome comparve in notizie relative a un nuovo filone dell'inchiesta sulla compravendita di parlamentari, ma le fonti dell'epoca specificavano che il fascicolo era stato aperto senza indagati; non è emerso un successivo procedimento personale sufficientemente documentato.",
+  },
+  "stefania-gabriella-anastasia-craxi": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "public-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Verifica definitiva completata. Stefania Craxi fu sottoposta a procedimento penale per ingiuria a seguito di querela di Francesco Rutelli e fonti giornalistiche successive documentano una condanna confermata fino all'ultimo grado. La fattispecie di ingiuria è stata successivamente depenalizzata nel 2016. Una successiva controversia relativa a dichiarazioni del 2008 risulta invece di natura civile e non viene registrata come ulteriore procedimento penale.",
+  },
+  "andrea-crisanti": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "public-proceeding-found",
+    readyForClean: false,
+
+    notes:
+      "Verifica definitiva completata. Andrea Crisanti risultò indagato dalla Procura di Padova per diffamazione a seguito di una segnalazione di Azienda Zero relativa alle sue critiche sull'uso dei tamponi rapidi e sulla gestione sanitaria veneta durante la pandemia. Nel 2022 la Procura chiese l'archiviazione del procedimento e successive fonti giornalistiche riferiscono che il fascicolo venne archiviato. L'archiviazione non equivale a una condanna né a un accertamento di responsabilità penale.",
+  },
+  "marco-croatti": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Marco Croatti. Le occorrenze individuate riguardano prevalentemente la sua attività parlamentare e istituzionale.",
+  },
+  "ilaria-cucchi": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Ilaria Cucchi. Le principali occorrenze giudiziarie individuate riguardano il procedimento per la morte del fratello Stefano Cucchi, nel quale ha operato come familiare della vittima e parte civile, non come imputata.",
+  },
+  "cecilia-d-elia": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Cecilia D'Elia. Le occorrenze individuate riguardano prevalentemente la sua attività parlamentare e istituzionale.",
+  },
+  "concetta-damante": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Concetta Damante. Le occorrenze giudiziarie individuate riguardano prevalentemente la sua attività nella Giunta delle elezioni e delle immunità parlamentari o procedimenti concernenti terzi.",
+  },
+  "dario-damiani": {
+    stage: "complete",
+    lastCheckedAt: "2026-09-17",
+    result: "no-supported-personal-proceeding-found",
+    readyForClean: true,
+
+    notes:
+      "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Dario Damiani. Le occorrenze individuate riguardano prevalentemente la sua attività parlamentare e istituzionale.",
+  },
 };
 
 export default judicialReviewLog;

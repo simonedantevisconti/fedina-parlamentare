@@ -4410,6 +4410,359 @@ const judicialRecords = {
 
     proceedings: [],
   },
+  "pier-ferdinando-casini": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-16",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "guido-castelli": {
+    judicialStatus: "prescribed",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "guido-castelli-001",
+
+        title:
+          "Procedimento sulle spese dei gruppi consiliari della Regione Marche",
+
+        allegedOffence: "Peculato",
+
+        offence: null,
+
+        status: "prescribed",
+
+        court: "Tribunale di Ancona",
+
+        startDate: null,
+
+        lastUpdate: null,
+
+        description:
+          "Guido Castelli risultò coinvolto nel procedimento relativo alle spese dei gruppi consiliari della Regione Marche per il periodo 2008-2012. Il procedimento riguardava contestazioni di peculato relative all'utilizzo di fondi assegnati ai gruppi consiliari. Secondo ANSA, alla data del giugno 2023 per la posizione di Guido Castelli era già intervenuta la prescrizione. La prescrizione non equivale a una condanna né a un accertamento definitivo di responsabilità penale.",
+
+        finalJudgment: true,
+
+        finalJudgmentDate: null,
+
+        timeline: [
+          {
+            date: "2023-06-20",
+            title:
+              "ANSA riferisce che per la posizione di Guido Castelli è intervenuta la prescrizione",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Fondi Marche: pm, condanne per sindaco Ancona e presidente Latini",
+            publisher: "ANSA",
+            url: "https://www.ansa.it/marche/notizie/2023/06/20/fondi-marchepm-condanne-per-sindaco-ancona-e-presidente-latini_54352eb8-14e3-4072-86a0-47b2f15965c5.html",
+            publicationDate: "2023-06-20",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "maria-domenica-castellone": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "roberto-cataldi": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "elena-cattaneo": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "gian-marco-centinaio": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "luca-ciriani": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "giulia-cosenza": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "stefania-gabriella-anastasia-craxi": {
+    judicialStatus: "convicted-final",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "stefania-gabriella-anastasia-craxi-001",
+
+        title: "Procedimento per ingiuria nei confronti di Francesco Rutelli",
+
+        allegedOffence: "Ingiuria",
+
+        offence: "Ingiuria",
+
+        status: "convicted-final",
+
+        court: null,
+
+        startDate: null,
+
+        lastUpdate: null,
+
+        description:
+          "Stefania Craxi fu querelata da Francesco Rutelli dopo avergli rivolto un insulto durante un incontro in un ristorante. La vicenda diede luogo a un procedimento penale per ingiuria e si concluse con una condanna che fonti giornalistiche successive indicano come confermata fino all'ultimo grado di giudizio. L'ingiuria è stata successivamente depenalizzata nel 2016. La successiva abolizione della fattispecie penale deve essere distinta dal fatto storico che la condanna definitiva era stata pronunciata quando l'ingiuria costituiva reato.",
+
+        finalJudgment: true,
+
+        finalJudgmentDate: null,
+
+        timeline: [
+          {
+            date: null,
+            title:
+              "Condanna definitiva nel procedimento per ingiuria promosso da Francesco Rutelli",
+          },
+          {
+            date: "2016-01-15",
+            title: "L'ingiuria viene depenalizzata nell'ordinamento italiano",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Rutelli fa causa a Stefania Craxi",
+            publisher: "Il Tirreno",
+            url: "https://www.iltirreno.it/grosseto/cronaca/2010/10/16/news/rutelli-fa-causa-a-stefania-craxi-1.2118515",
+            publicationDate: "2010-10-16",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+
+          {
+            name: "La legalizzazione del vaffa",
+            publisher: "La Stampa",
+            url: "https://www.lastampa.it/cronaca/2007/07/18/news/la-legalizzazione-del-vaffa-1.37125873/",
+            publicationDate: "2007-07-18",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+
+          {
+            name: "Ingiuria depenalizzata, festa di Sgarbi",
+            publisher: "Corriere della Sera",
+            url: "https://www.corriere.it/politica/16_gennaio_16/ingiuria-depenalizzata-festa-sgarbi-gli-ospiti-compare-berlusconi-2c9251d4-bc22-11e5-b206-2a6e9b3d9bfb.shtml",
+            publicationDate: "2016-01-16",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "andrea-crisanti": {
+    judicialStatus: "archived",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "public-proceeding-found",
+    },
+
+    proceedings: [
+      {
+        id: "andrea-crisanti-001",
+
+        title:
+          "Procedimento per diffamazione relativo alle critiche sulla gestione dei tamponi rapidi in Veneto",
+
+        allegedOffence: "Diffamazione",
+
+        offence: null,
+
+        status: "archived",
+
+        court: "Procura della Repubblica di Padova",
+
+        startDate: "2021-03-10",
+
+        lastUpdate: "2022-05-02",
+
+        description:
+          "Andrea Crisanti fu iscritto nel registro degli indagati dalla Procura di Padova per un'ipotesi di diffamazione a seguito di una segnalazione di Azienda Zero, relativa alle sue critiche sulla gestione sanitaria veneta e sull'impiego dei tamponi antigenici rapidi durante la pandemia di Covid-19. Nel 2022 la Procura chiese l'archiviazione del fascicolo e successive ricostruzioni giornalistiche riferiscono che il procedimento venne archiviato. L'archiviazione non equivale a una condanna né a un accertamento di responsabilità penale.",
+
+        finalJudgment: true,
+
+        finalJudgmentDate: null,
+
+        timeline: [
+          {
+            date: "2021-03-10",
+            title:
+              "La Procura di Padova acquisisce la segnalazione e apre il fascicolo per diffamazione",
+          },
+          {
+            date: "2021-04-29",
+            title:
+              "Diventa pubblica la notizia dell'iscrizione di Andrea Crisanti nel registro degli indagati",
+          },
+          {
+            date: "2022-04-12",
+            title: "La Procura di Padova formula la richiesta di archiviazione",
+          },
+          {
+            date: "2022-05-02",
+            title:
+              "Fonti giornalistiche riferiscono la chiusura del procedimento mediante archiviazione",
+          },
+        ],
+
+        sources: [
+          {
+            name: "Covid: Crisanti indagato per diffamazione sanità veneta",
+            publisher: "ANSA",
+            url: "https://www.ansa.it/sito/notizie/cronaca/2021/04/29/covid-crisanti-indagato-per-diffamazione-sanita-veneta_4b3a5f99-a76f-4ca5-9907-61955d88ad16.html",
+            publicationDate: "2021-04-29",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+
+          {
+            name: "L’autogol della Regione Veneto: paga 27mila euro per fare causa a Crisanti ma la Procura chiede l’archiviazione",
+            publisher: "L'Espresso",
+            url: "https://lespresso.it/c/attualita/2022/5/2/lautogol-della-regione-veneto-paga-27mila-euro-per-fare-causa-a-crisanti-ma-la-procura-chiede-larchiviazione-e-vuole-valutare-le-spese/12628",
+            publicationDate: "2022-05-02",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+
+          {
+            name: "Andrea Crisanti, dal Covid alle televisioni. Zaia, la villa e il Senato",
+            publisher: "Corriere del Veneto",
+            url: "https://corrieredelveneto.corriere.it/notizie/padova/cronaca/23_marzo_04/andrea-crisanti-dal-covid-alle-televisioni-zaia-la-villa-e-il-senato-tre-anni-di-dichiarazioni-l-alfabeto-del-microbiologo-a63d38c4-8026-4398-922c-322c2fdfcxlk_amp.shtml",
+            publicationDate: "2023-03-04",
+            accessedAt: "2026-09-17",
+            type: "journalistic",
+          },
+        ],
+      },
+    ],
+  },
+  "marco-croatti": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "ilaria-cucchi": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "cecilia-d-elia": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "concetta-damante": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
+  "dario-damiani": {
+    judicialStatus: "clean",
+
+    judicialVerification: {
+      reviewed: true,
+      lastVerifiedAt: "2026-09-17",
+      result: "no-supported-personal-proceeding-found",
+    },
+
+    proceedings: [],
+  },
 };
 
 export default judicialRecords;
