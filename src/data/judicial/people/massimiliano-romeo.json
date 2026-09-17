@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "massimiliano-romeo",
+  "review": {
+    "stage": "complete",
+    "result": "public-proceeding-found",
+    "queries": [
+      "\"Massimiliano Romeo\" rimborsopoli cassazione 2022",
+      "\"Massimiliano Romeo\" prescrizione Cassazione 2022"
+    ],
+    "notes": "Rai News riferisce che la Cassazione ha cancellato la condanna del 2021 per intervenuta prescrizione. Una sintesi online parla erroneamente di assoluzione; non va confusa con l’annullamento per prescrizione.",
+    "lastCheckedAt": "2026-09-17",
+    "readyForClean": false
+  },
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "massimiliano-romeo-001",
+        "title": "Procedimento sui rimborsi del Consiglio regionale lombardo",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2022-11-17",
+        "description": "Romeo era stato condannato per peculato nel procedimento sulle spese del Consiglio regionale lombardo, con condanna confermata in appello nel luglio 2021. Il 17 novembre 2022 la Cassazione ha annullato la condanna per intervenuta prescrizione, secondo Rai News. La prescrizione non equivale a un’assoluzione nel merito.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2022-11-17",
+        "timeline": [
+          {
+            "date": "2021-07-13",
+            "title": "Condanna confermata in appello"
+          },
+          {
+            "date": "2022-11-17",
+            "title": "Cassazione: condanna annullata per prescrizione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rimborsopoli Lombardia, condanne in appello a Romeo",
+            "publisher": "HuffPost Italia",
+            "url": "https://www.huffingtonpost.it/politica/2021/07/13/news/rimborsopoli_lombardia_condanne_in_appello_a_romeo-5187172/",
+            "publicationDate": "2021-07-13",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rimborsopoli, la Cassazione annulla molte condanne",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/amp/tgr/lombardia/articoli/2022/11/rimborsopoli-la-cassazione-azzera-le-condanne-dei-politici-37aff793-75e0-44f9-b3c9-690503d2c29c.html",
+            "publicationDate": "2022-11-17",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

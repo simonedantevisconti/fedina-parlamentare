@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "giorgia-meloni",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Caso Almasri: coinvolta nell'indagine del Tribunale dei ministri insieme a Nordio, Piantedosi e Mantovano. La sua posizione è stata archiviata nell'agosto 2025."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "giorgia-meloni-001",
+        "title": "Procedimento relativo al caso Almasri",
+        "allegedOffence": "Ipotesi contestate nell'ambito della gestione della liberazione e del rimpatrio di Osama Njeem Almasri",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Roma",
+        "startDate": null,
+        "lastUpdate": "2025-08-04",
+        "description": "Giorgia Meloni è stata coinvolta nel procedimento relativo alla liberazione e al rimpatrio in Libia di Osama Njeem Almasri. Nel corso dell'indagine del Tribunale dei ministri risultava tra i soggetti sottoposti ad accertamenti insieme a Carlo Nordio, Matteo Piantedosi e Alfredo Mantovano. Nell'agosto 2025 il Tribunale dei ministri ha archiviato la posizione di Meloni. Le posizioni degli altri esponenti del governo hanno seguito un percorso procedurale distinto.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2025-08-04",
+        "timeline": [
+          {
+            "date": "2025-07-11",
+            "title": "Il Tribunale dei ministri autorizza la difesa a consultare gli atti dell'indagine che coinvolge Meloni, Nordio, Piantedosi e Mantovano"
+          },
+          {
+            "date": "2025-08-04",
+            "title": "Il Tribunale dei ministri dispone l'archiviazione della posizione di Giorgia Meloni"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Caso Almasri, il Tribunale autorizza la visione degli atti ad avvocata Bongiorno",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2025/07/caso-almasri-il-tribunale-autorizza-visione-degli-atti-ad-avvocata-bongiorno-fce319b1-4581-41ec-954a-ca972ee67408.html",
+            "publicationDate": "2025-07-11",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Meloni: il tribunale dei ministri archivia la mia posizione su Almasri",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2025/08/04/meloni-il-tribunale-dei-ministri-archivia-la-mia-posizione-su-almasri_b0473c54-6096-4dc0-b95e-388cd971f536.html",
+            "publicationDate": "2025-08-05",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Caso Almasri, chiesta l'autorizzazione a procedere per Nordio, Piantedosi e Mantovano",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2025/08/meloni-il-tribunale-dei-ministri-archivia-la-mia-posizione-sul-caso-almasri-dc6d2795-ca90-4d2c-ba17-01ed1d9c94c8.html",
+            "publicationDate": "2025-08-06",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

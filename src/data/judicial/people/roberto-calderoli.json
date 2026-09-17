@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "roberto-calderoli",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Documentati due procedimenti: caso Kyenge concluso con prescrizione in Cassazione nel 2024 e vicenda di via Bellerio con prescrizione pronunciata dalla Corte d’appello di Milano nel 2007. Non si equipara la prescrizione a una condanna definitiva.",
+    "queries": [
+      "\"Roberto Calderoli\" Kyenge Cassazione prescrizione 2024 2025 2026",
+      "\"Calderoli\" \"via Bellerio\" prescrizione 2004"
+    ]
+  },
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "roberto-calderoli-001",
+        "title": "Procedimento per diffamazione aggravata nei confronti di Cécile Kyenge",
+        "allegedOffence": "Diffamazione aggravata dalla matrice razziale",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte di Cassazione, sezione V penale",
+        "startDate": "2013-07-13",
+        "lastUpdate": "2024-08-05",
+        "description": "Il procedimento riguarda le dichiarazioni del 13 luglio 2013 nei confronti di Cécile Kyenge. Dopo l'annullamento delle prime condanne nel 2022, il nuovo giudizio si è concluso con una condanna a sette mesi, confermata in appello il 21 novembre 2023. La Cassazione, con sentenza 31850/2024 decisa il 15 maggio e depositata il 5 agosto 2024, ha annullato senza rinvio la sentenza per estinzione del reato per prescrizione. L'esito registrato è la prescrizione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2024-05-15",
+        "timeline": [
+          {
+            "date": "2013-07-13",
+            "title": "Dichiarazioni oggetto del procedimento"
+          },
+          {
+            "date": "2019-01-14",
+            "title": "Condanna in primo grado"
+          },
+          {
+            "date": "2020-10-21",
+            "title": "Condanna in appello"
+          },
+          {
+            "date": "2022-06-06",
+            "title": "La Cassazione annulla le precedenti sentenze e dispone un nuovo giudizio"
+          },
+          {
+            "date": "2023-06-01",
+            "title": "Nuova condanna del Tribunale di Bergamo a sette mesi"
+          },
+          {
+            "date": "2023-11-21",
+            "title": "Conferma della condanna in appello"
+          },
+          {
+            "date": "2024-05-15",
+            "title": "Annullamento senza rinvio in Cassazione per prescrizione"
+          },
+          {
+            "date": "2024-08-05",
+            "title": "Deposito della sentenza 31850/2024"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Cassazione penale, sezione V, sentenza 31850/2024 (testo riprodotto)",
+            "publisher": "CanestriniLex",
+            "url": "https://canestrinilex.com/risorse/reato-apostrofare-avversario-politico-quale-orango-cass-3185024",
+            "publicationDate": "2024-08-05",
+            "accessedAt": "2026-09-17",
+            "type": "judgment-reproduction"
+          },
+          {
+            "name": "Diffamò l'ex ministra Kyenge, annullate le condanne di Calderoli",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/amp/sito/notizie/politica/2022/06/06/diffamo-lex-ministra-kyenge-annullate-condanne-calderoli_e81c22bf-e5f6-4144-918d-d135122592aa.html",
+            "publicationDate": "2022-06-06",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Offese a Kyenge, Calderoli condannato a 7 mesi",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2023/06/01/offese-a-kyenge-calderoli-condannato-a-7-mesi_590cb195-ff42-4492-9034-02117602673e.html",
+            "publicationDate": "2023-06-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Definì 'orango' l'ex ministra Cécile Kyenge, condannato a 7 mesi il ministro Calderoli",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2023/06/defini-orango-lex-ministra-cecile-kyenge-condannato-a-7-mesi-il-ministro-calderoli--b7707971-fd80-4cc3-9f1b-c01b42a34549.html",
+            "publicationDate": "2023-06-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "roberto-calderoli-002",
+        "title": "Procedimento per i fatti di via Bellerio del 1996",
+        "allegedOffence": "Resistenza a pubblico ufficiale",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte d’appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2007-06-22",
+        "description": "Il procedimento riguardava gli incidenti durante la perquisizione della sede della Lega in via Bellerio il 18 settembre 1996. Dopo un annullamento con rinvio in Cassazione, il 22 giugno 2007 la Corte d’appello di Milano ha dichiarato la prescrizione per Roberto Calderoli. Le fonti consultate non precisano un successivo passaggio in giudicato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "1996-09-18",
+            "title": "Fatti oggetto del procedimento"
+          },
+          {
+            "date": "2007-06-22",
+            "title": "Dichiarazione di prescrizione in appello"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Milano: assolto Umberto Bossi",
+            "publisher": "Tgcom24",
+            "url": "https://www.tgcom24.mediaset.it/politica/articoli/367438/milano-assolto-umberto-bossi.shtml",
+            "publicationDate": "2007-06-22",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

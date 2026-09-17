@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "matteo-renzi",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento Fondazione Open. Non luogo a procedere pronunciato dal GUP di Firenze il 19 dicembre 2024. La Procura non ha impugnato la decisione nell'aprile 2025, rendendo definitivo il proscioglimento."
+  },
+  "record": {
+    "judicialStatus": "dismissed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "matteo-renzi-001",
+        "title": "Procedimento relativo alla Fondazione Open",
+        "allegedOffence": "Finanziamento illecito ai partiti",
+        "offence": null,
+        "status": "dismissed",
+        "court": "Tribunale di Firenze",
+        "startDate": null,
+        "lastUpdate": "2025-04-12",
+        "description": "Matteo Renzi è stato coinvolto nel procedimento relativo alla Fondazione Open, nell'ambito del quale gli era contestato il finanziamento illecito ai partiti. Il 19 dicembre 2024 il GUP di Firenze ha pronunciato il non luogo a procedere. Nell'aprile 2025 la Procura di Firenze non ha impugnato il proscioglimento, che è quindi divenuto definitivo.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2025-04-12",
+        "timeline": [
+          {
+            "date": "2024-12-19",
+            "title": "Il GUP di Firenze pronuncia il non luogo a procedere"
+          },
+          {
+            "date": "2025-03-20",
+            "title": "Vengono pubblicate le motivazioni del proscioglimento"
+          },
+          {
+            "date": "2025-04-12",
+            "title": "La Procura non impugna la decisione e il proscioglimento diventa definitivo"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Open, prosciolti Renzi e gli altri 10 indagati",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/toscana/notizie/2024/12/19/open-prosciolti-renzi-e-gli-altri-10-indagati_e2fd3b4a-6292-404c-bfe0-4ead809e71d5.html",
+            "publicationDate": "2024-12-19",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Open non finanziò illecitamente il Pd",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/toscana/video/2025/03/motivazioni-open-4f38d832-7b4a-4e1e-9b44-79a73af5ee46.html",
+            "publicationDate": "2025-03-20",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Open: procura non impugna, definitivo proscioglimento di Matteo Renzi",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/toscana/articoli/2025/04/open-procura-non-impugna-definitivo-proscioglimento-di-matteo-renzi--d82c3702-9603-4d03-ad17-618ee83a41eb.html",
+            "publicationDate": "2025-04-12",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fondazione Open, per Renzi e Carrai il proscioglimento è definitivo",
+            "publisher": "la Repubblica",
+            "url": "https://firenze.repubblica.it/cronaca/2025/04/12/news/fondazione_open_renzi_carrai_proscioglimento_definitivo-424124441/",
+            "publicationDate": "2025-04-12",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

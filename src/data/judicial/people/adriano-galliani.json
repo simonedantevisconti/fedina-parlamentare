@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "adriano-galliani",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Adriano Galliani\" Fuorigioco assolto 2023",
+      "\"Adriano Galliani\" plusvalenze prosciolto 2008",
+      "\"Adriano Galliani\" falso bilancio prescrizione Sampdoria 2008",
+      "\"Adriano Galliani\" frode fiscale Milan 2003 esito"
+    ],
+    "notes": "Quattro vicende ricostruite separatamente. Restano da accertare l’esito del processo per frode fiscale sui fondi neri, il procedimento Milan-Sampdoria e l’irrevocabilità delle decisioni riportate. Le sanzioni sportive non sono provvedimenti penali.",
+    "sourceUrls": [
+      "https://www.corriere.it/sport/calcio/serie-a/23_marzo_02/falso-uso-fatture-assolti-de-laurentis-lotito-galliani-percassi-e9a47d94-b911-11ed-b194-e55eac395b06_amp.html",
+      "https://www.corriere.it/sport/08_gennaio_31/calcio_plusvalenze_prosciolti_3fc913d6-cfe6-11dc-894a-0003ba99c667.shtml",
+      "https://www.corriere.it/Primo_Piano/Sport/2003/02_Febbraio/03/galliani.shtml",
+      "https://www.ilgiorno.it/milano/2008/04/09/79231-salta_processo_falso_bilancio.shtml"
+    ]
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "adriano-galliani-001",
+        "title": "Inchiesta Fuorigioco sulle fatture nel calcio",
+        "allegedOffence": "Falso uso di fatture per operazioni inesistenti",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Napoli",
+        "startDate": null,
+        "lastUpdate": "2023-03-02",
+        "description": "Il Tribunale di Napoli lo ha assolto in primo grado. Non è documentata in queste fonti l’irrevocabilità della sentenza.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-03-02",
+            "title": "Pronunciata assoluzione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fatture false: assolti De Laurentiis, Lotito, Galliani e altri",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/sport/calcio/serie-a/23_marzo_02/falso-uso-fatture-assolti-de-laurentis-lotito-galliani-percassi-e9a47d94-b911-11ed-b194-e55eac395b06_amp.html",
+            "publicationDate": "2023-03-02",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "adriano-galliani-002",
+        "title": "Plusvalenze Milan-Inter e bilanci 2003-2004",
+        "allegedOffence": "Falso in bilancio",
+        "offence": null,
+        "status": "dismissed",
+        "court": "GUP del Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": "2008-01-31",
+        "description": "Il GUP ha dichiarato il non luogo a procedere nei suoi confronti perché il fatto non costituisce reato. Non è verificata l’eventuale impugnazione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2008-01-31",
+            "title": "Disposto il non luogo a procedere"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Bilanci: prosciolti Milan, Inter e Galliani",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/sport/08_gennaio_31/calcio_plusvalenze_prosciolti_3fc913d6-cfe6-11dc-894a-0003ba99c667.shtml",
+            "publicationDate": "2008-01-31",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "adriano-galliani-003",
+        "title": "Caso Medusa Film",
+        "allegedOffence": "Falso in bilancio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2000-02-09",
+        "description": "La Corte d’appello ha confermato la sua assoluzione. La fonte consultata non documenta un successivo passaggio in giudicato riferito alla sua posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2000-02-09",
+            "title": "Pronunciata assoluzione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Assolto in appello Silvio Berlusconi",
+            "publisher": "il manifesto",
+            "url": "https://ilmanifesto.it/archivio/2000002036",
+            "publicationDate": "2000-02-10",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "adriano-galliani-004",
+        "title": "Fondi neri del Milan e compensi ai calciatori",
+        "allegedOffence": "Frode fiscale",
+        "offence": null,
+        "status": "charged",
+        "court": "Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": "2003-02-03",
+        "description": "Il GUP ha disposto il rinvio a giudizio per frode fiscale. Nello stesso contesto la contestazione di falso in bilancio risultava prescritta. L’esito del processo per frode fiscale non è stato ricostruito; la qualifica descrive la fase documentata, non una pendenza attuale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2003-02-03",
+            "title": "Provvedimento documentato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fondi neri del Milan, Galliani rinviato a giudizio",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/Primo_Piano/Sport/2003/02_Febbraio/03/galliani.shtml",
+            "publicationDate": "2003-02-03",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

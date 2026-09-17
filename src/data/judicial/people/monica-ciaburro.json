@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "monica-ciaburro",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Monica Ciaburro\" indagata condannata assolta archiviata"
+    ],
+    "notes": "I risultati esaminati sono istituzionali o riferiti all’attività politica. Nessuna fonte sufficiente per attribuire un procedimento personale; ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.cortedicassazione.it/resources/cms/documents/Verbale_elezione_camera_deputati_mod_89_par16_18.pdf"
+    ]
+  },
+  "record": null
+}

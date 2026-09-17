@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "andrea-casu",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Andrea Casu\" deputato indagato condannato assolto"
+    ],
+    "notes": "I risultati relativi a Delmastro e ad altri procedimenti riportano commenti o interventi di Andrea Casu. Non è emersa una fonte sufficiente per attribuirgli un procedimento personale; ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.repubblica.it/politica/2025/02/21/news/anm_caso_delmastro_governo_magistrati-424018765/"
+    ]
+  },
+  "record": null
+}

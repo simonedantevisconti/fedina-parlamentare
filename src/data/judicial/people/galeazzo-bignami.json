@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "galeazzo-bignami",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "galeazzo-bignami-001",
+        "title": "Procedimento sui rimborsi del gruppo PDL in Regione Emilia-Romagna",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Bologna",
+        "startDate": null,
+        "lastUpdate": "2019-12-10",
+        "description": "Galeazzo Bignami fu imputato nel procedimento relativo ai rimborsi dei consiglieri regionali del PDL in Emilia-Romagna. Il procedimento riguardava spese sostenute tra il 2009 e il 2011. Il 10 dicembre 2019 il Tribunale di Bologna lo ha assolto.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-07-04",
+            "title": "Rinvio a giudizio nell'ambito del procedimento sui rimborsi regionali"
+          },
+          {
+            "date": "2019-05-07",
+            "title": "La pubblica accusa chiede l'assoluzione"
+          },
+          {
+            "date": "2019-12-10",
+            "title": "Il Tribunale di Bologna pronuncia l'assoluzione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Spese pazze in Emilia Romagna, condannati quattro ex consiglieri del Pdl",
+            "publisher": "la Repubblica",
+            "url": "https://bologna.repubblica.it/cronaca/2017/07/04/news/spese_pazze_condannati_quattro_ex_consiglieri_del_pdl-169939027/",
+            "publicationDate": "2017-07-04",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fondi E-R: Pdl, chieste 10 condanne",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/emiliaromagna/notizie/2019/05/07/fondi-e-r-pdl-chieste-10-condanne",
+            "publicationDate": "2019-05-07",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fondi Pdl, 8 condanne, assolto Bignami",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/emiliaromagna/notizie/2019/12/10/fondi-pdl-8-condanne-assolto-bignami_a00aefcb-fa0c-483d-add5-390e07bc13ea.html",
+            "publicationDate": "2019-12-10",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

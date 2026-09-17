@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "tommaso-antonino-calderone",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Inchiesta ASP Messina: contestazione di corruzione relativa alla nomina del commissario. La Procura ha chiesto l'archiviazione nel gennaio 2025 e il GIP l'ha disposta nel luglio 2025."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "tommaso-antonino-calderone-001",
+        "title": "Procedimento relativo alla nomina del commissario dell'ASP di Messina",
+        "allegedOffence": "Corruzione",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Messina",
+        "startDate": null,
+        "lastUpdate": "2025-07-31",
+        "description": "Tommaso Calderone è stato indagato nell'ambito di un'inchiesta sui presunti scambi di favori all'Azienda sanitaria provinciale di Messina. La contestazione riferita dalle fonti riguardava l'ipotesi di corruzione connessa alla nomina del commissario dell'ASP. Nel gennaio 2025 la Procura di Messina ha chiesto l'archiviazione. Nel luglio 2025 il GIP ha accolto la richiesta e disposto l'archiviazione della posizione di Calderone.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2025-07-31",
+        "timeline": [
+          {
+            "date": "2024-07-01",
+            "title": "Le fonti riferiscono la posizione di Calderone tra gli indagati nell'inchiesta ASP"
+          },
+          {
+            "date": "2025-01-09",
+            "title": "La Procura di Messina chiede l'archiviazione"
+          },
+          {
+            "date": "2025-07-31",
+            "title": "Il GIP di Messina dispone l'archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "L'ex assessore Razza indagato nell'inchiesta che ha travolto l'Asp di Messina",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/sicilia/articoli/2024/07/lex-assessore-razza-indagato-nellinchiesta-che-ha-travolto-lasp-di-messina-7f69fb0a-ca14-40dc-81a1-941196db26ac.html",
+            "publicationDate": "2024-07-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Inchiesta Asp Messina, chiesta l'archiviazione per quattro",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sicilia/notizie/2025/01/09/inchiesta-asp-messina-chiesta-larchiviazione-per-quattro_bce48146-43cf-4a11-9fd8-732b4d737626.html",
+            "publicationDate": "2025-01-09",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Inchiesta su Asp, archiviazione per ex assessore e deputato",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sicilia/notizie/2025/07/31/inchiesta-su-asp-archiviazione-per-ex-assessore-e-deputato_b6397247-be80-4e03-ad38-e90cfe8d6545.html",
+            "publicationDate": "2025-07-31",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

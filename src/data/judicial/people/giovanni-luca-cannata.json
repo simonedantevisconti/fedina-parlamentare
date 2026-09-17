@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "giovanni-luca-cannata",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Giovanni Luca Cannata\" indagato assolto archiviato",
+      "\"Luca Cannata\" \"indagato\" \"archiviata\""
+    ],
+    "notes": "La notizia sull’assoluzione di Antonino Amato riguarda un altro imputato e Cannata come persona offesa. Nessuna attribuzione personale supportata dalla ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.avolanews.it/avola-tentata-violenza-privata-assolto-lex-consigliere-antonino-amato/"
+    ]
+  },
+  "record": null
+}

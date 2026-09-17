@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "id": "piero-fassino",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "result": "public-proceeding-found",
+    "queries": [
+      "\"Piero Fassino\" Salone libro assolto definitiva appello",
+      "\"Piero Fassino\" profumo archiviazione 2024 gip"
+    ],
+    "notes": "Due procedimenti distinti: assoluzione in primo grado per il Salone del Libro il 21 marzo 2024, senza verifica dell’irrevocabilità; archiviazione del caso del profumo nell’ottobre 2024 dopo la condotta riparatoria. La vicenda delle intercettazioni telefoniche vede Fassino come persona offesa.",
+    "lastCheckedAt": "2026-09-17",
+    "readyForClean": false
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "piero-fassino-001",
+        "title": "Procedimento sulla gestione del Salone del Libro di Torino",
+        "allegedOffence": "Turbativa d’asta",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Torino",
+        "startDate": null,
+        "lastUpdate": "2024-03-21",
+        "description": "Fassino, rinviato a giudizio nel 2020 per la gestione del Salone del Libro, è stato assolto dal Tribunale di Torino il 21 marzo 2024. Le fonti consultate descrivono un’assoluzione in primo grado e non documentano l’eventuale irrevocabilità.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2020-10-02",
+            "title": "Rinvio a giudizio"
+          },
+          {
+            "date": "2024-03-21",
+            "title": "Assoluzione in primo grado"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Salone del libro, rinviato a giudizio Piero Fassino",
+            "publisher": "la Repubblica",
+            "url": "https://torino.repubblica.it/cronaca/2020/10/02/news/salone_del_libro_rinviato_a_giudizio_l_ex_sindaco_di_torino_piero_fassino-269199717/",
+            "publicationDate": "2020-10-02",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Processo Salone del Libro, assolto Piero Fassino",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/piemonte/articoli/2024/03/processo-salone-del-libro-assolto-piero-fassino--9c5eabdd-0ad7-48d0-8db7-475c6f2ae926.html",
+            "publicationDate": "2024-03-21",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "piero-fassino-002",
+        "title": "Denuncia per tentato furto al duty free di Fiumicino",
+        "allegedOffence": "Tentato furto",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Civitavecchia",
+        "startDate": "2024-04-15",
+        "lastUpdate": "2024-10-11",
+        "description": "Dopo la denuncia relativa a un profumo al duty free di Fiumicino, il GIP di Civitavecchia ha accolto nell’ottobre 2024 l’istanza della difesa fondata sulla condotta riparatoria, con pagamento di 500 euro, e il procedimento è stato archiviato. L’archiviazione non costituisce una condanna.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2024-04-15",
+            "title": "Episodio oggetto della denuncia"
+          },
+          {
+            "date": "2024-10-11",
+            "title": "Rai News riferisce l’archiviazione dopo condotta riparatoria"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fassino e il profumo. Caso archiviato dopo il risarcimento",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/piemonte/articoli/2024/10/fassino-e-il-profumo-caso-archiviato-dopo-il-risarcimento-b4300afa-5545-438c-9a8e-c63b17d9a9b6.html",
+            "publicationDate": "2024-10-11",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

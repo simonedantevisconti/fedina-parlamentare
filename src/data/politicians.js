@@ -1,16 +1,17 @@
-import deputies from "./deputies";
-import senators from "./senators";
+import deputies from "./deputies.js";
+import senators from "./senators.js";
 
-import judicialRecords from "./judicialRecords";
+import judicialIndex from "./judicial/generated/index.json" with { type: "json" };
+import judicialReviewLog from "./judicialReviewLog.js";
 
-import { buildJudicialSummary } from "./judicialSummary";
+import { buildJudicialSummary } from "./judicialSummary.js";
 
 const institutionalPoliticians = [...deputies, ...senators];
 
 const politicians = institutionalPoliticians.map((politician) => {
-  const judicialRecord = judicialRecords[politician.id];
+  const judicialRecord = judicialIndex[politician.id];
 
-  const mergedPolitician = judicialRecord
+  const mergedPolitician = judicialRecord?.judicialStatus
     ? {
         ...politician,
 
@@ -18,7 +19,6 @@ const politicians = institutionalPoliticians.map((politician) => {
 
         judicialVerification: judicialRecord.judicialVerification,
 
-        proceedings: judicialRecord.proceedings ?? [],
       }
     : politician;
 
@@ -27,13 +27,14 @@ const politicians = institutionalPoliticians.map((politician) => {
 
     judicialVerification: mergedPolitician.judicialVerification,
 
-    proceedings: mergedPolitician.proceedings,
+    proceedings: (judicialRecord?.proceedingStatuses ?? []).map((status) => ({ status })),
   });
 
   return {
     ...mergedPolitician,
 
     judicialSummary,
+    judicialReview: judicialReviewLog[politician.id],
 
     /*
      * È lo stato sintetico usato dalle card

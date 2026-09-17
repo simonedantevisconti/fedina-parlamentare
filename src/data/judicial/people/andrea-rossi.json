@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "andrea-rossi",
+  "review": {
+    "stage": "not-started",
+    "lastCheckedAt": null,
+    "result": null,
+    "readyForClean": false
+  },
+  "record": null
+}

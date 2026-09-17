@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "alfredo-antoniozzi",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceedings-requiring-outcome-verification",
+    "readyForClean": false,
+    "notes": "Riferimenti personali a due indagini storiche: delibera Hobby Flora (2015) e Palazzo Raggi (2016). Per Palazzo Raggi è stata trovata la successiva richiesta di archiviazione, non il decreto. Le notizie su Tancredi Antoniozzi riguardano il figlio. Le vicende contabili restano fuori dal censimento penale.",
+    "queries": [
+      "\"Alfredo Antoniozzi\" (indagato OR condannato OR assolto OR processo OR archiviato)",
+      "\"Alfredo Antoniozzi\" \"indagato\"",
+      "\"Antoniozzi\" \"Hobby Flora\" assolti archiviata",
+      "\"Antoniozzi\" \"Palazzo Raggi\" assolti"
+    ],
+    "sourceUrls": [
+      "https://roma.corriere.it/notizie/cronaca/15_ottobre_26/pilotarono-delibera-2010-indagati-pomarici-antoniozzi-90e1e480-7c15-11e5-9069-1cf5f2fd4ce8.shtml",
+      "https://roma.corriere.it/notizie/cronaca/16_novembre_30/roma-inchiesta-procura-falso-condono-palazzo-raggi-dirigente-comune-giudizio-5e9bdf86-b728-11e6-aa72-c3459305a7ca.shtml"
+    ]
+  },
+  "record": null
+}

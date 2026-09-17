@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "enrico-cappelletti",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Enrico Cappelletti\" senatore indagato condannato assolto"
+    ],
+    "notes": "Le corrispondenze trovate riguardano procedimenti di altre persone citati nei suoi interventi parlamentari. La scheda istituzionale identifica il deputato nato nel 1968 a Padova. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.senato.it/legislature/17/composizione/senatori/elenco-alfabetico/scheda-attivita?did=00029061"
+    ]
+  },
+  "record": null
+}

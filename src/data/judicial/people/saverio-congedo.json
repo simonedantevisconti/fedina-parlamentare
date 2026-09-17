@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "saverio-congedo",
+  "review": {
+    "stage": "preliminary",
+    "result": "no-supported-personal-proceeding-found",
+    "queries": [
+      "\"Saverio Congedo\" deputato indagato condannato assolto"
+    ],
+    "notes": "Le corrispondenze esaminate riguardano dichiarazioni del deputato e audizioni della Commissione antimafia su indagini altrui; nessun procedimento personale documentato. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1058?anno=2024&file=indice_stenografico&giorno=17&idCommissione=24&idLegislatura=19&mese=07&numero=0055&sottotipologia=audizione&tipologia=audiz2"
+    ],
+    "lastCheckedAt": "2026-09-17",
+    "readyForClean": false
+  },
+  "record": null
+}

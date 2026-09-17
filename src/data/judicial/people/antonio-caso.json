@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "antonio-caso",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Antonio Caso\" deputato indagato condannato assolto"
+    ],
+    "notes": "Le corrispondenze reperite riguardano interventi parlamentari e procedimenti di altre persone. Nessun procedimento penale personale documentato; ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.antoniocaso.it/"
+    ]
+  },
+  "record": null
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "laura-cavandoli",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Laura Cavandoli\" indagata condannata assolta archiviata"
+    ],
+    "notes": "Le notizie sulla vicenda Bibbiano e le discussioni parlamentari sulla giustizia mostrano il suo ruolo istituzionale, senza documentare un procedimento penale personale. Ricerca preliminare.",
+    "sourceUrls": [
+      "https://documenti.camera.it/leg18/resoconti/commissioni/stenografici/xhtml/78/audiz2/audizione/2022/02/22/resoconto.0020.html"
+    ]
+  },
+  "record": null
+}

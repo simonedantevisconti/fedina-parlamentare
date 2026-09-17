@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "enrica-alifano",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-16",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano prevalentemente attività parlamentare e interventi in materia giudiziaria riferiti ad altri soggetti. Da sottoporre a deep review prima di un eventuale stato clean."
+  },
+  "record": null
+}

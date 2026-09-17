@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "daniela-garnero-santanche",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-16",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Tre filoni principali verificati: processo Visibilia per false comunicazioni sociali; procedimento sulla presunta truffa INPS condizionato dal conflitto di attribuzione davanti alla Corte costituzionale; indagine Ki Group/Bioera chiusa nel luglio 2026 in vista delle determinazioni della Procura."
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "daniela-garnero-santanche-001",
+        "title": "Procedimento Visibilia per false comunicazioni sociali",
+        "allegedOffence": "False comunicazioni sociali",
+        "offence": null,
+        "status": "trial",
+        "court": "Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": "2026-03-05",
+        "description": "Daniela Santanchè è imputata nel procedimento relativo ai bilanci di Visibilia. Il 17 gennaio 2025 il GUP di Milano ha disposto il rinvio a giudizio per false comunicazioni sociali. Il dibattimento è successivamente proseguito davanti alla seconda sezione penale del Tribunale di Milano ed era ancora in corso nel 2026. Il procedimento è pendente e non costituisce accertamento di responsabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2025-01-17",
+            "title": "Rinvio a giudizio nel procedimento Visibilia"
+          },
+          {
+            "date": "2025-04-15",
+            "title": "Il Tribunale chiede alla Procura di riformulare parte dei capi di imputazione"
+          },
+          {
+            "date": "2025-10-21",
+            "title": "Il dibattimento prosegue con l'ammissione delle prove"
+          },
+          {
+            "date": "2026-03-05",
+            "title": "Prosegue l'istruttoria dibattimentale con l'audizione dei testimoni"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Santanchè a processo a Milano per falso in bilancio",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2025/01/17/santanche-a-processo-a-milano-per-falso-in-bilancio_0ccb1b23-2f77-4864-b913-7fe6fe4b427f.html",
+            "publicationDate": "2025-01-17",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Processo Santanchè, da riscrivere i capi di imputazione",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2025/04/15/processo-santanche-da-riscrivere-i-capi-di-imputazione-_f4b9ba76-893a-49a9-8f0a-9d9efc6599bd.html",
+            "publicationDate": "2025-04-15",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Teste su Visibilia, 'Santanchè dominus di un bilancio pieno di pasticci'",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/03/05/teste-su-visibilia-santanche-dominus-di-un-bilancio-pieno-di-pasticci_ddb1713f-6ccd-425d-a16e-0ffb41d72ce5.html",
+            "publicationDate": "2026-03-05",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "daniela-garnero-santanche-002",
+        "title": "Procedimento relativo alla presunta truffa aggravata ai danni dell'INPS",
+        "allegedOffence": "Truffa aggravata ai danni dell'INPS",
+        "offence": null,
+        "status": "charged",
+        "court": "Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": "2026-06-03",
+        "description": "Daniela Santanchè è imputata in un procedimento relativo alla presunta indebita percezione della cassa integrazione nel periodo Covid da parte di società del gruppo Visibilia. L'udienza preliminare è stata sospesa o rinviata in attesa della definizione di un conflitto di attribuzione promosso dal Senato sull'utilizzabilità di contenuti di posta elettronica e registrazioni presenti nel fascicolo. Nel giugno 2026 la Corte costituzionale ha dichiarato ammissibile il ricorso del Senato. Il procedimento resta pendente e non costituisce accertamento di responsabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-02-19",
+            "title": "Il procedimento resta sospeso in attesa della decisione della Corte costituzionale"
+          },
+          {
+            "date": "2026-06-03",
+            "title": "La Corte costituzionale dichiara ammissibile il conflitto di attribuzione promosso dal Senato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Udienza Santanchè per truffa verso lungo rinvio, c'è ricorso a Consulta",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/02/19/udienza-santanche-per-truffa-verso-lungo-rinvio-ce-ricorso-a-consulta_9ea9b50a-23ca-4b06-b0f6-a002e7316826.html",
+            "publicationDate": "2026-02-19",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Caso Santanchè, Consulta dichiara ammissibile il ricorso del Senato",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2026/06/03/caso-santanche-consulta-dichiara-ammissibile-il-ricorso-del-senato_779ccabe-90f1-44f3-a406-4d164a94a2f1.html",
+            "publicationDate": "2026-06-03",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "daniela-garnero-santanche-003",
+        "title": "Indagine sui fallimenti di Ki Group, Ki Group Holding, Bioera e Umbria",
+        "allegedOffence": "Bancarotta, falso in bilancio e truffa aggravata ai danni dello Stato",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Milano",
+        "startDate": null,
+        "lastUpdate": "2026-07-15",
+        "description": "Nel luglio 2026 la Procura di Milano ha notificato a Daniela Santanchè e ad altri soggetti l'avviso di conclusione delle indagini in un procedimento relativo ai fallimenti di Ki Group, Ki Group Holding, Bioera e Umbria srl. Le ipotesi contestate, a vario titolo, comprendono bancarotta, falso in bilancio e truffa aggravata ai danni dello Stato. La chiusura delle indagini precede un'eventuale richiesta di rinvio a giudizio e non costituisce accertamento di responsabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-06-10",
+            "title": "Le fonti riferiscono che l'inchiesta sui fallimenti è prossima alla chiusura"
+          },
+          {
+            "date": "2026-07-15",
+            "title": "La Procura notifica l'avviso di conclusione delle indagini"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Altra relazione ai pm, si avvicina chiusura inchiesta Santanchè per bancarotta",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2026/06/10/altra-relazione-ai-pm-si-avvicina-chiusura-inchiesta-santanche-per-bancarotta_809f8ce7-c1b4-4c25-ba14-de25ff89988a.html",
+            "publicationDate": "2026-06-10",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Chiusa altra inchiesta su Santanchè, 'bancarotta e truffa allo Stato'",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/topnews/2026/07/15/chiusa-altra-inchiesta-su-santanche-bancarotta-e-truffa-allo-stato_edbef8c8-a496-49d4-b386-89c5b6b7a969.html",
+            "publicationDate": "2026-07-15",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

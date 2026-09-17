@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "giorgio-maria-bergesio",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica approfondita effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Giorgio Maria Bergesio. Sono emersi procedimenti nei quali Bergesio compare come persona destinataria di minacce o come soggetto che interviene pubblicamente su vicende giudiziarie altrui; tali risultati non costituiscono procedimenti a suo carico."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

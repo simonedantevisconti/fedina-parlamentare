@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "alessandro-alfieri",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento relativo ai rimborsi dei gruppi consiliari della Regione Lombardia. Alfieri risultò coinvolto nel 2013 nell'inchiesta per peculato. La Procura di Milano chiese l'archiviazione nel dicembre 2013 e il GIP del Tribunale di Milano la dispose il 13 marzo 2014."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "alessandro-alfieri-001",
+        "title": "Procedimento sui rimborsi dei gruppi consiliari della Regione Lombardia",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Milano",
+        "startDate": "2013-01-30",
+        "lastUpdate": "2014-03-13",
+        "description": "Alessandro Alfieri, all'epoca consigliere regionale della Lombardia, risultò coinvolto nell'inchiesta della Procura di Milano sui rimborsi dei gruppi consiliari regionali, nell'ambito della quale veniva contestato il reato di peculato. Nel dicembre 2013 la Procura chiese l'archiviazione della sua posizione. Il 13 marzo 2014 il GIP del Tribunale di Milano dispose l'archiviazione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2014-03-13",
+        "timeline": [
+          {
+            "date": "2013-01-30",
+            "title": "Alfieri risulta tra i consiglieri coinvolti nell'inchiesta sui rimborsi regionali"
+          },
+          {
+            "date": "2013-12-16",
+            "title": "La Procura di Milano chiede l'archiviazione"
+          },
+          {
+            "date": "2014-03-13",
+            "title": "Il GIP dispone l'archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Le spese del Pirellone, indagato Spreafico",
+            "publisher": "La Provincia",
+            "url": "https://www.laprovinciaunicatv.it/stories/homepage/le-spese-del-pirelloneindagato-spreafico-o_347583_11/",
+            "publicationDate": "2013-01-30",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rimborsi, Renzo Bossi e Nicole Minetti",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/cronaca/2013/12/16/news/rimborsi-renzo-bossi-e-nicole-minetti-1.35946954/",
+            "publicationDate": "2013-12-16",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rimborsi, archiviazione per Civati e altri 32 ex consiglieri regionali",
+            "publisher": "Corriere della Sera",
+            "url": "https://milano.corriere.it/notizie/cronaca/14_marzo_13/rimborsi-archiviazione-civati-altri-32-ex-consiglieri-regionali-95de9b6e-aaba-11e3-a415-108350ae7b5e.shtml",
+            "publicationDate": "2014-03-13",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

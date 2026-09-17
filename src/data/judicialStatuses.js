@@ -115,6 +115,14 @@ const judicialStatuses = {
     color: "#667085",
     final: false,
   },
+  "parliamentary-immunity": {
+    id: "parliamentary-immunity",
+    label: "Insindacabilità parlamentare deliberata",
+    shortLabel: "Insindacabilità deliberata",
+    category: "procedural",
+    color: "#71819b",
+    final: false,
+  },
 };
 
 export const getJudicialStatus = (status) => {

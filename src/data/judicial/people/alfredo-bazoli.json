@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "alfredo-bazoli",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica approfondita effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Alfredo Bazoli. Attenzione a non confonderlo con Giovanni Bazoli, coinvolto in cronache giudiziarie relative a UBI Banca. Alfredo Bazoli compare inoltre in documentazione giudiziaria relativa alla strage di Piazza della Loggia in qualità di parte civile, non di imputato."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

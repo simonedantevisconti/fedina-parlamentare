@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "fabrizio-cecchetti",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento Rimborsopoli Lombardia. Condanne nei gradi di merito, poi annullamento senza rinvio in Cassazione per prescrizione nel novembre 2022."
+  },
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "fabrizio-cecchetti-001",
+        "title": "Procedimento sui rimborsi del Consiglio regionale della Lombardia",
+        "allegedOffence": "Peculato, successivamente riqualificato in indebita percezione di erogazioni pubbliche",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2022-11-17",
+        "description": "Fabrizio Cecchetti è stato imputato nel procedimento relativo ai rimborsi ottenuti da consiglieri regionali lombardi per spese sostenute durante il mandato al Pirellone. Nel 2019 fu condannato in primo grado nell'ambito del processo per peculato; la condanna venne successivamente confermata nel giudizio di appello. Nel novembre 2022 la Corte di Cassazione ha annullato senza rinvio la condanna nei suoi confronti per intervenuta prescrizione, dopo la riqualificazione di parte delle contestazioni. La prescrizione non equivale a un'assoluzione nel merito.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2022-11-17",
+        "timeline": [
+          {
+            "date": "2019-01-22",
+            "title": "Condanna in primo grado nell'ambito del processo sui rimborsi regionali"
+          },
+          {
+            "date": "2021-07-01",
+            "title": "Il giudizio di appello conferma la condanna"
+          },
+          {
+            "date": "2022-11-17",
+            "title": "La Cassazione annulla senza rinvio la condanna per prescrizione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Pirellone, rimborsi gonfiati: 20 mesi al capo dei senatori leghisti",
+            "publisher": "Corriere della Sera",
+            "url": "https://milano.corriere.it/19_gennaio_19/pirellone-rimborsi-gonfiati-20-mesi-capo-senatori-leghisti-1aee0afe-1bb5-11e9-8b25-c65404620788_amp.html",
+            "publicationDate": "2019-01-22",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fondi Lombardia, la Cassazione azzera condanne per prescrizione",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2022/11/17/fondi-lombardia-la-cassazione-azzera-condanne-per-prescrizione_39f1bc0a-f307-4d31-9263-1eb6d693c173.html",
+            "publicationDate": "2022-11-17",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rimborsopoli al Pirellone, la prescrizione salva quasi tutti gli imputati",
+            "publisher": "Corriere della Sera",
+            "url": "https://milano.corriere.it/notizie/cronaca/22_novembre_18/rimborsopoli-al-pirellone-la-prescrizione-salva-quasi-tutti-gli-imputati-82fd10dc-cb14-4d7d-b989-791ed3219xlk.shtml",
+            "publicationDate": "2022-11-18",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

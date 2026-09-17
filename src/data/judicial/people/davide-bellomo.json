@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "davide-bellomo",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "La notizia del 4 aprile 2024 specifica che Bellomo non è indagato nell’inchiesta barese citata. Nei risultati compaiono omonimie e incarichi difensivi. Un ruolo d’udienza del Tribunale di Bari è emerso nella ricerca, ma il PDF non è stato renderizzabile: la sola anteprima non viene interpretata come prova di un’imputazione personale.",
+    "queries": [
+      "\"Davide Bellomo\" (indagato OR condannato OR assolto OR processo OR archiviato)",
+      "\"Davide Bellomo\" indagato rimborsi Puglia",
+      "\"Davide Bellomo\" (imputato OR rinviato OR archiviato OR patteggiamento)"
+    ],
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/2024/04/04/deputato-leghista-e-contatti-con-amico-arrestato-indagine-di-bari-mi-chiamo-per-essere-assistito-ero-consigliere-rinunciai/7501738/"
+    ]
+  },
+  "record": null
+}

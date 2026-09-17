@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "stefania-gabriella-anastasia-craxi",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Verifica definitiva completata. Stefania Craxi fu sottoposta a procedimento penale per ingiuria a seguito di querela di Francesco Rutelli e fonti giornalistiche successive documentano una condanna confermata fino all'ultimo grado. La fattispecie di ingiuria è stata successivamente depenalizzata nel 2016. Una successiva controversia relativa a dichiarazioni del 2008 risulta invece di natura civile e non viene registrata come ulteriore procedimento penale."
+  },
+  "record": {
+    "judicialStatus": "convicted-final",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "stefania-gabriella-anastasia-craxi-001",
+        "title": "Procedimento per ingiuria nei confronti di Francesco Rutelli",
+        "allegedOffence": "Ingiuria",
+        "offence": "Ingiuria",
+        "status": "convicted-final",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Stefania Craxi fu querelata da Francesco Rutelli dopo avergli rivolto un insulto durante un incontro in un ristorante. La vicenda diede luogo a un procedimento penale per ingiuria e si concluse con una condanna che fonti giornalistiche successive indicano come confermata fino all'ultimo grado di giudizio. L'ingiuria è stata successivamente depenalizzata nel 2016. La successiva abolizione della fattispecie penale deve essere distinta dal fatto storico che la condanna definitiva era stata pronunciata quando l'ingiuria costituiva reato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": null,
+            "title": "Condanna definitiva nel procedimento per ingiuria promosso da Francesco Rutelli"
+          },
+          {
+            "date": "2016-01-15",
+            "title": "L'ingiuria viene depenalizzata nell'ordinamento italiano"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rutelli fa causa a Stefania Craxi",
+            "publisher": "Il Tirreno",
+            "url": "https://www.iltirreno.it/grosseto/cronaca/2010/10/16/news/rutelli-fa-causa-a-stefania-craxi-1.2118515",
+            "publicationDate": "2010-10-16",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "La legalizzazione del vaffa",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/cronaca/2007/07/18/news/la-legalizzazione-del-vaffa-1.37125873/",
+            "publicationDate": "2007-07-18",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Ingiuria depenalizzata, festa di Sgarbi",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/politica/16_gennaio_16/ingiuria-depenalizzata-festa-sgarbi-gli-ospiti-compare-berlusconi-2c9251d4-bc22-11e5-b206-2a6e9b3d9bfb.shtml",
+            "publicationDate": "2016-01-16",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

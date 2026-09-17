@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "michela-vittoria-brambilla",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Tre filoni distinti: patteggiamento nel 2019 per Trafilerie del Lario; proscioglimento riferito da ANSA nel 2025 per una contestazione di evasione IVA a Lecco (formula e definitività da verificare); nuova indagine milanese sulle fatture del programma televisivo, documentata nel maggio 2026 senza esito successivo reperito.",
+    "queries": [
+      "\"Michela Vittoria Brambilla\" patteggiamento 2019 Trafilerie Lario",
+      "\"Brambilla\" indagata \"2026\" Milano archiviata",
+      "\"Michela Vittoria Brambilla\" \"evasione Iva\" prosciolta 2025",
+      "\"Michela Vittoria Brambilla\" fatture 2026 rinvio giudizio settembre"
+    ]
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "michela-vittoria-brambilla-002",
+        "title": "Fallimento delle Trafilerie del Lario",
+        "allegedOffence": "Bancarotta fraudolenta",
+        "offence": null,
+        "status": "plea-bargain",
+        "court": "Tribunale di Lecco",
+        "startDate": null,
+        "lastUpdate": "2019-07-16",
+        "description": "Il 16 luglio 2019 Michela Vittoria Brambilla ha patteggiato davanti al GUP di Lecco un anno e quattro mesi, con sospensione condizionale della pena, nel procedimento sul fallimento delle Trafilerie del Lario. Le fonti consultate documentano il patteggiamento, senza indicare la data della sua irrevocabilità.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2019-07-16",
+            "title": "Patteggiamento a un anno e quattro mesi, pena sospesa"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Trafilerie del Lario: per il crac da 55 milioni in 4 patteggiano",
+            "publisher": "Leccoonline",
+            "url": "https://www.leccoonline.com/notizie/45956/trafilerie-del-lario-per-il-crac-da-55-milioni-in-4-patteggiano-un-anno-e-4-mesi-per-l-ex-ministro-michela-vittoria-brambilla",
+            "publicationDate": "2019-07-16",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fallimento Trafilerie Lario, la deputata azzurra Michela Vittoria Brambilla patteggia pena di un anno e quattro mesi",
+            "publisher": "la Repubblica",
+            "url": "https://milano.repubblica.it/cronaca/2019/07/16/news/michela_vittoria_brambilla_fallimento_trafilerie_lario_patteggia_pena-231350446/",
+            "publicationDate": "2019-07-16",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "michela-vittoria-brambilla-001",
+        "title": "Indagine sulle sponsorizzazioni del programma Dalla parte degli animali",
+        "allegedOffence": "Emissione di fatture per operazioni inesistenti e profili fiscali contestati nell'indagine",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Milano",
+        "startDate": null,
+        "lastUpdate": "2026-05-29",
+        "description": "Michela Vittoria Brambilla risulta indagata dalla Procura di Milano nell'ambito di un'inchiesta relativa alle sponsorizzazioni e alla produzione del programma televisivo 'Dalla parte degli animali'. Secondo le fonti consultate, l'indagine riguarda presunte false fatturazioni e aspetti fiscali collegati ai flussi economici tra l'Enci, società di produzione e la parlamentare. Il procedimento risulta in fase di indagine e non costituisce accertamento di responsabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-05-28",
+            "title": "Emergono pubblicamente le indagini della Procura di Milano"
+          },
+          {
+            "date": "2026-05-29",
+            "title": "ANSA riferisce ulteriori elementi investigativi e la posizione della difesa"
+          }
+        ],
+        "sources": [
+          {
+            "name": "'Fatture false per 1,5 milioni', indagata la deputata Brambilla",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/05/28/la-deputata-brambilla-indagata-a-milano-per-false-fatturazioni_aaee2890-ff93-4425-97fd-0243721d32f7.html",
+            "publicationDate": "2026-05-28",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Teste in inchiesta su Brambilla, 'sponsor pagava 8.500 euro per un minuto'",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2026/05/29/teste-in-inchiesta-su-brambilla-sponsor-pagava-8.500-euro-per-un-minuto_c5e38df1-f8f4-4a3a-940d-84a030da7e98.html",
+            "publicationDate": "2026-05-29",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "michela-vittoria-brambilla-003",
+        "title": "Procedimento a Lecco per una contestazione di evasione IVA",
+        "allegedOffence": "Evasione IVA",
+        "offence": null,
+        "status": "dismissed",
+        "court": "Tribunale di Lecco",
+        "startDate": null,
+        "lastUpdate": "2026-05-28",
+        "description": "ANSA, nel riferire il 28 maggio 2026 la nuova indagine milanese, precisa che Brambilla era stata prosciolta circa un anno prima dal Tribunale di Lecco da una contestazione di evasione IVA. La fonte non indica la data esatta, la formula del provvedimento né se questo sia irrevocabile. Questo è un procedimento distinto dalla vicenda Trafilerie del Lario e dalla nuova inchiesta milanese.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-05-28",
+            "title": "ANSA riferisce un proscioglimento del 2025"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fatture false per 1,5 milioni, indagata la deputata Brambilla",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/05/28/la-deputata-brambilla-indagata-a-milano-per-false-fatturazioni_aaee2890-ff93-4425-97fd-0243721d32f7.html",
+            "publicationDate": "2026-05-28",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

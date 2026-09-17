@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "maria-paola-boscaini",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Maria Paola Boscaini\" indagata condannata assolta processo",
+      "\"Maria Paola Boscaini\" indagini processo penale"
+    ],
+    "notes": "Risultati relativi soprattutto all’attività parlamentare; nessuna fonte sufficiente per attribuire un procedimento personale. Ricerca preliminare.",
+    "sourceUrls": []
+  },
+  "record": null
+}

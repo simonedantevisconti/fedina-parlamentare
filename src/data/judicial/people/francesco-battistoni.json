@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "francesco-battistoni",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "notes": "Documentata dalla stampa un’indagine per peculato del 2013. Tusciaweb del 5 dicembre 2013 riferisce l’uscita dall’inchiesta, motivandola con l’assenza del nome nell’avviso di conclusione delle indagini. Un comunicato successivo parla di proscioglimento: manca il riscontro del provvedimento esatto. Non classificare il procedimento come tuttora pendente.",
+    "queries": [
+      "\"Francesco Battistoni\" indagato peculato archiviazione",
+      "\"Francesco Battistoni\" \"assolto\" peculato",
+      "\"Battistoni\" \"peculato\" \"archiviazione\"",
+      "\"Battistoni\" prosciolto dicembre 2013 spese pazze"
+    ],
+    "sourceUrls": [
+      "https://roma.repubblica.it/cronaca/2013/06/04/news/fondi_del_pdl_le_spese_di_battistoni_le_cene_al_pepe_nero_erano_elettorali-60299410/",
+      "https://www.tusciaweb.eu/2013/12/gli-amici-che-volevano-farmi-fuori-sono-serviti/"
+    ]
+  },
+  "record": null
+}

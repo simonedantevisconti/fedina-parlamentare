@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "antonio-angelucci",
+  "review": {
+    "stage": "legacy-record",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "antonio-angelucci-001",
+        "title": "Procedimento sulla presunta truffa al sistema sanitario del Lazio",
+        "allegedOffence": "Associazione per delinquere finalizzata alla truffa",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2019-09-24",
+        "description": "Antonio Angelucci è stato processato in relazione a una presunta truffa ai danni del sistema sanitario del Lazio. Il 24 settembre 2019 il Tribunale di Roma lo ha assolto perché il fatto non sussiste.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2019-09-24",
+        "timeline": [
+          {
+            "date": "2019-09-24",
+            "title": "Assoluzione perché il fatto non sussiste"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Sanità: truffa a Ssl, assolto Angelucci",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lazio/notizie/2019/09/24/sanita-truffa-a-ssl-assolto-angelucci_22ec7274-3b38-4b09-ac2e-2876e0c4b79c.html",
+            "publicationDate": "2019-09-24",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Truffa a sistema sanitario, assolto Angelucci e altri 13",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/archivio-rainews/articoli/ContentItem-4ee867ee-236e-4e84-a466-20aea139b9e0.html",
+            "publicationDate": "2019-09-24",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "antonio-angelucci-002",
+        "title": "Indagine per istigazione alla corruzione",
+        "allegedOffence": "Istigazione alla corruzione",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2024-11-05",
+        "description": "Antonio Angelucci era stato indagato a seguito di una denuncia dell'ex assessore regionale Alessio D'Amato. Nel novembre 2024 il gip di Roma ha archiviato il procedimento, accogliendo la richiesta della procura.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2024-11-05",
+        "timeline": [
+          {
+            "date": "2024-06-18",
+            "title": "La procura chiede l'archiviazione"
+          },
+          {
+            "date": "2024-11-05",
+            "title": "Il gip dispone l'archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Il gip di Roma archivia il procedimento su Angelucci",
+            "publisher": "la Repubblica",
+            "url": "https://roma.repubblica.it/cronaca/2024/11/05/news/gip_roma_archivia_procedimento_angelucci_cade_accusa_istigazione_corruzione-423599373/",
+            "publicationDate": "2024-11-05",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

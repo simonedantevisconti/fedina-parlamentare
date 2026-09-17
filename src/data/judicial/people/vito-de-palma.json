@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "vito-de-palma",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Inchiesta sulle presunte irregolarità nello scrutinio delle Politiche 2022 a Taranto. Avviso di conclusione indagini nel novembre 2025; richiesta di rinvio a giudizio nel maggio 2026. Udienza preliminare fissata per il 21 ottobre 2026."
+  },
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "vito-de-palma-001",
+        "title": "Procedimento relativo alle operazioni di scrutinio delle elezioni politiche del 2022 a Taranto",
+        "allegedOffence": "Falso ideologico, alterazione del voto, induzione in errore di pubblici ufficiali e violazioni della normativa elettorale",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica / Tribunale di Taranto",
+        "startDate": null,
+        "lastUpdate": "2026-05-30",
+        "description": "Vito De Palma risulta coinvolto in un procedimento relativo a presunte irregolarità nelle operazioni di scrutinio delle elezioni politiche del 25 settembre 2022 presso il seggio 54 di Taranto. Nel novembre 2025 la Procura di Taranto ha notificato l'avviso di conclusione delle indagini. Secondo l'impostazione accusatoria riportata dalle fonti, sarebbero stati alterati dati dello scrutinio relativi ai voti attribuiti a Forza Italia e Fratelli d'Italia. Nel maggio 2026 la Procura ha chiesto il rinvio a giudizio di De Palma e di altri soggetti. L'udienza preliminare è stata fissata per il 21 ottobre 2026. Il procedimento è ancora pendente e non costituisce accertamento di responsabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2025-11-18",
+            "title": "Notificato l'avviso di conclusione delle indagini"
+          },
+          {
+            "date": "2026-05-30",
+            "title": "La Procura chiede il rinvio a giudizio"
+          },
+          {
+            "date": "2026-10-21",
+            "title": "Udienza preliminare fissata davanti al GUP del Tribunale di Taranto"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inchiesta su elezioni politiche 2022 a Taranto, 7 indagati",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/puglia/articoli/2025/11/inchiesta-su-elezioni-politiche-2022-a-taranto-7-indagati-b284d38e-0273-437a-8470-56e70546145c.html",
+            "publicationDate": "2025-11-18",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Inchiesta su elezioni politiche 2022 a Taranto, 7 indagati",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/amp/puglia/notizie/2025/11/18/inchiesta-su-elezioni-politiche-2022-a-taranto-7-indagati_7c0fa58b-0fe3-4a44-8177-5b5170e9b076.html",
+            "publicationDate": "2025-11-18",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Brogli elettorali a Taranto: udienza preliminare il 21 ottobre per presunte irregolarità al seggio 54",
+            "publisher": "Il Tarantino",
+            "url": "https://www.iltarantino.it/cronaca/2026/06/02/brogli-elettorali-a-taranto-udienza-preliminare-il-21-ottobre-per-presunti-irregolarita-al-seggio-54/",
+            "publicationDate": "2026-06-02",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "augusta-montaruli",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento sui rimborsi del Consiglio regionale del Piemonte. Condanna definitiva della Corte di Cassazione del 17 febbraio 2023 a un anno e sei mesi per peculato."
+  },
+  "record": {
+    "judicialStatus": "convicted-final",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "augusta-montaruli-001",
+        "title": "Procedimento sui rimborsi del Consiglio regionale del Piemonte",
+        "allegedOffence": "Peculato",
+        "offence": "Peculato",
+        "status": "convicted-final",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2023-02-17",
+        "description": "Augusta Montaruli è stata coinvolta nel procedimento relativo all'utilizzo dei fondi destinati al gruppo consiliare regionale del Piemonte durante il periodo in cui era consigliera regionale. Dopo un articolato iter processuale, il 17 febbraio 2023 la Corte di Cassazione ha reso definitiva la condanna a un anno e sei mesi di reclusione per peculato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2023-02-17",
+        "timeline": [
+          {
+            "date": "2018-07-01",
+            "title": "Condanna nel giudizio di appello"
+          },
+          {
+            "date": "2019-01-01",
+            "title": "La Cassazione annulla la precedente sentenza e dispone un nuovo giudizio di appello"
+          },
+          {
+            "date": "2021-12-14",
+            "title": "Nuova condanna nel giudizio di appello"
+          },
+          {
+            "date": "2023-02-17",
+            "title": "La Cassazione rende definitiva la condanna a un anno e sei mesi per peculato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Assedio alla sottosegretaria condannata: la sentenza è definitiva",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/cronaca/2023/02/18/news/assedio_alla_sottosegretaria_condannata_la_sentenza_e_definitiva_si_dimetta-12648762/",
+            "publicationDate": "2023-02-18",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "La Cassazione conferma la condanna della sottosegretaria",
+            "publisher": "Domani",
+            "url": "https://www.editorialedomani.it/politica/italia/augusta-montaruli-condanna-cassazione-rimborsopoli-piemonte-c2unrcc6",
+            "publicationDate": "2023-02-17",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

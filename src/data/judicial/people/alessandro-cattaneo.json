@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "alessandro-cattaneo",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Alessandro Cattaneo\" deputato indagato condannato assolto archiviato",
+      "\"Alessandro Cattaneo\" \"abuso d’ufficio\" archiviazione",
+      "\"Alessandro Cattaneo\" \"abuso d’ufficio\" rinvio giudizio"
+    ],
+    "notes": "Fonti del settembre 2015 documentano un’indagine per abuso d’ufficio sulla nomina di un dirigente quando era sindaco di Pavia. Non è stato trovato il successivo provvedimento, né una conferma di pendenza. La presenza del nome in sentenze su altri imputati per mafia non dimostra un’indagine a suo carico.",
+    "sourceUrls": [
+      "https://laprovinciapavese.gelocal.it/pavia/cronaca/2015/09/24/news/abuso-d-ufficio-indagato-cattaneo-1.12147832",
+      "https://milano.corriere.it/notizie/cronaca/15_settembre_24/pavia-ex-sindaco-indagato-abuso-d-ufficio-nomina-senza-concorso-8015d902-629f-11e5-95fc-7c4133631b69.shtml"
+    ]
+  },
+  "record": null
+}

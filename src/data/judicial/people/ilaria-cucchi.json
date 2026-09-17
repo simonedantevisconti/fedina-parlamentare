@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ilaria-cucchi",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Ilaria Cucchi. Le principali occorrenze giudiziarie individuate riguardano il procedimento per la morte del fratello Stefano Cucchi, nel quale ha operato come familiare della vittima e parte civile, non come imputata."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

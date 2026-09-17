@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "paolo-ciani",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Paolo Ciani\" deputato indagato condannato assolto"
+    ],
+    "notes": "Le corrispondenze esaminate riguardano l’attività parlamentare, anche su temi di giustizia. Nessun procedimento personale documentato; controllo preliminare.",
+    "sourceUrls": [
+      "https://parlamento19.openpolis.it/persone/paolo-ciani-1970-05-15"
+    ]
+  },
+  "record": null
+}

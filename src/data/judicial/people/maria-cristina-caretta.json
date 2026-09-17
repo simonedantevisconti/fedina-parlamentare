@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "maria-cristina-caretta",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "L’Eco Vicentino riporta l’assoluzione nel novembre 2018 nel caso delle tessere PdL perché i due fatti contestati avevano cessato di costituire reato. La fonte attribuisce a Sergio Berlato la dichiarazione che l’assoluzione fosse definitiva; manca però il provvedimento o una verifica indipendente del passaggio in giudicato, lasciato non documentato.",
+    "queries": [
+      "\"Maria Cristina Caretta\" deputata indagata condannata assolta archiviata",
+      "\"Maria Cristina Caretta\" \"false tessere\" assoluzione Tribunale Roma 2018",
+      "\"Caretta\" \"Berlato\" \"tessere\" assolti 2018 2019"
+    ]
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "maria-cristina-caretta-001",
+        "title": "Procedimento relativo alle tessere del PdL del 2011",
+        "allegedOffence": "Falso in scrittura privata e indebito trattamento di dati personali",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2018-11-28",
+        "description": "Maria Cristina Caretta e Sergio Berlato erano imputati nel procedimento sulle presunte iscrizioni al PdL di cittadini ignari nel 2011. L’Eco Vicentino riferisce che il Tribunale di Roma li ha assolti nel novembre 2018, essendo venuta meno la rilevanza penale dei fatti contestati. La formula precisa e la data di eventuale irrevocabilità non sono state verificate sugli atti.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-11-28",
+            "title": "La stampa riferisce l’assoluzione del Tribunale di Roma"
+          }
+        ],
+        "sources": [
+          {
+            "name": "I reati non esistono più: assolti Berlato e Caretta per il caso delle false tessere PdL",
+            "publisher": "L’Eco Vicentino",
+            "url": "https://www.ecovicentino.it/vicenza/i-reati-non-esistono-piu-assolti-berlato-e-caretta-per-il-caso-delle-false-tessere-pdl/",
+            "publicationDate": "2018-11-28",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Elezioni 2018, guida ai candidati con procedimenti",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2018/03/02/elezioni-la-guida-per-un-voto-consapevole-146-tra-indagati-condannati-prescritti-vince-il-centrodestra-39-voltagabbana-vince-il-centrosinistra-eccoli-divisi-per-nome-e-per-regione/4182938/4/",
+            "publicationDate": "2018-03-02",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

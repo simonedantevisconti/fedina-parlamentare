@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "gianluca-cantalamessa",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Verifica definitiva completata. Gianluca Cantalamessa risulta indagato nell'inchiesta della Procura di Napoli Nord sulle presunte firme false relative alla presentazione delle liste per le elezioni comunali di Giugliano del maggio 2025. Il 15 aprile 2026 è stato notificato l'avviso di conclusione delle indagini preliminari. Non è stato trovato, fino al 16 settembre 2026, un successivo esito affidabile relativo a rinvio a giudizio, archiviazione o sentenza. Lo stato di indagato non implica responsabilità penale."
+  },
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "gianluca-cantalamessa-001",
+        "title": "Inchiesta sulle presunte firme false per le elezioni comunali di Giugliano",
+        "allegedOffence": null,
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Napoli Nord",
+        "startDate": null,
+        "lastUpdate": "2026-04-15",
+        "description": "Gianluca Cantalamessa risulta tra gli indagati nell'inchiesta della Procura di Napoli Nord sulle presunte irregolarità nell'autenticazione delle sottoscrizioni necessarie alla presentazione delle liste per le elezioni comunali di Giugliano in Campania del maggio 2025. Il 15 aprile 2026 è stato reso noto l'avviso di conclusione delle indagini preliminari. Secondo le fonti, alcune firme sarebbero state autenticate come apposte in presenza dei firmatari, circostanza contestata dagli investigatori. Alla data dell'ultima verifica non è stato trovato un successivo esito affidabile relativo a rinvio a giudizio, archiviazione o sentenza. Lo stato di indagato non implica responsabilità penale.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-04-15",
+            "title": "Notificato l'avviso di conclusione delle indagini preliminari"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Firme false per le elezioni comunali, arriva l'avviso di chiusura indagini",
+            "publisher": "Rai News - TGR Campania",
+            "url": "https://www.rainews.it/tgr/campania/articoli/2026/04/firme-false-per-le-elezioni-comunali-arriva-lavviso-di-chiusura-indagini-0e2c29c7-c19c-40da-811e-36de03b5f7da.html",
+            "publicationDate": "2026-04-15",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Firme false per le Comunali a Giugliano, indagini chiuse per parlamentari e politici: coinvolti Cantalamessa e Patriarca",
+            "publisher": "Corriere della Sera - Napoli",
+            "url": "https://napoli.corriere.it/notizie/cronaca/26_aprile_15/firme-false-per-le-comunali-a-giugliano-indagini-chiuse-per-parlamentari-e-politici-coinvolti-cantalamessa-e-patriarca-d29d072c-0d64-4e27-9bcd-de3e6dd13xlk_amp.shtml",
+            "publicationDate": "2026-04-15",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

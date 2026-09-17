@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "fabrizio-comba",
+  "review": {
+    "stage": "complete",
+    "result": "public-proceeding-found",
+    "queries": [
+      "\"Fabrizio Comba\" rimborsi assolto appello definitiva",
+      "\"Fabrizio Comba\" \"il fatto non costituisce reato\""
+    ],
+    "notes": "Nel procedimento piemontese sui rimborsi regionali, Comba fu assolto perché il fatto non costituisce reato. La rettifica del Fatto Quotidiano del 9 marzo 2018 specifica, sulla base della comunicazione del difensore, che la Procura non appellò e la sentenza era definitiva.",
+    "lastCheckedAt": "2026-09-17",
+    "readyForClean": false
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "fabrizio-comba-001",
+        "title": "Procedimento sui rimborsi dei gruppi consiliari del Piemonte",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Torino",
+        "startDate": null,
+        "lastUpdate": "2018-03-09",
+        "description": "Comba fu assolto nel procedimento sui rimborsi regionali piemontesi perché il fatto non costituisce reato. Una rettifica del Fatto Quotidiano del 9 marzo 2018, che riporta la precisazione del difensore e corregge una precedente indicazione errata, afferma che la Procura non presentò appello e la decisione era definitiva. La data della sentenza e quella esatta di irrevocabilità non sono documentate nelle fonti qui consultate.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2015-01-14",
+            "title": "Il PM chiede l’assoluzione per tutti gli imputati del filone"
+          },
+          {
+            "date": "2018-03-09",
+            "title": "Rettifica giornalistica: Comba assolto, sentenza non appellata e definitiva"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rimborsopoli, assoluzione per tutti: il fatto non costituisce reato",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/torino/2015/01/14/news/rimborsopoli-assoluzione-per-tutti-il-fatto-non-costituisce-reato-1.35303637",
+            "publicationDate": "2015-01-14",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rettifica su Fabrizio Comba nella guida alle elezioni",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2018/03/02/elezioni-la-guida-per-un-voto-consapevole-146-tra-indagati-condannati-prescritti-vince-il-centrodestra-39-voltagabbana-vince-il-centrosinistra-eccoli-divisi-per-nome-e-per-regione/4182938/2/",
+            "publicationDate": "2018-03-09",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

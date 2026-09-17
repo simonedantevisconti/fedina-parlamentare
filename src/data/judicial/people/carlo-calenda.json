@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "carlo-calenda",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Il resoconto del Senato documenta un procedimento davanti al GIP di Roma e la delibera del 29 ottobre 2024 sulla sindacabilità delle dichiarazioni. Non è stato trovato un rinvio a giudizio, una sentenza o un esito successivo: il precedente stato «processo in corso» era troppo avanzato rispetto alle fonti.",
+    "queries": [
+      "\"Carlo Calenda\" \"Clemente Mastella\" rinvio a giudizio sentenza 2025 2026",
+      "\"Calenda\" \"Mastella\" processo 2026 diffamazione"
+    ]
+  },
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "carlo-calenda-001",
+        "title": "Procedimento per diffamazione aggravata a seguito della querela di Clemente Mastella",
+        "allegedOffence": "Diffamazione aggravata",
+        "offence": null,
+        "status": "investigated",
+        "court": "GIP presso il Tribunale di Roma",
+        "startDate": "2024-04-03",
+        "lastUpdate": "2024-10-29",
+        "description": "Il procedimento penale per diffamazione aggravata deriva da una querela di Clemente Mastella per dichiarazioni pubblicate da Carlo Calenda sui social il 3 aprile 2024. Il GIP di Roma ha trasmesso gli atti al Senato per la valutazione dell’insindacabilità. Il 29 ottobre 2024 il Senato ha deliberato che le dichiarazioni fossero sindacabili. Le fonti consultate non documentano un successivo rinvio a giudizio, un processo dibattimentale o una sentenza.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2024-04-03",
+            "title": "Pubblicazione delle dichiarazioni contestate e annuncio della querela"
+          },
+          {
+            "date": "2024-07-02",
+            "title": "Il GIP di Roma trasmette gli atti al Senato per la valutazione sull'insindacabilità"
+          },
+          {
+            "date": "2024-10-29",
+            "title": "Il Senato delibera che le dichiarazioni sono sindacabili"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Resoconto della seduta del Senato del 29 ottobre 2024",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1430311&leg=19&part=doc_dc-ressten_rs-gentit_dddditn9dimdiea68pcc-intervento_lopreiatorelatrice&tipodoc=Resaula",
+            "publicationDate": "2024-10-29",
+            "accessedAt": "2026-09-16",
+            "type": "institutional"
+          },
+          {
+            "name": "Ok del Senato all'autorizzazione a procedere contro Calenda",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2024/10/29/ok-del-senato-allautorizzazione-a-procedere-contro-calenda_7d7e1dee-1d2f-41a5-8d50-ea560c90313c.html",
+            "publicationDate": "2024-10-29",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Resoconto della seduta n. 235 del 29 ottobre 2024",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.parlamento.it/Web/AutorizzazioniAProcedere.nsf/d80122e7858c5a41c1257be8003ac1c6/28aef6faeb71933bc1258b71002ef6ad/%24FILE/29.10.2024.pdf",
+            "publicationDate": "2024-10-29",
+            "accessedAt": "2026-09-17",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

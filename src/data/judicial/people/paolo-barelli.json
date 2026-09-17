@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "paolo-barelli",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceedings-found",
+    "readyForClean": false
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "paolo-barelli-001",
+        "title": "Procedimento relativo ai contributi per gli impianti del Foro Italico",
+        "allegedOffence": "Malversazione ai danni dello Stato e falso ideologico",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2016-12-24",
+        "description": "Paolo Barelli fu coinvolto in un procedimento relativo all'utilizzo di contributi pubblici per lavori agli impianti natatori del Foro Italico. Nel 2015 risultava indagato per ipotesi di malversazione e falso. Nel dicembre 2016 il gip di Roma ha disposto l'archiviazione, ritenendo che non fossero ravvisabili condotte costituenti reato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2016-12-24",
+        "timeline": [
+          {
+            "date": "2014-03-11",
+            "title": "La Procura di Roma chiede inizialmente l'archiviazione per insussistenza del reato"
+          },
+          {
+            "date": "2015-03-23",
+            "title": "Il gip dispone ulteriori accertamenti per ipotesi di malversazione e falso"
+          },
+          {
+            "date": "2016-12-24",
+            "title": "Il gip di Roma dispone l'archiviazione del procedimento"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fatture Fin, chiesta archiviazione",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/sport/nuoto/2014/03/11/Fatture-Fin-chiesta-archiviazione_588c520d-d255-4bfe-a849-23ae1ffb280b.html",
+            "publicationDate": "2014-03-11",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Nuoto, nuovi guai per Barelli: archiviata la truffa, indagato per malversazione e falso",
+            "publisher": "la Repubblica",
+            "url": "https://www.repubblica.it/sport/vari/2015/03/23/news/barelli_archiviata_truffa_indagato_falso-110312416/",
+            "publicationDate": "2015-03-23",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fin: gip archivia inchiesta su Barelli",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2016/12/24/fin-gip-archivia-inchiesta-su-barelli_14e5b0e4-4c6d-4d7b-9521-632849d49344.html",
+            "publicationDate": "2016-12-24",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "paolo-barelli-002",
+        "title": "Procedimento relativo alla gestione della Lega Europea di Nuoto",
+        "allegedOffence": "Presunte irregolarità nella gestione amministrativa",
+        "offence": null,
+        "status": "archived",
+        "court": "Pubblico Ministero di Morges, Svizzera",
+        "startDate": "2021-01-01",
+        "lastUpdate": "2023-01-20",
+        "description": "Un procedimento penale in Svizzera era stato avviato dopo una denuncia-esposto relativa alla gestione amministrativa della Lega Europea di Nuoto. Nel gennaio 2023 il Pubblico Ministero di Morges ha disposto l'archiviazione, ritenendo infondate le accuse. Secondo le fonti consultate non è stato proposto ricorso contro l'archiviazione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2023-01-20",
+        "timeline": [
+          {
+            "date": "2021-01-01",
+            "title": "Avvio del procedimento in Svizzera"
+          },
+          {
+            "date": "2023-01-20",
+            "title": "Archiviazione del procedimento da parte del Pubblico Ministero di Morges"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Nuoto: 'accuse infondate', tribunale Morges dà ragione a Barelli",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/sport/altrisport/2023/01/20/nuoto-accuse-infondate-tribunale-morges-da-ragione-a-barelli_9ed71d44-5804-4d6c-b740-8b933e678a0e.html",
+            "publicationDate": "2023-01-20",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Nuoto, archiviata la causa contro Paolo Barelli",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/sport/23_gennaio_20/paolo-barelli-nuoto-archiviata-causa-accuse-mala-gestione-infondate-1ad18c26-98d4-11ed-b607-ec0cd820c4d4.shtml",
+            "publicationDate": "2023-01-20",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "anastasio-carra",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Anastasio Carrà\" indagato condannato assolto archiviato"
+    ],
+    "notes": "Nel caso del video della giudice Apostolico il fascicolo è stato archiviato come modello 45, senza indagati o ipotesi di reato. La menzione di Carrà come partecipante a una chat non documenta un procedimento penale a suo carico. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/2024/01/10/caso-apostolico-la-procura-archivia-lindagine-sul-video-della-giudice-non-viene-da-archivi-delle-forze-dellordine-lo-giro-un-carabiniere/7405731/"
+    ]
+  },
+  "record": null
+}

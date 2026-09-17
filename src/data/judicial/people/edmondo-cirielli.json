@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "id": "edmondo-cirielli",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Indagine del 2013 per corruzione aggravata e abuso d'ufficio aggravato. La Procura chiese l'archiviazione nel dicembre 2013 e il GIP del Tribunale di Salerno dispose l'archiviazione nel gennaio 2014."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "edmondo-cirielli-001",
+        "title": "Procedimento relativo a un concorso della Provincia di Salerno e al tesseramento Pdl",
+        "allegedOffence": "Corruzione aggravata e abuso d'ufficio aggravato",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Salerno",
+        "startDate": "2013-08-01",
+        "lastUpdate": "2014-01-18",
+        "description": "Edmondo Cirielli risultò indagato nel 2013 dalla Procura di Salerno nell'ambito di un'inchiesta relativa a un concorso pubblico della Provincia di Salerno e al tesseramento del Pdl. Le ipotesi di reato contestate erano corruzione aggravata e abuso d'ufficio aggravato. Nel dicembre 2013 la Procura chiese l'archiviazione per infondatezza della notizia di reato. Nel gennaio 2014 il GIP del Tribunale di Salerno dispose l'archiviazione del procedimento.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2014-01-18",
+        "timeline": [
+          {
+            "date": "2013-08-01",
+            "title": "Notizia dell'indagine per corruzione aggravata e abuso d'ufficio aggravato"
+          },
+          {
+            "date": "2013-12-06",
+            "title": "La Procura di Salerno chiede l'archiviazione"
+          },
+          {
+            "date": "2014-01-18",
+            "title": "Il GIP del Tribunale di Salerno dispone l'archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Cirielli indagato per corruzione e abuso d'ufficio",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/politica/13_agosto_01/cirielli-indagato-per-corruzione-e-abuso-di-ufficio_7db6ddb8-fab5-11e2-9aaf-71b689b7d489.shtml",
+            "publicationDate": "2013-08-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Corruzione e abuso d'ufficio",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/cronaca/2013/08/01/news/corruzione-e-abuso-d-ufficio-1.36058835/",
+            "publicationDate": "2013-08-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Procura di Salerno archivia le accuse nei confronti di Cirielli",
+            "publisher": "Fratelli d'Italia",
+            "url": "https://www.fratelli-italia.it/procura-di-salerno-archivia-le-accuse-nei-confronti-di-cirielli/",
+            "publicationDate": "2013-12-10",
+            "accessedAt": "2026-09-16",
+            "type": "party-statement"
+          },
+          {
+            "name": "Corruzione, archiviata l'inchiesta a carico del deputato Edmondo Cirielli",
+            "publisher": "StileTV",
+            "url": "https://www.stiletv.it/news/16364/corruzione-archiviata-l-inchiesta-a-carico-del-deputato-edmondo-cirielli",
+            "publicationDate": "2014-01-18",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

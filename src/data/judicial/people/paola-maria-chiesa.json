@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "paola-maria-chiesa",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Paola Maria Chiesa\" indagata condannata assolta archiviata",
+      "\"Paola Maria Chiesa\" \"indagata\" Vespucci parte offesa 2025"
+    ],
+    "notes": "L’esposto sulla salita sull’albero della nave Vespucci ha dato luogo a un’indagine preliminare, ma la cronaca riferisce che Chiesa sarebbe parte offesa e che non aveva notizia di indagini a suo carico. Nessuna imputazione personale supportata da questa fonte; controllo preliminare.",
+    "sourceUrls": [
+      "https://laprovinciapavese.gelocal.it/pavia/cronaca/2025/11/21/news/deputata_chiesa_vespucci_indagata-15406619/"
+    ]
+  },
+  "record": null
+}

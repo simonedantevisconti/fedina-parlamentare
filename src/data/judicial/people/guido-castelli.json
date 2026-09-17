@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "guido-castelli",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Corretta la scheda precedente: l’articolo ANSA del giugno 2023 riferiva la richiesta di prescrizione del PM. ANSA ha poi documentato l’assoluzione pronunciata il 13 luglio 2023 e divenuta irrevocabile dopo la mancata impugnazione della Procura nel febbraio 2024.",
+    "queries": [
+      "\"Guido Castelli\" \"spese facili\" assolto definitivo",
+      "\"Castelli\" \"assoluzione\" \"Procura non impugna\" Marche"
+    ]
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "guido-castelli-001",
+        "title": "Procedimento sulle spese dei gruppi consiliari della Regione Marche",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Ancona",
+        "startDate": null,
+        "lastUpdate": "2024-02-15",
+        "description": "Nel procedimento sulle spese dei gruppi consiliari delle Marche per il periodo 2008-2012 il PM aveva chiesto la prescrizione per Guido Castelli. Il Tribunale di Ancona lo ha invece incluso tra gli assolti con la sentenza del 13 luglio 2023. ANSA ha riferito il 15 febbraio 2024 che la Procura non ha impugnato la sentenza e che l’assoluzione è diventata irrevocabile. La data esatta di irrevocabilità non è riportata.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-06-20",
+            "title": "Il PM chiede la prescrizione per Castelli"
+          },
+          {
+            "date": "2023-07-13",
+            "title": "Il Tribunale di Ancona assolve Castelli"
+          },
+          {
+            "date": "2024-02-15",
+            "title": "ANSA riferisce che l’assoluzione è irrevocabile"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fondi Marche: pm, condanne per sindaco Ancona e presidente Latini",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/marche/notizie/2023/06/20/fondi-marchepm-condanne-per-sindaco-ancona-e-presidente-latini_54352eb8-14e3-4072-86a0-47b2f15965c5.html",
+            "publicationDate": "2023-06-20",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Fondi Marche, imputati assolti ad Ancona",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/marche/notizie/2023/07/13/fondi-marche-ad-ancona-imputati-assolti-da-accuse_34b9af26-c836-4a6c-8074-90a4730a7565.html",
+            "publicationDate": "2023-07-13",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "La Procura non impugna assoluzioni per spese facili in Consiglio",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/marche/notizie/2024/02/15/la-procura-non-impugna-assoluzioni-per-spese-facili-in-consiglio_ed084bd4-9c47-4e1c-b30e-03c2f6f2e9c1.html",
+            "publicationDate": "2024-02-15",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "francesco-emilio-borrelli",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "I risultati esaminati riguardano prevalentemente il ruolo di denunciante o persona offesa, incluse aggressioni subite. I riferimenti generici a denunce contro di lui non permettono di ricostruire uno specifico procedimento. Controllo non concluso.",
+    "queries": [
+      "\"Francesco Emilio Borrelli\" indagato condannato assolto archiviato",
+      "\"Francesco Emilio Borrelli\" diffamazione assolto"
+    ],
+    "sourceUrls": [
+      "https://napoli.repubblica.it/cronaca/2025/07/11/news/aggressione_a_borrelli_in_appello_condanne_e_lievi_sconti_di_pena-424725192/"
+    ]
+  },
+  "record": null
+}

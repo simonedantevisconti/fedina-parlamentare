@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "stefano-maria-benvenuti-gostoli",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "Non sono emersi procedimenti penali personali supportati nei risultati esaminati. Le occorrenze riguardano principalmente l’attività di avvocato e di relatore della Giunta per le autorizzazioni. Ricercata anche la variante senza il secondo nome Maria.",
+    "queries": [
+      "\"Stefano Maria Benvenuti Gostoli\" (indagato OR condannato OR assolto OR processo OR archiviato)",
+      "\"Benvenuti Gostoli\" \"indagato\" OR \"imputato\" OR \"condannato\"",
+      "\"Stefano Benvenuti Gostoli\" (inchiesta OR assoluzione OR rinvio a giudizio)"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/824?anno=2025&commissione=17&giorno=19&mese=11&pagina=&tipo=C&view="
+    ]
+  },
+  "record": null
+}

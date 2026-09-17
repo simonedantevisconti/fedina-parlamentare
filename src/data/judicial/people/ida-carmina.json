@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "ida-carmina",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Ida Carmina\" indagata condannata assolta archiviata"
+    ],
+    "notes": "Le fonti reperite riguardano attività parlamentare o denunce di possibili illeciti altrui. Nessun procedimento personale attribuibile con sufficiente supporto; controllo preliminare.",
+    "sourceUrls": [
+      "https://www.sicilialive24.it/2026/06/22/on-ida-carmina-m5s-interrogazione-urgente-al-ministro-dellambiente-la-situazione-e-preoccupante-tutelare-la-salute-pubblica-ipotesi-di-illecito-nella-discarica-di-gela/"
+    ]
+  },
+  "record": null
+}

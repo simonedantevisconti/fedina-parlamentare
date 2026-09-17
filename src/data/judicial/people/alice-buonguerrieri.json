@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "alice-buonguerrieri",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Alice Buonguerrieri\" indagata condannata assolta"
+    ],
+    "notes": "La condanna menzionata dall’associazione dei giornalisti è una presa di posizione su un comunicato, non una sentenza penale. Altri risultati riguardano l’attività politica. Ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.aser.bo.it/NEW/2024/11/08/aser-e-ordine-ferma-condanna-al-comunicato-della-deputata-buonguerrieri-fdi-contro-teleromagna/"
+    ]
+  },
+  "record": null
+}

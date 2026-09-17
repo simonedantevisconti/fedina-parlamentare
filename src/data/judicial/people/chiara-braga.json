@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "chiara-braga",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Chiara Braga\" indagata condannata assolta processo"
+    ],
+    "notes": "Le notizie di assoluzione reperite riguardano Mario Lucini; Braga interviene con un commento politico. Non attribuire il procedimento alla deputata. Ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.ilgiorno.it/como/cronaca/tutti-assolti-le-reazioni-lucini-e-stato-corretto-la-sentenza-lo-conferma-7987286c"
+    ]
+  },
+  "record": null
+}

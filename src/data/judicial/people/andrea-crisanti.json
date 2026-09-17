@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "andrea-crisanti",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Verifica definitiva completata. Andrea Crisanti risultò indagato dalla Procura di Padova per diffamazione a seguito di una segnalazione di Azienda Zero relativa alle sue critiche sull'uso dei tamponi rapidi e sulla gestione sanitaria veneta durante la pandemia. Nel 2022 la Procura chiese l'archiviazione del procedimento e successive fonti giornalistiche riferiscono che il fascicolo venne archiviato. L'archiviazione non equivale a una condanna né a un accertamento di responsabilità penale."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "andrea-crisanti-001",
+        "title": "Procedimento per diffamazione relativo alle critiche sulla gestione dei tamponi rapidi in Veneto",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura della Repubblica di Padova",
+        "startDate": "2021-03-10",
+        "lastUpdate": "2022-05-02",
+        "description": "Andrea Crisanti fu iscritto nel registro degli indagati dalla Procura di Padova per un'ipotesi di diffamazione a seguito di una segnalazione di Azienda Zero, relativa alle sue critiche sulla gestione sanitaria veneta e sull'impiego dei tamponi antigenici rapidi durante la pandemia di Covid-19. Nel 2022 la Procura chiese l'archiviazione del fascicolo e successive ricostruzioni giornalistiche riferiscono che il procedimento venne archiviato. L'archiviazione non equivale a una condanna né a un accertamento di responsabilità penale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-03-10",
+            "title": "La Procura di Padova acquisisce la segnalazione e apre il fascicolo per diffamazione"
+          },
+          {
+            "date": "2021-04-29",
+            "title": "Diventa pubblica la notizia dell'iscrizione di Andrea Crisanti nel registro degli indagati"
+          },
+          {
+            "date": "2022-04-12",
+            "title": "La Procura di Padova formula la richiesta di archiviazione"
+          },
+          {
+            "date": "2022-05-02",
+            "title": "Fonti giornalistiche riferiscono la chiusura del procedimento mediante archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Covid: Crisanti indagato per diffamazione sanità veneta",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2021/04/29/covid-crisanti-indagato-per-diffamazione-sanita-veneta_4b3a5f99-a76f-4ca5-9907-61955d88ad16.html",
+            "publicationDate": "2021-04-29",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "L’autogol della Regione Veneto: paga 27mila euro per fare causa a Crisanti ma la Procura chiede l’archiviazione",
+            "publisher": "L'Espresso",
+            "url": "https://lespresso.it/c/attualita/2022/5/2/lautogol-della-regione-veneto-paga-27mila-euro-per-fare-causa-a-crisanti-ma-la-procura-chiede-larchiviazione-e-vuole-valutare-le-spese/12628",
+            "publicationDate": "2022-05-02",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Andrea Crisanti, dal Covid alle televisioni. Zaia, la villa e il Senato",
+            "publisher": "Corriere del Veneto",
+            "url": "https://corrieredelveneto.corriere.it/notizie/padova/cronaca/23_marzo_04/andrea-crisanti-dal-covid-alle-televisioni-zaia-la-villa-e-il-senato-tre-anni-di-dichiarazioni-l-alfabeto-del-microbiologo-a63d38c4-8026-4398-922c-322c2fdfcxlk_amp.shtml",
+            "publicationDate": "2023-03-04",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

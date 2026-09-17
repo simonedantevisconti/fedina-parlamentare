@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "lucia-borgonzoni",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento relativo ai rimborsi della Lega Nord Emilia. Nel maggio 2016 la Procura di Reggio Emilia chiese il rinvio a giudizio di Lucia Borgonzoni per appropriazione indebita aggravata in relazione a 764 euro. Il 1° dicembre 2016 la sua posizione venne stralciata dal processo per intervenuta prescrizione. La prescrizione non equivale a una condanna né a un accertamento definitivo di responsabilità penale."
+  },
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "lucia-borgonzoni-001",
+        "title": "Procedimento sui rimborsi della Lega Nord Emilia",
+        "allegedOffence": "Appropriazione indebita aggravata",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Reggio Emilia",
+        "startDate": null,
+        "lastUpdate": "2016-12-01",
+        "description": "Lucia Borgonzoni risultò coinvolta nell'inchiesta sui rimborsi della Lega Nord Emilia relativa a spese sostenute durante la campagna elettorale per le provinciali del 2009. Nel maggio 2016 la Procura di Reggio Emilia chiese il rinvio a giudizio, contestando un'ipotesi di appropriazione indebita aggravata relativa a 764 euro. Il 1° dicembre 2016 la sua posizione venne stralciata dal processo per intervenuta prescrizione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2016-12-01",
+        "timeline": [
+          {
+            "date": "2016-05-16",
+            "title": "La Procura di Reggio Emilia chiede il rinvio a giudizio"
+          },
+          {
+            "date": "2016-12-01",
+            "title": "La posizione viene stralciata per intervenuta prescrizione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Pm Reggio, 'Lucia Borgonzoni a processo'",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/emiliaromagna/notizie/2016/05/16/pm-reggio-lucia-borgonzoni-a-processo_b0d59cfb-8101-4873-905a-428bd88ecbd4.html",
+            "publicationDate": "2016-05-16",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rimborsopoli, il caso-Giovannini va in prescrizione",
+            "publisher": "Gazzetta di Reggio",
+            "url": "https://www.gazzettadireggio.it/reggio/cronaca/2016/12/02/news/rimborsopoli-il-caso-giovannini-va-in-prescrizione-1.14508462",
+            "publicationDate": "2016-12-02",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

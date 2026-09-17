@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "piero-de-luca",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento Ifil: assoluzione in primo grado nel febbraio 2024 perché il fatto non costituisce reato; assoluzione confermata integralmente dalla Corte d'Appello di Salerno nel giugno 2026. Non ancora verificata l'eventuale irrevocabilità."
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "piero-de-luca-001",
+        "title": "Procedimento relativo al fallimento della Ifil C&D Srl",
+        "allegedOffence": "Concorso in bancarotta fraudolenta patrimoniale distrattiva impropria",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d'Appello di Salerno",
+        "startDate": null,
+        "lastUpdate": "2026-06-15",
+        "description": "Piero De Luca è stato imputato nel procedimento relativo al fallimento della Ifil C&D Srl. Secondo l'accusa, alcuni viaggi di lavoro effettuati in Lussemburgo sarebbero stati pagati utilizzando fondi della società poi fallita. Il 14 febbraio 2024 il Tribunale di Salerno lo ha assolto perché il fatto non costituisce reato. Il 15 giugno 2026 la Corte d'Appello di Salerno ha rigettato l'appello proposto dalla Procura e confermato integralmente l'assoluzione di primo grado.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-03-01",
+            "title": "Rinvio a giudizio nell'ambito del procedimento sul fallimento Ifil"
+          },
+          {
+            "date": "2024-02-14",
+            "title": "Il Tribunale di Salerno assolve Piero De Luca perché il fatto non costituisce reato"
+          },
+          {
+            "date": "2024-07-23",
+            "title": "Vengono depositate le motivazioni della sentenza di primo grado"
+          },
+          {
+            "date": "2026-06-15",
+            "title": "La Corte d'Appello di Salerno conferma integralmente l'assoluzione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Salerno, processo Ifil, Piero De Luca assolto perché il fatto non costituisce reato",
+            "publisher": "Corriere della Sera",
+            "url": "https://salerno.corriere.it/notizie/cronaca/24_febbraio_14/salerno-processo-ifil-la-sentenza-piero-de-luca-assolto-perche-il-fatto-non-costituisce-reato-e239d9bf-51d1-42bb-93e0-bf60155d2xlk.shtml",
+            "publicationDate": "2024-02-14",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Bancarotta: avvocato Piero De Luca, assolto al di là ogni dubbio",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2024/07/23/bancarotta-avvocato-piero-de-luca-assolto-al-di-la-ogni-dubbio_ff238dde-4d51-48cf-84de-66125447dd53.html",
+            "publicationDate": "2024-07-23",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Bancarotta fraudolenta, assoluzione anche in appello per Piero De Luca",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/06/15/bancarotta-fraudolenta-assoluzione-anche-in-appello-per-piero-de-luca_efc621ca-4540-42da-be74-f5b20d168cb2.html",
+            "publicationDate": "2026-06-15",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Bancarotta fraudolenta, assoluzione anche in appello per Piero De Luca",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/campania/articoli/2026/06/bancarotta-fraudolenta-assoluzione-anche-in-appello-per-piero-de-luca-05265a9c-c013-4348-bf96-dff404906364.html",
+            "publicationDate": "2026-06-15",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

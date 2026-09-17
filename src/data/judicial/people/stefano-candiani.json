@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "stefano-candiani",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Stefano Candiani\" indagato condannato assolto processo",
+      "\"Stefano Candiani\" \"indagato\""
+    ],
+    "notes": "Le notizie reperite sui fondi della Lega citano Candiani ma indicano altri soggetti come indagati. Non sufficiente per attribuirgli un procedimento personale; controllo preliminare.",
+    "sourceUrls": [
+      "https://www.nextquotidiano.it/stefano-galli-il-leghista-indagato-per-i-49-milioni/"
+    ]
+  },
+  "record": null
+}

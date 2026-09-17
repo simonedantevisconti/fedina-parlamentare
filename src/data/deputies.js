@@ -1,63 +1,6 @@
-import { getParty } from "./parties";
+import { createPolitician } from "./createPolitician.js";
 
-const slugify = (value) =>
-  value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/['’]/g, " ")
-    .replace(/[^a-zA-Z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .toLowerCase();
-
-const createDeputy = ({ firstName, lastName, party }) => {
-  const id = slugify(`${firstName}-${lastName}`);
-
-  return {
-    id,
-
-    firstName,
-    lastName,
-
-    chamber: "camera",
-
-    party: getParty(party),
-
-    photo: `/politici/${id}.jpg`,
-
-    legislature: "XIX",
-
-    mandateNumber: null,
-
-    mandate: {
-      startDate: null,
-      endDate: null,
-      inOffice: true,
-    },
-
-    constituency: null,
-
-    birthDate: null,
-    birthPlace: null,
-
-    institutionalRole: "Deputato",
-
-    institutionalProfileUrl: "",
-
-    institutionalVerification: {
-      lastVerifiedAt: "2026-09-16",
-      sourceUrl: "https://www.camera.it/deputati/elenco",
-    },
-
-    judicialStatus: "not-reviewed",
-
-    judicialVerification: {
-      reviewed: false,
-      lastVerifiedAt: null,
-    },
-
-    proceedings: [],
-  };
-};
+const createDeputy = (values) => createPolitician({ ...values, chamber: "camera" });
 
 const DEPUTIES_BY_PARTY = {
   // ======================================================

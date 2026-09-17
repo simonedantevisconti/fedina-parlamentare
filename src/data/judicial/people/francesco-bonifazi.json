@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "francesco-bonifazi",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Documentata l’assoluzione in primo grado del 5 aprile 2024. Le ricerche non hanno consentito di documentare il passaggio in giudicato o eventuali impugnazioni.",
+    "queries": [
+      "\"Francesco Bonifazi\" indagato processo assolto archiviato",
+      "\"Francesco Bonifazi\" \"assolto\" \"2024\" ANSA appello",
+      "\"Francesco Bonifazi\" \"appello\" \"assoluzione\""
+    ],
+    "sourceUrls": []
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-bonifazi-001",
+        "title": "Finanziamenti alla fondazione Eyu nel procedimento sullo stadio di Roma",
+        "status": "acquitted",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2024-04-05",
+        "description": "La stampa riferisce l’assoluzione in primo grado di Francesco Bonifazi dall’accusa di finanziamento illecito, nel procedimento sui finanziamenti alla fondazione Eyu. Non è documentata in questa scheda la definitività dell’assoluzione.",
+        "allegedOffence": "Finanziamento illecito",
+        "offence": null,
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Stadio, Bonifazi assolto: sei anni di sofferenza",
+            "publisher": "La Nazione",
+            "url": "https://www.lanazione.it/firenze/cronaca/stadio-bonifazi-sentenza-fbafb8ol",
+            "publicationDate": "2024-04-06",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

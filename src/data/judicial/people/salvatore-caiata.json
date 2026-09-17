@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "salvatore-caiata",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Documentata l’archiviazione riferita dalla stampa nel 2018 e, per una distinta vicenda, il rinvio a giudizio nell’inchiesta Hidden Partner nel 2024. Non reperito un esito successivo attendibile di quest’ultimo processo: lo stato rappresenta l’ultimo atto documentato, non una conferma della pendenza alla data del controllo.",
+    "queries": [
+      "\"Salvatore Caiata\" (condannato OR assolto OR archiviazione OR indagato)",
+      "\"Salvatore Caiata\" \"archiviata\" Siena 2018",
+      "\"Caiata\" \"Hidden Partner\" assolto archiviato 2025 2026",
+      "\"Caiata\" \"Hidden Partner\" \"2025\" udienza"
+    ],
+    "sourceUrls": []
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "salvatore-caiata-001",
+        "title": "Inchiesta senese sull’intestazione di beni",
+        "status": "archived",
+        "court": "GIP del Tribunale di Siena",
+        "startDate": null,
+        "lastUpdate": "2018-08-29",
+        "description": "Il Cittadino Online riferisce l’archiviazione disposta dal GIP Ilaria Cometti. La data indicata è quella della notizia, non la data accertata del decreto. La vicenda è distinta dal successivo procedimento Hidden Partner.",
+        "allegedOffence": null,
+        "offence": null,
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Archiviata l’inchiesta su Caiata",
+            "publisher": "Il Cittadino Online",
+            "url": "https://www.ilcittadinoonline.it/cronaca/siena-cronaca/archiviata-linchiesta-caiata/",
+            "publicationDate": "2018-08-29",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "salvatore-caiata-002",
+        "title": "Procedimento Hidden Partner",
+        "status": "charged",
+        "court": "Tribunale di Siena",
+        "startDate": null,
+        "lastUpdate": "2024-04-08",
+        "description": "La Nazione riferisce il rinvio a giudizio di dieci persone, tra cui Salvatore Caiata, disposto dal GUP Sonia Caravelli l’8 aprile 2024. La fonte elenca accuse riferite a più imputati senza consentire di attribuirle tutte a Caiata: il campo relativo al reato resta quindi non specificato. Non è stato documentato un esito successivo; lo stato indica l’ultimo atto reperito.",
+        "allegedOffence": null,
+        "offence": null,
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Hidden Partner, a processo in dieci",
+            "publisher": "La Nazione",
+            "url": "https://www.lanazione.it/siena/cronaca/hidden-partner-bidilo-equ5wyva",
+            "publicationDate": "2024-04-08",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

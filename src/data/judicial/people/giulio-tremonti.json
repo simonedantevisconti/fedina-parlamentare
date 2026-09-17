@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "giulio-tremonti",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Inserito il procedimento Finmeccanica/DRS: Formiche.net riferisce il 24 gennaio 2017 che è stata disposta l’archiviazione. L’ordinanza della Consulta 212/2016 documenta la precedente richiesta del pubblico ministero. La data esatta del decreto non è specificata.",
+    "queries": [
+      "\"Giulio Tremonti\" Finmeccanica DRS archiviata corruzione",
+      "\"Giulio Tremonti\" \"Finmeccanica\" archiviazione gip 2016 -site:wikipedia.org -site:workers.dev"
+    ]
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "giulio-tremonti-001",
+        "title": "Procedimento relativo all'appartamento di via Campo Marzio",
+        "allegedOffence": "Finanziamento illecito",
+        "offence": null,
+        "status": "plea-bargain",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2014-04-02",
+        "description": "Giulio Tremonti è stato coinvolto in un procedimento relativo all'appartamento di via Campo Marzio a Roma che gli era stato messo a disposizione dall'allora collaboratore Marco Milanese. La Procura contestava il finanziamento illecito. Nel 2014 Tremonti ha concordato con la Procura una pena di quattro mesi, successivamente convertita in pena pecuniaria, oltre a una multa, per un importo complessivo di 40mila euro. Fonti successive riferiscono che il patteggiamento è stato definito e la somma pagata.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2014-04-02",
+        "timeline": [
+          {
+            "date": "2011-01-01",
+            "title": "Avvio degli accertamenti sull'utilizzo dell'appartamento di via Campo Marzio"
+          },
+          {
+            "date": "2014-04-02",
+            "title": "Accordo di patteggiamento con la Procura di Roma"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inchiesta sulla casa, Tremonti patteggia e versa 40 mila euro",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/cronache/14_aprile_02/inchiesta-casa-tremonti-patteggia-versa-40-mila-euro-f974da50-ba2b-11e3-9050-e3afdc8ffa42.shtml",
+            "publicationDate": "2014-04-02",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Finanziamento illecito, Milanese a giudizio per la casa di Tremonti",
+            "publisher": "Corriere della Sera",
+            "url": "https://roma.corriere.it/notizie/cronaca/16_gennaio_16/finanziamento-illecito-milanese-giudizio-la-casa-tremonti-3c9d5566-bc85-11e5-b206-2a6e9b3d9bfb.shtml",
+            "publicationDate": "2016-01-17",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "giulio-tremonti-002",
+        "title": "Procedimento relativo all’acquisizione Finmeccanica/DRS",
+        "allegedOffence": "Corruzione",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": "2017-01-24",
+        "description": "Il procedimento riguardava una presunta corruzione in relazione all’acquisizione di DRS da parte di Finmeccanica. L’ordinanza 212/2016 della Corte costituzionale documenta una richiesta di archiviazione del 3 marzo 2016. Il 24 gennaio 2017 Formiche.net, richiamando Il Sole 24 Ore, ha riferito che l’archiviazione era stata disposta nei giorni precedenti. Non è disponibile la data esatta del decreto.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2016-03-03",
+            "title": "Richiesta di archiviazione documentata dalla Consulta"
+          },
+          {
+            "date": "2017-01-24",
+            "title": "Notizia dell’archiviazione disposta"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Ordinanza 212/2016",
+            "publisher": "Corte costituzionale",
+            "url": "https://www.cortecostituzionale.it/scheda-pronuncia/2016/212",
+            "publicationDate": null,
+            "accessedAt": "2026-09-17",
+            "type": "institutional"
+          },
+          {
+            "name": "Finmeccanica/Drs, conclusione positiva per Tremonti e Vitali",
+            "publisher": "Formiche.net",
+            "url": "https://formiche.net/2017/01/finmeccanicadrs-conclusione-positiva-per-tremonti-e-vitali/",
+            "publicationDate": "2017-01-24",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "roberto-speranza",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento relativo alla gestione della pandemia in Val Seriana. Indagato per epidemia colposa e omicidio colposo plurimo. Archiviazione disposta dal Tribunale dei ministri di Brescia nel giugno 2023 perché il fatto non sussiste."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "roberto-speranza-001",
+        "title": "Procedimento relativo alla gestione della prima fase della pandemia Covid-19 in Val Seriana",
+        "allegedOffence": "Epidemia colposa e omicidio colposo plurimo",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Brescia",
+        "startDate": "2023-03-01",
+        "lastUpdate": "2023-06-07",
+        "description": "Roberto Speranza è stato indagato nell'ambito dell'inchiesta della Procura di Bergamo sulla gestione della prima fase della pandemia Covid-19 in Val Seriana. Le contestazioni comprendevano epidemia colposa e omicidio colposo plurimo. Gli atti relativi alla sua posizione sono stati trasmessi al Tribunale dei ministri di Brescia. Nel giugno 2023 il Tribunale dei ministri ha disposto l'archiviazione perché il fatto non sussiste.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2023-06-07",
+        "timeline": [
+          {
+            "date": "2023-03-01",
+            "title": "Speranza risulta indagato nell'inchiesta sulla gestione della pandemia in Val Seriana"
+          },
+          {
+            "date": "2023-05-29",
+            "title": "La Procura di Brescia chiede l'archiviazione"
+          },
+          {
+            "date": "2023-06-07",
+            "title": "Il Tribunale dei ministri di Brescia dispone l'archiviazione perché il fatto non sussiste"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inchiesta sul Covid: la Procura di Brescia chiede l'archiviazione per Conte e Speranza",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2023/05/covid-la-procura-di-brescia-chiede-larchiviazione-per-conte-e-speranza-96907639-f676-4c10-b0b9-9fec5651d572.html",
+            "publicationDate": "2023-05-29",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Covid: a Brescia archiviata l'inchiesta su Conte e Speranza",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2023/06/07/covid-a-brescia-archiviata-linchiesta-su-conte-e-speranza_704eb100-ce52-4443-8b59-291e52f9191b.html",
+            "publicationDate": "2023-06-07",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Il fatto non sussiste. Il Tribunale dei ministri archivia l'inchiesta su Conte e Speranza",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/amp/tgr/lombardia/articoli/2023/06/covid-giuseppe-conte-roberto-speranza-archiviazione-tribunale-ministri-8481eedf-5e7d-4d65-8f73-0b645c8cbe64.html",
+            "publicationDate": "2023-06-07",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

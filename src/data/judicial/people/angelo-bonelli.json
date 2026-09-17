@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "angelo-bonelli",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "Le ricerche hanno restituito soprattutto notizie in cui Bonelli è autore di esposti o commenta procedimenti altrui. Non è emersa una fonte sufficiente per attribuirgli un procedimento personale; il controllo non è concluso.",
+    "queries": [
+      "\"Angelo Bonelli\" indagato condannato assolto archiviato",
+      "\"Angelo Bonelli\" condannato -Delmastro -Cospito -Salvini"
+    ],
+    "sourceUrls": [
+      "https://roma.corriere.it/notizie/cronaca/23_luglio_06/del-mastro-respinta-la-richiesta-di-archiviazione-per-il-caso-cospito-7354bdc3-6446-4653-9bcd-0d09eeaedxlk_amp.shtml"
+    ]
+  },
+  "record": null
+}

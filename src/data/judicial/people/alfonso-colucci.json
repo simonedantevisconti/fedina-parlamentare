@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "alfonso-colucci",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": ["\"Alfonso Colucci\" deputato indagato condannato assolto"],
+    "notes": "Le corrispondenze esaminate riguardano attività parlamentari e dichiarazioni su procedimenti altrui. Nessun procedimento personale documentato; controllo preliminare.",
+    "sourceUrls": ["https://www.camera.it/deputati/elenco/19-308841"]
+  },
+  "record": null
+}

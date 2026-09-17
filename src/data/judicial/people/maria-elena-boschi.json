@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "maria-elena-boschi",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Caso Open: proscioglimento del 19 dicembre 2024. Rai TGR documenta il 12 aprile 2025 la mancata impugnazione anche per Boschi. La data esatta del passaggio in giudicato non è indicata dalla fonte.",
+    "queries": ["\"Maria Elena Boschi\" procedimento indagata archiviazione", "\"Boschi\" \"Open\" \"prosciolti\" dicembre 2024 Cassazione 2025 2026"]
+  },
+  "record": {
+    "judicialStatus": "dismissed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "maria-elena-boschi-001",
+        "title": "Procedimento sui finanziamenti alla Fondazione Open",
+        "allegedOffence": "Finanziamento illecito ai partiti",
+        "offence": null,
+        "status": "dismissed",
+        "court": "Tribunale di Firenze",
+        "startDate": null,
+        "lastUpdate": "2025-04-12",
+        "description": "Maria Elena Boschi è stata prosciolta dal GUP di Firenze il 19 dicembre 2024 nel procedimento sui finanziamenti alla Fondazione Open. Rai TGR ha riferito il 12 aprile 2025 che la Procura non ha impugnato il proscioglimento nei suoi confronti, divenuto definitivo. La data di aggiornamento indica la pubblicazione della notizia, non la data esatta del passaggio in giudicato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2024-12-19", "title": "Proscioglimento in udienza preliminare" },
+          { "date": "2025-04-12", "title": "Rai documenta la definitività per mancata impugnazione" }
+        ],
+        "sources": [
+          {
+            "name": "Open: prosciolti Renzi e gli altri 10 indagati",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2024/12/open-prosciolti-renzi-e-gli-altri-10-indagati-9dc955e3-79f7-46d0-a43e-9959814fef18.html",
+            "publicationDate": "2024-12-19",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Open: procura non impugna, definitivo proscioglimento di Matteo Renzi",
+            "publisher": "Rai TGR Toscana",
+            "url": "https://www.rainews.it/tgr/toscana/articoli/2025/04/open-procura-non-impugna-definitivo-proscioglimento-di-matteo-renzi--d82c3702-9603-4d03-ad17-618ee83a41eb.html",
+            "publicationDate": "2025-04-12",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

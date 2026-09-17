@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "virginio-caparvi",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Virginio Caparvi\" \"indagato\" OR \"imputato\" OR \"condannato\"",
+      "\"Virginio Caparvi\" \"archiviato\" OR \"assolto\""
+    ],
+    "notes": "I risultati esaminati si riferiscono ad attività politica e proposte legislative; non è emersa una fonte per un procedimento penale personale. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.cacciaedintorni.it/legittima-difesa-legge-cambia/"
+    ]
+  },
+  "record": null
+}

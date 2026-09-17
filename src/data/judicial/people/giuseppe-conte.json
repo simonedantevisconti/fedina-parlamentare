@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "id": "giuseppe-conte",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Due procedimenti verificati: quello relativo all'uso della scorta, archiviato nel marzo 2021, e quello sulla gestione della pandemia in Val Seriana, archiviato dal Tribunale dei ministri di Brescia nel giugno 2023 perché il fatto non sussiste."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "giuseppe-conte-001",
+        "title": "Procedimento relativo all'uso della scorta presidenziale",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Roma",
+        "startDate": "2020-11-30",
+        "lastUpdate": "2021-03-30",
+        "description": "Giuseppe Conte è stato iscritto nel registro degli indagati per peculato in relazione a un episodio riguardante l'intervento della scorta presidenziale nei confronti della compagna Olivia Paladino. Gli atti sono stati trasmessi al Tribunale dei ministri, che nel marzo 2021 ha disposto l'archiviazione del procedimento.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2021-03-30",
+        "timeline": [
+          {
+            "date": "2020-11-30",
+            "title": "La Procura di Roma trasmette gli atti al Tribunale dei ministri"
+          },
+          {
+            "date": "2021-03-30",
+            "title": "Il Tribunale dei ministri dispone l'archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Indagine su uso scorta del premier, Procura invia atti al Tribunale dei ministri",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/archivio-rainews/articoli/amp/ContentItem-703ea169-8099-4844-a660-9f1d6085e269.html",
+            "publicationDate": "2020-11-30",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Giuseppe Conte, archiviata l'indagine sull'uso della scorta da parte della sua compagna",
+            "publisher": "la Repubblica",
+            "url": "https://www.repubblica.it/politica/2021/03/30/news/conte_indagato_scorta_indagine_archiviata-294382475/",
+            "publicationDate": "2021-03-30",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "giuseppe-conte-002",
+        "title": "Procedimento relativo alla gestione della prima fase della pandemia Covid-19 in Val Seriana",
+        "allegedOffence": "Epidemia colposa e omicidio colposo plurimo",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Brescia",
+        "startDate": "2023-03-01",
+        "lastUpdate": "2023-06-07",
+        "description": "Giuseppe Conte è stato indagato nell'ambito dell'inchiesta della Procura di Bergamo sulla gestione della prima fase della pandemia Covid-19 in Val Seriana. Le contestazioni comprendevano epidemia colposa e omicidio colposo plurimo. Gli atti sono stati trasmessi al Tribunale dei ministri di Brescia, che nel giugno 2023 ha disposto l'archiviazione della posizione perché il fatto non sussiste.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2023-06-07",
+        "timeline": [
+          {
+            "date": "2023-03-01",
+            "title": "Conte risulta indagato nell'inchiesta sulla gestione della pandemia in Val Seriana"
+          },
+          {
+            "date": "2023-05-29",
+            "title": "La Procura di Brescia chiede l'archiviazione"
+          },
+          {
+            "date": "2023-06-07",
+            "title": "Il Tribunale dei ministri di Brescia dispone l'archiviazione perché il fatto non sussiste"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inchiesta sul Covid in Bergamasca, indagati Conte e Speranza",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2023/03/01/inchiesta-sul-covid-in-bergamasca-indagati-conte-e-speranza-_a4b4144c-6bb8-4f48-a958-0836ec185bbe.html",
+            "publicationDate": "2023-03-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Covid: a Brescia archiviata l'inchiesta su Conte e Speranza",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lombardia/notizie/2023/06/07/covid-a-brescia-archiviata-linchiesta-su-conte-e-speranza_704eb100-ce52-4443-8b59-291e52f9191b.html",
+            "publicationDate": "2023-06-07",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Il fatto non sussiste. Il Tribunale dei ministri archivia l'inchiesta su Conte e Speranza",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/lombardia/articoli/2023/06/covid-giuseppe-conte-roberto-speranza-archiviazione-tribunale-ministri-8481eedf-5e7d-4d65-8f73-0b645c8cbe64.html",
+            "publicationDate": "2023-06-07",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

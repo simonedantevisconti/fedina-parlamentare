@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "tommaso-foti",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Indagine per corruzione e traffico di influenze illecite nell'ambito di un'inchiesta sugli appalti nel Piacentino. La Procura ha chiesto l'archiviazione nel febbraio 2024; il GIP l'ha disposta con provvedimento depositato il 19 novembre 2025."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "tommaso-foti-001",
+        "title": "Procedimento relativo a presunte irregolarità urbanistiche e appalti nel Piacentino",
+        "allegedOffence": "Corruzione e traffico di influenze illecite",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Piacenza",
+        "startDate": null,
+        "lastUpdate": "2025-11-19",
+        "description": "Tommaso Foti è stato indagato nell'ambito di un'inchiesta della Procura di Piacenza relativa a presunte irregolarità in pratiche urbanistiche e appalti. Le ipotesi di reato riferite dalle fonti erano corruzione e traffico di influenze illecite. Il 16 febbraio 2024 la Procura ha chiesto l'archiviazione della sua posizione. Il GIP del Tribunale di Piacenza ha successivamente accolto la richiesta, con provvedimento depositato il 19 novembre 2025.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2025-11-19",
+        "timeline": [
+          {
+            "date": "2022-02-01",
+            "title": "Foti risulta indagato nell'ambito dell'inchiesta sugli appalti nel Piacentino"
+          },
+          {
+            "date": "2024-02-16",
+            "title": "La Procura di Piacenza chiede l'archiviazione"
+          },
+          {
+            "date": "2025-11-19",
+            "title": "Il GIP dispone l'archiviazione del procedimento"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Foti indagato a Piacenza, pm ha chiesto l'archiviazione",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/emiliaromagna/notizie/2024/02/19/foti-indagato-a-piacenza-pm-ha-chiesto-larchiviazione_18db85ad-b2d1-4c8d-ac6c-557e8a4421a9.html",
+            "publicationDate": "2024-02-19",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Indagine su Foti: archiviato il ministro",
+            "publisher": "Il Fatto Quotidiano / rassegna stampa",
+            "url": "https://tommasofoti.com/rassegna-stampa/nazionale/indagine-su-foti-archiviato-il-ministro.html",
+            "publicationDate": "2025-12-12",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Foti, archiviata l'accusa di corruzione",
+            "publisher": "Corriere della Sera / rassegna stampa",
+            "url": "https://www.tommasofoti.com/rassegna-stampa/nazionale/foti-archiviata-laccusa-di-corruzione.html",
+            "publicationDate": "2025-12-13",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

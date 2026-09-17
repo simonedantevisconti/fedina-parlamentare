@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "andrea-delmastro-delle-vedove",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Caso Cospito: condanna a otto mesi in primo grado nel febbraio 2025 e conferma in appello nel maggio 2026. Annunciato ricorso in Cassazione; condanna non definitiva."
+  },
+  "record": {
+    "judicialStatus": "convicted-non-final",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "andrea-delmastro-delle-vedove-001",
+        "title": "Procedimento per rivelazione di segreto d'ufficio nel caso Cospito",
+        "allegedOffence": "Rivelazione di segreto d'ufficio",
+        "offence": null,
+        "status": "convicted-non-final",
+        "court": "Corte d'Appello di Roma",
+        "startDate": null,
+        "lastUpdate": "2026-05-20",
+        "description": "Andrea Delmastro Delle Vedove è stato imputato per rivelazione di segreto d'ufficio nell'ambito della vicenda relativa ad Alfredo Cospito. Il 20 febbraio 2025 il Tribunale di Roma lo ha condannato a otto mesi. Il 20 maggio 2026 la Corte d'Appello di Roma ha confermato la condanna. Dopo la decisione, Delmastro ha annunciato ricorso in Cassazione. La condanna non è quindi definitiva.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2025-02-20",
+            "title": "Condanna in primo grado a otto mesi"
+          },
+          {
+            "date": "2025-05-21",
+            "title": "Depositate le motivazioni della sentenza di primo grado"
+          },
+          {
+            "date": "2026-04-22",
+            "title": "La Procura generale chiede l'assoluzione in appello"
+          },
+          {
+            "date": "2026-05-20",
+            "title": "La Corte d'Appello di Roma conferma la condanna a otto mesi"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Delmastro condannato a otto mesi",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2025/02/20/delmastro-condannato-a-otto-mesi_8f95e9c2-4654-46a7-89b1-1200bd0acfe4.html",
+            "publicationDate": "2025-02-20",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "I giudici: Delmastro conosceva la delicatezza delle notizie segrete",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2025/05/21/i-giudici-delmastro-conosceva-la-delicatezza-delle-notizie-segrete_4eea1b78-dd5c-49cd-95d4-b2f17c8672b9.html",
+            "publicationDate": "2025-05-21",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Il caso Cospito, il pg chiede l'assoluzione per Delmastro",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2026/04/22/cospito-pg-roma-chiede-lassoluzione-per-delmastro_1cc78b18-d6e3-4181-9bec-350f98ee94d3.html",
+            "publicationDate": "2026-04-22",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Confermata in appello la condanna a Delmastro per il caso Cospito",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2026/05/20/confermata-in-appello-la-condanna-a-delmastro-per-il-caso-cospito_e032639e-e7cd-4a6e-8d94-f33f2f4665aa.html",
+            "publicationDate": "2026-05-20",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Delmastro, confermata in appello la condanna per il caso Cospito",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/amp/articoli/2026/05/confermata-in-appello-la-condanna-a-delmastro-per-il-caso-cospito-9a5aa9ca-2a69-424d-a237-2de808035807.html",
+            "publicationDate": "2026-05-21",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

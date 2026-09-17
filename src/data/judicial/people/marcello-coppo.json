@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "marcello-coppo",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Marcello Coppo\" deputato indagato condannato assolto"
+    ],
+    "notes": "I risultati esaminati riguardano interventi del deputato sulle vicende giudiziarie di altre persone, tra cui Chiara Appendino. Nessun procedimento personale documentato. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/19-308796"
+    ]
+  },
+  "record": null
+}
+

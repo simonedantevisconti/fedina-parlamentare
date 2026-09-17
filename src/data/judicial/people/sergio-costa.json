@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "sergio-costa",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Sergio Costa\" deputato ministro indagato condannato assolto"
+    ],
+    "notes": "I risultati esaminati riguardano denunce presentate dal deputato contro terzi e il suo ruolo in un giurì parlamentare. Nessun procedimento personale documentato. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.ansa.it/sito/notizie/politica/2023/03/15/cospito-giuri-donore-donzelli-non-ha-leso-onorabilita-_aae5f0f5-961b-44de-8f06-7bc84cdb2bb5.html"
+    ]
+  },
+  "record": null
+}

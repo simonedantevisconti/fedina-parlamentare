@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dario-carotenuto",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Dario Carotenuto\" deputato indagato condannato assolto"
+    ],
+    "notes": "L’audizione del deputato come testimone nell’inchiesta sulla Flotilla non costituisce procedimento a suo carico. Altre corrispondenze riguardano l’attività politica. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/in-edicola/articoli/2026/05/23/flotilla-il-deputato-carotenuto-m5s-ai-pm-sembrava-di-stare-dentro-squid-game-si-indaga-su-ben-gvir/8396339/"
+    ]
+  },
+  "record": null
+}

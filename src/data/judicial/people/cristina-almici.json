@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "id": "cristina-almici",
+  "review": {
+    "stage": "legacy-record",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+  },
+  "record": {
+    "judicialStatus": "dismissed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "cristina-almici-001",
+        "title": "Procedimento relativo al concorso per il comandante della Polizia Locale di Bagnolo Mella",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "dismissed",
+        "court": "Tribunale di Brescia",
+        "startDate": "2019-06-10",
+        "lastUpdate": "2020-11-11",
+        "description": "Cristina Almici, all'epoca sindaca di Bagnolo Mella, risultò indagata nell'ambito di un'inchiesta relativa al concorso per il comandante della Polizia Locale. L'accusa riferita dalla stampa era abuso d'ufficio. L'11 novembre 2020 è stata prosciolta in udienza preliminare.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2020-11-11",
+        "timeline": [
+          {
+            "date": "2019-06-10",
+            "title": "Notizia dell'iscrizione nel registro degli indagati"
+          },
+          {
+            "date": "2020-11-11",
+            "title": "Proscioglimento in udienza preliminare"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Concorso sospetto, anche il sindaco sotto inchiesta",
+            "publisher": "Prima Brescia",
+            "url": "https://primabrescia.it/cronaca/concorso-sospetto-anche-il-sindaco-almici-sotto-inchiesta/",
+            "publicationDate": "2019-06-10",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Concorso 'truccato' a Bagnolo, prosciolte il sindaco Almici e la vigilessa Bouzid",
+            "publisher": "Prima Brescia",
+            "url": "https://primabrescia.it/cronaca/concorso-truccato-a-bagnolo-prosciolte-il-sindaco-almici-e-la-vigilessa-bouzid/",
+            "publicationDate": "2020-11-11",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

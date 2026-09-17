@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "emanuele-pozzolo",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-16",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Vicenda Rosazza: condanna di primo grado del 31 ottobre 2025 a un anno e tre mesi per porto illegale di arma; assoluzione sul capo relativo alle munizioni. Separatamente, nel giugno 2026 gli atti di un incidente stradale sono stati trasmessi alla Procura di Biella per una possibile violazione dell'art. 186 CdS. Entrambi i filoni richiedono monitoraggio."
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "emanuele-pozzolo-001",
+        "title": "Procedimento relativo allo sparo di Capodanno a Rosazza",
+        "allegedOffence": "Porto illegale di arma e contestazione relativa alle munizioni",
+        "offence": null,
+        "status": "convicted-non-final",
+        "court": "Tribunale di Biella",
+        "startDate": "2024-01-01",
+        "lastUpdate": "2025-10-31",
+        "description": "Emanuele Pozzolo è stato processato nell'ambito della vicenda dello sparo avvenuto nella notte di Capodanno 2024 a Rosazza, in provincia di Biella, con una mini pistola di sua proprietà. Il 31 ottobre 2025 il Tribunale di Biella lo ha condannato a un anno e tre mesi, con sospensione condizionale della pena, per porto illegale dell'arma. Nello stesso giudizio è stato assolto dall'accusa relativa al possesso delle munizioni contestate perché il fatto non sussiste. La condanna per il porto dell'arma non è definitiva.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2024-01-01",
+            "title": "Sparo durante la festa di Capodanno a Rosazza"
+          },
+          {
+            "date": "2025-10-31",
+            "title": "Condanna in primo grado a un anno e tre mesi per porto illegale dell'arma; assoluzione sul capo relativo alle munizioni"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Un anno e 3 mesi a Pozzolo per lo sparo di capodanno",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2025/10/31/sparo-di-capodanno-pozzolo-condannato-a-un-anno-e-3-mesi_49673cf2-f289-4a42-86f3-d943bead8ec0.html",
+            "publicationDate": "2025-10-31",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Sparo a Capodanno, Pozzolo condannato a 15 mesi per porto illegale d'arma",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2025/10/sparo-a-capodanno-pozzolo-condannato-a-15-mesi-per-porto-abusivo-di-mini-pistola-pena-sospesa-17ca4b3f-37eb-463a-83bd-9665d763ea6a.html",
+            "publicationDate": "2025-11-01",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "emanuele-pozzolo-002",
+        "title": "Accertamenti relativi all'incidente stradale del giugno 2026",
+        "allegedOffence": "Ipotesi di guida in stato di ebbrezza",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Biella",
+        "startDate": "2026-06-02",
+        "lastUpdate": "2026-06-29",
+        "description": "Nel giugno 2026, dopo un incidente autonomo sulla superstrada Biella-Cossato, la Polizia stradale ha trasmesso gli atti alla Procura di Biella ravvisando una possibile violazione penale dell'articolo 186 del Codice della strada in relazione al tasso alcolemico rilevato. Pozzolo ha contestato la ricostruzione e ha dichiarato di non essersi messo alla guida in stato alterato. Le fonti consultate documentano accertamenti e trasmissione degli atti alla Procura, non un accertamento di responsabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-06-02",
+            "title": "Incidente stradale e accertamenti della Polizia stradale"
+          },
+          {
+            "date": "2026-06-03",
+            "title": "Gli atti vengono trasmessi alla Procura di Biella"
+          },
+          {
+            "date": "2026-06-29",
+            "title": "La Prefettura sospende la patente; Pozzolo comunica di aver presentato ricorso"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Pozzolo alla TGR: 'Non mi sono messo alla guida alterato'. Atti della stradale in procura a Biella",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/06/pozzolo-replica-incidente-alcol-test-biella-futuro-nazionale-vannacci--0cf48163-c268-4e77-a89d-919642524416.html",
+            "publicationDate": "2026-06-03",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Sospesa la patente per un anno a Pozzolo, che fa ricorso",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/piemonte/articoli/2026/06/sospesa-la-patente-per-un-anno-a-pozzolo-140ff536-d358-4bf2-b572-7358efab6cc9.html",
+            "publicationDate": "2026-06-29",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

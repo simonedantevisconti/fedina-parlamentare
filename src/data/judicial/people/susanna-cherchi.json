@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "susanna-cherchi",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Susanna Cherchi\" indagata condannata assolta archiviata"
+    ],
+    "notes": "La documentazione ministeriale rintracciata si riferisce a contenzioso civile promosso da una omonima; non costituisce dato penale attribuibile alla deputata. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.crea.gov.it/documents/20126/184841/decreto_22_8_2015.pdf/fb7880ff-6c4a-80f5-a6e7-80ba08fbadc3?download=true&t=1563911129444&version=1.0"
+    ]
+  },
+  "record": null
+}

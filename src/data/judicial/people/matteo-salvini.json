@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "matteo-salvini",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento Open Arms: assoluzione del Tribunale di Palermo nel dicembre 2024 perché il fatto non sussiste. Ricorso per saltum della Procura rigettato dalla Cassazione il 17 dicembre 2025; assoluzione definitiva."
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "matteo-salvini-001",
+        "title": "Procedimento Open Arms",
+        "allegedOffence": "Sequestro di persona e rifiuto di atti d'ufficio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte di Cassazione / Tribunale di Palermo",
+        "startDate": null,
+        "lastUpdate": "2025-12-17",
+        "description": "Matteo Salvini è stato processato per i fatti relativi alla nave Open Arms dell'agosto 2019, quando ricopriva l'incarico di ministro dell'Interno. Le contestazioni riguardavano sequestro di persona e rifiuto di atti d'ufficio in relazione al mancato immediato sbarco dei migranti presenti a bordo. Il 20 dicembre 2024 il Tribunale di Palermo lo ha assolto perché il fatto non sussiste. La Procura ha successivamente presentato ricorso per saltum in Cassazione. Il 17 dicembre 2025 la Quinta Sezione penale della Corte di Cassazione ha rigettato il ricorso, rendendo definitiva l'assoluzione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2025-12-17",
+        "timeline": [
+          {
+            "date": "2024-12-20",
+            "title": "Il Tribunale di Palermo assolve Salvini perché il fatto non sussiste"
+          },
+          {
+            "date": "2025-07-01",
+            "title": "La Procura di Palermo presenta ricorso per saltum in Cassazione"
+          },
+          {
+            "date": "2025-12-17",
+            "title": "La Cassazione rigetta il ricorso e rende definitiva l'assoluzione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Open Arms, definitiva l'assoluzione per Salvini",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/articoli/2025/12/open-arms-definitiva-lassoluzione-per-salvini-cfbff70a-afd0-4859-b919-df274bb3ea3d.html",
+            "publicationDate": "2025-12-17",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Open Arms, definitiva l'assoluzione per Salvini",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/topnews/2025/12/17/open-arms-definitiva-lassoluzione-per-salvini_304d38be-c906-4abb-b84d-009e9f719aba.html",
+            "publicationDate": "2025-12-17",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

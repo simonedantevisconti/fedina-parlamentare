@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "piergiorgio-cortelazzo",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Piergiorgio Cortelazzo\" deputato indagato condannato assolto"
+    ],
+    "notes": "Le corrispondenze esaminate riguardano attività parlamentare e discussioni di norme penali. Nessun procedimento personale documentato. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.camera.it/uri-res/N2Ls?urn%3Acamera-it%3Aparlamento%3Ascheda.personale%3Acamera%3B19.legislatura%3B307580="
+    ]
+  },
+  "record": null
+}

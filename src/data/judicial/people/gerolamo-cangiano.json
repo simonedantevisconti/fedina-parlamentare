@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "gerolamo-cangiano",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Gerolamo Cangiano\" indagato condannato assolto"
+    ],
+    "notes": "Reperita un’intervista del luglio 2026 su accuse giornalistiche e intenzione di querelare. Non equivale alla prova di iscrizione come indagato o di responsabilità penale. Occorre approfondire fonti indipendenti e atti.",
+    "sourceUrls": [
+      "https://www.iltempo.it/attualita/2026/07/13/news/gerolamo-cangiano-intervista-io-accusato-senza-prove-denuncio-report-per-calunnia-e-diffamazione-aggravata--48525328/"
+    ]
+  },
+  "record": null
+}

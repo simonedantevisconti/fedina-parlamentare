@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "simona-bonafe",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "Le ricerche restituiscono prevalentemente attività politica e partecipazione a commissioni parlamentari d’inchiesta; nessun procedimento penale personale supportato nei risultati consultati.",
+    "queries": [
+      "\"Simona Bonafè\" indagata condannata assolta",
+      "\"Simona Bonafè\" (inchiesta OR imputata OR prosciolta OR archiviazione)"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=305549&tipoAttivita=attivitanonlegislativacommissione&tipoPersona=C&tipoVisAtt=1"
+    ]
+  },
+  "record": null
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "giulio-centemero",
+  "review": {
+    "stage": "legacy-record",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "giulio-centemero-001",
+        "title": "Procedimento relativo al finanziamento all'associazione PiùVoci",
+        "allegedOffence": "Finanziamento illecito ai partiti",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2024-08-11",
+        "description": "Giulio Centemero era stato condannato a Milano a otto mesi di reclusione in relazione a un finanziamento di 40mila euro del 2016 destinato all'associazione PiùVoci. Nell'agosto 2024 la Corte di Cassazione ha annullato la sentenza per incompetenza territoriale, indicando la competenza della Procura di Bergamo. Secondo ANSA, al momento della decisione il reato risultava ormai prescritto.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-01-01",
+            "title": "Condanna in primo grado a Milano"
+          },
+          {
+            "date": "2023-01-01",
+            "title": "Conferma della condanna in appello"
+          },
+          {
+            "date": "2024-08-11",
+            "title": "La Cassazione annulla per incompetenza territoriale; il reato risulta prescritto"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Lega: Cassazione annulla condanna per Centemero, caso prescritto",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2024/08/11/lega-cassazione-annulla-condanna-per-centemero-caso-prescritto_9035ebbf-a8de-41a7-a8ca-1a52de959a74.html",
+            "publicationDate": "2024-08-11",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "giulio-centemero-002",
+        "title": "Procedimento relativo al progetto del nuovo Stadio della Roma",
+        "allegedOffence": "Finanziamento illecito",
+        "offence": null,
+        "status": "convicted-non-final",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2025-02-11",
+        "description": "Giulio Centemero è stato imputato nel maxi-processo relativo al progetto dello stadio di Tor di Valle. Il 5 aprile 2024 il Tribunale di Roma lo ha condannato in primo grado a un anno di reclusione. Le fonti consultate nel 2025 confermavano la condanna di primo grado; non è stato individuato un successivo esito definitivo.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-10-27",
+            "title": "La Procura chiede una condanna a tre anni e quattro mesi"
+          },
+          {
+            "date": "2024-04-05",
+            "title": "Condanna in primo grado a un anno"
+          },
+          {
+            "date": "2025-02-11",
+            "title": "Le motivazioni della sentenza di primo grado risultano pubblicate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Processo per lo stadio della Roma, 9 condanne",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lazio/notizie/2024/04/05/processo-per-lo-stadio-della-roma-9-condanne_9945be8b-0f11-449e-9a99-18432006f778.html",
+            "publicationDate": "2024-04-05",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Condotta di De Vito grave e spregiudicata: così i giudici nel processo per l'ex stadio della Roma",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/lazio/articoli/2025/02/condotta-grave-e-spregiudicata-cosi-i-giudici-nel-processo-per-lex-stadio-della-roma-de-vito-lanzalone-parnasi-centemero-2c5a57f2-766e-4e39-91ba-a828286a138c.html",
+            "publicationDate": "2025-02-11",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

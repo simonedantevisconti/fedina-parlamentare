@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "maria-rosaria-carfagna",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Maria Rosaria Carfagna\" indagata condannata assolta archiviata",
+      "\"Maria Rosaria Carfagna\" \"diffamazione\" \"insindacabilità\" 2025"
+    ],
+    "notes": "La documentazione parlamentare sulla diffamazione riguarda un giudizio civile promosso da Carfagna contro Vittorio Sgarbi: non è un procedimento penale a carico della deputata. Controllo penale preliminare, senza esito personale documentato.",
+    "sourceUrls": [
+      "https://www.deputatipd.it/interventi/relazione-della-giunta-le-autorizzazioni-sulla-richiesta-di-deliberazione-materia-di-6"
+    ]
+  },
+  "record": null
+}

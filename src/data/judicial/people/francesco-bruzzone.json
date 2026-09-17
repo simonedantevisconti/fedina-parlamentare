@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "francesco-bruzzone",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Distinti due procedimenti sulle spese regionali: assoluzione confermata in Cassazione per il periodo 2010-2012; prescrizione in appello per la precedente legislatura. Per il secondo esito manca una verifica delle successive impugnazioni.",
+    "queries": [
+      "\"Francesco Bruzzone\" (condannato OR assolto OR archiviazione OR indagato)",
+      "\"Francesco Bruzzone\" \"prescrizione\" gennaio 2023",
+      "\"Bruzzone\" \"Cassazione\" \"2023\" spese pazze",
+      "\"Bruzzone\" \"assoluzione\" \"Cassazione\" \"2022\""
+    ],
+    "sourceUrls": []
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-bruzzone-001",
+        "title": "Spese dei gruppi regionali della Liguria, periodo 2010-2012",
+        "status": "acquitted",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2022-03-16",
+        "description": "Rai riferisce che la Cassazione ha respinto il ricorso contro l’assoluzione in appello del 18 marzo 2021 per falso e peculato, con formula perché il fatto non sussiste. La data di aggiornamento è quella della notizia; la data esatta della decisione di Cassazione non è ricostruita.",
+        "allegedOffence": "Falso e peculato",
+        "offence": null,
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Spese pazze: il fatto non sussiste",
+            "publisher": "Rai News TGR Liguria",
+            "url": "https://www.rainews.it/tgr/liguria/articoli/2022/03/lig-Rixi-Rosso-Bruzzone-spese-pazze-790e6c26-e8f6-4f00-89e8-b34e6a3266a0.html",
+            "publicationDate": "2022-03-16",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "francesco-bruzzone-002",
+        "title": "Spese dei gruppi regionali della Liguria, precedente legislatura",
+        "status": "prescribed",
+        "court": "Corte d’appello di Genova",
+        "startDate": null,
+        "lastUpdate": "2023-01-27",
+        "description": "Il 27 gennaio 2023 la Corte d’appello ha dichiarato la prescrizione per dodici ex consiglieri, tra cui Bruzzone, dopo la riqualificazione dell’accusa di peculato in indebita percezione di erogazioni pubbliche. Non è documentata la definitività di questo esito.",
+        "allegedOffence": "Indebita percezione di erogazioni pubbliche (riqualificazione in appello)",
+        "offence": null,
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Processo spese pazze: prosciolti in appello Biasotti, Bruzzone e altri 10 ex consiglieri regionali",
+            "publisher": "Telenord",
+            "url": "https://telenord.it/processo-spese-pazze-prosciolti-in-appello-biasotti-bruzzone-e-altri-10-ex-consiglieri-regionali-53507",
+            "publicationDate": "2023-01-27",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

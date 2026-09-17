@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "claudio-lotito",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Claudio Lotito\" Calciopoli prescrizione Cassazione 2015",
+      "\"Claudio Lotito\" Fuorigioco assolto 2023",
+      "\"Claudio Lotito\" Iodice archiviato 2017",
+      "\"Claudio Lotito\" aggiotaggio omessa alienazione Cassazione pena"
+    ],
+    "notes": "Quattro vicende penali distinte sono documentate. Resta da verificare la pena fissata dopo il rinvio per le azioni Lazio e l’irrevocabilità dell’assoluzione Fuorigioco. La richiesta di tabulati al Senato riguarda Lotito come persona offesa. Le sanzioni FIGC non sono fedina penale.",
+    "sourceUrls": [
+      "https://www.corriere.it/sport/15_marzo_24/calciopoli-cassazione-prescrizione-moggi-giraudo-assolti-arbitri-bertini-dattilo-3c52feae-d1bb-11e4-8608-3dead25e131d.shtml",
+      "https://www.rainews.it/tgr/lazio/articoli/2023/03/inchiesta-fatture-false-assolto-claudio-lotito-da7e4f18-ceff-4c2b-a0e9-025f51fdfb4b.html",
+      "https://sport.sky.it/calcio/2017/02/02/procura-napoli-archivia-procedimento-iodice-lotito",
+      "https://roma.repubblica.it/cronaca/2014/01/24/news/troppe_azioni_della_lazio_condannato_lotito-76780137/",
+      "https://www.senato.it/commissioni-e-giunte/giunte/giunta-delle-elezioni-e-delle-immunita-parlamentari/autorizzazioni-procedere?doctype=6505666330f1a00d5c3eb55c466f4d80&id=2A17C1317EF7B7E3C1258CED004A40F1&search_type=categorizzata"
+    ]
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "claudio-lotito-001",
+        "title": "Calciopoli",
+        "allegedOffence": "Frode sportiva",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte di cassazione",
+        "startDate": null,
+        "lastUpdate": "2015-03-23",
+        "description": "La prescrizione della frode sportiva era già stata dichiarata in appello; la Cassazione ha rigettato il ricorso di Lotito il 23 marzo 2015. La prescrizione non equivale ad assoluzione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2015-03-23",
+        "timeline": [
+          {
+            "date": "2015-03-23",
+            "title": "La Cassazione rigetta il ricorso contro la prescrizione pronunciata in appello"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Calciopoli, Cassazione: prescrizione per Moggi, Lotito e Della Valle",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/sport/15_marzo_24/calciopoli-cassazione-prescrizione-moggi-giraudo-assolti-arbitri-bertini-dattilo-3c52feae-d1bb-11e4-8608-3dead25e131d.shtml",
+            "publicationDate": "2015-03-24",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "claudio-lotito-002",
+        "title": "Inchiesta Fuorigioco sulle fatture nel calcio",
+        "allegedOffence": "Falso uso di fatture per operazioni inesistenti",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Napoli",
+        "startDate": null,
+        "lastUpdate": "2023-03-02",
+        "description": "Assolto in primo grado nel procedimento Fuorigioco. Non è stata verificata l’irrevocabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-03-02",
+            "title": "Pronunciata assoluzione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fatture false: assolti De Laurentiis, Lotito, Galliani e altri",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/sport/calcio/serie-a/23_marzo_02/falso-uso-fatture-assolti-de-laurentis-lotito-galliani-percassi-e9a47d94-b911-11ed-b194-e55eac395b06_amp.html",
+            "publicationDate": "2023-03-02",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "claudio-lotito-003",
+        "title": "Querela Iodice",
+        "allegedOffence": "Tentata estorsione",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura di Napoli",
+        "startDate": null,
+        "lastUpdate": "2017-02-02",
+        "description": "La Procura di Napoli ha chiesto e ottenuto l’archiviazione dell’ipotesi di tentata estorsione, nata dalla telefonata con Pino Iodice. Una distinta controquerela per diffamazione presentata da Lotito verso Iodice risulta anch’essa oggetto di richiesta di archiviazione: Lotito era querelante, non indagato, in quella posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-02-02",
+            "title": "Provvedimento documentato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "La Procura di Napoli archivia il procedimento Iodice-Lotito",
+            "publisher": "Sky Sport",
+            "url": "https://sport.sky.it/calcio/2017/02/02/procura-napoli-archivia-procedimento-iodice-lotito",
+            "publicationDate": "2017-02-02",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "claudio-lotito-004",
+        "title": "Azioni della Lazio",
+        "allegedOffence": "Aggiottaggio, ostacolo alla vigilanza e omessa alienazione di partecipazioni",
+        "offence": null,
+        "status": "multiple",
+        "court": "Corte di cassazione",
+        "startDate": null,
+        "lastUpdate": "2014-01-24",
+        "description": "La Cassazione ha dichiarato prescritti aggiotaggio e ostacolo alla vigilanza, ma ha rinviato alla Corte d’appello la sola determinazione della pena per l’omessa alienazione di partecipazioni. La successiva pena non è stata verificata; il procedimento contiene esiti differenti per capi d’imputazione distinti.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2014-01-24",
+            "title": "Provvedimento documentato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Troppe azioni della Lazio, condannato Lotito",
+            "publisher": "la Repubblica",
+            "url": "https://roma.repubblica.it/cronaca/2014/01/24/news/troppe_azioni_della_lazio_condannato_lotito-76780137/",
+            "publicationDate": "2014-01-24",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

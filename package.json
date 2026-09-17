@@ -4,9 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predev": "npm run data:build",
     "dev": "vite",
+    "prebuild": "npm run data:build",
     "build": "vite build",
+    "data:build": "node scripts/buildJudicialData.mjs",
+    "data:check": "node scripts/buildJudicialData.mjs --check",
+    "test": "npm run data:check && node --test",
     "lint": "eslint .",
+    "audit:judicial": "node scripts/auditJudicialCoverage.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

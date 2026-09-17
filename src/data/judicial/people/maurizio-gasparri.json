@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "maurizio-gasparri",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Oltre all’assoluzione in primo grado del 6 aprile 2016 per peculato, gli atti del Senato documentano due distinti procedimenti per diffamazione: caso Sileri (querela rimessa nel 2023, senza provvedimento giudiziario finale reperito) e caso Ramelli-Marzullo (insindacabilità deliberata dal Senato il 20 settembre 2023, senza sentenza penale finale reperita). La definitività dell’assoluzione del 2016 resta da verificare.",
+    "queries": [
+      "\"Maurizio Gasparri\" polizza vita assoluzione definitiva peculato",
+      "\"Maurizio Gasparri\" \"Pierpaolo Sileri\" remissione querela",
+      "\"Maurizio Gasparri\" \"Ramelli\" \"Marzullo\" insindacabilità"
+    ]
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "maurizio-gasparri-001",
+        "title": "Procedimento relativo all'utilizzo di fondi del gruppo parlamentare PDL",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2016-04-06",
+        "description": "Maurizio Gasparri è stato processato con l'accusa di peculato in relazione all'utilizzo di 600mila euro provenienti dai fondi del gruppo parlamentare PDL al Senato per la sottoscrizione di una polizza vita a lui intestata. Secondo l'accusa, l'operazione avrebbe costituito un'appropriazione indebita di denaro del gruppo. Il 6 aprile 2016 il Tribunale di Roma lo ha assolto perché il fatto non sussiste.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": null,
+            "title": "Rinvio a giudizio per peculato nell'ambito del procedimento sui fondi del gruppo PDL"
+          },
+          {
+            "date": "2016-04-06",
+            "title": "Il Tribunale di Roma assolve Gasparri perché il fatto non sussiste"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fondi Pdl: assolto Maurizio Gasparri",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2016/04/06/fondi-pdl-assolto-maurizio-gasparri_6e3bc722-6dcd-4cd7-8978-21c97489e76b.html",
+            "publicationDate": "2016-04-06",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Peculato, assolto Maurizio Gasparri",
+            "publisher": "Corriere della Sera",
+            "url": "https://www.corriere.it/politica/16_aprile_06/gasparri-assolto-dall-accusa-aver-usato-fondi-pdl-la-polizza-vita-1c820114-fbe1-11e5-a926-0cdda7cf8be3.shtml",
+            "publicationDate": "2016-04-06",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "maurizio-gasparri-002",
+        "title": "Procedimento per diffamazione su dichiarazioni relative a Pierpaolo Sileri",
+        "allegedOffence": "Diffamazione col mezzo della stampa",
+        "offence": null,
+        "status": "investigated",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2023-02-14",
+        "description": "Una querela di Pierpaolo Sileri per dichiarazioni del 5 gennaio 2021 ha dato luogo a un procedimento penale nei confronti di Gasparri. Il Senato ha riferito il 14 febbraio 2023 che Sileri aveva rimesso la querela e ha dichiarato cessata la materia del contendere sulla richiesta di insindacabilità. Non è stato reperito il provvedimento con cui il giudice abbia definito il procedimento; lo stato descrive la fase documentata e non implica pendenza attuale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-01-12",
+            "title": "Sileri presenta querela"
+          },
+          {
+            "date": "2023-02-14",
+            "title": "Il Senato prende atto della remissione della querela"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Resoconto della Giunta sul procedimento Gasparri-Sileri",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1298258&idoggetto=0&leg=18&part=doc_dc-sedetit_ip%3A1&tipodoc=SommComm",
+            "publicationDate": "2021-05-26",
+            "accessedAt": "2026-09-17",
+            "type": "institutional"
+          },
+          {
+            "name": "Resoconto dell’Assemblea, remissione della querela Sileri",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/service/PDF/PDFServer/DF/424346.pdf",
+            "publicationDate": "2023-02-14",
+            "accessedAt": "2026-09-17",
+            "type": "institutional"
+          }
+        ]
+      },
+      {
+        "id": "maurizio-gasparri-003",
+        "title": "Procedimento per diffamazione relativo a Greta Ramelli e Vanessa Marzullo",
+        "allegedOffence": "Diffamazione col mezzo della stampa",
+        "offence": null,
+        "status": "parliamentary-immunity",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2023-09-20",
+        "description": "In un distinto procedimento per diffamazione relativo a dichiarazioni del 2015 su Greta Ramelli e Vanessa Marzullo, il Senato ha approvato il 20 settembre 2023 la proposta della Giunta di riconoscere l’insindacabilità parlamentare. La delibera riguarda la prerogativa parlamentare; non è stata reperita una successiva decisione del giudice penale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-07-11",
+            "title": "La Giunta riconosce l’insindacabilità"
+          },
+          {
+            "date": "2023-09-20",
+            "title": "L’Assemblea del Senato approva la proposta"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Procedura di insindacabilità Gasparri",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/leggi-e-documenti/attivita-non-legislative/procedure?documentoId=49302",
+            "publicationDate": null,
+            "accessedAt": "2026-09-17",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

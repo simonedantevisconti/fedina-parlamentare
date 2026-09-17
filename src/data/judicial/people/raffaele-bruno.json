@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "raffaele-bruno",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Raffaele Bruno\" deputato indagato condannato assolto"
+    ],
+    "notes": "Esclusa l’omonimia con l’avvocato Elio Raffaele Bruno di Catanzaro: il deputato è biologo e autore teatrale, nato a Napoli nel 1974. Nessun procedimento personale documentato da questa ricerca preliminare.",
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/18-307193",
+      "https://www.lacnews24.it/cronaca/inchiesta-sui-falsi-testamenti-torna-in-liberta-lavvocato-raffaele-bruno-qx1vki5h"
+    ]
+  },
+  "record": null
+}

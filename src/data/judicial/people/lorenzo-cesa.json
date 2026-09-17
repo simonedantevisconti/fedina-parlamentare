@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "lorenzo-cesa",
+  "review": {
+    "stage": "legacy-record",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "lorenzo-cesa-001",
+        "title": "Procedimento nell'ambito dell'inchiesta Basso Profilo",
+        "allegedOffence": "Associazione per delinquere aggravata dal metodo mafioso",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Catanzaro",
+        "startDate": "2021-01-21",
+        "lastUpdate": "2021-11-19",
+        "description": "Lorenzo Cesa è stato indagato nell'ambito dell'inchiesta 'Basso Profilo' della DDA di Catanzaro, relativa a presunti rapporti illeciti tra esponenti economici, amministrativi e ambienti criminali del Crotonese. Nel novembre 2021 il GIP del Tribunale di Catanzaro ha accolto la richiesta di archiviazione presentata dalla DDA, che aveva ritenuto non sufficienti gli elementi per sostenere l'appartenenza di Cesa all'associazione contestata.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2021-11-19",
+        "timeline": [
+          {
+            "date": "2021-01-21",
+            "title": "Cesa risulta indagato nell'inchiesta Basso Profilo"
+          },
+          {
+            "date": "2021-05-11",
+            "title": "La DDA comunica la chiusura delle indagini"
+          },
+          {
+            "date": "2021-11-19",
+            "title": "Il GIP dispone l'archiviazione"
+          }
+        ],
+        "sources": [
+          {
+            "name": "'Ndrangheta: blitz in tutta Italia, indagato Cesa",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2021/01/21/ndrangheta-maxi-operazione-in-tutta-italia-tra-gli-indagati-il-segretario-delludc-lorenzo-cesa_55a2d683-ce9c-46d3-b58d-c085ec1335d4.html",
+            "publicationDate": "2021-01-21",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "'Ndrangheta: archiviato procedimento a carico Lorenzo Cesa",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/calabria/notizie/2021/11/19/ndrangheta-archiviato-procedimento-a-carico-lorenzo-cesa_cd9b9f7d-41ea-4cda-bd4a-2c90ba03a149.html",
+            "publicationDate": "2021-11-19",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "'Ndrangheta, archiviata la posizione dell'ex segretario dell'Udc Cesa",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/calabria/articoli/2021/11/cal-cesa-calabria-ndrangheta-catanzaro-2ac3592d-8e91-4b72-9ece-5ecf5ba92758.html",
+            "publicationDate": "2021-11-19",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

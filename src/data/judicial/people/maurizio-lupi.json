@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "maurizio-lupi",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento per abuso d'ufficio relativo alla nomina del commissario dell'Autorità portuale di Cagliari. Archiviazione disposta dal Tribunale dei ministri nel marzo 2014."
+  },
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "maurizio-lupi-001",
+        "title": "Procedimento relativo alla nomina del commissario dell'Autorità portuale di Cagliari",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Cagliari",
+        "startDate": null,
+        "lastUpdate": "2014-03-27",
+        "description": "Maurizio Lupi è stato iscritto nel registro degli indagati per abuso d'ufficio in relazione alla nomina di Piergiorgio Massidda a commissario straordinario dell'Autorità portuale di Cagliari. Nel marzo 2014 il Tribunale dei ministri ha disposto l'archiviazione del procedimento, ritenendo insussistenti i presupposti materiali e soggettivi del reato contestato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2014-03-24",
+        "timeline": [
+          {
+            "date": null,
+            "title": "Iscrizione nel registro degli indagati per abuso d'ufficio"
+          },
+          {
+            "date": "2014-03-24",
+            "title": "Il Tribunale dei ministri dispone l'archiviazione"
+          },
+          {
+            "date": "2014-03-27",
+            "title": "La notizia dell'archiviazione viene resa pubblica"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Nomina porto Cagliari, archiviazione Lupi",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sardegna/notizie/2014/03/27/nomina-porto-cagliariarchiviazione-lupi_87ad08d1-8781-4ee7-9489-831c1ad6547f.html",
+            "publicationDate": "2014-03-27",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Cagliari, archiviato il caso Lupi",
+            "publisher": "La Nuova Sardegna",
+            "url": "https://www.lanuovasardegna.it/regione/2014/03/27/news/cagliari-archiviato-il-caso-lupi-1.8936371",
+            "publicationDate": "2014-03-27",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

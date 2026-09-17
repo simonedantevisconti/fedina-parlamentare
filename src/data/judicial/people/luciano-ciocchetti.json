@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "luciano-ciocchetti",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Luciano Ciocchetti\" deputato indagato condannato assolto",
+      "\"Luciano Ciocchetti\" \"Scarpellini\" archiviato",
+      "\"Luciano Ciocchetti\" \"Scarpellini\" assolto",
+      "\"Ciocchetti\" \"case gratis\" processo 2023 2024"
+    ],
+    "notes": "Nel 2018 Ciocchetti risultava indagato nell’inchiesta romana sui finanziamenti da Sergio Scarpellini; sono documentate perquisizioni e una sua replica pubblica. Non sono stati reperiti provvedimenti successivi attendibili. Non trattare l’indagine storica come pendente oggi.",
+    "sourceUrls": [
+      "https://roma.repubblica.it/cronaca/2018/09/19/news/roma_sistema_scarpellini_da_ciocchetti_a_verdini_case_gratis_ai_politici-206824313/",
+      "https://roma.corriere.it/notizie/cronaca/18_ottobre_04/scarpellini-speravo-avere-vantaggi-favori-fatti-6d57f63e-c740-11e8-8ba5-9eaeeac74b23_amp.html"
+    ]
+  },
+  "record": null
+}

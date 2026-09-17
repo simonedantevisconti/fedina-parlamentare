@@ -1,3 +1,4 @@
+import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import DefaultLayout from "./layout/DefaultLayout";
@@ -5,9 +6,10 @@ import DefaultLayout from "./layout/DefaultLayout";
 import HomePage from "./pages/HomePage";
 import CameraPage from "./pages/CameraPage";
 import SenatoPage from "./pages/SenatoPage";
-import PoliticianPage from "./pages/PoliticianPage";
 import MethodologyPage from "./pages/MethodologyPage";
 import NotFoundPage from "./pages/NotFoundPage";
+
+const PoliticianPage = lazy(() => import("./pages/PoliticianPage"));
 
 const App = () => {
   return (
@@ -20,7 +22,11 @@ const App = () => {
 
           <Route path="/senato" element={<SenatoPage />} />
 
-          <Route path="/politico/:id" element={<PoliticianPage />} />
+          <Route path="/politico/:id" element={
+            <Suspense fallback={<p className="container" role="status">Caricamento della scheda…</p>}>
+              <PoliticianPage />
+            </Suspense>
+          } />
 
           <Route path="/metodologia" element={<MethodologyPage />} />
 

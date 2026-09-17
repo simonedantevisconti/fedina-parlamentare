@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "giangiacomo-calovini",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Giangiacomo Calovini\" indagato condannato assolto",
+      "\"Calovini\" \"patteggiamento\" \"giudice\" luglio 2023",
+      "\"Calovini\" \"patteggiamento\" \"definitivo\""
+    ],
+    "notes": "La fonte del 2024 conferma l’accoglimento del patteggiamento, oltre alla richiesta del 2023. La definitività è esplicitamente riferita a Fidanza: non viene automaticamente estesa a Calovini. Mancano data esatta e verifica del passaggio in giudicato della sua decisione."
+  },
+  "record": {
+    "judicialStatus": "plea-bargain",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "giangiacomo-calovini-001",
+        "title": "Accordo sulle dimissioni dal Consiglio comunale di Brescia",
+        "status": "plea-bargain",
+        "court": "Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": "2024-04-18",
+        "allegedOffence": "Corruzione per l’esercizio della funzione",
+        "offence": null,
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "description": "Il Corriere della Sera riferisce che Calovini e Fidanza hanno ottenuto un patteggiamento a un anno e quattro mesi, pena sospesa, dalla giudice Stefania Donadeo. La vicenda riguarda le dimissioni del consigliere Giovanni Francesco Acri e l’assunzione di suo figlio come assistente parlamentare. La data di aggiornamento è quella della notizia; la definitività della decisione relativa a Calovini resta da documentare.",
+        "timeline": [],
+        "sources": [
+          {
+            "name": "I soldi a Fidanza per l’assistente: il Parlamento europeo si muove per farsi rimborsare",
+            "publisher": "Corriere della Sera",
+            "url": "https://milano.corriere.it/notizie/cronaca/24_aprile_18/i-soldi-a-fidanza-per-l-assistente-il-parlamento-europeo-si-muove-per-farsi-rimborsare-dal-politico-di-fratelli-d-italia-da2024b9-51f6-492f-bc5f-0ef030acexlk.shtml",
+            "publicationDate": "2024-04-18",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

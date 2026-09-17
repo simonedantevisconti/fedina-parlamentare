@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "davide-bergamini",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "notes": "Le ricerche restituiscono attività parlamentare in materia di giustizia e vicende riferite a terzi; nessun procedimento penale personale sufficientemente supportato nei risultati consultati.",
+    "queries": [
+      "\"Davide Bergamini\" indagato condannato assolto",
+      "\"Davide Bergamini\" (processo OR archiviazione OR imputato OR patteggiamento)"
+    ],
+    "sourceUrls": [
+      "https://agenparl.eu/2026/05/28/giustizia-davide-bergamini-fi-ridare-dignita-agli-innocenti-e-un-dovere-di-civilt/"
+    ]
+  },
+  "record": null
+}

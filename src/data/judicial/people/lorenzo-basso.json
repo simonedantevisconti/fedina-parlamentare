@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "lorenzo-basso",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "ANSA riferisce il proscioglimento penale nel dicembre 2019. Non è disponibile nelle fonti consultate la data esatta o il dispositivo; non si attribuisce una specifica formula di archiviazione. La vicenda contabile resta distinta.",
+    "queries": [
+      "\"Lorenzo Basso\" \"prosciolto\" penale",
+      "\"Lorenzo Basso\" spese pazze archiviazione 2018"
+    ]
+  },
+  "record": {
+    "judicialStatus": "dismissed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "lorenzo-basso-001",
+        "title": "Procedimento penale sui fondi dei gruppi della Regione Liguria",
+        "allegedOffence": null,
+        "offence": null,
+        "status": "dismissed",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2019-12-06",
+        "description": "Nel gennaio 2018 la stampa riferì che la Procura di Genova aveva chiesto l’archiviazione per Lorenzo Basso nell’inchiesta sui fondi regionali. Il 6 dicembre 2019 ANSA riferiva che era stato prosciolto da ogni accusa in sede penale. Le fonti non precisano data e formula del provvedimento penale. Le decisioni della Corte dei conti riguardano una distinta responsabilità contabile.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-01-29",
+            "title": "Notizia della richiesta di archiviazione"
+          },
+          {
+            "date": "2019-12-06",
+            "title": "ANSA riferisce il proscioglimento penale"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Spese pazze in Regione, la Procura chiede il processo per Saso e Saldo",
+            "publisher": "Liguria24",
+            "url": "https://www.liguria24.it/2018/01/29/spese-pazze-in-regione-la-procura-chiede-il-processo-per-saso-e-saldo/105861/",
+            "publicationDate": "2018-01-29",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Spese pazze: condannati ex consiglieri Pd",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/liguria/notizie/2019/12/06/spese-pazze-condannati-ex-consiglieri-pd_54b46961-f9f4-40dd-978e-77932ddac31a.html",
+            "publicationDate": "2019-12-06",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "mirco-carloni",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Assoluzione pronunciata dal Tribunale di Ancona il 13 luglio 2023 nel procedimento sulle spese regionali. ANSA riferisce che la Procura non ha impugnato la decisione, divenuta irrevocabile entro il 15 febbraio 2024.",
+    "queries": [
+      "\"Mirco Carloni\" indagato condannato assolto archiviato",
+      "\"Mirco Carloni\" \"spese pazze\" appello 2024 2025 2026",
+      "\"Mirco Carloni\" \"assoluzione\" \"definitiva\" spese"
+    ]
+  },
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "mirco-carloni-001",
+        "title": "Procedimento sulle spese dei gruppi consiliari delle Marche",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Ancona",
+        "startDate": null,
+        "lastUpdate": "2024-02-15",
+        "description": "Mirco Carloni era imputato nel procedimento relativo all’utilizzo dei fondi dei gruppi consiliari delle Marche tra il 2008 e il 2012. Il Tribunale di Ancona lo ha assolto il 13 luglio 2023. Secondo ANSA, l’assoluzione è diventata irrevocabile perché la Procura non ha presentato appello. La data esatta di irrevocabilità non è disponibile.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-07-13",
+            "title": "Assoluzione in primo grado"
+          },
+          {
+            "date": "2024-02-15",
+            "title": "ANSA riferisce che l’assoluzione è irrevocabile"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fondi Marche, imputati assolti ad Ancona",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/marche/notizie/2023/07/13/fondi-marche-ad-ancona-imputati-assolti-da-accuse_34b9af26-c836-4a6c-8074-90a4730a7565.html",
+            "publicationDate": "2023-07-13",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "La Procura non impugna assoluzioni per spese facili in Consiglio",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/marche/notizie/2024/02/15/la-procura-non-impugna-assoluzioni-per-spese-facili-in-consiglio_ed084bd4-9c47-4e1c-b30e-03c2f6f2e9c1.html",
+            "publicationDate": "2024-02-15",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

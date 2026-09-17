@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "chiara-colosimo",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": ["\"Chiara Colosimo\" indagata condannata assolta archiviata"],
+    "notes": "I risultati esaminati sulla condanna riguardano lo zio Paolo Colosimo, non la deputata Chiara Colosimo. Nessun procedimento personale documentato; controllo preliminare.",
+    "sourceUrls": ["https://www.senato.it/service/PDF/PDFServer/BGT/1475983.pdf"]
+  },
+  "record": null
+}

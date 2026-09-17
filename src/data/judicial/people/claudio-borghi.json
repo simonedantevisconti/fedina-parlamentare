@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "claudio-borghi",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Claudio Borghi. Nel 2018 la Cassazione civile ha confermato una sanzione amministrativa della Banca d'Italia relativa alla sua precedente attività nel consiglio di amministrazione di Banca Arner; tale vicenda non costituisce un procedimento o una condanna penale."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

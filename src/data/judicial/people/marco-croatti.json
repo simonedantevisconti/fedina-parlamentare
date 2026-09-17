@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "marco-croatti",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al senatore Marco Croatti. Le occorrenze individuate riguardano prevalentemente la sua attività parlamentare e istituzionale."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

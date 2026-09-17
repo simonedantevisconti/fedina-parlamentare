@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "alessandro-colucci",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "result": "public-proceeding-found",
+    "queries": [
+      "\"Alessandro Colucci\" patteggiamento 2021 definitivo cassazione rimborsopoli",
+      "\"Alessandro Colucci\" \"1 anno, 8 mesi e 20 giorni\""
+    ],
+    "notes": "Condanna in primo grado nel 2019 e patteggiamento in appello il 13 luglio 2021 per peculato nel caso delle spese regionali lombarde. Non è stata verificata una successiva pronuncia o la data di irrevocabilità del patteggiamento.",
+    "lastCheckedAt": "2026-09-17",
+    "readyForClean": false
+  },
+  "record": {
+    "judicialStatus": "plea-bargain",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "alessandro-colucci-001",
+        "title": "Procedimento sulle spese dei consiglieri della Lombardia",
+        "allegedOffence": "Peculato",
+        "offence": "Peculato",
+        "status": "plea-bargain",
+        "court": "Corte d’Appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2021-07-13",
+        "description": "Nel procedimento sulle spese regionali lombarde Colucci fu condannato in primo grado a due anni e due mesi nel gennaio 2019. Il 13 luglio 2021 la Corte d’Appello di Milano accolse il patteggiamento proposto da Colucci per un anno, otto mesi e venti giorni. Le fonti consultate non attestano se o quando la decisione sia divenuta irrevocabile.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2019-01-18",
+            "title": "Condanna in primo grado"
+          },
+          {
+            "date": "2021-07-13",
+            "title": "Patteggiamento accolto in appello"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rimborsopoli Lombardia, condanne in appello e patteggiamento di Colucci",
+            "publisher": "HuffPost Italia",
+            "url": "https://www.huffingtonpost.it/politica/2021/07/13/news/rimborsopoli_lombardia_condanne_in_appello_a_romeo-5187172/",
+            "publicationDate": "2021-07-13",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          },
+          {
+            "name": "Spese pazze in Regione Lombardia: condanne confermate in appello",
+            "publisher": "Prima Brescia",
+            "url": "https://primabrescia.it/cronaca/spese-pazze-in-regione-lombardia-condanne-confermate-in-appello/",
+            "publicationDate": "2021-07-13",
+            "accessedAt": "2026-09-17",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

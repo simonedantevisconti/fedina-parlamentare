@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "ugo-cappellacci",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-16",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Esistono più procedimenti documentati, incluso un procedimento concluso con prescrizione nel febbraio 2026. Il modello dati supporta ora lo stato prescribed; resta da monitorare l'eventuale evoluzione successiva."
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "ugo-cappellacci-001",
+        "title": "Procedimento relativo al fallimento della Sept Italia",
+        "allegedOffence": "Contestazioni nell'ambito del fallimento della Sept Italia, tra cui bancarotta e reati societari",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d'appello di Cagliari",
+        "startDate": null,
+        "lastUpdate": "2021-12-14",
+        "description": "Ugo Cappellacci fu imputato nel procedimento relativo al fallimento della Sept Italia, società specializzata nella produzione di vernici e fallita nel 2010. In primo grado, nel settembre 2016, fu condannato a due anni e sei mesi. Il 14 dicembre 2021 la Corte d'appello di Cagliari lo ha assolto, facendo cadere le accuse nei suoi confronti.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2016-09-28",
+            "title": "Condanna in primo grado a due anni e sei mesi"
+          },
+          {
+            "date": "2021-12-14",
+            "title": "Assoluzione in appello da parte della Corte d'appello di Cagliari"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Crac Sept: condanna ex governatore sardo",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sardegna/notizie/2016/09/28/crac-sept-condanna-ex-governatore-sardo_acfe812a-ad34-473b-b324-2779987b557d.html",
+            "publicationDate": "2016-09-28",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Crac Sept: Cappellacci (Fi) assolto in appello a Cagliari",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sardegna/notizie/2021/12/14/crac-sept-cappellacci-fi-assolto-in-appello-a-cagliari_5be67c16-03bf-433b-abae-46baa3fb085b.html",
+            "publicationDate": "2021-12-14",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "ugo-cappellacci-002",
+        "title": "Procedimento relativo ai fondi Ingenium e alla presunta tangente da 80mila euro",
+        "allegedOffence": "Corruzione e peculato",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Cagliari",
+        "startDate": "2018-03-07",
+        "lastUpdate": "2026-02-26",
+        "description": "Ugo Cappellacci è stato coinvolto in un procedimento relativo a una presunta tangente da 80mila euro collegata all'assegnazione di contributi pubblici del Fondo Ingenium quando era presidente della Regione Sardegna. Nel febbraio 2022 è stato rinviato a giudizio per corruzione e peculato. Nel corso del dibattimento l'ipotesi di corruzione è stata dichiarata prescritta; il 26 febbraio 2026 il Tribunale di Cagliari ha dichiarato prescritta anche la contestazione di peculato nei suoi confronti. La prescrizione non equivale a un'assoluzione nel merito.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-03-07",
+            "title": "Emergono pubblicamente le indagini per presunta corruzione, peculato e altri profili contestati"
+          },
+          {
+            "date": "2022-02-10",
+            "title": "Rinvio a giudizio per corruzione e peculato"
+          },
+          {
+            "date": "2025-10-03",
+            "title": "La Procura chiede la prescrizione dell'ultima contestazione di peculato; la corruzione risultava già prescritta"
+          },
+          {
+            "date": "2026-02-26",
+            "title": "Il Tribunale di Cagliari dichiara prescritte le contestazioni nei confronti di Cappellacci"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Presunta corruzione, indagato Cappellacci",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2018/03/07/presunta-corruzioneindagato-cappellacci_de98c3d6-a962-4173-b12d-1c2d5f0a56ef.html",
+            "publicationDate": "2018-03-07",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Presunta tangente, a processo deputato e assessora sardi",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sardegna/notizie/2022/02/10/presunta-tangente-a-processo-deputato-e-assessora-sardi_ee0f9ea1-38e7-4cd2-96d0-5d46f9ac822d.html",
+            "publicationDate": "2022-02-10",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Presunta tangente, chiesta assoluzione per ex assessora Zedda",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/amp/sardegna/notizie/2025/10/03/presunta-tangente-chiesta-assoluzione-per-ex-assessora-sarda_9330ade8-8962-44d7-abca-b63f4114d4fe.html",
+            "publicationDate": "2025-10-03",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Processo per corruzione e peculato: assolta Alessandra Zedda, prescrizione per Ugo Cappellacci",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/sardegna/articoli/2026/02/processo-per-corruzione-e-peculato-assolta-zedda-prescrizione-per-cappellacci-83e9261f-6b93-4c51-b09b-a41bc9d885a9.html",
+            "publicationDate": "2026-02-26",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}

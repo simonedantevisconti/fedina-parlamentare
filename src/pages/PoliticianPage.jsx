@@ -1,7 +1,9 @@
+import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 import politicians from "../data/politicians";
 import { getJudicialStatus } from "../data/judicialStatuses";
+import { loadJudicialRecord } from "../data/judicialRecords.js";
 
 import "../styles/politician-page.css";
 
@@ -46,7 +48,26 @@ const getOffenceLabel = (proceeding) => {
 const PoliticianPage = () => {
   const { id } = useParams();
 
-  const politician = politicians.find((item) => item.id === id);
+  const summaryPolitician = politicians.find((item) => item.id === id);
+  const [loaded, setLoaded] = useState(null);
+  const [attempt, setAttempt] = useState(0);
+
+  useEffect(() => {
+    let active = true;
+    loadJudicialRecord(id).then(
+      (data) => { if (active) setLoaded({ id, attempt, data }); },
+      () => { if (active) setLoaded({ id, attempt, error: true }); },
+    );
+    return () => { active = false; };
+  }, [id, attempt]);
+
+  const current = loaded?.id === id && loaded?.attempt === attempt ? loaded : null;
+  const details = current?.data;
+  const loading = summaryPolitician?.judicialReview.stage !== "not-started" && !current;
+  const politician = summaryPolitician && {
+    ...summaryPolitician,
+    proceedings: details?.record?.proceedings ?? [],
+  };
 
   if (!politician) {
     return (
@@ -93,6 +114,14 @@ const PoliticianPage = () => {
 
   const judicialLastVerifiedAt =
     politician.judicialVerification?.lastVerifiedAt;
+  const reviewStage = politician.judicialReview.stage;
+  const reviewLabel = reviewStage === "not-started"
+    ? "Verifica non iniziata"
+    : reviewStage === "complete"
+      ? "Verifica completata sulle fonti disponibili"
+      : reviewStage === "preliminary"
+        ? "Ricerca preliminare: approfondimento necessario"
+        : "Verifica da approfondire o aggiornare";
 
   const institutionalLastVerifiedAt =
     politician.institutionalVerification?.lastVerifiedAt;
@@ -331,7 +360,7 @@ const PoliticianPage = () => {
                     )}
 
                     {judicialSummary.hasOngoingProceedings && (
-                      <span>Procedimento in corso</span>
+                      <span>Procedimento aperto all’ultimo atto documentato</span>
                     )}
 
                     {judicialSummary.hasAcquittals && (
@@ -372,14 +401,20 @@ const PoliticianPage = () => {
                   <span>Verifica giudiziaria</span>
 
                   <strong>
-                    {judicialReviewed ? "Effettuata" : "Non ancora effettuata"}
+                    {reviewLabel}
                   </strong>
 
-                  {judicialLastVerifiedAt && (
+                  {politician.judicialReview.lastCheckedAt && (
                     <small>
-                      Ultimo controllo: {formatDate(judicialLastVerifiedAt)}
+                      Ultimo controllo: {formatDate(politician.judicialReview.lastCheckedAt)}
                     </small>
                   )}
+                  {details?.review?.notes && <p>{details.review.notes}</p>}
+                  <small>
+                    Gli stati descrivono l’ultimo atto documentato per ciascun
+                    procedimento. La data del controllo delle fonti può essere
+                    successiva alla data di quell’atto.
+                  </small>
                 </div>
               </section>
 
@@ -396,13 +431,20 @@ const PoliticianPage = () => {
                   </div>
 
                   <span className="politician-page__proceedings-count">
-                    {proceedings.length}
+                    {proceedingCount}
                   </span>
                 </div>
 
-                {proceedings.length === 0 ? (
+                {loading ? (
+                  <p role="status">Caricamento dei procedimenti e delle fonti…</p>
+                ) : current?.error ? (
+                  <div role="alert" className="politician-page__empty">
+                    <p>Non è stato possibile caricare i dettagli della scheda.</p>
+                    <button type="button" onClick={() => setAttempt((value) => value + 1)}>Riprova</button>
+                  </div>
+                ) : proceedings.length === 0 ? (
                   <div className="politician-page__empty">
-                    {judicialReviewed ? (
+                    {judicialReviewed && politician.judicialStatus === "clean" ? (
                       <>
                         <h3>Nessun procedimento pubblico registrato</h3>
 
@@ -490,6 +532,16 @@ const PoliticianPage = () => {
                               </strong>
                             </div>
 
+                            <div>
+                              <span>Definitività dell&apos;esito</span>
+                              <strong>
+                                {proceeding.status === "parliamentary-immunity"
+                                  ? "Delibera parlamentare"
+                                  : proceeding.finalJudgment === true
+                                    ? "Documentata dalle fonti"
+                                    : "Non documentata"}
+                              </strong>
+                            </div>
                             {proceeding.finalJudgmentDate && (
                               <div>
                                 <span>Data esito definitivo</span>

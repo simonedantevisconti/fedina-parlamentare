@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "id": "giovanni-donzelli",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Inserita la delibera di insindacabilità del 16 luglio 2025 nel caso Panzironi. Il resoconto della Camera prova la decisione parlamentare; non documenta un successivo provvedimento del giudice né una sentenza definitiva.",
+    "queries": [
+      "site.camera.it 16 luglio 2025 Donzelli insindacabilità 512",
+      "\"Giovanni Donzelli\" \"Panzironi\" Corte costituzionale 2026"
+    ]
+  },
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "giovanni-donzelli-001",
+        "title": "Procedimento per diffamazione relativo alle dichiarazioni sui Sinti di Prato",
+        "allegedOffence": "Diffamazione aggravata",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Prato",
+        "startDate": "2019-04-18",
+        "lastUpdate": "2022-06-24",
+        "description": "Giovanni Donzelli fu indagato nel 2019 a seguito di una querela presentata dall'Associazione Sinti per alcune dichiarazioni rese durante una visita al campo di San Giorgio a Colonica, a Prato. Dopo il rigetto di una richiesta di archiviazione e il successivo rinvio a giudizio, il 24 giugno 2022 il Tribunale di Prato lo ha assolto con la formula 'il fatto non costituisce reato'.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2019-04-18",
+            "title": "Donzelli risulta indagato per diffamazione aggravata"
+          },
+          {
+            "date": "2021-11-09",
+            "title": "Il GIP respinge la richiesta di archiviazione e dispone la formulazione dell'imputazione"
+          },
+          {
+            "date": "2022-06-24",
+            "title": "Il Tribunale di Prato pronuncia l'assoluzione perché il fatto non costituisce reato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Il deputato Donzelli indagato per diffamazione contro i Sinti",
+            "publisher": "Il Tirreno",
+            "url": "https://www.iltirreno.it/prato/cronaca/2019/04/18/news/il-deputato-donzelli-fdi-indagato-per-diffamazione-contro-i-sinti-1.30203070",
+            "publicationDate": "2019-04-18",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Visita al campo sinti, archiviazione respinta per il deputato Donzelli",
+            "publisher": "Il Tirreno",
+            "url": "https://www.iltirreno.it/prato/cronaca/2021/11/09/news/visita-al-campo-sinti-archiviazione-respinta-per-il-deputato-donzelli-1.40904220",
+            "publicationDate": "2021-11-09",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Offese ai Sinti su Facebook, assolto il deputato Donzelli",
+            "publisher": "La Nazione",
+            "url": "https://www.lanazione.it/prato/cronaca/offese-ai-sinti-su-facebook-assolto-il-deputato-donzelli-8cf236a6",
+            "publicationDate": "2022-06-25",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "giovanni-donzelli-002",
+        "title": "Procedimento per diffamazione a seguito della querela di Adriano Panzironi",
+        "allegedOffence": "Diffamazione a mezzo stampa",
+        "offence": null,
+        "status": "parliamentary-immunity",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2025-07-16",
+        "description": "Il procedimento nasce da una querela relativa a un’intervista del 31 marzo 2019. Il Tribunale di Roma ha trasmesso alla Camera la richiesta di valutazione dell’insindacabilità. Il 16 luglio 2025 l’Assemblea ha approvato la proposta di riconoscere che le opinioni erano state espresse nell’esercizio delle funzioni parlamentari. È documentata la delibera parlamentare, non una sentenza penale definitiva.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-02-17",
+            "title": "Trasmissione della richiesta alla Camera"
+          },
+          {
+            "date": "2025-07-16",
+            "title": "La Camera delibera l’insindacabilità (Doc. IV-ter, n. 14-A)"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Resoconto stenografico, seduta 512: Doc. IV-ter, n. 14-A",
+            "publisher": "Camera dei deputati",
+            "url": "https://www.camera.it/leg19/410?idSeduta=0512&tipo=stenografico",
+            "publicationDate": "2025-07-16",
+            "accessedAt": "2026-09-17",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
+}

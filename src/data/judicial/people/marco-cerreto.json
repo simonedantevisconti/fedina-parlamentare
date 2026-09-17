@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "marco-cerreto",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Marco Cerreto\" indagato condannato assolto archiviato"
+    ],
+    "notes": "Le notizie su archiviazioni trovate riportano commenti di Cerreto su procedimenti altrui. Il curriculum ministeriale non contiene un esito penale. Nessuna attribuzione personale documentata; controllo preliminare.",
+    "sourceUrls": [
+      "https://agenparl.eu/2025/04/08/sangiuliano-cerreto-fdi-felici-per-larchiviazione-sinistra-resta-a-bocca-asciutta/"
+    ]
+  },
+  "record": null
+}

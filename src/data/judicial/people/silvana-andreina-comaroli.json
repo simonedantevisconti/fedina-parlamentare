@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "silvana-andreina-comaroli",
+  "review": {
+    "stage": "preliminary",
+    "result": "no-supported-personal-proceeding-found",
+    "queries": [
+      "\"Silvana Comaroli\" senatrice indagata condannata assolta"
+    ],
+    "notes": "Le corrispondenze esaminate riguardano attività parlamentari e procedimenti discussi in commissione, senza un procedimento personale documentato. Controllo preliminare.",
+    "sourceUrls": [
+      "https://documenti.camera.it/leg17/resoconti/commissioni/bollettini/pdf/2015/06/30/leg.17.bol0472.data20150630.pdf"
+    ],
+    "lastCheckedAt": "2026-09-17",
+    "readyForClean": false
+  },
+  "record": null
+}

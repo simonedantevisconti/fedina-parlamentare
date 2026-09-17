@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dolores-bevilacqua",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice Dolores Bevilacqua. Sono emersi omonimi in documentazione civile e professionale non riferibili alla senatrice; l'identità della parlamentare è stata verificata attraverso la scheda ufficiale del Senato."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

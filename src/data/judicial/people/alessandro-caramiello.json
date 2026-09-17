@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "alessandro-caramiello",
+  "review": {
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Alessandro Caramiello\" indagato condannato assolto archiviato"
+    ],
+    "notes": "L’indagine del MEF citata nei risultati riguarda l’amministrazione comunale di Portici; Caramiello vi interviene pubblicamente. Non è emerso un procedimento personale attribuibile. Controllo preliminare.",
+    "sourceUrls": [
+      "https://www.latorre1905.it/cronoca-locale/portici-indagini-mef-caramiello-m5s-lamministrazione-comunale-dovra-dimostrare-trasparenza-e-correttezza/"
+    ]
+  },
+  "record": null
+}

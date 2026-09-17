@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dimitri-coin",
+  "review": {
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-17",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Dimitri Coin\" \"Enrico Chinellato\" indagato archiviazione assoluzione",
+      "\"Dimitri Coin\" diffamazione archiviazione",
+      "\"Dimitri Coin\" processo diffamazione 2018 2019"
+    ],
+    "notes": "La Tribuna di Treviso riferì il 20 maggio 2017 che la Procura aveva iscritto Coin come indagato per diffamazione a seguito della denuncia di Enrico Chinellato. Non è stato verificato un provvedimento successivo né la pendenza attuale. In altra vicenda di diffamazione Coin risulta persona offesa, non imputato.",
+    "sourceUrls": [
+      "https://www.tribunatreviso.it/cronaca/lega-coin-indagato-dalla-procura-x19igwor",
+      "https://www.tribunatreviso.it/cronaca/coin-lega-diffamato-su-facebook-il-pm-chiede-la-condanna-per-la-pasionaria-di-django-m9z14a8e"
+    ]
+  },
+  "record": null
+}

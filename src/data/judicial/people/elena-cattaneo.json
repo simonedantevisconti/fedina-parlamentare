@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "elena-cattaneo",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-17",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla senatrice a vita Elena Cattaneo. Le occorrenze giudiziarie individuate riguardano prevalentemente la sua attività istituzionale o procedimenti concernenti terzi."
+  },
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-17",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "anna-maria-bernini",
+  "review": {
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-16",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "notes": "Procedimento per diffamazione aggravata relativo a dichiarazioni rese nel luglio 2020 durante Quarta Repubblica. Nel marzo 2021 risultava pendente presso la Procura di Roma il procedimento n. 4722/21 R.G.N.R.; nel maggio 2021 il Senato ha riconosciuto l'insindacabilità parlamentare delle dichiarazioni ai sensi dell'articolo 68, primo comma, della Costituzione. Nel dicembre 2021 la Procura di Roma ha chiesto il rinvio a giudizio anche per Anna Maria Bernini. Non è stato trovato nelle fonti affidabili consultate fino al 16 settembre 2026 un successivo esito giudiziario sufficientemente documentato."
+  },
+  "record": {
+    "judicialStatus": "charged",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-16",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "anna-maria-bernini-001",
+        "title": "Procedimento per diffamazione relativo alle dichiarazioni sul processo Mediaset",
+        "allegedOffence": "Diffamazione aggravata",
+        "offence": null,
+        "status": "charged",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2021-12-03",
+        "description": "Anna Maria Bernini è stata coinvolta in un procedimento per diffamazione aggravata relativo a dichiarazioni rese nel luglio 2020 durante la trasmissione Quarta Repubblica nei confronti dei magistrati Antonio Esposito e Claudio D'Isa. Nel marzo 2021 risultava pendente presso la Procura di Roma il procedimento n. 4722/21 R.G.N.R. Nel maggio 2021 il Senato ha riconosciuto l'insindacabilità parlamentare delle dichiarazioni ai sensi dell'articolo 68, primo comma, della Costituzione. Nel dicembre 2021 la Procura di Roma ha chiesto il rinvio a giudizio anche per Bernini. Nelle fonti affidabili consultate fino al 16 settembre 2026 non è stato trovato un successivo esito giudiziario sufficientemente documentato.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-03-04",
+            "title": "Il Senato dà atto della pendenza del procedimento n. 4722/21 R.G.N.R. presso la Procura di Roma"
+          },
+          {
+            "date": "2021-05-19",
+            "title": "Il Senato riconosce l'insindacabilità parlamentare delle dichiarazioni"
+          },
+          {
+            "date": "2021-12-03",
+            "title": "La Procura di Roma chiede il rinvio a giudizio per diffamazione aggravata"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Giunta delle elezioni e delle immunità parlamentari - Resoconto del 4 marzo 2021",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/Web/AutorizzazioniAProcedere.nsf/dfbec5c17bce92adc1257be500450dad/104abebb62ed4ddfc12585fa005f00a8/%24FILE/04.03.2021.pdf",
+            "publicationDate": "2021-03-04",
+            "accessedAt": "2026-09-16",
+            "type": "institutional"
+          },
+          {
+            "name": "Resoconto stenografico della seduta del 19 maggio 2021",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/printable/route/sen_showdoc.show_doc_controller_structure?id=1298062&idoggetto=0&leg=18&legislature=19&part=doc_dc-ressten_rs-gentit_ddddiqn1-trattazione_ddv&printable_format=print&tipodoc=Resaula",
+            "publicationDate": "2021-05-19",
+            "accessedAt": "2026-09-16",
+            "type": "institutional"
+          },
+          {
+            "name": "Chiesto il processo per 14 tra giornalisti e politici: diffamarono il giudice Esposito",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/cronaca/2021/12/03/news/chiesto-il-processo-per-14-tra-giornalisti-e-politici-diffamarono-il-giudice-esposito-per-avere-condannato-berlusconi-1.40990713/",
+            "publicationDate": "2021-12-03",
+            "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
+}
