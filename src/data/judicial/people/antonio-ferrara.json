@@ -2,10 +2,17 @@
   "schemaVersion": 1,
   "id": "antonio-ferrara",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Antonio Ferrara\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "I risultati sulle condanne del criminale omonimo vissuto in Francia non riguardano il deputato nato a Varese nel 1970. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "sourceUrls": [
+      "https://www.ferraraantonio.it/chi-sono/biografia.html"
+    ]
   },
   "record": null
 }

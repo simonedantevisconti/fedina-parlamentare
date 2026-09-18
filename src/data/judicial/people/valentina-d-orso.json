@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "valentina-d-orso",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Valentina D'Orso\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "I risultati consultati riguardano la sua attività politica su temi della giustizia, non un procedimento personale. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "sourceUrls": []
   },
   "record": null
 }

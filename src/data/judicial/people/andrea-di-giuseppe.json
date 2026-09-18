@@ -2,10 +2,17 @@
   "schemaVersion": 1,
   "id": "andrea-di-giuseppe",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Andrea Di Giuseppe\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nell’inchiesta sui visti falsi il deputato risulta autore dell’esposto e bersaglio di minacce, non imputato. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "sourceUrls": [
+      "https://www.panorama.it/attualita/cronaca/visti-falsi-88-casi-accertati-indagine-nata-dallesposto-di-andrea-di-giuseppe-fdi"
+    ]
   },
   "record": null
 }

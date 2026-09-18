@@ -2,10 +2,85 @@
   "schemaVersion": 1,
   "id": "andrea-gnassi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Andrea Gnassi\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assoluzione in appello nel processo Aeradria. Per la distinta indagine relativa a un diverbio con due vigilesse è documentata la richiesta di archiviazione del PM, non il provvedimento del GIP. Verificare anche eventuale ricorso contro la sentenza Aeradria.",
+    "sourceUrls": [
+      "https://www.ilrestodelcarlino.it/rimini/cronaca/fallimento-aeradria-assolti-appello-rnwpr1u3",
+      "https://www.ilrestodelcarlino.it/rimini/cronaca/gnassi-vigilesse-c4b92e2d"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "andrea-gnassi-001",
+        "title": "Crac Aeradria",
+        "allegedOffence": "Concorso esterno nel ricorso abusivo al credito",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Bologna",
+        "startDate": null,
+        "lastUpdate": "2026-03-25",
+        "description": "Assolto in primo grado nel 2022; assoluzione confermata in appello il 25 marzo 2026. Non verificato un eventuale giudizio di Cassazione.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-03-25",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Crac Aeradria",
+            "publisher": "Il Resto del Carlino",
+            "url": "https://www.ilrestodelcarlino.it/rimini/cronaca/fallimento-aeradria-assolti-appello-rnwpr1u3",
+            "publicationDate": "2026-03-26",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "andrea-gnassi-002",
+        "title": "Diverbio con due vigilesse",
+        "allegedOffence": "Ipotesi di reato legata al diverbio, non precisata nella fonte",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Rimini",
+        "startDate": null,
+        "lastUpdate": "2018-11-13",
+        "description": "Il PM chiese l’archiviazione; non è stata reperita una decisione del GIP.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-11-13",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Diverbio con due vigilesse",
+            "publisher": "Il Resto del Carlino",
+            "url": "https://www.ilrestodelcarlino.it/rimini/cronaca/gnassi-vigilesse-c4b92e2d",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

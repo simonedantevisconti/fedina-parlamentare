@@ -2,10 +2,62 @@
   "schemaVersion": 1,
   "id": "paola-de-micheli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Paola De Micheli\" indagata imputata condannata assolta",
+      "\"Paola De Micheli\" Agridoro decreto penale assoluzione"
+    ],
+    "notes": "Fonti giornalistiche riportano un decreto penale di condanna del 2003 per la gestione della cooperativa Agridoro e una successiva assoluzione in giudizio. Il decreto non va presentato come condanna attuale. Manca la sentenza originale o una fonte primaria che ne confermi dispositivo, data e irrevocabilità.",
+    "sourceUrls": [
+      "https://www.antonioamorosi.it/2017/09/12/unesperta-di-pomodori-a-commissario-del-terremoto/",
+      "https://www.butac.it/la-macchina-del-fango-paola-de-micheli-vol-2/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "paola-de-micheli-001",
+        "title": "Procedimento sui fusti di concentrato di pomodoro della cooperativa Agridoro",
+        "allegedOffence": "Violazioni della normativa alimentare sullo stato di conservazione dei prodotti",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Piacenza",
+        "startDate": null,
+        "lastUpdate": "2017-09-12",
+        "description": "Nel 2003 fu emesso un decreto penale da 2.000 euro nei confronti di De Micheli, allora presidente della cooperativa Agridoro, per la presenza di fusti di concentrato di pomodoro ritenuti in cattivo stato. Una ricostruzione giornalistica che cita il suo difensore riferisce una successiva assoluzione in giudizio, perché non era provato che i fusti fossero destinati alla vendita anziché allo smaltimento. La sentenza originale e la sua irrevocabilità non sono state verificate.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2017-09-12", "title": "La stampa riferisce la successiva assoluzione" }
+        ],
+        "sources": [
+          {
+            "name": "Un'esperta di pomodori a commissario del terremoto",
+            "publisher": "Antonio Amorosi",
+            "url": "https://www.antonioamorosi.it/2017/09/12/unesperta-di-pomodori-a-commissario-del-terremoto/",
+            "publicationDate": "2017-09-12",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "La macchina del fango - Paola De Micheli vol. 2",
+            "publisher": "Butac",
+            "url": "https://www.butac.it/la-macchina-del-fango-paola-de-micheli-vol-2/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

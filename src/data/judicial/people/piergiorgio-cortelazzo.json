@@ -3,11 +3,12 @@
   "id": "piergiorgio-cortelazzo",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Piergiorgio Cortelazzo\" deputato indagato condannato assolto"
+      "\"Piergiorgio Cortelazzo\" deputato indagato condannato assolto",
+      "\"piergiorgio cortelazzo\" indagato imputato condannato archiviato"
     ],
     "notes": "Le corrispondenze esaminate riguardano attività parlamentare e discussioni di norme penali. Nessun procedimento personale documentato. Controllo preliminare.",
     "sourceUrls": [

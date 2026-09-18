@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "silvio-lai",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Silvio Lai\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La condanna penale di primo grado per peculato è stata riformata in appello con dichiarazione di prescrizione nel 2022. Distinta condanna della Corte dei conti ha natura contabile, non penale.",
+    "sourceUrls": [
+      "https://www.ansa.it/sardegna/notizie/2022/06/03/fondi-sardegna-prescrizione-per-22-consiglieri-c.sinistra_732f6e04-45c2-4fb0-acba-5f401f52c652.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "silvio-lai-001",
+        "title": "Fondi del gruppo regionale sardo",
+        "allegedOffence": "Peculato aggravato",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte d’appello di Cagliari",
+        "startDate": null,
+        "lastUpdate": "2022-06-03",
+        "description": "Dopo la condanna penale di primo grado del 2021, la Corte d’appello ha dichiarato la prescrizione. La prescrizione non è una condanna definitiva né un’assoluzione nel merito.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-06-03",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fondi del gruppo regionale sardo",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sardegna/notizie/2022/06/03/fondi-sardegna-prescrizione-per-22-consiglieri-c.sinistra_732f6e04-45c2-4fb0-acba-5f401f52c652.html",
+            "publicationDate": "2022-06-03",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

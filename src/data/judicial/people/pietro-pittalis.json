@@ -2,10 +2,33 @@
   "schemaVersion": 1,
   "id": "pietro-pittalis",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Pietro Pittalis\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nell’inchiesta sui fondi dei gruppi del Consiglio regionale sardo, una cronaca del dibattimento riferisce l’archiviazione della posizione di Pittalis. L’articolo distingue espressamente Pittalis dagli imputati del processo.",
+    "sourceUrls": ["https://www.sardiniapost.it/cronaca/fondi-ai-gruppi-il-pm-il-consiglio-regionale-era-un-sistema-a-tenuta-stagna/"]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": { "reviewed": true, "lastVerifiedAt": "2026-09-18", "result": "public-proceeding-found" },
+    "proceedings": [{
+      "id": "pietro-pittalis-001",
+      "title": "Fondi ai gruppi del Consiglio regionale sardo",
+      "allegedOffence": "Ipotesi relative all’utilizzo dei fondi dei gruppi consiliari",
+      "offence": null,
+      "status": "archived",
+      "court": "Procura di Cagliari",
+      "startDate": null,
+      "lastUpdate": null,
+      "description": "La cronaca del dibattimento del 2016 riferisce che la posizione di Pittalis era stata archiviata. La data precisa del provvedimento non è stata verificata.",
+      "finalJudgment": true,
+      "finalJudgmentDate": null,
+      "timeline": [],
+      "sources": [{ "name": "Sardinia Post", "publisher": "Sardinia Post", "url": "https://www.sardiniapost.it/cronaca/fondi-ai-gruppi-il-pm-il-consiglio-regionale-era-un-sistema-a-tenuta-stagna/", "publicationDate": null, "accessedAt": "2026-09-18", "type": "journalistic" }]
+    }]
+  }
 }

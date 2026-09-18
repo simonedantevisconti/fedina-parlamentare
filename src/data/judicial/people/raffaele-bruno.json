@@ -3,11 +3,12 @@
   "id": "raffaele-bruno",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Raffaele Bruno\" deputato indagato condannato assolto"
+      "\"Raffaele Bruno\" deputato indagato condannato assolto",
+      "\"raffaele bruno\" indagato imputato condannato archiviato"
     ],
     "notes": "Esclusa l’omonimia con l’avvocato Elio Raffaele Bruno di Catanzaro: il deputato è biologo e autore teatrale, nato a Napoli nel 1974. Nessun procedimento personale documentato da questa ricerca preliminare.",
     "sourceUrls": [

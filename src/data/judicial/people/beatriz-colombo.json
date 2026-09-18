@@ -3,12 +3,17 @@
   "id": "beatriz-colombo",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
-    "queries": ["\"Beatriz Colombo\" deputata indagata condannata assolta"],
+    "queries": [
+      "\"Beatriz Colombo\" deputata indagata condannata assolta",
+      "\"beatriz colombo\" indagato imputato condannato archiviato"
+    ],
     "notes": "Le corrispondenze esaminate riguardano interrogazioni parlamentari su procedimenti di altre persone. Nessun procedimento personale documentato; controllo preliminare.",
-    "sourceUrls": ["https://www.ansa.it/emiliaromagna/notizie/2026/02/26/caso-golinucci-colombo-fdi-interroga-il-ministro-della-giustizia_759fc0f0-e5d0-4edd-9065-3848cd06eb97.html"]
+    "sourceUrls": [
+      "https://www.ansa.it/emiliaromagna/notizie/2026/02/26/caso-golinucci-colombo-fdi-interroga-il-ministro-della-giustizia_759fc0f0-e5d0-4edd-9065-3848cd06eb97.html"
+    ]
   },
   "record": null
 }

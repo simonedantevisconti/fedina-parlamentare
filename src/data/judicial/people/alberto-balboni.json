@@ -3,9 +3,16 @@
   "id": "alberto-balboni",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"alberto balboni\" indagato imputato condannato archiviato"
+    ],
+    "notes": "Una sentenza penale pubblicata menziona un omonimo Alberto Balboni, senza elementi sufficienti per identificarlo con il senatore. Non attribuire il procedimento senza riscontro anagrafico.",
+    "sourceUrls": [
+      "https://www.sistemapenale.it/pdf_contenuti/1589311600_cassazione-36380-2019-art-132-codice-privacy-data-retention.pdf"
+    ]
   },
   "record": null
 }

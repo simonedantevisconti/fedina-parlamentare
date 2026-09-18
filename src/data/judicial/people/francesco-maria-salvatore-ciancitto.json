@@ -3,12 +3,13 @@
   "id": "francesco-maria-salvatore-ciancitto",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Francesco Maria Salvatore Ciancitto\" indagato condannato assolto",
-      "\"Francesco Ciancitto\" indagato processo"
+      "\"Francesco Ciancitto\" indagato processo",
+      "\"francesco maria salvatore ciancitto\" indagato imputato condannato archiviato"
     ],
     "notes": "I risultati reperiti riguardano professione e attività parlamentare. Nessuna fonte sufficiente per un procedimento penale personale; controllo preliminare.",
     "sourceUrls": []

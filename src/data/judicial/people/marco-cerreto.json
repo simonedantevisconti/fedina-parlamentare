@@ -3,11 +3,12 @@
   "id": "marco-cerreto",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Marco Cerreto\" indagato condannato assolto archiviato"
+      "\"Marco Cerreto\" indagato condannato assolto archiviato",
+      "\"marco cerreto\" indagato imputato condannato archiviato"
     ],
     "notes": "Le notizie su archiviazioni trovate riportano commenti di Cerreto su procedimenti altrui. Il curriculum ministeriale non contiene un esito penale. Nessuna attribuzione personale documentata; controllo preliminare.",
     "sourceUrls": [

@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "giovanna-miele",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Giovanna Miele\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Ricerca preliminare per nome completo su indagini, processi ed esiti. Non è emerso un procedimento penale personale sufficientemente documentato nelle fonti consultate. La ricerca non certifica l’assenza di precedenti o procedimenti.",
+    "sourceUrls": []
   },
   "record": null
 }

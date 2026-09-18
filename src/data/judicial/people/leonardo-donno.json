@@ -3,9 +3,16 @@
   "id": "leonardo-donno",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"leonardo donno\" indagato imputato condannato archiviato"
+    ],
+    "notes": "Nella vicenda dello scontro alla Camera del giugno 2024 Donno ha presentato denuncia; la fonte lo indica come denunciante, non come indagato.",
+    "sourceUrls": [
+      "https://www.ansa.it/sito/notizie/politica/2024/06/18/il-deputato-5s-donno-presenta-denuncia-ai-carabinieri-in-seguito-alla-rissa-alla-camera_7591d10d-2523-4321-b815-c5ac6045f70b.html"
+    ]
   },
   "record": null
 }

@@ -3,13 +3,14 @@
   "id": "chiara-braga",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Chiara Braga\" indagata condannata assolta processo"
+      "\"Chiara Braga\" indagata condannata assolta processo",
+      "\"chiara braga\" indagato imputato condannato archiviato"
     ],
-    "notes": "Le notizie di assoluzione reperite riguardano Mario Lucini; Braga interviene con un commento politico. Non attribuire il procedimento alla deputata. Ricerca preliminare.",
+    "notes": "Le notizie di assoluzione reperite riguardano Mario Lucini; Braga interviene con un commento politico. Anche le nuove notizie su inchieste Perugia, ponte sullo Stretto e altri casi la citano come parlamentare che commenta, non come indagata. Nessun procedimento personale documentato; ricerca ancora preliminare.",
     "sourceUrls": [
       "https://www.ilgiorno.it/como/cronaca/tutti-assolti-le-reazioni-lucini-e-stato-corretto-la-sentenza-lo-conferma-7987286c"
     ]

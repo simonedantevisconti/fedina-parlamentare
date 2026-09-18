@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "dario-giagoni",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"dario giagoni\" indagato condannato assolto archiviato esito"
+    ],
+    "notes": "Un procedimento personale per appropriazione indebita di arredi del Bar Centrale di Santa Teresa Gallura, riferito a fatti del 2011, terminò per prescrizione nel 2019. In altro processo Giagoni è persona offesa per diffamazione.",
+    "sourceUrls": [
+      "https://www.unionesarda.it/news-sardegna/gallura/appropriazione-indebita-reato-prescritto-per-il-consigliere-regionale-della-lega-dario-giagoni-s17ts0j2"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "dario-giagoni-001",
+        "title": "Arredi del Bar Centrale di Santa Teresa Gallura",
+        "allegedOffence": "Appropriazione indebita",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Tempio Pausania",
+        "startDate": null,
+        "lastUpdate": "2019-07-02",
+        "description": "Il reato contestato a Giagoni per l’asserita appropriazione di arredi e altro materiale del Bar Centrale è stato dichiarato prescritto. La prescrizione non è una condanna nel merito.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2019-07-02",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Appropriazione indebita: reato prescritto per Giagoni",
+            "publisher": "L’Unione Sarda",
+            "url": "https://www.unionesarda.it/news-sardegna/gallura/appropriazione-indebita-reato-prescritto-per-il-consigliere-regionale-della-lega-dario-giagoni-s17ts0j2",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

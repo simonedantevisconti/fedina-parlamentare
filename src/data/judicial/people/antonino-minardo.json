@@ -2,10 +2,80 @@
   "schemaVersion": 1,
   "id": "antonino-minardo",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Antonino Minardo\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Distinguere Antonino Minardo dall’omonimo familiare Riccardo Minardo. La Cassazione confermò una condanna per abuso d’ufficio; in un diverso processo legato alla morte di Provvidenza Grassi, il Tribunale di Messina lo assolse in primo grado.",
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/2015/03/21/centro-destra-dei-parlamentari-guai-giustizia/1525633/",
+      "https://www.ansa.it/sicilia/notizie/2020/01/24/precipito-da-viadotto-assolti-8-ex-dirigenti-cas3-condanne_40a4ae77-500a-41ef-9f6e-1370520e729f.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "title": "Nomina del direttore generale del Consorzio autostrade siciliane",
+        "allegedOffence": "Abuso d’ufficio",
+        "offence": null,
+        "status": "convicted-final",
+        "court": "Corte di cassazione",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Condanna a otto mesi, pena sospesa, confermata dalla Cassazione nel 2014 secondo la ricostruzione giornalistica. Riguarda una nomina quando Minardo presiedeva il Consorzio.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Il Fatto Quotidiano",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2015/03/21/centro-destra-dei-parlamentari-guai-giustizia/1525633/",
+            "publicationDate": "2015-03-21",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "antonino-minardo-001"
+      },
+      {
+        "title": "Morte di Provvidenza Grassi sul viadotto autostradale",
+        "allegedOffence": "Ipotesi di reato connesse alla sicurezza del viadotto e omissione di atti d’ufficio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Messina",
+        "startDate": null,
+        "lastUpdate": "2020-01-24",
+        "description": "Assolto in primo grado perché non ha commesso il fatto; per il capo di omissione di atti d’ufficio, tutti gli imputati furono assolti perché il fatto non sussiste. Non verificato il giudicato.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2020-01-24",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sicilia/notizie/2020/01/24/precipito-da-viadotto-assolti-8-ex-dirigenti-cas3-condanne_40a4ae77-500a-41ef-9f6e-1370520e729f.html",
+            "publicationDate": "2020-01-24",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "antonino-minardo-002"
+      }
+    ]
+  }
 }

@@ -3,9 +3,19 @@
   "id": "gianangelo-bof",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "notes": "Le corrispondenze consultate riguardano il mandato parlamentare, l’attività da sindaco e dichiarazioni politiche. Una frase ipotetica di un altro intervistato sull’eventualità di essere indagato non riguarda Bof. Nessun procedimento penale personale è stato documentato da questa ricerca preliminare.",
+    "queries": [
+      "\"Gianangelo Bof\" indagato imputato condannato assolto archiviato",
+      "\"Gianangelo Bof\" procedimento penale sindaco Tarzo",
+      "\"gianangelo bof\" indagato imputato condannato archiviato"
+    ],
+    "sourceUrls": [
+      "https://dati.camera.it/ocd/persona.rdf/p308801",
+      "https://corrieredelveneto.corriere.it/notizie/padova/cronaca/24_gennaio_25/i-no-velox-di-cadoneghe-noi-siamo-stati-i-primi-senza-la-nostra-battaglia-fleximan-non-ci-sarebbe-br-3e35a5a6-b176-4491-80f4-12700725fxlk.shtml"
+    ]
   },
   "record": null
 }

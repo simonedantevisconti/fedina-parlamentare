@@ -2,10 +2,127 @@
   "schemaVersion": 1,
   "id": "luciano-d-alfonso",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "multiple-public-proceedings-found",
+    "readyForClean": false,
+    "notes": "Documentati almeno i procedimenti Housework, concorso Guido Dezio, urbanistica Pescara e Parco delle Rose. Le fonti riportano assoluzioni in appello e un proscioglimento. Non è stata verificata la definitività delle sentenze d'appello né completato il censimento di altri procedimenti storici (per esempio Pescaraporto); è necessario un ulteriore controllo degli atti.",
+    "queries": [
+      "Luciano D'Alfonso Housework assoluzione appello 30 marzo 2015",
+      "Luciano D'Alfonso Guido Dezio concorso assolto appello 2013",
+      "Luciano D'Alfonso urbanistica Pescara prosciolto GUP 2013",
+      "Luciano D'Alfonso Parco delle Rose assolto appello 30 maggio 2025"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "multiple-public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "luciano-d-alfonso-001",
+        "title": "Processo Housework sugli appalti del Comune di Pescara",
+        "allegedOffence": "Ipotesi di corruzione e altri reati negli appalti comunali",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d'appello dell'Aquila",
+        "startDate": null,
+        "lastUpdate": "2015-03-30",
+        "description": "Assolto in primo grado l'11 febbraio 2013. Il 30 marzo 2015 la Corte d'appello dell'Aquila ha confermato l'assoluzione. Non è stata verificata l'eventuale successiva decisione della Cassazione né la definitività.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2013-02-11", "title": "Assoluzione in primo grado" },
+          { "date": "2015-03-30", "title": "Assoluzione confermata in appello" }
+        ],
+        "sources": [
+          {
+            "name": "Appello, assolto Luciano D'Alfonso",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/amp/abruzzo/notizie/2015/03/30/appello-assolto-luciano-dalfonso_ac9a05aa-d7aa-4443-8eb6-9da03e0c865b.html",
+            "publicationDate": "2015-03-30",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "luciano-d-alfonso-002",
+        "title": "Procedimento sul concorso del dirigente Guido Dezio",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d'appello dell'Aquila",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Una condanna a quattro mesi in primo grado per la vicenda del concorso di Guido Dezio fu ribaltata dalla Corte d'appello dell'Aquila nel 2013 con assoluzione. La data esatta e la definitività della sentenza d'appello richiedono ulteriore verifica.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "D'Alfonso, terza assoluzione: promozione di Dezio legittima",
+            "publisher": "Il Centro",
+            "url": "https://www.ilcentro.it/pescara/d-alfonso-terza-assoluzione-promozione-di-dezio-legittima-1.1201958",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "luciano-d-alfonso-003",
+        "title": "Inchiesta urbanistica del Comune di Pescara",
+        "allegedOffence": "Ipotesi di corruzione legate a pratiche urbanistiche",
+        "offence": null,
+        "status": "dismissed",
+        "court": "GUP del Tribunale di Pescara",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Il giudice dell'udienza preliminare ha prosciolto Luciano D'Alfonso e altri indagati nell'inchiesta urbanistica; la data precisa e la formula del provvedimento richiedono verifica sull'atto.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Inchiesta su urbanistica e tangenti, prosciolto D'Alfonso",
+            "publisher": "Il Centro",
+            "url": "https://www.ilcentro.it/pescara/pescara-l-inchiesta-su-urbanistica-e-nbsp-tangenti-prosciolti-l-ex-sindaco-d-alfonso-e-altri-sedici-1.1176557",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "luciano-d-alfonso-004",
+        "title": "Vicenda Parco delle Rose di Lanciano",
+        "allegedOffence": "Falso ideologico",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d'appello dell'Aquila",
+        "startDate": null,
+        "lastUpdate": "2025-05-30",
+        "description": "Il 30 maggio 2025 la Corte d'appello dell'Aquila ha assolto D'Alfonso con la formula 'il fatto non costituisce reato' dopo una precedente pronuncia di prescrizione da lui impugnata. Non è stata verificata la definitività dell'assoluzione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2025-05-30", "title": "Assoluzione in appello" }
+        ],
+        "sources": [
+          {
+            "name": "Vicenda Parco delle Rose: D'Alfonso assolto in appello",
+            "publisher": "Cityrumors Abruzzo",
+            "url": "https://www.cityrumorsabruzzo.it/abruzzo/vicenda-parco-delle-rose-dalfonso-assolto-in-appello.html",
+            "publicationDate": "2025-05-30",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

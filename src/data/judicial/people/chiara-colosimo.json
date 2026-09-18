@@ -2,13 +2,20 @@
   "schemaVersion": 1,
   "id": "chiara-colosimo",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
-    "queries": ["\"Chiara Colosimo\" indagata condannata assolta archiviata"],
-    "notes": "I risultati esaminati sulla condanna riguardano lo zio Paolo Colosimo, non la deputata Chiara Colosimo. Nessun procedimento personale documentato; controllo preliminare.",
-    "sourceUrls": ["https://www.senato.it/service/PDF/PDFServer/BGT/1475983.pdf"]
+    "queries": [
+      "\"Chiara Colosimo\" indagata fondi Pdl Lazio 2013",
+      "\"Chiara Colosimo\" spese pazze archiviazione prosciolta",
+      "\"Chiara Colosimo\" peculato esito 2014 2015"
+    ],
+    "notes": "La cronaca del maggio 2013 indica esplicitamente Chiara Colosimo tra gli indagati nell’inchiesta sui fondi del gruppo Pdl alla Regione Lazio; la precedente nota che escludeva qualsiasi procedimento personale era incompleta. È distinto dal procedimento a carico di Franco Fiorito, nel quale il gruppo Pdl si era costituito parte offesa. Non è stato verificato l’esito successivo della posizione personale di Colosimo. Non presentare l’indagine storica come ancora pendente.",
+    "sourceUrls": [
+      "https://roma.corriere.it/notizie/cronaca/13_maggio_28/fiorito-fondi-pdl-regione-consiglieri-procura-2221365343215.shtml",
+      "https://roma.corriere.it/notizie/politica/13_maggio_31/maschere-maiali-era-politica-2221417146782.shtml"
+    ]
   },
   "record": null
 }

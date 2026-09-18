@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "novo-umberto-maerna",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Novo Umberto Maerna\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La condanna penale di primo grado del 2017 è stata riformata in appello con assoluzione per non aver commesso il fatto nell’ottobre 2018. Non verificato il passaggio in giudicato.",
+    "sourceUrls": [
+      "https://ticinonotizie.it/?p=184738"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "novo-umberto-maerna-001",
+        "title": "Contributo provinciale a un’associazione di paracadutisti",
+        "allegedOffence": "Truffa e falso ideologico",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2018-10-24",
+        "description": "Condannato in primo grado a un anno e due mesi; successivamente assolto in appello per non aver commesso il fatto. Finalità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-10-24",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Contributo provinciale a un’associazione di paracadutisti",
+            "publisher": "Ticino Notizie",
+            "url": "https://ticinonotizie.it/?p=184738",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -3,12 +3,13 @@
   "id": "giulio-centenaro",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Giulio Centenaro\" indagato condannato assolto archiviato",
-      "\"Giulio Centenaro\" \"aggressione\" \"processo\""
+      "\"Giulio Centenaro\" \"aggressione\" \"processo\"",
+      "\"giulio centenaro\" indagato imputato condannato archiviato"
     ],
     "notes": "La cronaca del litigio del 2017 con Daniele Canella riferisce una sospensione disciplinare di partito, non una sentenza penale. Altri risultati citano assoluzioni o condanne di persone diverse. Nessun procedimento personale documentato da questa ricerca preliminare.",
     "sourceUrls": [

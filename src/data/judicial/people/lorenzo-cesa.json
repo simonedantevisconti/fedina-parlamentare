@@ -2,20 +2,94 @@
   "schemaVersion": 1,
   "id": "lorenzo-cesa",
   "review": {
-    "stage": "legacy-record",
-    "lastCheckedAt": "2026-09-16",
-    "result": "public-proceeding-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+    "notes": "La precedente scheda riportava solo Basso Profilo. Documentati anche il procedimento ANAS-Prandini (condanna del 2001 annullata nel 2003, successivo non luogo a procedere) e l’inchiesta Poseidone (archiviazione della posizione di Cesa nel 2011). Occorre verificare gli atti giudiziari integrali e la formulazione esatta dell’esito finale del primo procedimento; non attribuire a Cesa una condanna definitiva.",
+    "queries": [
+      "\"Lorenzo Cesa\" Prandini condanna 2001 annullata 2003 non luogo a procedere",
+      "\"Lorenzo Cesa\" Poseidone archiviazione febbraio 2011",
+      "\"Lorenzo Cesa\" Basso Profilo archiviato 2021"
+    ]
   },
   "record": {
-    "judicialStatus": "archived",
+    "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
-      "result": "public-proceeding-found"
+      "lastVerifiedAt": "2026-09-18",
+      "result": "multiple-public-proceedings-found"
     },
     "proceedings": [
+      {
+        "id": "lorenzo-cesa-002",
+        "title": "Procedimento ANAS relativo all’ex ministro Prandini",
+        "allegedOffence": "Corruzione aggravata",
+        "offence": null,
+        "status": "dismissed",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Condannato in primo grado nel 2001 a tre anni e tre mesi; la Corte d’appello annullò la condanna nel 2003 per ragioni procedurali. Nel 2005 fu disposto il non luogo a procedere. Alcune fonti riferiscono anche la prescrizione: senza l’atto integrale, la formula conclusiva esatta resta da verificare. La condanna di primo grado non è definitiva.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2001-06-21",
+            "title": "Condanna in primo grado a tre anni e tre mesi"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Il verbale di Lorenzo Cesa del 1993 e l’accusa di corruzione",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2021/01/21/intendo-svuotare-il-sacco-quel-verbale-di-lorenzo-cesa-del-1993-e-laccusa-di-corruzione-finita-col-non-luogo-a-procedere/6073517/",
+            "publicationDate": "2021-01-21",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Oggi in Parlamento: inchiesta sulla prescrizione",
+            "publisher": "Rai",
+            "url": "https://www.rai.it/dl/docs/1349033898201oggi_parlamento_report_pdf.pdf",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "lorenzo-cesa-003",
+        "title": "Inchiesta Poseidone sui finanziamenti europei in Calabria",
+        "allegedOffence": "Truffa e associazione per delinquere, secondo le ipotesi investigative riportate",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Cesa fu indagato nell’inchiesta Poseidone sui finanziamenti europei. Parte della posizione fu trasferita da Catanzaro a Roma; fonti giornalistiche riferiscono che il GIP di Roma ne dispose l’archiviazione nel febbraio 2011. La data esatta del provvedimento e i capi definiti richiedono confronto con l’atto giudiziario.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Tutti gli uomini del cda Finmeccanica",
+            "publisher": "Linkiesta",
+            "url": "https://www.linkiesta.it/2011/11/tutti-gli-uomini-e-una-donna-del-cda-finmeccanica/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Inchiesta Poseidone: parte degli atti su Cesa trasferita a Roma",
+            "publisher": "Nuova Cosenza",
+            "url": "https://www.nuovacosenza.com/cs/08/maggio/ultime.html",
+            "publicationDate": "2008-05-22",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
       {
         "id": "lorenzo-cesa-001",
         "title": "Procedimento nell'ambito dell'inchiesta Basso Profilo",

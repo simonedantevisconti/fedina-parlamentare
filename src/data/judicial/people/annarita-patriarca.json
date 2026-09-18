@@ -2,10 +2,110 @@
   "schemaVersion": 1,
   "id": "annarita-patriarca",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Annarita Patriarca\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Tre vicende distinte: prescrizione per peculato relativo ai rimborsi comunali; assoluzione confermata in appello per tentata concussione nel caso scuolabus; indagine sulle firme per le comunali di Giugliano resa nota nel 2026, con esito successivo da verificare. La prescrizione non equivale ad assoluzione.",
+    "sourceUrls": [
+      "https://www.stylo24.it/rimborsi-prescrizione-patriarca-serrapica/",
+      "https://napoli.corriere.it/notizie/cronaca/26_maggio_27/annarita-patriarca-la-deputata-di-forza-italia-assolta-dall-accusa-di-concussione-dopo-17-anni-e-la-fine-di-un-incubo-60780dd3-fb81-4f33-a8e5-954945bcfxlk.shtml",
+      "https://napoli.corriere.it/notizie/cronaca/26_aprile_15/firme-false-per-le-comunali-a-giugliano-indagini-chiuse-per-parlamentari-e-politici-coinvolti-cantalamessa-e-patriarca-d29d072c-0d64-4e27-9bcd-de3e6dd13xlk_amp.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "title": "Rimborsi del Comune di Gragnano",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Torre Annunziata",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Il Tribunale ha dichiarato prescritto il reato per fatti del 2005-2008. Non vi è stata assoluzione nel merito.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Stylo24",
+            "publisher": "Stylo24",
+            "url": "https://www.stylo24.it/rimborsi-prescrizione-patriarca-serrapica/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "annarita-patriarca-001"
+      },
+      {
+        "title": "Appalto del trasporto scolastico di Gragnano",
+        "allegedOffence": "Tentata concussione",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Napoli",
+        "startDate": null,
+        "lastUpdate": "2026-05-27",
+        "description": "La Corte d’appello ha confermato l’assoluzione di primo grado perché il fatto non sussiste. Non verificato il passaggio in giudicato.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-05-27",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere del Mezzogiorno",
+            "publisher": "Corriere del Mezzogiorno",
+            "url": "https://napoli.corriere.it/notizie/cronaca/26_maggio_27/annarita-patriarca-la-deputata-di-forza-italia-assolta-dall-accusa-di-concussione-dopo-17-anni-e-la-fine-di-un-incubo-60780dd3-fb81-4f33-a8e5-954945bcfxlk.shtml",
+            "publicationDate": "2026-05-27",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "annarita-patriarca-002"
+      },
+      {
+        "title": "Firme per le elezioni comunali di Giugliano",
+        "allegedOffence": "Ipotesi di falsa autenticazione di firme elettorali",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Napoli Nord",
+        "startDate": null,
+        "lastUpdate": "2026-04-15",
+        "description": "La Procura ha notificato un avviso di conclusione delle indagini. Non è stato verificato se sia seguito rinvio a giudizio o archiviazione; l’accusa resta da accertare.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-04-15",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere del Mezzogiorno",
+            "publisher": "Corriere del Mezzogiorno",
+            "url": "https://napoli.corriere.it/notizie/cronaca/26_aprile_15/firme-false-per-le-comunali-a-giugliano-indagini-chiuse-per-parlamentari-e-politici-coinvolti-cantalamessa-e-patriarca-d29d072c-0d64-4e27-9bcd-de3e6dd13xlk_amp.shtml",
+            "publicationDate": "2026-04-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "annarita-patriarca-003"
+      }
+    ]
+  }
 }

@@ -2,10 +2,73 @@
   "schemaVersion": 1,
   "id": "benedetto-della-vedova",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"benedetto della vedova\" indagato condannato assolto archiviato esito"
+    ],
+    "notes": "Condanna per la distribuzione gratuita di hashish nell’azione radicale del 1995. Radio Radicale documenta quattro mesi in primo grado; Della Vedova stesso nel 2026 ricorda una condanna definitiva, indicando tre mesi. La differenza sulla pena finale non è risolta nelle fonti consultate.",
+    "sourceUrls": [
+      "https://www.radioradicale.it/scheda/131180/si-e-concluso-con-la-condanna-a-quattro-mesi-di-rita-bernardini-benedetto-della-vedova",
+      "https://www.ilfattoquotidiano.it/2012/11/07/incandidabilita-decreto-del-governo-punirne-tre-per-salvare-altri-cento/404691/",
+      "https://www.ildubbio.news/news/politica/50191/magi-porta-la-cannabis-alla-camera-e-piu-illegale-il-decreto-sicurezza.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "convicted-final",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "benedetto-della-vedova-001",
+        "title": "Distribuzione dimostrativa di hashish a Porta Portese",
+        "allegedOffence": "Cessione di sostanza stupefacente",
+        "offence": null,
+        "status": "convicted-final",
+        "court": "Tribunale di Roma / Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2012-11-07",
+        "description": "Nel 2000 il Tribunale di Roma inflisse quattro mesi di reclusione, con pena sospesa, per la distribuzione gratuita di hashish del 1995 durante una campagna di disobbedienza civile. Una ricostruzione del 2012 elenca la condanna tra quelle definitive; nel 2026 Della Vedova ha confermato il dato, ricordando una pena di tre mesi. Data e dispositivo definitivo non sono stati acquisiti.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2012-11-07",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Cronaca del verdetto del Tribunale di Roma",
+            "publisher": "Radio Radicale",
+            "url": "https://www.radioradicale.it/scheda/131180/si-e-concluso-con-la-condanna-a-quattro-mesi-di-rita-bernardini-benedetto-della-vedova",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Condanna elencata tra quelle definitive",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2012/11/07/incandidabilita-decreto-del-governo-punirne-tre-per-salvare-altri-cento/404691/",
+            "publicationDate": "2012-11-07",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Della Vedova ricorda la condanna definitiva",
+            "publisher": "Il Dubbio",
+            "url": "https://www.ildubbio.news/news/politica/50191/magi-porta-la-cannabis-alla-camera-e-piu-illegale-il-decreto-sicurezza.html",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

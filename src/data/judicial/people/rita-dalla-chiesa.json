@@ -2,10 +2,17 @@
   "schemaVersion": 1,
   "id": "rita-dalla-chiesa",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Rita Dalla Chiesa\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La causa con Agenzia delle entrate era tributaria e la deputata risultò vittoriosa; altri risultati riguardano l’omicidio del padre. Nessun procedimento penale personale documentato. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "sourceUrls": [
+      "https://roma.repubblica.it/cronaca/2019/08/07/news/rita_dalla_chiesa-233082708/"
+    ]
   },
   "record": null
 }

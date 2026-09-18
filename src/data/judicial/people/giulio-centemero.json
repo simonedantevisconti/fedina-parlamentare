@@ -2,17 +2,21 @@
   "schemaVersion": 1,
   "id": "giulio-centemero",
   "review": {
-    "stage": "legacy-record",
-    "lastCheckedAt": "2026-09-16",
-    "result": "public-proceedings-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+    "notes": "Verificate le due vicende già presenti. Nel caso PiùVoci la Cassazione ha annullato la condanna per incompetenza territoriale e trasmesso gli atti a Bergamo; ANSA riferisce il reato ormai prescritto, ma manca un successivo provvedimento del giudice competente. Per lo Stadio della Roma è documentata la condanna di primo grado del 5 aprile 2024, non un esito definitivo. Rimosse date 1 gennaio usate come segnaposto senza fonte.",
+    "queries": [
+      "\"Giulio Centemero\" PiùVoci Cassazione Bergamo prescrizione",
+      "\"Giulio Centemero\" Stadio Roma appello 2025 2026 sentenza"
+    ]
   },
   "record": {
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
+      "lastVerifiedAt": "2026-09-18",
       "result": "public-proceedings-found"
     },
     "proceedings": [
@@ -21,25 +25,21 @@
         "title": "Procedimento relativo al finanziamento all'associazione PiùVoci",
         "allegedOffence": "Finanziamento illecito ai partiti",
         "offence": null,
-        "status": "prescribed",
+        "status": "annulled",
         "court": "Corte di Cassazione",
         "startDate": null,
         "lastUpdate": "2024-08-11",
-        "description": "Giulio Centemero era stato condannato a Milano a otto mesi di reclusione in relazione a un finanziamento di 40mila euro del 2016 destinato all'associazione PiùVoci. Nell'agosto 2024 la Corte di Cassazione ha annullato la sentenza per incompetenza territoriale, indicando la competenza della Procura di Bergamo. Secondo ANSA, al momento della decisione il reato risultava ormai prescritto.",
+        "description": "Il Tribunale di Milano lo condannò in primo grado il 14 marzo 2022 a otto mesi per finanziamento illecito; la decisione fu confermata in appello nel 2023. Nell’agosto 2024 la Cassazione annullò la condanna per incompetenza territoriale e trasmise gli atti alla Procura di Bergamo. ANSA riferì che il reato era ormai prescritto; non è stato verificato un successivo provvedimento di prescrizione del giudice competente. Non esiste una condanna definitiva in questo procedimento.",
         "finalJudgment": false,
         "finalJudgmentDate": null,
         "timeline": [
           {
-            "date": "2022-01-01",
+            "date": "2022-03-14",
             "title": "Condanna in primo grado a Milano"
           },
           {
-            "date": "2023-01-01",
-            "title": "Conferma della condanna in appello"
-          },
-          {
             "date": "2024-08-11",
-            "title": "La Cassazione annulla per incompetenza territoriale; il reato risulta prescritto"
+            "title": "ANSA riferisce l’annullamento in Cassazione per incompetenza territoriale"
           }
         ],
         "sources": [
@@ -49,6 +49,14 @@
             "url": "https://www.ansa.it/sito/notizie/cronaca/2024/08/11/lega-cassazione-annulla-condanna-per-centemero-caso-prescritto_9035ebbf-a8de-41a7-a8ca-1a52de959a74.html",
             "publicationDate": "2024-08-11",
             "accessedAt": "2026-09-16",
+            "type": "journalistic"
+          },
+          {
+            "name": "Giulio Centemero condannato a otto mesi per finanziamento illecito",
+            "publisher": "Corriere della Sera",
+            "url": "https://milano.corriere.it/notizie/cronaca/22_marzo_14/giulio-centemero-condannato-otto-mesi-finanziamento-illecito-9f0b2c82-a37e-11ec-9af1-c1077f9ccdda_amp.html",
+            "publicationDate": "2022-03-14",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]

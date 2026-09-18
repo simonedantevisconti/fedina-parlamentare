@@ -2,10 +2,33 @@
   "schemaVersion": 1,
   "id": "ettore-rosato",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Ettore Rosato\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La Giunta per le autorizzazioni della Camera ha ricevuto comunicazione dell’archiviazione del procedimento avviato dopo la querela di Casaleggio nei confronti di Rosato. La querela riguardava dichiarazioni sulla Casaleggio Associati.",
+    "sourceUrls": ["https://documenti.camera.it/leg18/resoconti/commissioni/bollettini/xhtml/2021/04/21/17/leg.18.bol0571.data20210421.com17.html"]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": { "reviewed": true, "lastVerifiedAt": "2026-09-18", "result": "public-proceeding-found" },
+    "proceedings": [{
+      "id": "ettore-rosato-001",
+      "title": "Querela Casaleggio",
+      "allegedOffence": "Diffamazione",
+      "offence": null,
+      "status": "archived",
+      "court": "Tribunale di Trieste",
+      "startDate": null,
+      "lastUpdate": "2020-12-10",
+      "description": "La Giunta per le autorizzazioni della Camera ha dato notizia della comunicazione sull’avvenuta archiviazione del procedimento nei confronti di Rosato da parte degli uffici giudiziari di Trieste.",
+      "finalJudgment": true,
+      "finalJudgmentDate": null,
+      "timeline": [{ "date": "2020-12-10", "title": "Comunicazione alla Giunta dell’avvenuta archiviazione" }],
+      "sources": [{ "name": "Camera dei deputati, Giunta per le autorizzazioni", "publisher": "Camera dei deputati", "url": "https://documenti.camera.it/leg18/resoconti/commissioni/bollettini/xhtml/2021/04/21/17/leg.18.bol0571.data20210421.com17.html", "publicationDate": "2021-04-21", "accessedAt": "2026-09-18", "type": "official" }]
+    }]
+  }
 }

@@ -2,18 +2,100 @@
   "schemaVersion": 1,
   "id": "stefano-candiani",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "multiple-public-proceedings-found",
     "readyForClean": false,
     "queries": [
       "\"Stefano Candiani\" indagato condannato assolto processo",
-      "\"Stefano Candiani\" \"indagato\""
+      "\"Stefano Candiani\" \"indagato\"",
+      "Stefano Candiani Senato Doc IV-ter 7 diffamazione Antonio Giudice 19 maggio 2021",
+      "Stefano Candiani Senato Doc IV-quater 5 San Berillo 16 febbraio 2022"
     ],
-    "notes": "Le notizie reperite sui fondi della Lega citano Candiani ma indicano altri soggetti come indagati. Non sufficiente per attribuirgli un procedimento personale; controllo preliminare.",
+    "notes": "La precedente esclusione di procedimenti personali era errata. Documentati dagli atti del Senato due fascicoli penali distinti: diffamazione a Roma per querela di Antonio Giudice e contestazione ex art. 604-bis a Catania per il video su San Berillo. Il Senato ha deliberato l'insindacabilità per entrambi, rispettivamente nel 2021 e nel 2022. Non si tratta di assoluzioni nel merito. Va verificato se vi siano successivi provvedimenti del giudice e se il secondo fascicolo sia stato chiuso.",
     "sourceUrls": [
-      "https://www.nextquotidiano.it/stefano-galli-il-leghista-indagato-per-i-49-milioni/"
+      "https://www.senato.it/show-doc?id=1298062&leg=18&part=doc_dc-ressten_rs&tipodoc=Resaula",
+      "https://www.senato.it/show-doc?id=1332444&leg=18&part=doc_dc-ressten_rs&tipodoc=Resaula"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "multiple-public-proceedings-found"
+    },
+    "proceedings": [
+      {
+        "id": "stefano-candiani-001",
+        "title": "Querela di Antonio Giudice per dichiarazioni pubblicate nel 2019",
+        "allegedOffence": "Diffamazione col mezzo della stampa",
+        "offence": null,
+        "status": "parliamentary-immunity",
+        "court": "GIP del Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2021-05-19",
+        "description": "Il GIP di Roma trasmise al Senato gli atti di un procedimento penale per diffamazione nato dalla querela di Antonio Giudice. Il 19 maggio 2021 il Senato deliberò che le dichiarazioni di Candiani erano opinioni espresse nell'esercizio delle funzioni parlamentari e quindi insindacabili. Questa deliberazione non è un'assoluzione nel merito; non è stato verificato il successivo provvedimento del giudice.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2019-01-21", "title": "Querela di Antonio Giudice" },
+          { "date": "2021-05-19", "title": "Il Senato delibera l'insindacabilità" }
+        ],
+        "sources": [
+          {
+            "name": "Resoconto stenografico del Senato, seduta 328",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1298062&leg=18&part=doc_dc-ressten_rs&tipodoc=Resaula",
+            "publicationDate": "2021-05-19",
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          }
+        ]
+      },
+      {
+        "id": "stefano-candiani-002",
+        "title": "Procedimento relativo al video su San Berillo a Catania",
+        "allegedOffence": "Propaganda e istigazione a delinquere per motivi di discriminazione razziale, etnica o religiosa",
+        "offence": null,
+        "status": "parliamentary-immunity",
+        "court": "GIP del Tribunale di Catania",
+        "startDate": null,
+        "lastUpdate": "2022-02-16",
+        "description": "La Procura chiese l'archiviazione, ma il GIP dispose la formulazione dell'imputazione per dichiarazioni nel video su San Berillo. Il 16 febbraio 2022 il Senato deliberò l'insindacabilità delle dichiarazioni ai sensi dell'articolo 68 della Costituzione. Le condanne del 2023 riportate dalla stampa riguardano cinque autori di commenti al video, non Candiani. Non è stato verificato il successivo provvedimento del giudice sul suo fascicolo.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2020-10-12", "title": "Il GIP dispone la formulazione dell'imputazione" },
+          { "date": "2022-02-16", "title": "Il Senato delibera l'insindacabilità" }
+        ],
+        "sources": [
+          {
+            "name": "Giunta delle immunità: procedimento relativo a San Berillo",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1300283&idoggetto=0&leg=18&part=doc_dc-sedetit_ip-genbl_rddsidoeadsscir&tipodoc=SommComm",
+            "publicationDate": "2021-06-23",
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          },
+          {
+            "name": "Resoconto stenografico del Senato, seduta 404",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1332444&leg=18&part=doc_dc-ressten_rs&tipodoc=Resaula",
+            "publicationDate": "2022-02-16",
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          },
+          {
+            "name": "Cinque condanne per commenti al video su San Berillo",
+            "publisher": "MeridioNews",
+            "url": "https://meridionews.it/istagione-odio-razziale-lega-stefano-candiani-fabio-cantarella/",
+            "publicationDate": "2023-10-17",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

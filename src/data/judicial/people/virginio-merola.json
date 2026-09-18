@@ -2,10 +2,80 @@
   "schemaVersion": 1,
   "id": "virginio-merola",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Virginio Merola\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Sono documentate archiviazioni penali relative a occupazioni e all’incarico di capo di gabinetto. La distinta pronuncia della Corte dei conti sull’incarico è di natura contabile, non una condanna penale.",
+    "sourceUrls": [
+      "https://www.ansa.it/emiliaromagna/notizie/2017/06/15/casa-terza-archiviazione-per-merola_bf5dfb18-ea4f-4288-a43a-65a6eb5a97a6.html",
+      "https://www.comune.bologna.it/novita/comunicati-stampa/corte-dei-conti-una-sentenza-di-parziale-condanna"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "title": "Occupazione dell’ex Cassero Atlantide",
+        "allegedOffence": "Omissione di atti d’ufficio",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP di Bologna",
+        "startDate": null,
+        "lastUpdate": "2017-06-15",
+        "description": "Il GIP archiviò l’indagine sul mancato sgombero. ANSA la descrive come terza archiviazione relativa alle occupazioni.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-06-15",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/emiliaromagna/notizie/2017/06/15/casa-terza-archiviazione-per-merola_bf5dfb18-ea4f-4288-a43a-65a6eb5a97a6.html",
+            "publicationDate": "2017-06-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "virginio-merola-001"
+      },
+      {
+        "title": "Incarico di capo di gabinetto",
+        "allegedOffence": "Ipotesi di reato nella nomina del capo di gabinetto",
+        "offence": null,
+        "status": "archived",
+        "court": "Autorità giudiziaria penale di Bologna",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Il Comune riferisce che il giudice penale archiviò perché non ravvisò gli estremi di reato. La distinta decisione della Corte dei conti non è penale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Comune di Bologna",
+            "publisher": "Comune di Bologna",
+            "url": "https://www.comune.bologna.it/novita/comunicati-stampa/corte-dei-conti-una-sentenza-di-parziale-condanna",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "virginio-merola-002"
+      }
+    ]
+  }
 }

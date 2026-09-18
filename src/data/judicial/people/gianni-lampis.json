@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "gianni-lampis",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Gianni Lampis\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Risulta tra gli indagati nell’inchiesta Arpas resa nota il 9 giugno 2026. Le accuse sono ipotesi investigative; verificare gli sviluppi.",
+    "sourceUrls": [
+      "https://www.unionesarda.it/news-sardegna/cagliari/sistema-arpas-26-indagati-fra-tecnici-e-politici-bmbeic10?amp=1"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "gianni-lampis-001",
+        "title": "Inchiesta Arpas ed Eurallumina",
+        "allegedOffence": "Ipotesi di induzione indebita relativa a un parere ambientale",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura di Cagliari",
+        "startDate": null,
+        "lastUpdate": "2026-06-09",
+        "description": "Secondo la stampa Lampis è tra i 26 indagati. Per lui viene riferita un’ipotesi di induzione indebita a modificare un parere su Eurallumina. Nessuna responsabilità accertata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-06-09",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inchiesta Arpas ed Eurallumina",
+            "publisher": "L’Unione Sarda",
+            "url": "https://www.unionesarda.it/news-sardegna/cagliari/sistema-arpas-26-indagati-fra-tecnici-e-politici-bmbeic10?amp=1",
+            "publicationDate": "2026-06-09",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

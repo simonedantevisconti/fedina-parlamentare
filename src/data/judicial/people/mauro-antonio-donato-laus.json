@@ -2,10 +2,50 @@
   "schemaVersion": 1,
   "id": "mauro-antonio-donato-laus",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Mauro Antonio Donato Laus\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La Procura ha chiesto l’archiviazione nell’inchiesta Rear; non verificato un decreto del GIP.",
+    "sourceUrls": [
+      "https://lospiffero.com/ls_article.php?id=98878"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "mauro-antonio-donato-laus-001",
+        "title": "Inchiesta Rear",
+        "allegedOffence": "Truffa e malversazione a danno dello Stato, secondo le prime notizie",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Torino",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "La stampa riferisce che la Procura ha chiesto l’archiviazione dell’indagine che includeva Laus. La richiesta non è una decisione del giudice.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Inchiesta Rear",
+            "publisher": "Lo Spiffero",
+            "url": "https://lospiffero.com/ls_article.php?id=98878",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

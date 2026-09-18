@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "antonio-d-alessio",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Antonio D'Alessio\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Distinti il deputato dai magistrati omonimi e dalle sue dichiarazioni su procedimenti altrui. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "sourceUrls": []
   },
   "record": null
 }

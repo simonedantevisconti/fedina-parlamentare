@@ -2,10 +2,64 @@
   "schemaVersion": 1,
   "id": "andrea-gentile",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"andrea gentile\" indagato condannato assolto archiviato esito"
+    ],
+    "notes": "Le indagini sulle consulenze ASL e sulla vicenda delle pressioni al quotidiano L’Ora della Calabria risultano archiviate. Non attribuire al deputato le contestazioni contro lo stampatore Umberto De Rose.",
+    "sourceUrls": [
+      "https://www.lacnews24.it/cronaca/processo-oragate-assolto-il-tipografo-de-rose-non-ci-fu-violenza-privata-uydb49ov",
+      "https://www.raiplay.it/video/2016/10/Il-consigliere-6bb0721d-dbb9-4572-85e9-55bea92fe7f4.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "andrea-gentile-001",
+        "title": "Indagini sulle consulenze ASL e vicenda L’Ora della Calabria",
+        "allegedOffence": "Ipotesi sulle consulenze e sulle pressioni alla stampa",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura e GIP di Cosenza",
+        "startDate": null,
+        "lastUpdate": "2016-03-17",
+        "description": "Il deputato, allora avvocato e figlio dell’ex sottosegretario Antonio Gentile, fu coinvolto in indagini sulle consulenze ASL e nella vicenda L’Ora della Calabria. Fonti giornalistiche e un resoconto parlamentare riferiscono l’archiviazione delle sue posizioni; il procedimento per violenza privata proseguì invece nei confronti dello stampatore De Rose, poi assolto.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2016-03-17",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "La posizione di Andrea Gentile fu archiviata",
+            "publisher": "LaC News24",
+            "url": "https://www.lacnews24.it/cronaca/processo-oragate-assolto-il-tipografo-de-rose-non-ci-fu-violenza-privata-uydb49ov",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Indagini su Gentile archiviate",
+            "publisher": "Rai Report",
+            "url": "https://www.raiplay.it/video/2016/10/Il-consigliere-6bb0721d-dbb9-4572-85e9-55bea92fe7f4.html",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

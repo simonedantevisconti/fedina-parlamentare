@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "giovanni-maiorano",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Giovanni Maiorano\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Il GIP di Taranto ha archiviato l’indagine per abuso d’ufficio in seguito all’abolizione del reato; non si tratta di assoluzione nel merito.",
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/2024/11/01/deputato-maiorano-fdi-archiviato-salvato-abolizione-abuso-d-ufficio-che-ha-votato-anche-lui/7750932/amp/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "giovanni-maiorano-001",
+        "title": "Inchiesta per abuso d’ufficio",
+        "allegedOffence": "Abuso d’ufficio",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Taranto",
+        "startDate": null,
+        "lastUpdate": "2024-11-01",
+        "description": "Il GIP ha disposto l’archiviazione perché l’abuso d’ufficio non costituisce più reato dopo la riforma legislativa.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2024-11-01",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Inchiesta per abuso d’ufficio",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2024/11/01/deputato-maiorano-fdi-archiviato-salvato-abolizione-abuso-d-ufficio-che-ha-votato-anche-lui/7750932/amp/",
+            "publicationDate": "2024-11-01",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

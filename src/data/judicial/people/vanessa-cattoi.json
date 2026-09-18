@@ -3,11 +3,12 @@
   "id": "vanessa-cattoi",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Vanessa Cattoi\" indagata condannata assolta archiviata"
+      "\"Vanessa Cattoi\" indagata condannata assolta archiviata",
+      "\"vanessa cattoi\" indagato imputato condannato archiviato"
     ],
     "notes": "Le corrispondenze esaminate riguardano l’attività parlamentare e testi di proposte legislative. Nessuna fonte sufficiente per un procedimento personale; ricerca preliminare.",
     "sourceUrls": []

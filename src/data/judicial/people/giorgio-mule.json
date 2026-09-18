@@ -2,10 +2,88 @@
   "schemaVersion": 1,
   "id": "giorgio-mule",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Giorgio Mulè\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La condanna di primo grado del 2013 per omesso controllo nel caso Messineo è stata riformata con assoluzione in appello nel 2017. Per la distinta querela Esposito, le notizie del 2024 riferiscono un appello, ma non ne è stato verificato l’esito. Un altro procedimento storico per diffamazione è citato nelle cronache del 1995 senza esito reperito.",
+    "sourceUrls": [
+      "https://www.panorama.it/attualita/condanna-mule-sentenza",
+      "https://livesicilia.it/panorama-non-diffamo-messineo-assolti-mule-e-due-giornalisti/",
+      "https://www.ilfattoquotidiano.it/in-edicola/articoli/2024/05/15/il-giudice-esposito-va-in-appello-mule-mi-diffamo/7548436/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "title": "Articolo di Panorama sul procuratore Francesco Messineo",
+        "allegedOffence": "Omesso controllo del direttore su articolo diffamatorio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2017-10-23",
+        "description": "Condannato in primo grado a otto mesi nel 2013, Mulè fu assolto in appello perché il fatto non sussiste. Non è stata verificata l’irrevocabilità dell’assoluzione.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2017-10-23", "title": "Assoluzione in appello riportata dalla stampa" }
+        ],
+        "sources": [
+          {
+            "name": "Panorama",
+            "publisher": "Panorama",
+            "url": "https://www.panorama.it/attualita/condanna-mule-sentenza",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Panorama non diffamò Messineo: assolti Mulè e due giornalisti",
+            "publisher": "LiveSicilia",
+            "url": "https://livesicilia.it/panorama-non-diffamo-messineo-assolti-mule-e-due-giornalisti/",
+            "publicationDate": "2017-10-23",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "giorgio-mule-001"
+      },
+      {
+        "id": "giorgio-mule-002",
+        "title": "Querela del giudice Antonio Esposito",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Corte d’appello di Roma",
+        "startDate": null,
+        "lastUpdate": "2024-05-15",
+        "description": "Le notizie del maggio 2024 riferiscono che la querela per dichiarazioni sulla sentenza Berlusconi sarebbe approdata in appello. Non è stato verificato l’esito del giudizio, né la decisione precedente.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2024-05-15", "title": "La stampa riferisce il passaggio in appello" }
+        ],
+        "sources": [
+          {
+            "name": "Il giudice Esposito va in appello: Mulè mi diffamò",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/in-edicola/articoli/2024/05/15/il-giudice-esposito-va-in-appello-mule-mi-diffamo/7548436/",
+            "publicationDate": "2024-05-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

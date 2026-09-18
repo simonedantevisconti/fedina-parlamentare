@@ -3,11 +3,12 @@
   "id": "susanna-cherchi",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Susanna Cherchi\" indagata condannata assolta archiviata"
+      "\"Susanna Cherchi\" indagata condannata assolta archiviata",
+      "\"susanna cherchi\" indagato imputato condannato archiviato"
     ],
     "notes": "La documentazione ministeriale rintracciata si riferisce a contenzioso civile promosso da una omonima; non costituisce dato penale attribuibile alla deputata. Controllo preliminare.",
     "sourceUrls": [

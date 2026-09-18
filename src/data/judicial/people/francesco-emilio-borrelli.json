@@ -2,18 +2,66 @@
   "schemaVersion": 1,
   "id": "francesco-emilio-borrelli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
-    "notes": "I risultati esaminati riguardano prevalentemente il ruolo di denunciante o persona offesa, incluse aggressioni subite. I riferimenti generici a denunce contro di lui non permettono di ricostruire uno specifico procedimento. Controllo non concluso.",
+    "notes": "Un procedimento personale per diffamazione aggravata, nato da una denuncia del garante dei detenuti campano Samuele Ciambriello, risulta archiviato dal GIP di Napoli il 17 marzo 2026. Va verificata l'ordinanza integrale. Sono state inoltre riportate una denuncia-querela del Comune di Atrani nell'agosto 2026 e l'intenzione del Comune di Pomigliano d'Arco di presentare un esposto nel gennaio 2026: non è stato verificato se da queste iniziative siano nati procedimenti a suo carico. Distinti i molti casi in cui Borrelli è denunciante o persona offesa.",
     "queries": [
       "\"Francesco Emilio Borrelli\" indagato condannato assolto archiviato",
-      "\"Francesco Emilio Borrelli\" diffamazione assolto"
+      "\"Francesco Emilio Borrelli\" diffamazione assolto",
+      "\"Francesco Emilio Borrelli\" \"Ciambriello\" \"17 marzo 2026\" archiviazione",
+      "\"Francesco Emilio Borrelli\" querela Atrani agosto 2026"
     ],
     "sourceUrls": [
-      "https://napoli.repubblica.it/cronaca/2025/07/11/news/aggressione_a_borrelli_in_appello_condanne_e_lievi_sconti_di_pena-424725192/"
+      "https://tvmtv.it/diffamazione-archiviato-il-procedimento-contro-borrelli-critica-politica-legittima/",
+      "https://www.ottopagine.it/amp/421836/ciambriello-rivolge-un-invito-a-borrelli-si-favorisca-abbassamento-dei-toni.shtml",
+      "https://www.ilgiornaledisalerno.it/il-comune-di-atrani-querela-il-deputato-borrelli/",
+      "https://www.ansa.it/campania/notizie/comune_pomigliano_d_arco/2026/01/13/amministrazione-comunale-di-pomigliano-contro-borrelli-ha-leso-dignita-della-citta_cc180206-a9f0-4e10-98b0-ca0127c26fd3.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "documented-archived-proceeding"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-emilio-borrelli-001",
+        "title": "Procedimento per diffamazione su denuncia di Samuele Ciambriello",
+        "allegedOffence": "Diffamazione aggravata a mezzo social",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Napoli",
+        "startDate": null,
+        "lastUpdate": "2026-03-17",
+        "description": "Una denuncia del garante dei detenuti della Campania Samuele Ciambriello aveva portato a un'indagine per diffamazione aggravata nei confronti di Francesco Emilio Borrelli. Fonti del marzo 2026 riferiscono che il GIP del Tribunale di Napoli ha disposto l'archiviazione il 17 marzo 2026, ritenendo le espressioni nell'ambito della critica politica. Non è stata consultata l'ordinanza integrale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2026-03-17", "title": "Archiviazione disposta dal GIP di Napoli" }
+        ],
+        "sources": [
+          {
+            "name": "Diffamazione, archiviato il procedimento contro Borrelli",
+            "publisher": "TVM TV",
+            "url": "https://tvmtv.it/diffamazione-archiviato-il-procedimento-contro-borrelli-critica-politica-legittima/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Ciambriello commenta l'archiviazione della sua denuncia",
+            "publisher": "Ottopagine",
+            "url": "https://www.ottopagine.it/amp/421836/ciambriello-rivolge-un-invito-a-borrelli-si-favorisca-abbassamento-dei-toni.shtml",
+            "publicationDate": "2026-03-19",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

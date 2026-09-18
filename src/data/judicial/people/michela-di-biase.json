@@ -2,10 +2,17 @@
   "schemaVersion": 1,
   "id": "michela-di-biase",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Michela Di Biase\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Un articolo del 2011 su una paziente di Trieste omonima, che patteggiò per diffamazione, non offre elementi per identificarla con la deputata romana. Identità non verificata. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "sourceUrls": [
+      "https://www.ilpiccolo.it/cronaca/diffama-il-ginecologo-in-un-forum-web-condannata-buwsssm4"
+    ]
   },
   "record": null
 }

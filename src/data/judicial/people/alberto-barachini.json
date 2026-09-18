@@ -3,9 +3,16 @@
   "id": "alberto-barachini",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"alberto barachini\" indagato imputato condannato archiviato"
+    ],
+    "notes": "Alcuni risultati giudiziari riguardano il padre Enrico Barachini, non il senatore Alberto.",
+    "sourceUrls": [
+      "https://www.lanazione.it/pisa/cronaca/pisa-e-morto-enrico-barachini-commercialista-molto-conosciuto-xz0fetjj"
+    ]
   },
   "record": null
 }

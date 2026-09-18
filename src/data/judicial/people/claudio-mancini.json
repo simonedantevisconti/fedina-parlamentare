@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "claudio-mancini",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Claudio Mancini\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto in primo grado nel processo sulle spese dei gruppi del Consiglio regionale del Lazio. Non verificato il passaggio in giudicato.",
+    "sourceUrls": [
+      "https://roma.corriere.it/notizie/politica/21_febbraio_04/spese-pazze-regione-lazio-assolti-montino-altri-12-ex-consiglieri-63c13d00-6708-11eb-8ada-57b39586265a.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "claudio-mancini-001",
+        "title": "Spese dei gruppi regionali del Lazio",
+        "allegedOffence": "Ipotesi di reato nella gestione dei fondi dei gruppi",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2021-02-04",
+        "description": "Assolto in primo grado, con gli altri ex consiglieri, perché il fatto non sussiste.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-02-04",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Spese dei gruppi regionali del Lazio",
+            "publisher": "Corriere della Sera",
+            "url": "https://roma.corriere.it/notizie/politica/21_febbraio_04/spese-pazze-regione-lazio-assolti-montino-altri-12-ex-consiglieri-63c13d00-6708-11eb-8ada-57b39586265a.shtml",
+            "publicationDate": "2021-02-04",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

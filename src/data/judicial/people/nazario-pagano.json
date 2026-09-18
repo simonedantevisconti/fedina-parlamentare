@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "nazario-pagano",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Nazario Pagano\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto in primo grado nel processo sui rimborsi delle missioni del Consiglio regionale abruzzese. Non verificata l’irrevocabilità della sentenza.",
+    "sourceUrls": [
+      "https://www.ilcentro.it/pescara/rimborsopoli-pagano-assolto-dopo-7-anni-il-fatto-non-sussiste-1.2608236"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "title": "Rimborsi delle missioni istituzionali in Abruzzo",
+        "allegedOffence": "Truffa e peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Rimini",
+        "startDate": null,
+        "lastUpdate": "2021-04-10",
+        "description": "Il Tribunale ha assolto Pagano perché il fatto non sussiste. La fonte giornalistica del giorno successivo non documenta ulteriori gradi di giudizio.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-04-10",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Il Centro",
+            "publisher": "Il Centro",
+            "url": "https://www.ilcentro.it/pescara/rimborsopoli-pagano-assolto-dopo-7-anni-il-fatto-non-sussiste-1.2608236",
+            "publicationDate": "2021-04-11",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "nazario-pagano-001"
+      }
+    ]
+  }
 }

@@ -3,9 +3,12 @@
   "id": "bartolomeo-amidei",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"bartolomeo amidei\" indagato imputato condannato archiviato"
+    ]
   },
   "record": null
 }

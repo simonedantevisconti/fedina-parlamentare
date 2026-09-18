@@ -3,9 +3,19 @@
   "id": "pino-bicchielli",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "notes": "Verificate ricerche nominative sia per Pino sia per Giuseppe Bicchielli. I risultati consultati riguardano attività parlamentare e sue dichiarazioni su procedimenti di altre persone; non documentano un procedimento penale personale. La verifica resta preliminare: l’assenza di riscontri pubblici non equivale a un certificato del casellario.",
+    "queries": [
+      "\"Pino Bicchielli\" indagato imputato condannato assolto archiviato",
+      "\"Giuseppe Bicchielli\" indagato imputato procedimento penale",
+      "\"pino bicchielli\" indagato imputato condannato archiviato"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308790&tipoAttivita=attivitalegislativacommissione&tipoPersona=C&tipoVisAtt=1",
+      "https://www.giustizia.it/cmsresources/cms/documents/interrogazione_bicchielli_risposta_12feb2024.pdf"
+    ]
   },
   "record": null
 }

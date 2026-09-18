@@ -3,11 +3,12 @@
   "id": "laura-cavandoli",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Laura Cavandoli\" indagata condannata assolta archiviata"
+      "\"Laura Cavandoli\" indagata condannata assolta archiviata",
+      "\"laura cavandoli\" indagato imputato condannato archiviato"
     ],
     "notes": "Le notizie sulla vicenda Bibbiano e le discussioni parlamentari sulla giustizia mostrano il suo ruolo istituzionale, senza documentare un procedimento penale personale. Ricerca preliminare.",
     "sourceUrls": [

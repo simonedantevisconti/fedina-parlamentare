@@ -3,9 +3,19 @@
   "id": "ingrid-bisa",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "notes": "Nei documenti giudiziari e parlamentari individuati, Ingrid Bisa interviene come componente o relatrice della Giunta per le autorizzazioni su procedimenti relativi ad altri deputati. Non è emersa una fonte che documenti un procedimento personale; verifica ancora preliminare.",
+    "queries": [
+      "\"Ingrid Bisa\" indagata imputata condannata assolta archiviata",
+      "\"Ingrid Bisa\" procedimento penale procura",
+      "\"ingrid bisa\" indagato imputato condannato archiviato"
+    ],
+    "sourceUrls": [
+      "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?anno=2020&giorno=24&idCommissione=17&idLegislatura=18&mese=06&sezione=bollettini&tipoDoc=indice",
+      "https://documenti.camera.it/_dati/leg18/lavori/documentiparlamentari/indiceetesti/004/005a/intero.htm"
+    ]
   },
   "record": null
 }

@@ -2,10 +2,63 @@
   "schemaVersion": 1,
   "id": "riccardo-de-corato",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Riccardo De Corato\" indagato imputato condannato archiviato",
+      "\"Riccardo De Corato\" Hannoun archiviazione GIP"
+    ],
+    "notes": "Una querela per diffamazione presentata nel 2023 da Mohammad Hannoun ha comportato, secondo Il Giorno, l'iscrizione del deputato nel registro degli indagati. Nell'aprile 2026 la Procura di Roma ha chiesto l'archiviazione; non è stata verificata una decisione del GIP. Non presentare la richiesta del PM come archiviazione definitiva.",
+    "sourceUrls": [
+      "https://www.ilgiorno.it/milano/cronaca/de-corato-querelato-da-hannoun-fad91350",
+      "https://www.secoloditalia.it/2026/07/hannoun-era-un-finanziatore-di-hamas-il-pm-chiede-larchiviazione-della-querela-contro-riccardo-de-corato/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "riccardo-de-corato-001",
+        "title": "Querela per diffamazione relativa a dichiarazioni su Mohammad Hannoun",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura della Repubblica di Roma",
+        "startDate": "2023-07-06",
+        "lastUpdate": "2026-07-14",
+        "description": "Hannoun presentò querela il 6 luglio 2023 per dichiarazioni pubbliche del deputato. Secondo la stampa, De Corato fu iscritto nel registro degli indagati e la Procura chiese l'archiviazione nell'aprile 2026 ritenendo infondata la notizia di reato. Non è stata reperita una decisione del GIP né una data precisa della richiesta.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2023-07-06", "title": "Querela presentata da Mohammad Hannoun" },
+          { "date": "2026-07-14", "title": "La stampa riferisce la richiesta di archiviazione del PM" }
+        ],
+        "sources": [
+          {
+            "name": "De Corato querelato da Hannoun: l'ho saputo 3 anni dopo",
+            "publisher": "Il Giorno",
+            "url": "https://www.ilgiorno.it/milano/cronaca/de-corato-querelato-da-hannoun-fad91350",
+            "publicationDate": "2026-07-14",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Il PM chiede l'archiviazione della querela contro Riccardo De Corato",
+            "publisher": "Secolo d'Italia",
+            "url": "https://www.secoloditalia.it/2026/07/hannoun-era-un-finanziatore-di-hamas-il-pm-chiede-larchiviazione-della-querela-contro-riccardo-de-corato/",
+            "publicationDate": "2026-07-13",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

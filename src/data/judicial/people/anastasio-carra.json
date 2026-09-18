@@ -2,17 +2,63 @@
   "schemaVersion": 1,
   "id": "anastasio-carra",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
-      "\"Anastasio Carrà\" indagato condannato assolto archiviato"
+      "\"Anastasio Carrà\" indagato condannato assolto archiviato",
+      "\"Anastasio Carrà\" acque reflue Motta rinviato a giudizio 2021 esito"
     ],
-    "notes": "Nel caso del video della giudice Apostolico il fascicolo è stato archiviato come modello 45, senza indagati o ipotesi di reato. La menzione di Carrà come partecipante a una chat non documenta un procedimento penale a suo carico. Controllo preliminare.",
+    "notes": "La precedente ricerca ometteva il rinvio a giudizio del 18 maggio 2021 per fatti relativi agli scarichi di acque reflue nel Comune di Motta Sant'Anastasia. La stampa lo indicava ancora a processo nel 2023; non è stato verificato l'esito successivo, quindi non presentarlo come processo tuttora pendente. Il diverso fascicolo sul video della giudice Apostolico è stato archiviato come modello 45 senza indagati: la sola menzione di Carrà non prova un procedimento a suo carico.",
     "sourceUrls": [
+      "https://livesicilia.it/motta-il-sindaco-carra-rinviato-a-giudizio-per-reati-ambientali/",
+      "https://www.lasicilia.it/politica/il-video-della-apostolico-e-la-manina-di-catania-ecco-come-spunta-il-var-della-lega-1913884/",
       "https://www.ilfattoquotidiano.it/2024/01/10/caso-apostolico-la-procura-archivia-lindagine-sul-video-della-giudice-non-viene-da-archivi-delle-forze-dellordine-lo-giro-un-carabiniere/7405731/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "anastasio-carra-001",
+        "title": "Procedimento sugli scarichi del depuratore di Motta Sant'Anastasia",
+        "allegedOffence": "Delitto colposo contro la salute pubblica e contestazioni ambientali sugli scarichi di acque reflue",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Tribunale di Catania",
+        "startDate": null,
+        "lastUpdate": "2021-05-18",
+        "description": "Il 18 maggio 2021 il GUP di Catania rinviò a giudizio Anastasio Carrà, allora sindaco di Motta Sant'Anastasia, insieme ad altre quattro persone per fatti relativi alla gestione degli scarichi di acque reflue. La difesa contestò l'attribuzione al sindaco delle responsabilità tecniche. Una notizia del 2023 lo descriveva ancora a processo; non è stato verificato l'esito successivo o la pendenza attuale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          { "date": "2021-05-18", "title": "Rinvio a giudizio disposto dal GUP di Catania" }
+        ],
+        "sources": [
+          {
+            "name": "Motta, il sindaco rinviato a giudizio per reati ambientali",
+            "publisher": "LiveSicilia",
+            "url": "https://livesicilia.it/motta-il-sindaco-carra-rinviato-a-giudizio-per-reati-ambientali/",
+            "publicationDate": "2021-05-18",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Carrà indicato a processo a Catania nel 2023",
+            "publisher": "La Sicilia",
+            "url": "https://www.lasicilia.it/politica/il-video-della-apostolico-e-la-manina-di-catania-ecco-come-spunta-il-var-della-lega-1913884/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

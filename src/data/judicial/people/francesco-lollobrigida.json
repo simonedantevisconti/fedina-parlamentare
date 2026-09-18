@@ -2,10 +2,50 @@
   "schemaVersion": 1,
   "id": "francesco-lollobrigida",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Francesco Lollobrigida\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "L’indagine storica per corruzione relativa al costruttore Paolo Marziali è stata archiviata. La notizia è riferita da una verifica giornalistica; non sono stati reperiti gli atti giudiziari.",
+    "sourceUrls": [
+      "https://www.facta.news/articoli/lista-virale-ministri-governo-meloni"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-lollobrigida-001",
+        "title": "Indagine sul costruttore Paolo Marziali",
+        "allegedOffence": "Corruzione",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura di Roma",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Lollobrigida fu indagato; la posizione fu successivamente archiviata. Non è disponibile la data esatta del provvedimento.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Indagine sul costruttore Paolo Marziali",
+            "publisher": "Facta",
+            "url": "https://www.facta.news/articoli/lista-virale-ministri-governo-meloni",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

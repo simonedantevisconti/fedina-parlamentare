@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "antonio-maria-gabellone",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"antonio maria gabellone\" indagato condannato assolto archiviato esito"
+    ],
+    "notes": "La notizia locale riferisce un decreto del GIP che nel gennaio 2020 archiviò l’indagine sui compensi della Fondazione Ico Tito Schipa.",
+    "sourceUrls": [
+      "https://www.corrieresalentino.it/2020/01/inchiesta-compensi-tito-schipa-procedimento-archiviato-per-antonio-gabellone-e-grazia-manni/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "antonio-maria-gabellone-001",
+        "title": "Compensi della Fondazione Ico Tito Schipa",
+        "allegedOffence": "Abuso d’ufficio",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP di Lecce",
+        "startDate": null,
+        "lastUpdate": "2020-01-08",
+        "description": "Il GIP di Lecce accolse la richiesta del PM e archiviò l’indagine sui compensi percepiti da Gabellone come presidente della Fondazione Ico Tito Schipa.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2020-01-08",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Procedimento archiviato per Gabellone",
+            "publisher": "Corriere Salentino",
+            "url": "https://www.corrieresalentino.it/2020/01/inchiesta-compensi-tito-schipa-procedimento-archiviato-per-antonio-gabellone-e-grazia-manni/",
+            "publicationDate": "2020-01-08",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

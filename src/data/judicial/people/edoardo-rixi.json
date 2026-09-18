@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "edoardo-rixi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Edoardo Rixi\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "L’assoluzione in appello nell’inchiesta sulle spese dei gruppi consiliari liguri è stata confermata dalla Cassazione nel marzo 2022. La precedente condanna di primo grado è stata superata.",
+    "sourceUrls": [
+      "https://www.rainews.it/tgr/liguria/articoli/2022/03/lig-Rixi-Rosso-Bruzzone-spese-pazze-790e6c26-e8f6-4f00-89e8-b34e6a3266a0.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "edoardo-rixi-001",
+        "title": "Spese dei gruppi consiliari liguri",
+        "allegedOffence": "Peculato e falso",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2022-03-15",
+        "description": "Dopo la condanna di primo grado del 2019 e l’assoluzione in appello del 2021, la Cassazione ha respinto il ricorso della Procura generale: assoluzione definitiva perché il fatto non sussiste.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-03-15",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rai News TGR Liguria",
+            "publisher": "Rai News TGR Liguria",
+            "url": "https://www.rainews.it/tgr/liguria/articoli/2022/03/lig-Rixi-Rosso-Bruzzone-spese-pazze-790e6c26-e8f6-4f00-89e8-b34e6a3266a0.html",
+            "publicationDate": "2022-03-16",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

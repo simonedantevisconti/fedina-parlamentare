@@ -3,9 +3,16 @@
   "id": "luca-de-carlo",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"luca de carlo\" indagato imputato condannato archiviato"
+    ],
+    "notes": "Le notizie giudiziarie riferite a un sindaco Luca De Carlo di Vernole riguardano un omonimo, non il senatore già sindaco di Calalzo di Cadore.",
+    "sourceUrls": [
+      "https://bari.repubblica.it/cronaca/2014/03/17/news/falesie-81236308/amp/"
+    ]
   },
   "record": null
 }

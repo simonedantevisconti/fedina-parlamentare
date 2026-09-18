@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "raffaele-nevi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Raffaele Nevi\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Il processo penale sulle spese dei gruppi consiliari umbri si è chiuso per prescrizione nel 2026, senza accertamento di colpevolezza nel merito.",
+    "sourceUrls": [
+      "https://umbria7.it/2026/05/spese-dei-gruppi-consiliari-tutto-prescritto-nevi-non-mi-e-stato-permesso-di-dimostrare-la-mia-innocenza/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "title": "Spese del gruppo consiliare umbro",
+        "allegedOffence": "Ipotesi di reato relative alle spese del gruppo",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Perugia",
+        "startDate": null,
+        "lastUpdate": "2026-05-21",
+        "description": "Nevi era stato rinviato a giudizio; il procedimento è terminato con dichiarazione di prescrizione. La data è quella della notizia, non necessariamente del dispositivo.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-05-21",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Umbria 7",
+            "publisher": "Umbria 7",
+            "url": "https://umbria7.it/2026/05/spese-dei-gruppi-consiliari-tutto-prescritto-nevi-non-mi-e-stato-permesso-di-dimostrare-la-mia-innocenza/",
+            "publicationDate": "2026-05-21",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "raffaele-nevi-001"
+      }
+    ]
+  }
 }

@@ -2,10 +2,85 @@
   "schemaVersion": 1,
   "id": "lorenzo-guerini",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Lorenzo Guerini\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Archiviata la posizione relativa agli esposti sulla gestione del Covid. In distinta indagine sui sindacati militari la Procura chiese archiviazione nel 2023; il provvedimento del Tribunale dei ministri non è stato verificato.",
+    "sourceUrls": [
+      "https://www.ecovicentino.it/cronaca-italia/inchiesta-covid-a-roma-nuovo-filone-dindagine-sui-ministri-speranza-grillo-e-lorenzin/",
+      "https://www.ilfattoquotidiano.it/in-edicola/articoli/2023/05/09/sigle-militari-indagato-lex-ministro-guerini/7155046/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "lorenzo-guerini-001",
+        "title": "Esposti sulla gestione della pandemia",
+        "allegedOffence": "Ipotesi di reato legate alla gestione della pandemia",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Roma",
+        "startDate": null,
+        "lastUpdate": "2023-03-09",
+        "description": "Il Tribunale dei ministri archiviò la posizione di Guerini e di altri ex ministri.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-03-09",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Esposti sulla gestione della pandemia",
+            "publisher": "L’Eco Vicentino",
+            "url": "https://www.ecovicentino.it/cronaca-italia/inchiesta-covid-a-roma-nuovo-filone-dindagine-sui-ministri-speranza-grillo-e-lorenzin/",
+            "publicationDate": "2023-03-09",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "lorenzo-guerini-002",
+        "title": "Riconoscimento dei sindacati militari",
+        "allegedOffence": "Omissione di atti d’ufficio",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Tribunale dei ministri di Roma",
+        "startDate": null,
+        "lastUpdate": "2023-05-09",
+        "description": "La Procura trasmise il fascicolo al Tribunale dei ministri chiedendo contestualmente l’archiviazione. Non verificata la decisione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-05-09",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Riconoscimento dei sindacati militari",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/in-edicola/articoli/2023/05/09/sigle-militari-indagato-lex-ministro-guerini/7155046/",
+            "publicationDate": "2023-05-09",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

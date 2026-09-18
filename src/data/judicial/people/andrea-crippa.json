@@ -2,10 +2,19 @@
   "schemaVersion": 1,
   "id": "andrea-crippa",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "notes": "Nel 2018 Andrea Crippa risultava indagato a Torino per diffamazione aggravata dopo il video sul Museo Egizio. La Procura chiese l'archiviazione, ma non è stato reperito il provvedimento del GIP: la richiesta non equivale all'archiviazione. Il distinto contenzioso risarcitorio con il museo era civile e non va inserito come condanna penale.",
+    "queries": [
+      "Andrea Crippa Museo Egizio diffamazione richiesta archiviazione 2018",
+      "Andrea Crippa Museo Egizio decreto GIP archiviazione procedimento penale"
+    ],
+    "sourceUrls": [
+      "https://torino.repubblica.it/cronaca/2018/04/11/news/torino_telefonata_fake_all_egizio_sull_ingresso_scontato_agli_arabi_chiasta_l_archiviazione_per_il_giovane_padano_-193578872/",
+      "https://www.lastampa.it/torino/2018/04/12/news/finta-telefonata-al-museo-egizio-chiesta-l-archiviazione-per-il-leader-dei-giovani-padani-1.34003627/"
+    ]
   },
   "record": null
 }

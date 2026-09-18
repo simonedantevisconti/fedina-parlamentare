@@ -3,16 +3,18 @@
   "id": "federico-cafiero-de-raho",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Federico Cafiero de Raho\" indagato condannato archiviazione",
-      "\"Cafiero de Raho\" indagato 2026 Perugia Roma"
+      "\"Cafiero de Raho\" indagato 2026 Perugia Roma",
+      "\"federico cafiero de raho\" indagato imputato condannato archiviato"
     ],
-    "notes": "Distinti l’attività di magistrato, le pratiche CSM e le polemiche politiche dall’esistenza di un procedimento penale personale. I risultati reperiti non bastano a documentare quest’ultimo. Approfondimento ancora necessario.",
+    "notes": "Distinti l'attività di magistrato, le pratiche CSM e le accuse contenute nella relazione della Commissione antimafia sul caso Striano dall'esistenza di un procedimento penale personale. Alcune fonti riferiscono che fu ascoltato dai PM nel 2025, ma non documentano che fosse indagato. Approfondimento ancora necessario; non attribuire le imputazioni di Striano e Laudati a Cafiero De Raho. La relazione della Commissione antimafia sul caso Striano contiene valutazioni politiche sulla gestione della Direzione nazionale antimafia; le fonti consultate non attestano un’indagine penale personale. Nel processo per minacce dei Casalesi De Raho è persona offesa.",
     "sourceUrls": [
-      "https://antimafiaduemila.com/home/mafie-news/topnews/chat-palamara-il-csm-archivia-la-posizione-di-federico-cafiero-de-raho"
+      "https://antimafiaduemila.com/home/mafie-news/topnews/chat-palamara-il-csm-archivia-la-posizione-di-federico-cafiero-de-raho",
+      "https://napoli.corriere.it/notizie/cronaca/26_luglio_13/minacce-in-aula-ai-magistrati-cantone-e-de-raho-condannati-a-5-anni-e-mezzo-i-boss-del-clan-dei-casalesi-iovine-e-bidognetti-a4308d91-be71-4a7f-914d-7a5cb2116xlk_amp.shtml"
     ]
   },
   "record": null

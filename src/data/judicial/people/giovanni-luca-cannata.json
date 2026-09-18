@@ -3,16 +3,17 @@
   "id": "giovanni-luca-cannata",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Giovanni Luca Cannata\" indagato assolto archiviato",
       "\"Luca Cannata\" \"indagato\" \"archiviata\""
     ],
-    "notes": "La notizia sull’assoluzione di Antonino Amato riguarda un altro imputato e Cannata come persona offesa. Nessuna attribuzione personale supportata dalla ricerca preliminare.",
+    "notes": "La notizia sull'assoluzione di Antonino Amato riguarda un altro imputato e Cannata come persona offesa. Una notizia sull'indagine relativa al fotovoltaico ad Avola cita atti della sua amministrazione, ma non documenta un'iscrizione personale di Cannata come indagato. Nessuna attribuzione personale supportata; verifica ancora preliminare.",
     "sourceUrls": [
-      "https://www.avolanews.it/avola-tentata-violenza-privata-assolto-lex-consigliere-antonino-amato/"
+      "https://www.avolanews.it/avola-tentata-violenza-privata-assolto-lex-consigliere-antonino-amato/",
+      "https://www.lacivettapress.it/2015/06/03/fotovoltaico-avola-clamorosi-sviluppi/"
     ]
   },
   "record": null

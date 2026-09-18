@@ -3,11 +3,12 @@
   "id": "sergio-costa",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Sergio Costa\" deputato ministro indagato condannato assolto"
+      "\"Sergio Costa\" deputato ministro indagato condannato assolto",
+      "\"sergio costa\" indagato imputato condannato archiviato"
     ],
     "notes": "I risultati esaminati riguardano denunce presentate dal deputato contro terzi e il suo ruolo in un giurì parlamentare. Nessun procedimento personale documentato. Controllo preliminare.",
     "sourceUrls": [

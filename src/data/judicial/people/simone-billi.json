@@ -3,9 +3,18 @@
   "id": "simone-billi",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "notes": "Le ricerche nominative consultate restituiscono la scheda parlamentare e attività politica, senza una fonte che documenti un procedimento penale personale. La verifica resta preliminare e non certifica l’assenza di precedenti.",
+    "queries": [
+      "\"Simone Billi\" indagato imputato condannato assolto archiviato",
+      "\"Simone Billi\" procedimento penale procura",
+      "\"simone billi\" indagato imputato condannato archiviato"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/19-307151"
+    ]
   },
   "record": null
 }

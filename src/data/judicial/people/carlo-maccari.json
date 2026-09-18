@@ -2,10 +2,50 @@
   "schemaVersion": 1,
   "id": "carlo-maccari",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Carlo Maccari\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto in primo grado nel processo sui rimborsi del Consiglio regionale lombardo. Non verificato se la pronuncia sia passata in giudicato.",
+    "sourceUrls": [
+      "https://vocedimantova.it/cronaca/rimborsopoli-una-condanna-su-tre-per-i-mantovani-imputati/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "carlo-maccari-001",
+        "title": "Rimborsi del Consiglio regionale lombardo",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Milano",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Maccari fu assolto nella sentenza di primo grado del processo sui rimborsi regionali. Non attribuire finalità alla decisione senza verifica dei successivi gradi.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Rimborsi del Consiglio regionale lombardo",
+            "publisher": "La Voce di Mantova",
+            "url": "https://vocedimantova.it/cronaca/rimborsopoli-una-condanna-su-tre-per-i-mantovani-imputati/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

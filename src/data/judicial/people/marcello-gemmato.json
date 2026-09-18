@@ -2,10 +2,17 @@
   "schemaVersion": 1,
   "id": "marcello-gemmato",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Marcello Gemmato\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nel processo per minacce sui social Gemmato è la persona offesa, non l’imputato. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "sourceUrls": [
+      "https://bari.repubblica.it/cronaca/2025/10/21/news/minaccio_social_sottosegretario_marcello_gemmato_finisci_a_piazzale_loreto_processo_bari-424927710/"
+    ]
   },
   "record": null
 }

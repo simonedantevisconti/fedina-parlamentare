@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "marco-osnato",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Marco Osnato\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nel processo penale Aler la condanna di primo grado fu riformata con assoluzione in appello nel 2017. Una distinta pronuncia della Corte dei conti sul danno erariale ha natura contabile e non altera l’esito penale. Non verificato il giudicato della pronuncia penale.",
+    "sourceUrls": [
+      "https://www.corrierealpi.it/cronaca/marco-osnato-assolto-in-appello-c5r53tkq"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "title": "Affidamenti dei servizi Aler",
+        "allegedOffence": "Turbata libertà nella procedura di scelta del contraente",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2017-10-27",
+        "description": "Dopo una condanna di primo grado a sei mesi nel 2015, Osnato è stato assolto in appello perché il fatto non costituisce reato. Non è stata verificata una decisione di Cassazione.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-10-27",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere delle Alpi",
+            "publisher": "Corriere delle Alpi",
+            "url": "https://www.corrierealpi.it/cronaca/marco-osnato-assolto-in-appello-c5r53tkq",
+            "publicationDate": "2017-10-27",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "marco-osnato-001"
+      }
+    ]
+  }
 }

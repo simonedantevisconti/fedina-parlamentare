@@ -13,6 +13,7 @@
     "test": "npm run data:check && node --test",
     "lint": "eslint .",
     "audit:judicial": "node scripts/auditJudicialCoverage.mjs",
+    "status:build": "node scripts/updateParliamentaryStatus.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

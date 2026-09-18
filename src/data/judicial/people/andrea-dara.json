@@ -2,10 +2,18 @@
   "schemaVersion": 1,
   "id": "andrea-dara",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Andrea Dara\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La vicenda del bonus INPS 2020 e la sospensione dal partito non attestano, nelle fonti consultate, un procedimento penale personale. Il commercialista siciliano omonimo citato nel processo Saguto è una persona diversa. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "sourceUrls": [
+      "https://www.corriere.it/economia/aziende/22_marzo_28/parlamentari-furbetti-bonus-l-inps-fece-bene-controllare-384513c8-ae82-11ec-89b4-33ef6a8626b0.shtml",
+      "https://palermo.repubblica.it/cronaca/2018/03/21/news/l_atto_d_accusa_dell_amministratore_dara_vi_racconto_il_sistema_saguto-cappellano_-191872153/amp/"
+    ]
   },
   "record": null
 }

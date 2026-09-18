@@ -3,9 +3,12 @@
   "id": "andrea-de-bertoldi",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"andrea de bertoldi\" indagato imputato condannato archiviato"
+    ]
   },
   "record": null
 }

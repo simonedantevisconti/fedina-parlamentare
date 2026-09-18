@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "davide-faraone",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"davide faraone\" indagato condannato assolto archiviato esito"
+    ],
+    "notes": "L’indagine sulle spese dei gruppi ARS coinvolse Faraone. Sky TG24 riferisce che il GIP di Palermo archiviò la sua posizione insieme ad altre 44 nel maggio 2017.",
+    "sourceUrls": [
+      "https://tg24.sky.it/cronaca/2017/05/22/sicilia-spese-pazze-ars-archiviata-inchiesta-deputati"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "davide-faraone-001",
+        "title": "Spese dei gruppi parlamentari dell’Assemblea regionale siciliana",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP di Palermo",
+        "startDate": null,
+        "lastUpdate": "2017-05-22",
+        "description": "Faraone fu indagato nell’inchiesta sulle spese dei gruppi dell’ARS. Dopo la richiesta della Procura, il GIP di Palermo archiviò la posizione nel maggio 2017.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-05-22",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Spese pazze Ars: GIP archivia 45 posizioni, tra cui Faraone",
+            "publisher": "Sky TG24",
+            "url": "https://tg24.sky.it/cronaca/2017/05/22/sicilia-spese-pazze-ars-archiviata-inchiesta-deputati",
+            "publicationDate": "2017-05-22",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

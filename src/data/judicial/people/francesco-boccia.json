@@ -3,9 +3,13 @@
   "id": "francesco-boccia",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"francesco boccia\" indagato imputato condannato archiviato"
+    ],
+    "notes": "I risultati più ricorrenti riguardano Maria Rosaria Boccia o un avvocato omonimo; non identificano un procedimento del deputato."
   },
   "record": null
 }

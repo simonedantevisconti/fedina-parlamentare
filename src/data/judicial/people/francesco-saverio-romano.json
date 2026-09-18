@@ -2,10 +2,94 @@
   "schemaVersion": 1,
   "id": "francesco-saverio-romano",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Francesco Saverio Romano\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Il processo per concorso esterno in associazione mafiosa si è concluso con assoluzione nel 2012. Una distinta indagine della Procura di Palermo, su corruzione e turbata libertà degli incanti, risulta ancora senza esito giudiziario verificato a settembre 2026. Il GIP ha negato le misure cautelari per mancanza di gravi indizi: ciò non costituisce archiviazione.",
+    "sourceUrls": [
+      "https://www.fanpage.it/politica/l-ex-ministro-romano-assolto-nel-processo-per-mafia-finalmente-e-finita/",
+      "https://www.camera.it/leg19/824?anno=2026&commissione=17&giorno=14&mese=01&pagina=&tipo=C&view=",
+      "https://palermo.lasicilia.it/news/cronaca/3025270/inchiesta-sanita-chiuse-le-indagini-per-toto-cuffaro-e-gli-altri-nelle-carte-la-gestione-delle-nomine-e-gli-appalti.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-saverio-romano-001",
+        "title": "Concorso esterno in associazione mafiosa",
+        "allegedOffence": "Concorso esterno in associazione mafiosa",
+        "offence": null,
+        "status": "acquitted",
+        "court": "GUP del Tribunale di Palermo",
+        "startDate": null,
+        "lastUpdate": "2012-07-17",
+        "description": "Assolto con rito abbreviato. La sentenza è diventata definitiva per mancata impugnazione, secondo le fonti consultate.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2012-07-17",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Fanpage",
+            "publisher": "Fanpage",
+            "url": "https://www.fanpage.it/politica/l-ex-ministro-romano-assolto-nel-processo-per-mafia-finalmente-e-finita/",
+            "publicationDate": "2012-07-17",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "francesco-saverio-romano-002",
+        "title": "Inchiesta sugli appalti della sanità siciliana",
+        "allegedOffence": "Concorso in corruzione per atti contrari ai doveri di ufficio e turbata libertà degli incanti",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura di Palermo",
+        "startDate": null,
+        "lastUpdate": "2026-09-12",
+        "description": "Gli atti della Camera confermano l’iscrizione fra gli indagati. Il GIP ha respinto nel dicembre 2025 la richiesta di misura cautelare per mancanza di gravi indizi. La stampa del settembre 2026 riferisce che la sua posizione procede separatamente. Nessuna decisione finale verificata.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-09-12",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Camera dei deputati, Giunta per le autorizzazioni",
+            "publisher": "Camera dei deputati, Giunta per le autorizzazioni",
+            "url": "https://www.camera.it/leg19/824?anno=2026&commissione=17&giorno=14&mese=01&pagina=&tipo=C&view=",
+            "publicationDate": "2026-01-14",
+            "accessedAt": "2026-09-18",
+            "type": "official"
+          },
+          {
+            "name": "La Sicilia",
+            "publisher": "La Sicilia",
+            "url": "https://palermo.lasicilia.it/news/cronaca/3025270/inchiesta-sanita-chiuse-le-indagini-per-toto-cuffaro-e-gli-altri-nelle-carte-la-gestione-delle-nomine-e-gli-appalti.html",
+            "publicationDate": "2026-09-12",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

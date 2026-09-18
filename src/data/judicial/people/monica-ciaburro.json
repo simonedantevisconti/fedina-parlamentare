@@ -3,11 +3,12 @@
   "id": "monica-ciaburro",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Monica Ciaburro\" indagata condannata assolta archiviata"
+      "\"Monica Ciaburro\" indagata condannata assolta archiviata",
+      "\"monica ciaburro\" indagato imputato condannato archiviato"
     ],
     "notes": "I risultati esaminati sono istituzionali o riferiti all’attività politica. Nessuna fonte sufficiente per attribuire un procedimento personale; ricerca preliminare.",
     "sourceUrls": [

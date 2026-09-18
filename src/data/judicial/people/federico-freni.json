@@ -3,9 +3,16 @@
   "id": "federico-freni",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"federico freni\" indagato imputato condannato archiviato"
+    ],
+    "notes": "La ricostruzione di Report sul caso Verdini/Anas precisa che Freni non era indagato. La menzione in conversazioni altrui non è un procedimento personale.",
+    "sourceUrls": [
+      "https://www.rai.it/dl/doc/1708456486334_DO%20UT%20DES%20-%20di%20Danilo%20Procaccianti.pdf"
+    ]
   },
   "record": null
 }

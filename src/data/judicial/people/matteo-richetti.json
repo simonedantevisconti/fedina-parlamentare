@@ -2,10 +2,64 @@
   "schemaVersion": 1,
   "id": "matteo-richetti",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Matteo Richetti\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Il GUP di Bologna ha assolto Richetti nel 2015 nell’inchiesta sui rimborsi regionali. Le accuse pubbliche del 2022 di molestie non risultano, nelle fonti consultate, un procedimento penale a suo carico.",
+    "sourceUrls": [
+      "https://bologna.repubblica.it/cronaca/2015/11/13/news/assolto_matteo_richetti-127247191/",
+      "https://www.ansa.it/amp/emiliaromagna/notizie/2022/05/17/fondi-e-r-4-anni-e-5-mesi-a-ex-capogruppo-pd-in-appello_a2d50bc3-e338-4433-b8db-cb347a7ca98f.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "matteo-richetti-001",
+        "title": "Rimborsi del Consiglio regionale Emilia-Romagna",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "GUP del Tribunale di Bologna",
+        "startDate": null,
+        "lastUpdate": "2015-11-13",
+        "description": "Assolto in rito abbreviato dall’accusa relativa ai rimborsi chiesti durante il mandato regionale. Non è stata verificata la data di irrevocabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2015-11-13",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "la Repubblica Bologna",
+            "publisher": "la Repubblica Bologna",
+            "url": "https://bologna.repubblica.it/cronaca/2015/11/13/news/assolto_matteo_richetti-127247191/",
+            "publicationDate": "2015-11-13",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/amp/emiliaromagna/notizie/2022/05/17/fondi-e-r-4-anni-e-5-mesi-a-ex-capogruppo-pd-in-appello_a2d50bc3-e338-4433-b8db-cb347a7ca98f.html",
+            "publicationDate": "2022-05-17",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

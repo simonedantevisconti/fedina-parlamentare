@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "roberto-giachetti",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Roberto Giachetti\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "sourceUrls": []
   },
   "record": null
 }

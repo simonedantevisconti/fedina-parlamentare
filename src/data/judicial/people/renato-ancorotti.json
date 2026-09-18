@@ -3,9 +3,16 @@
   "id": "renato-ancorotti",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"renato ancorotti\" indagato imputato condannato archiviato"
+    ],
+    "notes": "Nel caso del furto in casa Ancorotti è la persona offesa; la condanna citata riguarda l’autrice del furto.",
+    "sourceUrls": [
+      "https://www.ilgiorno.it/cremona/cronaca/furto-renato-ancorotti-meloni-x46mq6m2"
+    ]
   },
   "record": null
 }

@@ -3,13 +3,14 @@
   "id": "angelo-bonelli",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
-    "notes": "Le ricerche hanno restituito soprattutto notizie in cui Bonelli è autore di esposti o commenta procedimenti altrui. Non è emersa una fonte sufficiente per attribuirgli un procedimento personale; il controllo non è concluso.",
+    "notes": "La nuova ricerca restituisce Bonelli come autore di esposti o commentatore di procedimenti contro altre persone, fra cui Delmastro e Vendola. Non è emersa una fonte sufficiente per attribuirgli un procedimento penale personale; il controllo resta preliminare.",
     "queries": [
       "\"Angelo Bonelli\" indagato condannato assolto archiviato",
-      "\"Angelo Bonelli\" condannato -Delmastro -Cospito -Salvini"
+      "\"Angelo Bonelli\" condannato -Delmastro -Cospito -Salvini",
+      "\"angelo bonelli\" indagato imputato condannato archiviato"
     ],
     "sourceUrls": [
       "https://roma.corriere.it/notizie/cronaca/23_luglio_06/del-mastro-respinta-la-richiesta-di-archiviazione-per-il-caso-cospito-7354bdc3-6446-4653-9bcd-0d09eeaedxlk_amp.shtml"

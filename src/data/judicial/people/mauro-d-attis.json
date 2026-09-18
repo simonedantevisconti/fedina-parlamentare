@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "mauro-d-attis",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Mauro D'Attis\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Le notizie giudiziarie consultate riguardano persone sulle quali il deputato ha rilasciato dichiarazioni, non un suo procedimento. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "sourceUrls": []
   },
   "record": null
 }

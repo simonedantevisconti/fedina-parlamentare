@@ -2,10 +2,64 @@
   "schemaVersion": 1,
   "id": "nicola-fratoianni",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"nicola fratoianni\" indagato condannato assolto archiviato esito"
+    ],
+    "notes": "Nell’inchiesta Ambiente Svenduto fu accusato di favoreggiamento. Nel 2021 la Corte d’Assise di Taranto dichiarò la prescrizione; quella sentenza è stata annullata nel 2024 per incompetenza territoriale. L’archivio del nuovo processo a Potenza riporta l’esame di Fratoianni nel 2026; esito attuale non verificato.",
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/2024/04/19/ex-ilva-al-via-lappello-del-processo-per-disastro-ambientale-in-primo-grado-condanne-a-piu-di-20-anni-per-i-riva/7518539/",
+      "https://studioannicchiarico.com/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "nicola-fratoianni-001",
+        "title": "Processo Ambiente Svenduto sull’ILVA",
+        "allegedOffence": "Favoreggiamento personale",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Corte d’Assise di Potenza",
+        "startDate": null,
+        "lastUpdate": "2026-05-22",
+        "description": "Fratoianni fu rinviato a giudizio per favoreggiamento nell’inchiesta ILVA. La decisione di prescrizione pronunciata a Taranto nel 2021 non è considerata esito attuale dopo l’annullamento del processo e il trasferimento a Potenza. L’archivio del nuovo processo registra nel 2026 l’esame dell’imputato Fratoianni, ma non documenta la decisione successiva sulla sua posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-05-22",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Esito di prescrizione nel processo di Taranto",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2024/04/19/ex-ilva-al-via-lappello-del-processo-per-disastro-ambientale-in-primo-grado-condanne-a-piu-di-20-anni-per-i-riva/7518539/",
+            "publicationDate": "2024-04-19",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Archivio delle udienze del processo ILVA a Potenza",
+            "publisher": "Studio Annicchiarico",
+            "url": "https://studioannicchiarico.com/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

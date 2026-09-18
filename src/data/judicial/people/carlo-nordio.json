@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "carlo-nordio",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Carlo Nordio\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Il procedimento ministeriale sul caso Almasri è stato archiviato per mancanza della condizione di procedibilità, dopo il diniego di autorizzazione della Camera. Non si tratta di assoluzione nel merito.",
+    "sourceUrls": [
+      "https://www.rainews.it/amp/articoli/2025/10/caso-almasri-tribunale-dei-ministri-archivia-lindagine-a-carico-di-nordio-piantedosi-e-mantovano-costituzione-4e326192-446e-4859-817a-0ee47e46d7d5.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "title": "Caso Almasri",
+        "allegedOffence": "Rifiuto di atti d’ufficio e favoreggiamento personale, secondo le ipotesi del Tribunale dei ministri",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale dei ministri di Roma",
+        "startDate": null,
+        "lastUpdate": "2025-10-28",
+        "description": "Il Tribunale dei ministri dispose l’archiviazione dopo che la Camera negò l’autorizzazione a procedere il 9 ottobre 2025. L’esito è procedurale, senza giudizio sulla responsabilità penale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2025-10-28",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rai News",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/amp/articoli/2025/10/caso-almasri-tribunale-dei-ministri-archivia-lindagine-a-carico-di-nordio-piantedosi-e-mantovano-costituzione-4e326192-446e-4859-817a-0ee47e46d7d5.html",
+            "publicationDate": "2025-10-28",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ],
+        "id": "carlo-nordio-001"
+      }
+    ]
+  }
 }

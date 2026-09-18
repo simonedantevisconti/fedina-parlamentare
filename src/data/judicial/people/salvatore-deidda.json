@@ -3,9 +3,16 @@
   "id": "salvatore-deidda",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": false,
+    "queries": [
+      "\"salvatore deidda\" indagato imputato condannato archiviato"
+    ],
+    "notes": "Le notizie sull’inchiesta Monte Nuovo citano altri Deidda; non documentano un procedimento personale del deputato.",
+    "sourceUrls": [
+      "https://www.unionesarda.it/news-sardegna/inchiesta-monte-nuovo-in-27-rinviati-a-giudizio-ir1f9hla"
+    ]
   },
   "record": null
 }

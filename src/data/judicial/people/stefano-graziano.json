@@ -2,10 +2,85 @@
   "schemaVersion": 1,
   "id": "stefano-graziano",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Stefano Graziano\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Le indagini per concorso esterno in associazione camorristica e corruzione elettorale risultano archiviate nel 2016 e nel 2017. Archiviazione non equivale ad assoluzione.",
+    "sourceUrls": [
+      "https://napoli.repubblica.it/cronaca/2016/09/12/news/camorra_archiviazione_per_stefano_graziano-147638088/",
+      "https://www.ilfattoquotidiano.it/2017/02/23/stefano-graziano-archiviata-lultima-accusa-per-il-consigliere-pd-campano/3412149/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "stefano-graziano-001",
+        "title": "Indagine per concorso esterno",
+        "allegedOffence": "Concorso esterno in associazione camorristica",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura di Napoli",
+        "startDate": null,
+        "lastUpdate": "2016-09-12",
+        "description": "La posizione di Graziano fu archiviata nel settembre 2016.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2016-09-12",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Indagine per concorso esterno",
+            "publisher": "la Repubblica",
+            "url": "https://napoli.repubblica.it/cronaca/2016/09/12/news/camorra_archiviazione_per_stefano_graziano-147638088/",
+            "publicationDate": "2016-09-12",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "stefano-graziano-002",
+        "title": "Indagine per corruzione elettorale",
+        "allegedOffence": "Corruzione elettorale",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Santa Maria Capua Vetere",
+        "startDate": null,
+        "lastUpdate": "2017-02-23",
+        "description": "Il GIP dispose l’archiviazione della residua accusa il 23 febbraio 2017.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-02-23",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Indagine per corruzione elettorale",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2017/02/23/stefano-graziano-archiviata-lultima-accusa-per-il-consigliere-pd-campano/3412149/",
+            "publicationDate": "2017-02-23",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

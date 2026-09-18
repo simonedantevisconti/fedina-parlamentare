@@ -3,13 +3,14 @@
   "id": "simona-bordonali",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "notes": "Esaminate le corrispondenze nominative: la presenza del nome in notizie su altri amministratori non documenta un suo coinvolgimento. Nessun procedimento personale attribuibile con le fonti reperite; controllo da completare.",
     "queries": [
       "\"Simona Bordonali\" indagata condannata assolta archiviazione",
-      "\"Simona Bordonali\" \"indagata\" OR \"processo\" OR \"condannata\""
+      "\"Simona Bordonali\" \"indagata\" OR \"processo\" OR \"condannata\"",
+      "\"simona bordonali\" indagato imputato condannato archiviato"
     ],
     "sourceUrls": [
       "https://www.ilgiorno.it/brescia/cronaca/2010/11/23/418737-procura.shtml"

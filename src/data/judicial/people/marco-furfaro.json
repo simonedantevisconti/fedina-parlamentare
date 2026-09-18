@@ -3,10 +3,16 @@
   "id": "marco-furfaro",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
-    "notes": "Attenzione a un omonimo Marco Furfaro citato in cronaca giudiziaria nel procedimento sull'evasione di Marco Raduano. Le fonti istituzionali identificano il parlamentare Marco Furfaro come deputato della XIX legislatura; non associare notizie relative all'omonimo senza verifica dell'identità."
+    "notes": "Attenzione a un omonimo Marco Furfaro citato in cronaca giudiziaria nel procedimento sull'evasione di Marco Raduano. Le fonti istituzionali identificano il parlamentare Marco Furfaro come deputato della XIX legislatura; non associare notizie relative all'omonimo senza verifica dell'identità. Le notizie sul processo Raduano citano un omonimo; non è verificato alcun collegamento con il deputato.",
+    "queries": [
+      "\"marco furfaro\" indagato imputato condannato archiviato"
+    ],
+    "sourceUrls": [
+      "https://www.lanuovasardegna.it/nuoro/cronaca/2025/09/23/news/processo-raduano-richieste-di-condanna-per-il-boss-del-gargano-e-i-suoi-presunti-fiancheggiatori-1.100765405"
+    ]
   },
   "record": null
 }

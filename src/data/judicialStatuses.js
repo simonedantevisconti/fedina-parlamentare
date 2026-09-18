@@ -123,6 +123,22 @@ const judicialStatuses = {
     color: "#71819b",
     final: false,
   },
+  annulled: {
+    id: "annulled",
+    label: "Condanna annullata per incompetenza territoriale",
+    shortLabel: "Condanna annullata",
+    category: "procedural",
+    color: "#71819b",
+    final: false,
+  },
+  "outcome-unverified": {
+    id: "outcome-unverified",
+    label: "Esito successivo non verificato",
+    shortLabel: "Esito da verificare",
+    category: "unknown",
+    color: "#8b92a0",
+    final: false,
+  },
 };
 
 export const getJudicialStatus = (status) => {

@@ -3,13 +3,14 @@
   "id": "elena-bonetti",
   "review": {
     "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
     "readyForClean": false,
     "notes": "Le ricerche nominative non hanno restituito elementi sufficienti per documentare un procedimento personale. L’assenza di risultati pertinenti non completa il controllo.",
     "queries": [
       "\"Elena Bonetti\" indagata condannata assolta archiviazione",
-      "\"Elena Bonetti\" \"indagata\" OR \"processo\" OR \"condannata\""
+      "\"Elena Bonetti\" \"indagata\" OR \"processo\" OR \"condannata\"",
+      "\"elena bonetti\" indagato imputato condannato archiviato"
     ],
     "sourceUrls": []
   },

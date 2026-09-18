@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "gilberto-pichetto-fratin",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Gilberto Pichetto Fratin\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nel 2013 è stata riportata una indagine per il fallimento Novaceta. Non è stato verificato un provvedimento conclusivo personale; le condanne di altri imputati nel 2019 non vanno attribuite a Pichetto Fratin.",
+    "sourceUrls": [
+      "https://www.quotidianopiemontese.it/2013/12/08/il-vicepresidente-della-regione-piemonte-ha-ricevuto-un-avviso-di-garanzia-per-il-fallimento-della-novaceta"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "gilberto-pichetto-fratin-001",
+        "title": "Inchiesta Novaceta",
+        "allegedOffence": "Ipotesi relative al fallimento Novaceta, secondo le cronache del 2013",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Biella",
+        "startDate": null,
+        "lastUpdate": "2013-12-08",
+        "description": "Le cronache riferiscono un avviso di garanzia. Non è stato verificato l’esito della sua posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2013-12-08",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Quotidiano Piemontese",
+            "publisher": "Quotidiano Piemontese",
+            "url": "https://www.quotidianopiemontese.it/2013/12/08/il-vicepresidente-della-regione-piemonte-ha-ricevuto-un-avviso-di-garanzia-per-il-fallimento-della-novaceta",
+            "publicationDate": "2013-12-08",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

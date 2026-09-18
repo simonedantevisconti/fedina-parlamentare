@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "fabio-porta",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Fabio Porta\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La Camera ha riconosciuto l’insindacabilità delle dichiarazioni oggetto di querela per diffamazione presentata da Esteban Juan Caselli. Questo voto parlamentare non è un’assoluzione penale; non è stato verificato il provvedimento finale del giudice.",
+    "sourceUrls": [
+      "https://webtv.camera.it/apps/getAttivitaAudioVideo/index.php?legislatura=18&link=sed0501.stenografico.tit00070.sub00020.int00060&seduta=0501"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "fabio-porta-001",
+        "title": "Querela Caselli per diffamazione",
+        "allegedOffence": "Diffamazione aggravata",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2021-05-05",
+        "description": "Nel procedimento penale originato dalla querela di Caselli, la Camera ha approvato la proposta di insindacabilità delle dichiarazioni di Porta. Non è stato verificato l’esito giudiziario successivo.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-05-05",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Camera dei deputati, seduta 501",
+            "publisher": "Camera dei deputati, seduta 501",
+            "url": "https://webtv.camera.it/apps/getAttivitaAudioVideo/index.php?legislatura=18&link=sed0501.stenografico.tit00070.sub00020.int00060&seduta=0501",
+            "publicationDate": "2021-05-05",
+            "accessedAt": "2026-09-18",
+            "type": "official"
+          }
+        ]
+      }
+    ]
+  }
 }

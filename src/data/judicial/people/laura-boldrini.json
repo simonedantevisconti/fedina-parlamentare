@@ -2,10 +2,20 @@
   "schemaVersion": 1,
   "id": "laura-boldrini",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
-    "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "notes": "La Stampa documenta una querela per diffamazione presentata da Matteo Camiciottoli contro Laura Boldrini nel 2019. La denuncia da sola non prova un’iscrizione come indagata. Una fonte enciclopedica riferisce un’archiviazione nel novembre 2021, ma non è stato reperito un provvedimento giudiziario o una fonte indipendente sufficiente per pubblicare quell’esito come accertato. Nei numerosi processi per offese rivolte a lei, Boldrini era persona offesa o parte civile, non imputata. Verificare l’esito della querela Camiciottoli.",
+    "queries": [
+      "\"Laura Boldrini\" Camiciottoli querela archiviazione GIP Savona",
+      "\"Laura Boldrini\" indagata processo imputata condannata",
+      "\"Laura Boldrini\" Camiciottoli archiviato 2 novembre 2021"
+    ],
+    "sourceUrls": [
+      "https://www.lastampa.it/savona/2019/06/01/news/pontinvrea-il-sindaco-camiciottoli-querela-l-onorevole-boldrini-1.33705971/",
+      "https://www.procura.milano.giustizia.it/files/BRS-Procura-2015.pdf"
+    ]
   },
   "record": null
 }

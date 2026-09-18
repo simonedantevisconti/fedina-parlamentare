@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "mauro-malaguti",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Mauro Malaguti\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La condanna di primo grado per peculato nel caso dei rimborsi regionali è stata riformata con assoluzione in appello nel 2021. Non verificato il passaggio in giudicato.",
+    "sourceUrls": [
+      "https://www.estense.com/2021/936476/spese-pazze-in-regione-assolto-mauro-malaguti-di-fdi/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "mauro-malaguti-001",
+        "title": "Rimborsi del Consiglio regionale emiliano-romagnolo",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Bologna",
+        "startDate": null,
+        "lastUpdate": "2021-11-04",
+        "description": "Condannato in primo grado per due voci di spesa nel 2017, poi assolto in appello perché il fatto non costituisce reato. Finalità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-11-04",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rimborsi del Consiglio regionale emiliano-romagnolo",
+            "publisher": "Estense",
+            "url": "https://www.estense.com/2021/936476/spese-pazze-in-regione-assolto-mauro-malaguti-di-fdi/",
+            "publicationDate": "2021-11-05",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }
