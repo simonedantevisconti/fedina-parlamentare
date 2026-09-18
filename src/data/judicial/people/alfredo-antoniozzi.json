@@ -3,19 +3,31 @@
   "id": "alfredo-antoniozzi",
   "review": {
     "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "lastCheckedAt": "2026-09-18",
     "result": "public-proceedings-requiring-outcome-verification",
     "readyForClean": false,
-    "notes": "Riferimenti personali a due indagini storiche: delibera Hobby Flora (2015) e Palazzo Raggi (2016). Per Palazzo Raggi è stata trovata la successiva richiesta di archiviazione, non il decreto. Le notizie su Tancredi Antoniozzi riguardano il figlio. Le vicende contabili restano fuori dal censimento penale.",
+    "notes": "Verifica approfondita dei due procedimenti personali storici. Nel filone Hobby Flora/Punto Verde Qualità, fonti del 2015 documentano Alfredo Antoniozzi come indagato per abuso d'ufficio in relazione a una delibera comunale del 2010; non è stato reperito un successivo provvedimento di archiviazione, rinvio a giudizio o sentenza attribuibile con certezza alla sua posizione. Nel filone Palazzo Raggi, dopo la chiusura delle indagini nel 2016, il 30 novembre 2016 la Procura di Roma chiese l'archiviazione dell'accusa di abuso d'ufficio per i 12 ex assessori, incluso Antoniozzi, ritenendo corretto il loro operato e rilevando che non fossero a conoscenza del falso presupposto della pratica. Non è stato reperito il successivo decreto del GIP, pertanto la richiesta di archiviazione non viene classificata come archiviazione definitiva. L'abuso d'ufficio ex art. 323 c.p. è stato successivamente abrogato dalla legge n. 114/2024, ma questo dato normativo non viene utilizzato per inferire l'esito individuale dei fascicoli. Le vicende giudiziarie di Tancredi Antoniozzi riguardano il figlio e sono escluse. Le vicende contabili restano fuori dal censimento penale.",
     "queries": [
-      "\"Alfredo Antoniozzi\" (indagato OR condannato OR assolto OR processo OR archiviato)",
-      "\"Alfredo Antoniozzi\" \"indagato\"",
-      "\"Antoniozzi\" \"Hobby Flora\" assolti archiviata",
-      "\"Antoniozzi\" \"Palazzo Raggi\" assolti"
+      "\"Alfredo Antoniozzi\" indagato condannato assolto archiviato processo",
+      "\"Alfredo Antoniozzi\" \"Hobby Flora\"",
+      "\"Alfredo Antoniozzi\" \"Hobby Flora\" archiviazione",
+      "\"Alfredo Antoniozzi\" \"Hobby Flora\" assoluzione",
+      "\"Alfredo Antoniozzi\" \"Hobby Flora\" processo",
+      "\"Alfredo Antoniozzi\" \"Palazzo Raggi\"",
+      "\"Alfredo Antoniozzi\" \"Palazzo Raggi\" archiviazione",
+      "\"Alfredo Antoniozzi\" \"Palazzo Raggi\" GIP",
+      "\"Palazzo Raggi\" assessori archiviati",
+      "\"Pomarici\" \"Hobby Flora\" tribunale Roma",
+      "\"Soricchetta\" Antoniozzi",
+      "\"Alberto Galanti\" Antoniozzi Pomarici"
     ],
     "sourceUrls": [
       "https://roma.corriere.it/notizie/cronaca/15_ottobre_26/pilotarono-delibera-2010-indagati-pomarici-antoniozzi-90e1e480-7c15-11e5-9069-1cf5f2fd4ce8.shtml",
-      "https://roma.corriere.it/notizie/cronaca/16_novembre_30/roma-inchiesta-procura-falso-condono-palazzo-raggi-dirigente-comune-giudizio-5e9bdf86-b728-11e6-aa72-c3459305a7ca.shtml"
+      "https://roma.corriere.it/notizie/cronaca/16_febbraio_19/shopping-center-un-palazzo-storico-indagati-10-ex-assessori-alemanno-1576d6ba-d67a-11e5-8e4b-2c56813c9298.shtml",
+      "https://roma.corriere.it/notizie/cronaca/16_giugno_23/tutta-giunta-gianni-alemanno-non-lui-il-rinvio-giudizio-94075882-38b4-11e6-af01-13e8abfd5afa.shtml",
+      "https://roma.repubblica.it/cronaca/2016/06/23/news/roma_chiusa_l_inchiesta_sul_megastore_a_palazzo_raggi_gli_ex_assessori_rischiano_il_processo-142642500/",
+      "https://roma.corriere.it/notizie/cronaca/16_novembre_30/roma-inchiesta-procura-falso-condono-palazzo-raggi-dirigente-comune-giudizio-5e9bdf86-b728-11e6-aa72-c3459305a7ca.shtml",
+      "https://www.cortecostituzionale.it/scheda-pronuncia/2025/95"
     ]
   },
   "record": null

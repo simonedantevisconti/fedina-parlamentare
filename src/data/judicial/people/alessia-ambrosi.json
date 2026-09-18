@@ -2,10 +2,39 @@
   "schemaVersion": 1,
   "id": "alessia-ambrosi",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Alessia Ambrosi. Nel gennaio 2024 furono pubblicamente ventilate possibili iniziative giudiziarie nell'ambito di uno scontro interno a Fratelli d'Italia in Trentino, ma le fonti dell'epoca precisavano che non si era ancora concretizzata una vera querela. Nell'agosto 2024 Ambrosi annunciò invece una denuncia contro autori di minacce e insulti sessisti ricevuti online, vicenda nella quale risulta persona offesa e denunciante, non soggetto sottoposto a procedimento.",
+    "queries": [
+      "\"Alessia Ambrosi\" indagata",
+      "\"Alessia Ambrosi\" imputata",
+      "\"Alessia Ambrosi\" \"rinvio a giudizio\"",
+      "\"Alessia Ambrosi\" processo tribunale",
+      "\"Alessia Ambrosi\" condannata",
+      "\"Alessia Ambrosi\" assolta",
+      "\"Alessia Ambrosi\" archiviazione",
+      "\"Alessia Ambrosi\" prescrizione",
+      "\"Alessia Ambrosi\" patteggiamento",
+      "\"Alessia Ambrosi\" querela",
+      "\"Alessia Ambrosi\" diffamazione",
+      "\"Alessia Ambrosi\" procura tribunale"
+    ],
+    "sourceUrls": [
+      "https://www.corriere.it/politica/24_gennaio_04/guerra-intestina-fratelli-d-italia-trentino-nomine-audio-rubati-ci-vediamo-tribunale-93cc7186-ab1b-11ee-97df-1dec2b8b830c_amp.html",
+      "https://corrieredeltrentino.corriere.it/notizie/politica/24_febbraio_10/alessia-ambrosi-la-deputata-sospesa-da-fratelli-d-italia-saltera-il-congresso-trentino-b8d4beb7-de5a-4fdc-bda2-52dc812fcxlk.shtml",
+      "https://www.altoadige.it/cronaca/orsi-ambrosi-fdi-dopo-le-offese-sui-social-denuncio-chi-rivolge-insulti-sessisti-1.3854435",
+      "https://www.ladige.it/cronaca/2024/08/08/ambrosi-contro-gli-hater-animalisti-mi-augurano-la-morte-ma-io-non-ho-paura-sto-dalla-parte-della-gente-1.3853734"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

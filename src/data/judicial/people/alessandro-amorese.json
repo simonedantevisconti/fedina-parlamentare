@@ -2,10 +2,40 @@
   "schemaVersion": 1,
   "id": "alessandro-amorese",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Nel luglio 2020 fonti giornalistiche documentano una querela presentata dal consigliere regionale Giacomo Bugliani contro Alessandro Amorese a seguito di dichiarazioni ritenute diffamatorie. Non sono però emerse fonti affidabili che documentino una successiva iscrizione come indagato, un rinvio a giudizio, un'archiviazione o una sentenza riferibile con certezza a tale querela. Non sono emersi altri procedimenti penali personali sufficientemente documentati riferibili al deputato Alessandro Amorese.",
+    "queries": [
+      "\"Alessandro Amorese\" indagato",
+      "\"Alessandro Amorese\" imputato",
+      "\"Alessandro Amorese\" \"rinvio a giudizio\"",
+      "\"Alessandro Amorese\" processo tribunale",
+      "\"Alessandro Amorese\" condannato",
+      "\"Alessandro Amorese\" assolto",
+      "\"Alessandro Amorese\" archiviazione",
+      "\"Alessandro Amorese\" prescrizione",
+      "\"Alessandro Amorese\" patteggiamento",
+      "\"Alessandro Amorese\" querela",
+      "\"Alessandro Amorese\" diffamazione",
+      "\"Alessandro Amorese\" \"Giacomo Bugliani\"",
+      "\"Alessandro Amorese\" \"Bugliani\" querela",
+      "\"Alessandro Amorese\" \"pedofilia politica\" processo"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308884&tipoAttivita=attivita&tipoPersona=&tipoVisAtt=",
+      "https://www.iltirreno.it/massa/cronaca/2020/07/17/news/l-ex-prof-a-amorese-e-bugliani-cosi-non-e-da-liceo-classico-1.39095280",
+      "https://www.lanazione.it/massa-carrara/cronaca/la-piscina-come-il-teatro-guglielmi-cps3r8sb"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

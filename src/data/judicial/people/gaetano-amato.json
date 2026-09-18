@@ -2,16 +2,40 @@
   "schemaVersion": 1,
   "id": "gaetano-amato",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Gaetano Amato, attore e scrittore originario di Castellammare di Stabia. È stato escluso l'omonimo Gaetano Maria Amato, magistrato coinvolto in una distinta vicenda giudiziaria nel 2017. Le inchieste della Procura di Roma sul tax credit cinematografico risultano originate anche da esposti o segnalazioni del deputato Amato e non documentano una sua posizione come indagato. Una successiva prospettazione pubblica di querela per diffamazione da parte di Gianmarco Mazzi non è risultata accompagnata da fonti sufficienti a documentare un procedimento penale personale.",
+    "queries": [
+      "\"Gaetano Amato\" deputato indagato",
+      "\"Gaetano Amato\" deputato imputato",
+      "\"Gaetano Amato\" \"rinvio a giudizio\" deputato",
+      "\"Gaetano Amato\" processo tribunale deputato",
+      "\"Gaetano Amato\" condannato deputato",
+      "\"Gaetano Amato\" assolto deputato",
+      "\"Gaetano Amato\" archiviazione deputato",
+      "\"Gaetano Amato\" prescrizione deputato",
+      "\"Gaetano Amato\" patteggiamento deputato",
+      "\"Gaetano Amato\" querela diffamazione deputato",
+      "\"Gaetano Amato\" procura deputato",
+      "\"Gaetano Amato\" attore indagato",
+      "\"Gaetano Amato\" Castellammare indagato"
+    ],
+    "sourceUrls": [
+      "https://napoli.corriere.it/notizie/politica/22_settembre_27/gaetano-amato-film-camera-m5s-la-mia-campagna-elettorale-costata-solo-140-euro-00ef3da8-3e43-11ed-8079-63c555ec057e.shtml",
+      "https://www.rainews.it/tgr/campania/articoli/2025/04/gaetano-amato-interrogazione-a-risposta-scritta-al-ministro-salvini-eee54efa-e264-44b4-bd02-5e8c2b3570f4.html",
+      "https://www.repubblica.it/politica/2025/09/13/news/amato_m5s_intervista_tax_credit_inchieste-424843655/",
+      "https://roma.corriere.it/notizie/cronaca/25_settembre_11/tax-credit-aperte-5-inchieste-dai-pm-di-roma-verifiche-su-societa-che-hanno-prodotto-decine-di-film-e078c4b1-2a66-4acc-b841-09826ecd0xlk.shtml",
+      "https://www.rainews.it/tgr/lazio/articoli/2025/09/cinema-tax-credit-cinque-fascicoli-aperti-dalla-procura-di-roma-b6a1a2eb-bf2c-4cb7-aece-e7bd853e427a.html",
+      "https://www.ansa.it/sicilia/notizie/2017/10/02/pornografia-minorile-arrestato-giudice-a-messina_52b1cab7-93f6-43ae-a23b-cfb1d74fc1e5.html"
+    ]
   },
   "record": {
     "judicialStatus": "clean",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
+      "lastVerifiedAt": "2026-09-18",
       "result": "no-supported-personal-proceeding-found"
     },
     "proceedings": []

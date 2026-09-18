@@ -2,11 +2,38 @@
   "schemaVersion": 1,
   "id": "lucia-albano",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Lucia Albano. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare e di governo su materie di giustizia, procedibilità, equa riparazione e organizzazione degli uffici giudiziari, non una sua posizione personale come indagata, imputata o condannata.",
+    "queries": [
+      "\"Lucia Albano\" indagata",
+      "\"Lucia Albano\" imputata",
+      "\"Lucia Albano\" \"rinvio a giudizio\"",
+      "\"Lucia Albano\" processo tribunale",
+      "\"Lucia Albano\" condannata",
+      "\"Lucia Albano\" assolta",
+      "\"Lucia Albano\" archiviazione",
+      "\"Lucia Albano\" prescrizione",
+      "\"Lucia Albano\" patteggiamento",
+      "\"Lucia Albano\" procura tribunale",
+      "\"Lucia Albano\" querela diffamazione",
+      "\"Lucia Albano\" Fermo indagata"
+    ],
+    "sourceUrls": [
+      "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=00035418",
+      "https://www.camera.it/leg19/824?anno=2023&commissione=05&giorno=14&mese=03&pagina=data.20230314.com05.bollettino.sede00010.tit00010.int00010&tipo=C&view=",
+      "https://www.ansa.it/sito/notizie/cronaca/2024/11/11/delmastro-ad-ancona-prima-nuova-cittadella-della-giustizia_d6a75ef8-0f7d-428b-9afa-9fd6dda3dcf0.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

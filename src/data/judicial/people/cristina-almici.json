@@ -2,17 +2,36 @@
   "schemaVersion": 1,
   "id": "cristina-almici",
   "review": {
-    "stage": "legacy-record",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+    "notes": "Verifica definitiva del record ereditato. Cristina Almici risultò indagata nell'inchiesta della Procura di Brescia relativa al concorso del 2019 per il comandante della Polizia Locale di Bagnolo Mella. Dopo l'evoluzione iniziale delle contestazioni, nei suoi confronti rimase l'ipotesi di abuso d'ufficio. L'11 novembre 2020 il GUP di Brescia pronunciò sentenza di non luogo a procedere per tale contestazione. Il successivo rinvio a giudizio per falso riguardò altri componenti della commissione, non Almici. Non sono emersi ulteriori procedimenti penali personali sufficientemente documentati. Le fonti consultate non consentono però di accertare l'irrevocabilità del non luogo a procedere, pertanto finalJudgment resta null.",
+    "queries": [
+      "\"Cristina Almici\" indagata",
+      "\"Cristina Almici\" abuso ufficio",
+      "\"Cristina Almici\" \"non luogo a procedere\"",
+      "\"Cristina Almici\" prosciolta 11 novembre 2020",
+      "\"Cristina Almici\" appello \"non luogo a procedere\"",
+      "\"Cristina Almici\" Cassazione abuso ufficio",
+      "\"Cristina Almici\" falso ideologico",
+      "\"Cristina Almici\" rinvio a giudizio",
+      "\"Cristina Almici\" processo concorso Bagnolo",
+      "\"Cristina Almici\" condannata",
+      "\"Cristina Almici\" assolta"
+    ],
+    "sourceUrls": [
+      "https://www.elivebrescia.tv/concorso-comandante-polizia-locale-indagato-il-sindaco/",
+      "https://bsnews.it/2020/05/03/concorso-truccato-a-bagnolo-il-sindaco-almici-indagata-per-abuso-si-difende/",
+      "https://primabrescia.it/cronaca/concorso-truccato-a-bagnolo-prosciolte-il-sindaco-almici-e-la-vigilessa-bouzid/",
+      "https://www.ilgiorno.it/brescia/cronaca/bagnolo-mella-concorso-polizia-locale-qn3ydt5c"
+    ]
   },
   "record": {
     "judicialStatus": "dismissed",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
+      "lastVerifiedAt": "2026-09-18",
       "result": "public-proceeding-found"
     },
     "proceedings": [
@@ -25,26 +44,34 @@
         "court": "Tribunale di Brescia",
         "startDate": "2019-06-10",
         "lastUpdate": "2020-11-11",
-        "description": "Cristina Almici, all'epoca sindaca di Bagnolo Mella, risultò indagata nell'ambito di un'inchiesta relativa al concorso per il comandante della Polizia Locale. L'accusa riferita dalla stampa era abuso d'ufficio. L'11 novembre 2020 è stata prosciolta in udienza preliminare.",
-        "finalJudgment": true,
-        "finalJudgmentDate": "2020-11-11",
+        "description": "Cristina Almici, all'epoca sindaca di Bagnolo Mella, risultò indagata nell'ambito dell'inchiesta relativa al concorso per il comandante della Polizia Locale. Dopo l'evoluzione iniziale delle contestazioni, nei suoi confronti rimase l'ipotesi di abuso d'ufficio. L'11 novembre 2020 il GUP di Brescia pronunciò sentenza di non luogo a procedere. Il successivo rinvio a giudizio per falso riguardò altri componenti della commissione e non Almici. Le fonti consultate non documentano l'irrevocabilità del provvedimento.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
         "timeline": [
           {
             "date": "2019-06-10",
-            "title": "Notizia dell'iscrizione nel registro degli indagati"
+            "title": "Diventa pubblica l'iscrizione di Cristina Almici nel registro degli indagati"
           },
           {
             "date": "2020-11-11",
-            "title": "Proscioglimento in udienza preliminare"
+            "title": "Sentenza di non luogo a procedere per l'accusa di abuso d'ufficio"
           }
         ],
         "sources": [
           {
-            "name": "Concorso sospetto, anche il sindaco sotto inchiesta",
-            "publisher": "Prima Brescia",
-            "url": "https://primabrescia.it/cronaca/concorso-sospetto-anche-il-sindaco-almici-sotto-inchiesta/",
+            "name": "Concorso comandante Polizia locale, indagato il sindaco",
+            "publisher": "Elive Brescia",
+            "url": "https://www.elivebrescia.tv/concorso-comandante-polizia-locale-indagato-il-sindaco/",
             "publicationDate": "2019-06-10",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Concorso truccato a Bagnolo? Il sindaco Almici, indagata per abuso, si difende",
+            "publisher": "BsNews",
+            "url": "https://bsnews.it/2020/05/03/concorso-truccato-a-bagnolo-il-sindaco-almici-indagata-per-abuso-si-difende/",
+            "publicationDate": "2020-05-03",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           },
           {
@@ -52,7 +79,7 @@
             "publisher": "Prima Brescia",
             "url": "https://primabrescia.it/cronaca/concorso-truccato-a-bagnolo-prosciolte-il-sindaco-almici-e-la-vigilessa-bouzid/",
             "publicationDate": "2020-11-11",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]

@@ -2,11 +2,40 @@
   "schemaVersion": 1,
   "id": "davide-aiello",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e interventi pubblici. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Davide Aiello, nato a Palermo il 31 ottobre 1985. Le principali occorrenze giudiziarie riguardano la sua attività parlamentare su procedimenti concernenti terzi oppure fatti nei quali risulta persona offesa, tra cui l'aggressione subita a Casteldaccia nel giugno 2021. Una pubblica intenzione del sindaco di Casteldaccia di querelarlo per dichiarazioni parlamentari non è risultata accompagnata da fonti sufficienti a documentare un successivo procedimento penale personale. Sono stati esclusi risultati relativi a omonimi, incluso un Davide Aiello di Novi Ligure coinvolto come persona offesa in una diversa vicenda giudiziaria.",
+    "queries": [
+      "\"Davide Aiello\" indagato",
+      "\"Davide Aiello\" imputato",
+      "\"Davide Aiello\" \"rinvio a giudizio\"",
+      "\"Davide Aiello\" processo tribunale",
+      "\"Davide Aiello\" condannato",
+      "\"Davide Aiello\" assolto",
+      "\"Davide Aiello\" archiviazione",
+      "\"Davide Aiello\" archiviato",
+      "\"Davide Aiello\" prescrizione",
+      "\"Davide Aiello\" patteggiamento",
+      "\"Davide Aiello\" deputato procura Palermo indagato",
+      "\"Davide Aiello\" Casteldaccia querela diffamazione",
+      "\"Davide Aiello\" condannato deputato M5S"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/19-307394",
+      "https://www.camera.it/deputati/elenco/18-307394?tab=anagrafica",
+      "https://dati.camera.it/ocd/aic.rdf/aic5_04392_18",
+      "https://palermo.corriere.it/notizie/cronaca/21_giugno_14/casteldaccia-aggredito-deputato-m5s-davide-aiello-accusato-aver-denunciato-voto-scambio-8e26e98c-cce8-11eb-a5ee-6781eaf8108d.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

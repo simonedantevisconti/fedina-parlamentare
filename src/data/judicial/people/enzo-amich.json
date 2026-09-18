@@ -2,10 +2,38 @@
   "schemaVersion": 1,
   "id": "enzo-amich",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Enzo Amich. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare e dichiarazioni politiche su procedimenti concernenti altri soggetti, non una sua posizione personale come indagato, imputato o condannato.",
+    "queries": [
+      "\"Enzo Amich\" indagato",
+      "\"Enzo Amich\" imputato",
+      "\"Enzo Amich\" \"rinvio a giudizio\"",
+      "\"Enzo Amich\" processo",
+      "\"Enzo Amich\" condannato",
+      "\"Enzo Amich\" assolto",
+      "\"Enzo Amich\" archiviazione",
+      "\"Enzo Amich\" prescrizione",
+      "\"Enzo Amich\" patteggiamento",
+      "\"Enzo Amich\" querela",
+      "\"Enzo Amich\" diffamazione",
+      "\"Enzo Amich\" procura tribunale"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/126?idDocumento=2083&leg=19&sede=&tab=&tipo=",
+      "https://www.camera.it/leg19/126?ancora=&idDocumento=2194&leg=19",
+      "https://agenparl.eu/2025/02/21/delmastro-amich-fdi-un-messaggio-della-sinistra-giudiziaria-al-governo-sulla-separazione-delle-carriere/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

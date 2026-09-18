@@ -2,11 +2,39 @@
   "schemaVersion": 1,
   "id": "enrica-alifano",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano prevalentemente attività parlamentare e interventi in materia giudiziaria riferiti ad altri soggetti. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Enrica Alifano, nata a Caserta il 31 gennaio 1967. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare nella Giunta per le autorizzazioni e nel Comitato parlamentare per i procedimenti di accusa, con interventi su procedimenti concernenti altri soggetti. Tali risultati non documentano una sua posizione personale come indagata, imputata o condannata.",
+    "queries": [
+      "\"Enrica Alifano\" indagata",
+      "\"Enrica Alifano\" imputata",
+      "\"Enrica Alifano\" \"rinvio a giudizio\"",
+      "\"Enrica Alifano\" processo tribunale",
+      "\"Enrica Alifano\" condannata",
+      "\"Enrica Alifano\" assolta",
+      "\"Enrica Alifano\" archiviazione",
+      "\"Enrica Alifano\" prescrizione",
+      "\"Enrica Alifano\" patteggiamento",
+      "\"Enrica Alifano\" querela",
+      "\"Enrica Alifano\" diffamazione",
+      "\"Enrica Alifano\" procura tribunale"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/19-308872",
+      "https://www.parlamento.it/leg/19/BGT/Schede/Bicamerali/v3/4-00043.htm",
+      "https://documenti.camera.it/_dati/leg19/lavori/documentiparlamentari/indiceetesti/004ter/005a/intero.htm",
+      "https://www.camera.it/leg19/824?anno=2025&commissione=17&giorno=17&mese=09&pagina=&tipo=C&view="
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

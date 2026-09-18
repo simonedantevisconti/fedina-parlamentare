@@ -2,10 +2,39 @@
   "schemaVersion": 1,
   "id": "vincenzo-amendola",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Vincenzo Amendola, nato a Napoli il 22 dicembre 1973. Sono stati esclusi numerosi risultati relativi a un omonimo Vincenzo Amendola, giovane vittima di un omicidio avvenuto a Napoli nel 2016: in tale vicenda Amendola era la persona offesa e gli imputati erano altri soggetti.",
+    "queries": [
+      "\"Vincenzo Amendola\" indagato",
+      "\"Vincenzo Amendola\" imputato",
+      "\"Vincenzo Amendola\" \"rinvio a giudizio\"",
+      "\"Vincenzo Amendola\" processo tribunale",
+      "\"Vincenzo Amendola\" condannato",
+      "\"Vincenzo Amendola\" assolto",
+      "\"Vincenzo Amendola\" archiviazione",
+      "\"Vincenzo Amendola\" prescrizione",
+      "\"Vincenzo Amendola\" patteggiamento",
+      "\"Vincenzo Amendola\" querela diffamazione",
+      "\"Vincenzo Amendola\" deputato procura",
+      "\"Vincenzo Amendola\" politico indagato"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/19-305931",
+      "https://www.senato.it/leg/18/BGT/Schede/Attsen/00029257.htm",
+      "https://napoli.corriere.it/notizie/cronaca/18_luglio_18/ucciso-figlio-boss-ergastolo-il-rampollo-clan-cugino-1abe09b0-8a94-11e8-ac88-a72c2447e2e2_amp.shtml",
+      "https://napoli.repubblica.it/cronaca/2019/05/03/news/ucciso_e_sepolto_rampollo_del_clan_confessa_durante_il_processo-225403926/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }
