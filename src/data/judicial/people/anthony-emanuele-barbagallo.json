@@ -2,10 +2,42 @@
   "schemaVersion": 1,
   "id": "anthony-emanuele-barbagallo",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Anthony Emanuele Barbagallo, nato a Catania il 24 dicembre 1975. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare, politica e nella Commissione parlamentare antimafia su procedimenti concernenti altri soggetti. Nel 2026 è inoltre emerso un contenzioso davanti al Tribunale di Palermo relativo alle modalità della sua elezione a segretario regionale del Partito Democratico siciliano: si tratta di una controversia civile o associativa sulla procedura congressuale e non di un procedimento penale personale. Non sono emerse fonti affidabili che lo indichino personalmente come indagato, imputato, rinviato a giudizio o condannato.",
+    "queries": [
+      "\"Anthony Emanuele Barbagallo\" indagato",
+      "\"Anthony Emanuele Barbagallo\" imputato",
+      "\"Anthony Emanuele Barbagallo\" \"rinvio a giudizio\"",
+      "\"Anthony Emanuele Barbagallo\" condannato",
+      "\"Anthony Emanuele Barbagallo\" assolto",
+      "\"Anthony Emanuele Barbagallo\" archiviazione",
+      "\"Anthony Emanuele Barbagallo\" querelato",
+      "\"Anthony Emanuele Barbagallo\" denunciato",
+      "\"Anthony Emanuele Barbagallo\" \"registro degli indagati\"",
+      "\"Anthony Barbagallo\" processo penale",
+      "\"Anthony Barbagallo\" abuso d'ufficio",
+      "\"Anthony Barbagallo\" diffamazione",
+      "\"Anthony Barbagallo\" Catania indagato politico",
+      "\"Anthony Barbagallo\" assessore indagato"
+    ],
+    "sourceUrls": [
+      "https://www.ars.sicilia.it/deputati/barbagallo-anthony-emanuele",
+      "https://www.parlamento.it/leg/19/BGT/Schede/Bicamerali/v3/4-00053.htm",
+      "https://www.deputatipd.it/news/barbagallo-su-patern%C3%B2-situazione-preoccupante-intervenga-commissione-antimafia",
+      "https://www.radioradicale.it/scheda/774148/linchiesta-sulla-sanita-in-sicilia-intervista-ad-anthony-barbagallo",
+      "https://www.lasicilia.it/news/politica/3028857/pd-il-ricorso-contro-barbagallo-tra-aule-di-giustizia-e-commissioni-di-garanzia-il-caso-sicilia-infastidisce-il-partito-nazionale.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,10 +2,42 @@
   "schemaVersion": 1,
   "id": "antonio-baldelli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Antonio Baldelli. Le principali occorrenze giudiziarie individuate riguardano dichiarazioni politiche su procedimenti concernenti altri soggetti. Nel 2025 Baldelli ha inoltre presentato un esposto ad AGCOM relativo al programma Report, successivamente archiviato dall'Autorità: si tratta di un procedimento amministrativo promosso dallo stesso deputato e non di un procedimento penale personale.",
+    "queries": [
+      "\"Antonio Baldelli\" indagato",
+      "\"Antonio Baldelli\" imputato",
+      "\"Antonio Baldelli\" \"rinvio a giudizio\"",
+      "\"Antonio Baldelli\" processo tribunale",
+      "\"Antonio Baldelli\" condannato",
+      "\"Antonio Baldelli\" assolto",
+      "\"Antonio Baldelli\" archiviazione",
+      "\"Antonio Baldelli\" prescrizione",
+      "\"Antonio Baldelli\" patteggiamento",
+      "\"Antonio Baldelli\" querela",
+      "\"Antonio Baldelli\" diffamazione",
+      "\"Antonio Baldelli\" procura tribunale",
+      "\"Antonio Baldelli\" denunciato",
+      "\"Antonio Baldelli\" \"registro degli indagati\""
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308805&tipoAttivita=attivita&tipoPersona=&tipoVisAtt=",
+      "https://www.agcom.it/provvedimenti/delibera-223-25-cons",
+      "https://www.corriere.it/politica/24_giugno_21/minaccia-esponente-avs-candidato-fdi-urbino-c0fe4760-41e3-4e8e-9e85-e85be2f51xlk.shtml",
+      "https://www.ansa.it/sito/notizie/politica/2025/07/22/ricci-avviso-di-garanzia-per-affidi-del-comune-di-pesaro_95f5be44-2077-4ddb-9973-38ee043af384.html",
+      "https://www.repubblica.it/politica/2025/07/22/news/ricci_indagato_avviso_di_garanzia_sindaco_pesaro_candidato_marche-424746258/amp/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

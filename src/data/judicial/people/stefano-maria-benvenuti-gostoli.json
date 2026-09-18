@@ -2,19 +2,41 @@
   "schemaVersion": 1,
   "id": "stefano-maria-benvenuti-gostoli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Non sono emersi procedimenti penali personali supportati nei risultati esaminati. Le occorrenze riguardano principalmente l’attività di avvocato e di relatore della Giunta per le autorizzazioni. Ricercata anche la variante senza il secondo nome Maria.",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giudiziarie mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Stefano Maria Benvenuti Gostoli. Numerose occorrenze giudiziarie riguardano la sua attività professionale di avvocato: un ruolo d'udienza della Corte d'appello di Ancona del gennaio 2026, ad esempio, lo indica come difensore di fiducia e non come imputato. Altre occorrenze derivano dalla sua attività nella Giunta per le autorizzazioni della Camera, dove ha svolto il ruolo di relatore su procedimenti penali concernenti altri parlamentari o terzi. È emerso anche un procedimento civile estraneo al perimetro penale del progetto. Non sono state reperite fonti affidabili che lo indichino personalmente come indagato, imputato, rinviato a giudizio o condannato.",
     "queries": [
-      "\"Stefano Maria Benvenuti Gostoli\" (indagato OR condannato OR assolto OR processo OR archiviato)",
-      "\"Benvenuti Gostoli\" \"indagato\" OR \"imputato\" OR \"condannato\"",
-      "\"Stefano Benvenuti Gostoli\" (inchiesta OR assoluzione OR rinvio a giudizio)"
+      "\"Stefano Maria Benvenuti Gostoli\" indagato",
+      "\"Stefano Maria Benvenuti Gostoli\" imputato",
+      "\"Stefano Maria Benvenuti Gostoli\" \"rinvio a giudizio\"",
+      "\"Stefano Maria Benvenuti Gostoli\" condannato",
+      "\"Stefano Maria Benvenuti Gostoli\" assolto",
+      "\"Stefano Maria Benvenuti Gostoli\" archiviazione",
+      "\"Stefano Maria Benvenuti Gostoli\" prescrizione",
+      "\"Stefano Maria Benvenuti Gostoli\" patteggiamento",
+      "\"Stefano Maria Benvenuti Gostoli\" querela",
+      "\"Stefano Maria Benvenuti Gostoli\" diffamazione",
+      "\"Stefano Benvenuti Gostoli\" indagato",
+      "\"Stefano Benvenuti Gostoli\" imputato",
+      "\"Benvenuti Gostoli\" procura tribunale",
+      "\"Benvenuti Gostoli\" processo penale"
     ],
     "sourceUrls": [
-      "https://www.camera.it/leg19/824?anno=2025&commissione=17&giorno=19&mese=11&pagina=&tipo=C&view="
+      "https://ca-ancona.giustizia.it/cmsresources/cms/documents/Ruolo%20udienza%2027%20gennaio%202026.pdf",
+      "https://www.camera.it/leg19/824?anno=2025&commissione=17&giorno=19&mese=11&pagina=&tipo=C&view=",
+      "https://www.camera.it/leg19/824?anno=2025&commissione=17&giorno=16&mese=10&pagina=&tipo=C&view=",
+      "https://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?did=58885&tab=trattazioni_commissione"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

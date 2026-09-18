@@ -2,11 +2,40 @@
   "schemaVersion": 1,
   "id": "valentina-barzotti",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e professionale. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Valentina Barzotti. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare, interrogazioni e iniziative verso autorità giudiziarie o contabili concernenti altri soggetti o vicende. Nel 2023 Barzotti fu inoltre sospesa temporaneamente dai lavori della Camera nell'ambito di una sanzione disciplinare parlamentare: tale misura non costituisce un procedimento penale.",
+    "queries": [
+      "\"Valentina Barzotti\" indagata",
+      "\"Valentina Barzotti\" imputata",
+      "\"Valentina Barzotti\" \"rinvio a giudizio\"",
+      "\"Valentina Barzotti\" processo tribunale",
+      "\"Valentina Barzotti\" condannata",
+      "\"Valentina Barzotti\" assolta",
+      "\"Valentina Barzotti\" archiviazione",
+      "\"Valentina Barzotti\" prescrizione",
+      "\"Valentina Barzotti\" patteggiamento",
+      "\"Valentina Barzotti\" querela",
+      "\"Valentina Barzotti\" diffamazione",
+      "\"Valentina Barzotti\" procura tribunale",
+      "\"Valentina Barzotti\" denunciata"
+    ],
+    "sourceUrls": [
+      "https://www.ilgiorno.it/milano/cronaca/caso-ex-saronio-cari-ministri-dopo-40-anni-diteci-a-che-punto-siamo-c6e90426",
+      "https://www.ansa.it/sito/notizie/economia/pmi/2025/06/16/banche-barzotti-chiarire-il-ruolo-delle-casse-previdenza_83a7108a-c8a4-4f1f-90e1-e6c2e26999ce.html",
+      "https://www.ilgiorno.it/lodi/cronaca/maccastorna-passerella-crollata-danno-erariale-cy5m4fen",
+      "https://www.ilcittadino.it/stories/lettere_al_direttore/barzotti-non-sono-unassenteista-sono-stata-sospesa-dalla-camera-o_97898_96/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

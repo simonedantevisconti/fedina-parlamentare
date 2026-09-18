@@ -2,10 +2,42 @@
   "schemaVersion": 1,
   "id": "fabrizio-benzoni",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Fabrizio Benzoni. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare e istituzionale, comprese interrogazioni al Ministero della Giustizia e lavori della Commissione parlamentare di inchiesta sui fatti accaduti presso la comunità Il Forteto. Nei risultati relativi al Comune di Brescia compare inoltre come consigliere comunale nell'ambito di deliberazioni concernenti cause o provvedimenti giurisdizionali dell'ente, non come parte di un procedimento penale personale.",
+    "queries": [
+      "\"Fabrizio Benzoni\" indagato",
+      "\"Fabrizio Benzoni\" imputato",
+      "\"Fabrizio Benzoni\" \"rinvio a giudizio\"",
+      "\"Fabrizio Benzoni\" processo tribunale",
+      "\"Fabrizio Benzoni\" condannato",
+      "\"Fabrizio Benzoni\" assolto",
+      "\"Fabrizio Benzoni\" archiviazione",
+      "\"Fabrizio Benzoni\" prescrizione",
+      "\"Fabrizio Benzoni\" patteggiamento",
+      "\"Fabrizio Benzoni\" querela",
+      "\"Fabrizio Benzoni\" diffamazione",
+      "\"Fabrizio Benzoni\" procura",
+      "\"Fabrizio Benzoni\" Brescia processo",
+      "\"Fabrizio Benzoni\" deputato indagato"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308913&tipoAttivita=attivita&tipoPersona=&tipoVisAtt=",
+      "https://www.comune.brescia.it/it/persone/benzoni-fabrizio",
+      "https://www.parlamento.it/leg/19/BGT/Schede/BicameraliStoriche/v3/4-00220.htm",
+      "https://www.giustizia.it/giustizia/page/en/risposte_scritte_ad_interrogazioni_parlamentari",
+      "https://documenti.camera.it/leg19/resoconti/commissioni/stenografici/html/76/audiz2/audizione/2025/05/13/indice_stenografico.0028.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,18 +2,42 @@
   "schemaVersion": 1,
   "id": "davide-bergamini",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Le ricerche restituiscono attività parlamentare in materia di giustizia e vicende riferite a terzi; nessun procedimento penale personale sufficientemente supportato nei risultati consultati.",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Davide Bergamini, nato a Bondeno il 7 febbraio 1973. Nel 2016 Bergamini presentò una querela per diffamazione contro un imprenditore in relazione a una frase pubblicata su Facebook, risultando quindi querelante e non soggetto sottoposto a procedimento. Altre occorrenze giudiziarie individuate riguardano amministratori o esponenti politici del territorio, tra cui l'assessore Ennio Bizzarri e l'ex consigliera Rossella Arquà, con Bergamini citato esclusivamente nel proprio ruolo politico o istituzionale. Non sono emerse fonti affidabili che lo indichino personalmente come indagato, imputato, rinviato a giudizio o condannato.",
     "queries": [
-      "\"Davide Bergamini\" indagato condannato assolto",
-      "\"Davide Bergamini\" (processo OR archiviazione OR imputato OR patteggiamento)"
+      "\"Davide Bergamini\" indagato",
+      "\"Davide Bergamini\" imputato",
+      "\"Davide Bergamini\" \"rinvio a giudizio\"",
+      "\"Davide Bergamini\" processo tribunale",
+      "\"Davide Bergamini\" condannato",
+      "\"Davide Bergamini\" assolto",
+      "\"Davide Bergamini\" archiviazione",
+      "\"Davide Bergamini\" prescrizione",
+      "\"Davide Bergamini\" patteggiamento",
+      "\"Davide Bergamini\" querela",
+      "\"Davide Bergamini\" diffamazione",
+      "\"Davide Bergamini\" denunciato",
+      "\"Davide Bergamini\" procura Ferrara",
+      "\"Davide Bergamini\" Vigarano indagato"
     ],
     "sourceUrls": [
-      "https://agenparl.eu/2026/05/28/giustizia-davide-bergamini-fi-ridare-dignita-agli-innocenti-e-un-dovere-di-civilt/"
+      "https://www.camera.it/uri-res/N2Ls?urn%3Acamera-it%3Aparlamento%3Ascheda.personale%3Acamera%3B19.legislatura%3B308928=",
+      "https://www.lanuovaferrara.it/ferrara/cronaca/2016/02/14/news/candidato-sindaco-accusa-diffamato-su-facebook-1.12960979",
+      "https://www.estense.com/2025/1118098/presunto-giro-di-falsi-permessi-di-soggiorno-sotto-accusa-lassessore-di-vigarano/",
+      "https://www.estense.com/2025/1118218/assessore-accusato-a-vigarano-le-opposizioni-chiedono-la-sospensione/",
+      "https://www.ilrestodelcarlino.it/ferrara/cronaca/arqua-il-gesto-grave-ha-ragioni-personali-deab4b82"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

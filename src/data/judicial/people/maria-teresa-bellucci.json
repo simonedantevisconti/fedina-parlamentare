@@ -2,10 +2,42 @@
   "schemaVersion": 1,
   "id": "maria-teresa-bellucci",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata e viceministra Maria Teresa Bellucci, nata a Roma nel 1972. Le principali occorrenze giudiziarie individuate riguardano la sua attività politica e istituzionale su procedimenti concernenti altri soggetti. Nel 2022 Bellucci annunciò inoltre di avere presentato denuncia in relazione alla manifestazione Canapa Mundi per presunti profili penalmente rilevanti: in tale vicenda risulta denunciante e non soggetto sottoposto a procedimento. È stata esclusa un'omonima Maria Teresa Bellucci, avvocata nominata difensore civico a Trieste nel 2006, persona diversa dalla parlamentare.",
+    "queries": [
+      "\"Maria Teresa Bellucci\" indagata",
+      "\"Maria Teresa Bellucci\" imputata",
+      "\"Maria Teresa Bellucci\" \"rinvio a giudizio\"",
+      "\"Maria Teresa Bellucci\" processo tribunale",
+      "\"Maria Teresa Bellucci\" condannata",
+      "\"Maria Teresa Bellucci\" assolta",
+      "\"Maria Teresa Bellucci\" archiviazione",
+      "\"Maria Teresa Bellucci\" prescrizione",
+      "\"Maria Teresa Bellucci\" patteggiamento",
+      "\"Maria Teresa Bellucci\" querela",
+      "\"Maria Teresa Bellucci\" querelata",
+      "\"Maria Teresa Bellucci\" denunciata",
+      "\"Maria Teresa Bellucci\" diffamazione",
+      "\"Maria Teresa Bellucci\" procura tribunale"
+    ],
+    "sourceUrls": [
+      "https://www.mariateresabellucci.it/",
+      "https://www.gazzettaufficiale.it/eli/id/2023/01/12/23A00210/SG",
+      "https://www.fratelli-italia.it/cannabis-bellucci-presentata-denuncia-su-canapa-mundi-manifestazione-viola-legge/",
+      "https://www.rainews.it/articoli/ultimora/Droga-la-vice-ministra-Bellucci--esterrefatta-per-lassoluzione-di-un-possessore-della-droga-dello-stupro-43fd81e5-2695-43bd-84a0-ba7df0bd0047.html",
+      "https://www.ordinepsicologi.piemonte.it/wp-content/uploads/2021/07/Rassegna_Stampa_OPP_del_15_Ottobre_2020.pdf"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

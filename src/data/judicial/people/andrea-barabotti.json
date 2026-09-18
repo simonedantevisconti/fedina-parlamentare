@@ -2,10 +2,39 @@
   "schemaVersion": 1,
   "id": "andrea-barabotti",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Andrea Barabotti. Le principali occorrenze giudiziarie individuate riguardano dichiarazioni politiche su indagini concernenti altri soggetti. Nel luglio 2025 Barabotti è stato inoltre destinatario di minacce durante un sopralluogo al campo rom del Lavello e ha denunciato l'accaduto in Questura, risultando quindi persona offesa e denunciante, non soggetto sottoposto a procedimento.",
+    "queries": [
+      "\"Andrea Barabotti\" indagato",
+      "\"Andrea Barabotti\" imputato",
+      "\"Andrea Barabotti\" \"rinvio a giudizio\"",
+      "\"Andrea Barabotti\" processo tribunale",
+      "\"Andrea Barabotti\" condannato",
+      "\"Andrea Barabotti\" assolto",
+      "\"Andrea Barabotti\" archiviazione",
+      "\"Andrea Barabotti\" prescrizione",
+      "\"Andrea Barabotti\" patteggiamento",
+      "\"Andrea Barabotti\" querela",
+      "\"Andrea Barabotti\" diffamazione",
+      "\"Andrea Barabotti\" denunciato",
+      "\"Andrea Barabotti\" procura"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308890&tipoAttivita=RELAZIONI&tipoPersona=C&tipoVisAtt=1",
+      "https://www.ansa.it/sito/notizie/economia/pmi/2025/05/21/fisco-barabotti-imprenditori-stranieri-presentino-garanzie_1a75895d-fb76-4842-9575-86200c0c2f61.html",
+      "https://www.lanazione.it/massa-carrara/cronaca/campo-rom-del-lavello-minacciato-23c4c55a"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

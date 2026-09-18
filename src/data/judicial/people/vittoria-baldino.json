@@ -2,10 +2,44 @@
   "schemaVersion": 1,
   "id": "vittoria-baldino",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, citazioni a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Vittoria Baldino. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare e professionale su vicende concernenti altri soggetti o istituzioni. Nel 2025 Baldino è stata inoltre destinataria di una lettera minatoria, risultando quindi persona offesa. Un intervento televisivo del dicembre 2024 contenente l'espressione 'io sottoposta a processo' risulta inserito in un ragionamento generale sulle garanzie processuali e non documenta l'esistenza di un procedimento penale personale.",
+    "queries": [
+      "\"Vittoria Baldino\" indagata",
+      "\"Vittoria Baldino\" imputata",
+      "\"Vittoria Baldino\" \"rinvio a giudizio\"",
+      "\"Vittoria Baldino\" \"citazione a giudizio\"",
+      "\"Vittoria Baldino\" processo tribunale",
+      "\"Vittoria Baldino\" procedimento penale",
+      "\"Vittoria Baldino\" condannata",
+      "\"Vittoria Baldino\" assolta",
+      "\"Vittoria Baldino\" archiviazione",
+      "\"Vittoria Baldino\" prescrizione",
+      "\"Vittoria Baldino\" patteggiamento",
+      "\"Vittoria Baldino\" querela",
+      "\"Vittoria Baldino\" querelata",
+      "\"Vittoria Baldino\" denunciata",
+      "\"Vittoria Baldino\" diffamazione",
+      "\"Vittoria Baldino\" \"registro degli indagati\"",
+      "\"Vittoria Baldino\" \"sottoposta a processo\""
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=307435&tipoAttivita=attivitanonlegislativaassemblea&tipoPersona=C&tipoVisAtt=1",
+      "https://www.rainews.it/amp/tgr/calabria/articoli/2026/01/catanzarobaldino-m5s-sul-consiglio-ordine-avvocati-verifiche-straordinarie-9cffabf0-7d9a-4146-bb48-8a9c7e8c48ae.html",
+      "https://www.ilfattoquotidiano.it/2025/08/08/lettera-minatoria-baldino-m5s-vitalizi-notizie/8089155/",
+      "https://www.la7.it/tagada/video/baldino-legge-difende-le-classi-potenti-10-12-2024-571253"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

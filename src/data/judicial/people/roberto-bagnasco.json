@@ -2,11 +2,32 @@
   "schemaVersion": 1,
   "id": "roberto-bagnasco",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
     "result": "possible-follow-up-requiring-verification",
     "readyForClean": false,
-    "notes": "Nel 2025 il Tribunale di Genova ha disposto la trasmissione degli atti alla Procura affinché valutasse eventuali responsabilità legate al crollo della diga di Rapallo. Non ancora verificata un'eventuale successiva iscrizione nel registro degli indagati."
+    "notes": "Verifica approfondita effettuata su fonti istituzionali e giornalistiche. Nel maggio 2025, nel dispositivo della sentenza relativa al crollo della diga del porto Carlo Riva di Rapallo, il Tribunale di Genova ha disposto la trasmissione degli atti alla Procura affinché valutasse eventuali responsabilità dell'allora sindaco pro tempore Roberto Bagnasco e del presidente del consorzio Porto Riva in relazione ai lavori di innalzamento della diga realizzati negli anni 2000. Le fonti dell'epoca precisavano che Bagnasco non era ancora indagato e che la Procura avrebbe valutato un'eventuale iscrizione dopo il deposito delle motivazioni della sentenza. Le ricerche successive, estese fino al 18 settembre 2026, non hanno fatto emergere fonti affidabili che documentino l'effettiva iscrizione di Roberto Bagnasco nel registro degli indagati, un'imputazione, un'archiviazione o un altro provvedimento giudiziario personale collegato alla trasmissione degli atti. La mera trasmissione degli atti non viene pertanto registrata come procedimento penale personale. Il caso resta tuttavia da monitorare perché manca un esito pubblico conclusivo della valutazione della Procura.",
+    "queries": [
+      "\"Roberto Bagnasco\" indagato",
+      "\"Roberto Bagnasco\" imputato",
+      "\"Roberto Bagnasco\" \"rinvio a giudizio\"",
+      "\"Roberto Bagnasco\" condannato",
+      "\"Roberto Bagnasco\" assolto",
+      "\"Roberto Bagnasco\" archiviazione",
+      "\"Roberto Bagnasco\" querela",
+      "\"Roberto Bagnasco\" diffamazione",
+      "\"Roberto Bagnasco\" \"registro degli indagati\"",
+      "\"Roberto Bagnasco\" diga Rapallo Procura",
+      "\"Roberto Bagnasco\" diga Rapallo indagato",
+      "\"Roberto Bagnasco\" diga Rapallo 2026",
+      "\"Roberto Bagnasco\" Procura Genova diga",
+      "\"Roberto Bagnasco\" Pentimalli"
+    ],
+    "sourceUrls": [
+      "https://www.ansa.it/liguria/notizie/2025/05/21/crollo-diga-rapallo-giudici-indagare-anche-sindaco-dellepoca_9de2013c-7f6d-45ac-b670-0687665e828b.html",
+      "https://radioaldebaran.it/crollo-diga-del-porto-lex-sindaco-di-rapallo-roberto-bagnasco-potrebbe-essere-indagato/292649",
+      "https://www.camera.it/leg18/29?idlegislatura=18&idpersona=307134&shadow_deputato=307134"
+    ]
   },
   "record": null
 }

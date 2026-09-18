@@ -2,11 +2,42 @@
   "schemaVersion": 1,
   "id": "alessandro-battilocchio",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e istituzionale. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Alessandro Battilocchio. Le principali occorrenze giudiziarie individuate riguardano la sua attività istituzionale e parlamentare, in particolare come presidente della Commissione parlamentare di inchiesta sulle condizioni di sicurezza e sullo stato di degrado delle città e delle loro periferie, o dichiarazioni relative a procedimenti concernenti altri soggetti. Non sono emerse fonti affidabili che lo indichino personalmente come indagato, imputato, rinviato a giudizio o condannato.",
+    "queries": [
+      "\"Alessandro Battilocchio\" indagato",
+      "\"Alessandro Battilocchio\" imputato",
+      "\"Alessandro Battilocchio\" \"rinvio a giudizio\"",
+      "\"Alessandro Battilocchio\" processo tribunale",
+      "\"Alessandro Battilocchio\" condannato",
+      "\"Alessandro Battilocchio\" assolto",
+      "\"Alessandro Battilocchio\" archiviazione",
+      "\"Alessandro Battilocchio\" prescrizione",
+      "\"Alessandro Battilocchio\" patteggiamento",
+      "\"Alessandro Battilocchio\" querela",
+      "\"Alessandro Battilocchio\" diffamazione",
+      "\"Alessandro Battilocchio\" procura",
+      "\"Alessandro Battilocchio\" tribunale",
+      "\"Alessandro Battilocchio\" denunciato"
+    ],
+    "sourceUrls": [
+      "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?anno=2026&giorno=10&idCommissione=70&idLegislatura=19&mese=02&numero=0088&sezione=commissioni&sottotipologia=audizione&tipoDoc=stenografico&tipologia=audiz2&view=filtered",
+      "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?anno=2026&giorno=11&idCommissione=70&idLegislatura=19&mese=02&numero=0089&sezione=commissioni&sottotipologia=audizione&tipoDoc=stenografico&tipologia=audiz2&view=filtered",
+      "https://documenti.camera.it/leg19/resoconti/commissioni/stenografici/html/70/altro/2025/04/16/indice_stenografico.0058.html",
+      "https://parlamento19.openpolis.it/persone/alessandro-battilocchio-1977-05-03-2",
+      "https://agenparl.eu/2026/05/21/montespaccato-battilocchio-fi-dallo-stato-messaggio-forte-di-legalita/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

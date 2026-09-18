@@ -2,10 +2,44 @@
   "schemaVersion": 1,
   "id": "stefano-benigni",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Stefano Benigni. Il suo nome compare nelle ricostruzioni dell'inchiesta ligure che ha coinvolto Giovanni Toti e nel filone relativo ai fratelli Arturo Angelo e Italo Maurizio Testa, poiché Benigni e Alessandro Sorte vengono indicati come esponenti politici che li avevano messi in contatto con l'ambiente della campagna elettorale ligure del 2020. Le fonti consultate non documentano tuttavia Benigni come indagato o imputato in quel procedimento. Le altre principali occorrenze giudiziarie riguardano dichiarazioni politiche e attività parlamentare su procedimenti concernenti altri soggetti.",
+    "queries": [
+      "\"Stefano Benigni\" indagato",
+      "\"Stefano Benigni\" imputato",
+      "\"Stefano Benigni\" \"rinvio a giudizio\"",
+      "\"Stefano Benigni\" processo tribunale",
+      "\"Stefano Benigni\" condannato",
+      "\"Stefano Benigni\" assolto",
+      "\"Stefano Benigni\" archiviazione",
+      "\"Stefano Benigni\" prescrizione",
+      "\"Stefano Benigni\" patteggiamento",
+      "\"Stefano Benigni\" querela",
+      "\"Stefano Benigni\" diffamazione",
+      "\"Stefano Benigni\" \"registro degli indagati\"",
+      "\"Stefano Benigni\" Toti indagine",
+      "\"Stefano Benigni\" Testa voto di scambio",
+      "\"Stefano Benigni\" procura Bergamo"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/18-307604?tab=attivita_svolta",
+      "https://www.senato.it/show-doc?id=1428530&idoggetto=0&leg=19&part=doc_dc-allegatob_ab-sezionetit_cpdisgdescddedv%3A1&tipodoc=Resaula",
+      "https://bergamo.corriere.it/notizie/cronaca/24_maggio_08/toti-arrestato-alessandro-sorte-propose-ho-una-persona-cosi-i-gemelli-testa-rastrellarono-voti-88bd0ac5-2ccd-442b-9234-a714f05dcxlk.shtml",
+      "https://bergamo.corriere.it/notizie/cronaca/24_maggio_09/toti-i-gemelli-testa-quei-legami-pericolosi-e-l-ombra-della-mafia-faro-pressioni-da-qui-al-mio-onorevole-f9885e65-d921-436a-9eeb-fda9541dcxlk.shtml",
+      "https://tg24.sky.it/cronaca/2024/05/24/giovanni-toti-memoria-difensiva-interrogatorio-news",
+      "https://www.lanotiziagiornale.it/inchiesta-toti-nuovo-rinvio-per-il-filone-del-voto-di-scambio-e-delle-infiltrazioni-mafiose-gli-imputati-mirano-alla-prescrizione/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

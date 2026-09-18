@@ -2,18 +2,45 @@
   "schemaVersion": 1,
   "id": "antonio-angelucci",
   "review": {
-    "stage": "legacy-record",
-    "lastCheckedAt": "2026-09-16",
-    "result": "public-proceedings-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+    "notes": "Verifica approfondita della scheda ereditata. Sono emersi più procedimenti penali personali distinti. Nel procedimento relativo alla presunta truffa ai danni del sistema sanitario del Lazio, Antonio Angelucci è stato assolto il 24 settembre 2019 dal Tribunale di Roma perché il fatto non sussiste; le fonti consultate documentano la sentenza ma non consentono di accertarne l'irrevocabilità. Nel procedimento sui contributi pubblici percepiti da Libero e Il Riformista, il 3 novembre 2017 il Tribunale di Roma lo ha condannato in primo grado a un anno e quattro mesi, con pena sospesa, per falso e tentata truffa; una distinta contestazione di truffa è stata dichiarata prescritta. Fonti del 2024 continuano a qualificare tale decisione come condanna di primo grado e riferiscono l'assenza di condanne definitive, ma non è stato reperito l'esito dell'impugnazione. Nel 2014 Antonio Angelucci risultò inoltre indagato dalla Procura di Roma per associazione per delinquere finalizzata alla commissione di reati tributari e all'appropriazione indebita; non è stato reperito un successivo provvedimento conclusivo sufficientemente attribuibile a questo specifico fascicolo. Nel marzo 2017 risultò indagato in un distinto procedimento per traffico di influenze illecite relativo a un presunto tentativo di ottenere un intervento su un procedimento in Cassazione; anche per questo filone non è stato reperito un esito personale successivo sufficientemente documentato. Il procedimento per istigazione alla corruzione nato dalla denuncia di Alessio D'Amato è stato invece archiviato dal GIP di Roma il 5 novembre 2024, dopo la richiesta della Procura. Le vecchie indagini senza esito reperito non vengono descritte come tuttora pendenti.",
+    "queries": [
+      "\"Antonio Angelucci\" truffa sanità assolto appello Cassazione",
+      "\"Antonio Angelucci\" 2019 assolto sanità definitiva",
+      "\"Antonio Angelucci\" contributi editoria condanna appello Cassazione",
+      "\"Antonio Angelucci\" \"un anno e quattro mesi\" appello",
+      "\"Antonio Angelucci\" falso tentata truffa contributi editoria",
+      "\"Antonio Angelucci\" reati tributari 2014 archiviazione",
+      "\"Antonio Angelucci\" appropriazione indebita 2014 processo",
+      "\"Antonio Angelucci\" \"Roma Global Service\" procedimento",
+      "\"Antonio Angelucci\" traffico di influenze 2017 archiviazione",
+      "\"Antonio Angelucci\" traffico influenze rinvio giudizio",
+      "\"Antonio Angelucci\" appalti sanità 2017 processo",
+      "\"Antonio Angelucci\" istigazione corruzione archiviazione",
+      "\"Antonio Angelucci\" Alessio D'Amato archiviazione"
+    ],
+    "sourceUrls": [
+      "https://www.ansa.it/lazio/notizie/2019/09/24/sanita-truffa-a-ssl-assolto-angelucci_22ec7274-3b38-4b09-ac2e-2876e0c4b79c.html",
+      "https://www.rainews.it/archivio-rainews/articoli/ContentItem-4ee867ee-236e-4e84-a466-20aea139b9e0.html",
+      "https://www.fnsi.it/contributi-alleditoria-condannato-antonio-angelucci",
+      "https://www.ilfattoquotidiano.it/2017/11/03/editoria-angelucci-condannato-a-1-anno-e-4-mesi-per-falso-e-tentata-truffa-ottenne-contributi-pubblici-non-dovuti/3954495/",
+      "https://www.repubblica.it/politica/2024/04/28/news/angelucci_chi_e_proprietario_agi_storia_editore-422712699/amp/",
+      "https://www.ansa.it/lazio/notizie/2014/06/06/frode-fiscale-indagati-angelucci_2b7dfa5f-2cbe-4a76-84e0-26cd46f3aadd.html",
+      "https://www.rainews.it/archivio-rainews/articoli/famiglia-angelucci-sotto-inchiesta-frode-96329135-213b-4fc5-a418-6fc85be6ce42.html",
+      "https://www.ansa.it/lazio/notizie/2017/03/15/appalti-sanita-9-arresti-a-roma_5464236c-8315-4332-83f4-85ad0a379a89.html",
+      "https://www.rainews.it/archivio-rainews/articoli/sanita-corruzione-appalti-indagato-deputato-Fi-antonio-angelucci-per-traffico-influenze-sequestrati-oltre-quattro-milioni-di-euro-3213cff0-d114-4df4-9234-6d20312a36bf.html",
+      "https://roma.repubblica.it/cronaca/2024/11/05/news/gip_roma_archivia_procedimento_angelucci_cade_accusa_istigazione_corruzione-423599373/"
+    ]
   },
   "record": {
-    "judicialStatus": "acquitted",
+    "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
-      "result": "public-proceedings-found"
+      "lastVerifiedAt": "2026-09-18",
+      "result": "multiple-public-proceedings-found"
     },
     "proceedings": [
       {
@@ -25,13 +52,13 @@
         "court": "Tribunale di Roma",
         "startDate": null,
         "lastUpdate": "2019-09-24",
-        "description": "Antonio Angelucci è stato processato in relazione a una presunta truffa ai danni del sistema sanitario del Lazio. Il 24 settembre 2019 il Tribunale di Roma lo ha assolto perché il fatto non sussiste.",
-        "finalJudgment": true,
-        "finalJudgmentDate": "2019-09-24",
+        "description": "Antonio Angelucci è stato processato, insieme ad altri imputati, in relazione a una presunta truffa ai danni del sistema sanitario del Lazio relativa a rimborsi destinati a una struttura sanitaria convenzionata di Velletri. Il 24 settembre 2019 la quarta sezione collegiale del Tribunale di Roma lo ha assolto perché il fatto non sussiste. Le fonti consultate documentano la sentenza di assoluzione ma non consentono di accertarne l'irrevocabilità.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
         "timeline": [
           {
             "date": "2019-09-24",
-            "title": "Assoluzione perché il fatto non sussiste"
+            "title": "Il Tribunale di Roma assolve Antonio Angelucci perché il fatto non sussiste"
           }
         ],
         "sources": [
@@ -40,7 +67,7 @@
             "publisher": "ANSA",
             "url": "https://www.ansa.it/lazio/notizie/2019/09/24/sanita-truffa-a-ssl-assolto-angelucci_22ec7274-3b38-4b09-ac2e-2876e0c4b79c.html",
             "publicationDate": "2019-09-24",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           },
           {
@@ -48,40 +75,167 @@
             "publisher": "Rai News",
             "url": "https://www.rainews.it/archivio-rainews/articoli/ContentItem-4ee867ee-236e-4e84-a466-20aea139b9e0.html",
             "publicationDate": "2019-09-24",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]
       },
       {
         "id": "antonio-angelucci-002",
-        "title": "Indagine per istigazione alla corruzione",
+        "title": "Procedimento sui contributi pubblici a Libero e Il Riformista",
+        "allegedOffence": "Falso, tentata truffa e truffa",
+        "offence": "Falso e tentata truffa",
+        "status": "convicted-non-final",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2024-04-28",
+        "description": "Il 3 novembre 2017 il Tribunale di Roma ha condannato Antonio Angelucci in primo grado a un anno e quattro mesi di reclusione, con pena sospesa, per falso e tentata truffa nel procedimento relativo ai contributi pubblici percepiti per i quotidiani Libero e Il Riformista. Una distinta contestazione di truffa è stata dichiarata prescritta. Fonti del 2024 continuano a indicare questa decisione come condanna di primo grado e riferiscono che Angelucci non aveva condanne definitive. Non è stato reperito un successivo provvedimento di appello o Cassazione sufficientemente documentato.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-11-03",
+            "title": "Condanna in primo grado a un anno e quattro mesi per falso e tentata truffa"
+          },
+          {
+            "date": "2017-11-03",
+            "title": "Dichiarata prescritta una distinta contestazione di truffa"
+          },
+          {
+            "date": "2024-04-28",
+            "title": "Una ricostruzione giornalistica continua a qualificare la decisione come condanna di primo grado e riferisce l'assenza di condanne definitive"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Contributi all'editoria, condannato Antonio Angelucci",
+            "publisher": "FNSI",
+            "url": "https://www.fnsi.it/contributi-alleditoria-condannato-antonio-angelucci",
+            "publicationDate": "2017-11-03",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Editoria, Angelucci condannato a 1 anno e 4 mesi per falso e tentata truffa",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2017/11/03/editoria-angelucci-condannato-a-1-anno-e-4-mesi-per-falso-e-tentata-truffa-ottenne-contributi-pubblici-non-dovuti/3954495/",
+            "publicationDate": "2017-11-03",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Chi è Antonio Angelucci, storia dell'editore che vuole comprare l'Agi",
+            "publisher": "la Repubblica",
+            "url": "https://www.repubblica.it/politica/2024/04/28/news/angelucci_chi_e_proprietario_agi_storia_editore-422712699/amp/",
+            "publicationDate": "2024-04-28",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "antonio-angelucci-003",
+        "title": "Indagine del 2014 per reati tributari e appropriazione indebita",
+        "allegedOffence": "Associazione per delinquere finalizzata alla commissione di reati tributari e appropriazione indebita",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Roma",
+        "startDate": "2014-06-06",
+        "lastUpdate": "2014-06-06",
+        "description": "Nel giugno 2014 Antonio Angelucci risultò indagato dalla Procura di Roma, insieme ai figli e ad altri soggetti, per associazione per delinquere finalizzata alla commissione di reati tributari e all'appropriazione indebita. Le indagini riguardavano, tra gli altri aspetti, omissioni dichiarative, fatture per operazioni inesistenti e appropriazione indebita. Non è stato reperito un successivo provvedimento personale di archiviazione, rinvio a giudizio o sentenza sufficientemente attribuibile a questo specifico fascicolo. Lo status 'investigated' descrive quindi la fase storicamente documentata e non implica che il procedimento sia tuttora pendente.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2014-06-06",
+            "title": "Diventa pubblica l'indagine della Procura di Roma"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Frode fiscale, indagati Angelucci",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lazio/notizie/2014/06/06/frode-fiscale-indagati-angelucci_2b7dfa5f-2cbe-4a76-84e0-26cd46f3aadd.html",
+            "publicationDate": "2014-06-06",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Frode Fiscale, indagati esponenti della famiglia Angelucci",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/archivio-rainews/articoli/famiglia-angelucci-sotto-inchiesta-frode-96329135-213b-4fc5-a418-6fc85be6ce42.html",
+            "publicationDate": "2014-06-06",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "antonio-angelucci-004",
+        "title": "Indagine del 2017 per traffico di influenze illecite",
+        "allegedOffence": "Traffico di influenze illecite",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Roma",
+        "startDate": "2017-03-15",
+        "lastUpdate": "2017-03-15",
+        "description": "Nel marzo 2017 Antonio Angelucci risultò indagato dalla Procura di Roma per traffico di influenze illecite nell'ambito di una più ampia inchiesta sulla sanità pubblica romana. Secondo l'ipotesi investigativa avrebbe cercato un intervento finalizzato a ottenere un esito favorevole in Cassazione in relazione a un sequestro preventivo, mentre la contropartita ipotizzata consisteva in assunzioni che non furono effettuate. Angelucci dichiarò la propria estraneità ai fatti. Non è stato reperito un successivo provvedimento personale di archiviazione, rinvio a giudizio o sentenza sufficientemente documentato. Lo status 'investigated' descrive la fase storicamente documentata e non implica che il procedimento sia tuttora pendente.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-03-15",
+            "title": "Diventa pubblica l'iscrizione di Antonio Angelucci nel registro degli indagati per traffico di influenze"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Appalti sanità: 9 arresti a Roma",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/lazio/notizie/2017/03/15/appalti-sanita-9-arresti-a-roma_5464236c-8315-4332-83f4-85ad0a379a89.html",
+            "publicationDate": "2017-03-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Corruzione sanità a Roma, 9 arresti. Angelucci indagato per traffico influenze",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/archivio-rainews/articoli/sanita-corruzione-appalti-indagato-deputato-Fi-antonio-angelucci-per-traffico-influenze-sequestrati-oltre-quattro-milioni-di-euro-3213cff0-d114-4df4-9234-6d20312a36bf.html",
+            "publicationDate": "2017-03-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "antonio-angelucci-005",
+        "title": "Procedimento per istigazione alla corruzione nato dalla denuncia di Alessio D'Amato",
         "allegedOffence": "Istigazione alla corruzione",
         "offence": null,
         "status": "archived",
         "court": "Tribunale di Roma",
         "startDate": null,
         "lastUpdate": "2024-11-05",
-        "description": "Antonio Angelucci era stato indagato a seguito di una denuncia dell'ex assessore regionale Alessio D'Amato. Nel novembre 2024 il gip di Roma ha archiviato il procedimento, accogliendo la richiesta della procura.",
+        "description": "Antonio Angelucci risultò indagato a seguito della denuncia dell'ex assessore alla Sanità del Lazio Alessio D'Amato, che aveva riferito di una presunta offerta di 250 mila euro collegata a crediti vantati dal San Raffaele di Velletri. La Procura di Roma chiese l'archiviazione il 18 giugno 2024 ritenendo che non vi fosse prova dell'offerta corruttiva. Il 5 novembre 2024 il GIP di Roma accolse la richiesta e dispose l'archiviazione del procedimento.",
         "finalJudgment": true,
         "finalJudgmentDate": "2024-11-05",
         "timeline": [
           {
             "date": "2024-06-18",
-            "title": "La procura chiede l'archiviazione"
+            "title": "La Procura di Roma chiede l'archiviazione"
           },
           {
             "date": "2024-11-05",
-            "title": "Il gip dispone l'archiviazione"
+            "title": "Il GIP di Roma dispone l'archiviazione"
           }
         ],
         "sources": [
           {
-            "name": "Il gip di Roma archivia il procedimento su Angelucci",
+            "name": "Il gip di Roma archivia il procedimento su Angelucci: cade l'accusa di istigazione alla corruzione",
             "publisher": "la Repubblica",
             "url": "https://roma.repubblica.it/cronaca/2024/11/05/news/gip_roma_archivia_procedimento_angelucci_cade_accusa_istigazione_corruzione-423599373/",
             "publicationDate": "2024-11-05",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]

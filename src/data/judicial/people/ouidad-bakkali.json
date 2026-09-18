@@ -2,10 +2,43 @@
   "schemaVersion": 1,
   "id": "ouidad-bakkali",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Ouidad Bakkali. Le principali occorrenze giudiziarie e di cronaca individuate riguardano invece insulti, minacce e attacchi ricevuti dalla parlamentare, in particolare nel giugno 2026 dopo suoi interventi politici contro la cosiddetta remigrazione. Tali vicende la collocano come destinataria delle condotte contestate e non come soggetto sottoposto a procedimento. Non sono emerse fonti affidabili che la indichino personalmente come indagata, imputata, rinviata a giudizio o condannata.",
+    "queries": [
+      "\"Ouidad Bakkali\" indagata",
+      "\"Ouidad Bakkali\" imputata",
+      "\"Ouidad Bakkali\" \"rinvio a giudizio\"",
+      "\"Ouidad Bakkali\" processo tribunale",
+      "\"Ouidad Bakkali\" condannata",
+      "\"Ouidad Bakkali\" assolta",
+      "\"Ouidad Bakkali\" archiviazione",
+      "\"Ouidad Bakkali\" prescrizione",
+      "\"Ouidad Bakkali\" patteggiamento",
+      "\"Ouidad Bakkali\" querela",
+      "\"Ouidad Bakkali\" diffamazione",
+      "\"Ouidad Bakkali\" denunciata",
+      "\"Ouidad Bakkali\" procura",
+      "\"Ouidad Bakkali\" tribunale",
+      "\"Ouidad Bakkali\" indagine"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/520?elenco=i_202509_PD-IDP&scheda=4136&tipo=incrementale",
+      "https://www.ansa.it/emiliaromagna/notizie/2026/06/20/insulti-a-bakkali-sui-social-bufera-su-consigliera-comunale-fdi-di-ravenna_af520691-57da-4592-b439-6180b5045748.html",
+      "https://bologna.repubblica.it/cronaca/2026/06/17/news/bakkali_insulti_squadristi_vannacci_meloni_patto_contro_odio_intervista-425415503/amp/",
+      "https://www.ilrestodelcarlino.it/ravenna/cronaca/bakkali-contro-la-remigrazione-travolta-6191a19d",
+      "https://corrieredibologna.corriere.it/notizie/cronaca/26_giugno_20/bakkali-insulti-pd-fdi-consigliera-a4ae1a38-49fa-4001-bc2e-c8a08f65exlk_amp.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

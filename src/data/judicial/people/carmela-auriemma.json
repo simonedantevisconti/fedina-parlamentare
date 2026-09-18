@@ -2,11 +2,96 @@
   "schemaVersion": 1,
   "id": "carmela-auriemma",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. Alcuni risultati giudiziari pertinenti al nome riguardano attività professionale come avvocata o soggetti omonimi, non procedimenti a suo carico. Da sottoporre a deep review prima di un eventuale stato clean."
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. È emerso un procedimento penale personale per diffamazione. Nel 2018, quando era consigliera comunale di opposizione ad Acerra, Carmela Auriemma fu querelata insieme a Paola Montesarchio dalla segretaria generale del Comune Maria Piscopo in relazione a dichiarazioni sull'attribuzione di numerosi incarichi alla stessa segretaria. Nel 2019 la Procura di Nola dispose la citazione diretta a giudizio. Nel novembre 2023 il procedimento si è concluso con l'assoluzione di Auriemma perché il fatto non sussiste, pronunciata ai sensi dell'articolo 129 c.p.p. Le fonti consultate non documentano espressamente l'irrevocabilità della sentenza, pertanto finalJudgment resta null. Non sono emersi ulteriori procedimenti penali personali sufficientemente documentati. Sono stati esclusi i numerosi risultati giudiziari nei quali Carmela Auriemma compare esclusivamente nella propria attività professionale di avvocata.",
+    "queries": [
+      "\"Carmela Auriemma\" indagata",
+      "\"Carmela Auriemma\" imputata",
+      "\"Carmela Auriemma\" \"rinvio a giudizio\"",
+      "\"Carmela Auriemma\" \"citazione diretta a giudizio\"",
+      "\"Carmela Auriemma\" processo diffamazione",
+      "\"Carmela Auriemma\" condannata",
+      "\"Carmela Auriemma\" assolta",
+      "\"Carmela Auriemma\" \"fatto non sussiste\"",
+      "\"Carmela Auriemma\" archiviazione",
+      "\"Carmela Auriemma\" prescrizione",
+      "\"Carmela Auriemma\" patteggiamento",
+      "\"Carmela Auriemma\" querela",
+      "\"Carmela Auriemma\" Maria Piscopo",
+      "\"Carmela Auriemma\" procura Nola",
+      "\"Carmela Auriemma\" tribunale diffamazione"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308846&tipoAttivita=attivitalegislativacommissione&tipoPersona=C&tipoVisAtt=1",
+      "https://www.ilmediano.com/il-caso-la-segretaria-generale-del-comune-di-acerra-querela-per-diffamazione-le-consigliere-comunali-di-pd-e-m5s/",
+      "https://www.ilmediano.com/acerra-denunciarono-i-troppi-incarichi-alla-segretaria-comunale-ma-la-procura-manda-a-processo-le-consigliere-dopposizione/",
+      "https://www.ilmediano.com/auriemma-e-montesarchio-assolte-non-diffamarono-la-segretaria-comunale-di-acerra/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "carmela-auriemma-001",
+        "title": "Procedimento per diffamazione relativo alle dichiarazioni sulla segretaria comunale di Acerra",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Autorità giudiziaria di Nola",
+        "startDate": "2018-12-06",
+        "lastUpdate": "2023-11-15",
+        "description": "Carmela Auriemma, all'epoca consigliera comunale di opposizione ad Acerra, fu querelata per diffamazione insieme alla consigliera Paola Montesarchio dalla segretaria generale del Comune Maria Piscopo. La querela riguardava dichiarazioni rese nell'ambito del dibattito politico e consiliare sugli incarichi attribuiti alla segretaria. Nel 2019 la Procura di Nola optò per la citazione diretta a giudizio. Nel novembre 2023 il processo si è concluso con l'assoluzione di Auriemma perché il fatto non sussiste, pronunciata ai sensi dell'articolo 129 c.p.p. Le fonti disponibili riferiscono inoltre che Auriemma era stata imputata in relazione a una frase che non aveva pronunciato. Non è stata reperita una fonte che documenti espressamente l'irrevocabilità della sentenza.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-12-06",
+            "title": "Diventa pubblica la querela per diffamazione presentata contro Carmela Auriemma e Paola Montesarchio"
+          },
+          {
+            "date": "2019-06-16",
+            "title": "Diventa pubblica la decisione della Procura di Nola di procedere con citazione diretta a giudizio"
+          },
+          {
+            "date": "2023-11-15",
+            "title": "Viene resa pubblica l'assoluzione perché il fatto non sussiste"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Il caso: la segretaria generale del Comune di Acerra querela per diffamazione le consigliere comunali di Pd e M5S",
+            "publisher": "Il Mediano",
+            "url": "https://www.ilmediano.com/il-caso-la-segretaria-generale-del-comune-di-acerra-querela-per-diffamazione-le-consigliere-comunali-di-pd-e-m5s/",
+            "publicationDate": "2018-12-06",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Acerra, denunciarono i troppi incarichi alla segretaria comunale: ma la procura manda a processo le consigliere d'opposizione",
+            "publisher": "Il Mediano",
+            "url": "https://www.ilmediano.com/acerra-denunciarono-i-troppi-incarichi-alla-segretaria-comunale-ma-la-procura-manda-a-processo-le-consigliere-dopposizione/",
+            "publicationDate": "2019-06-16",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Auriemma e Montesarchio assolte: non diffamarono la segretaria comunale di Acerra",
+            "publisher": "Il Mediano",
+            "url": "https://www.ilmediano.com/auriemma-e-montesarchio-assolte-non-diffamarono-la-segretaria-comunale-di-acerra/",
+            "publicationDate": "2023-11-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

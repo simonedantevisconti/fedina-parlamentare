@@ -2,10 +2,40 @@
   "schemaVersion": 1,
   "id": "mauro-berruto",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Mauro Berruto. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare, in particolare le iniziative sulla riforma della giustizia sportiva e interrogazioni relative a procedimenti concernenti altri soggetti. Nel luglio 2026 dichiarazioni del presidente FIGC Gabriele Gravina invitarono Berruto, qualora fosse a conoscenza di fatti gravi, a rivolgersi alla Procura della Repubblica: tale scambio politico non documenta una posizione giudiziaria personale di Berruto.",
+    "queries": [
+      "\"Mauro Berruto\" indagato",
+      "\"Mauro Berruto\" imputato",
+      "\"Mauro Berruto\" \"rinvio a giudizio\"",
+      "\"Mauro Berruto\" processo tribunale",
+      "\"Mauro Berruto\" condannato",
+      "\"Mauro Berruto\" assolto",
+      "\"Mauro Berruto\" archiviazione",
+      "\"Mauro Berruto\" prescrizione",
+      "\"Mauro Berruto\" patteggiamento",
+      "\"Mauro Berruto\" querela",
+      "\"Mauro Berruto\" diffamazione",
+      "\"Mauro Berruto\" procura",
+      "\"Mauro Berruto\" tribunale"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308815&tipoAttivita=DOCXXII&tipoPersona=C&tipoVisAtt=1",
+      "https://deputatipd.it/news/sport-berruto-serve-riforma-giustizia-seria-non-occupazione-politica-di-natura-medioevale",
+      "https://www.lapresse.it/sport/2025/07/11/giustizia-sportiva-nel-mirino-della-politica-gravina-non-ci-sta-cosa-e-successo/",
+      "https://www.ansa.it/amp/sito/notizie/cronaca/2024/03/15/video-intimo-rubato-e-diffuso-la-procura-figc-apre-unindagine_7e2cbfd3-ef2e-4c22-ab8b-df55ff10179a.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

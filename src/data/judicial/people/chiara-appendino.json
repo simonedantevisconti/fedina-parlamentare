@@ -2,18 +2,36 @@
   "schemaVersion": 1,
   "id": "chiara-appendino",
   "review": {
-    "stage": "legacy-record",
-    "lastCheckedAt": "2026-09-16",
-    "result": "public-proceedings-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Scheda importata dal dataset precedente; manca il registro della ricerca originale."
+    "notes": "Verifica definitiva della scheda ereditata. Sono documentati tre procedimenti personali. Nel procedimento Ream, relativo al falso ideologico nei bilanci del Comune di Torino, Chiara Appendino è stata assolta in appello e la Cassazione ha reso definitiva l'assoluzione il 15 giugno 2023 rigettando il ricorso della Procura generale. Nel procedimento per i fatti di Piazza San Carlo del 3 giugno 2017, la Cassazione ha dichiarato irrevocabile la responsabilità penale di Appendino il 17 giugno 2024, disponendo un nuovo giudizio esclusivamente per il ricalcolo della pena; il 20 gennaio 2025 la Corte d'assise d'appello di Torino ha rideterminato la pena in un anno, cinque mesi e 23 giorni. Nel procedimento relativo all'inquinamento atmosferico di Torino, nel luglio 2024 è stato pronunciato non luogo a procedere e l'8 maggio 2025 la Procura generale ha rinunciato al ricorso in appello, che è stato dichiarato inammissibile. Non sono emersi ulteriori procedimenti penali personali sufficientemente documentati.",
+    "queries": [
+      "\"Chiara Appendino\" indagata imputata processo condanna assoluzione archiviazione",
+      "\"Chiara Appendino\" Ream Cassazione assoluzione definitiva",
+      "\"Chiara Appendino\" Piazza San Carlo Cassazione definitiva",
+      "\"Chiara Appendino\" Piazza San Carlo 2025 pena",
+      "\"Chiara Appendino\" smog non luogo a procedere",
+      "\"Chiara Appendino\" smog appello 2025",
+      "\"Chiara Appendino\" nuovo procedimento 2025 2026",
+      "\"Chiara Appendino\" indagata 2026"
+    ],
+    "sourceUrls": [
+      "https://www.ansa.it/amp/piemonte/notizie/2023/06/15/cassazione-rigetta-ricorso-appendino-assolta-per-il-caso-ream_f5031102-d58c-49d7-89b0-599b03efa3ff.html",
+      "https://www.rainews.it/tgr/piemonte/articoli/2023/09/ream-furono-errori-inconsapevoli-cosi-la-cassazione-ha-confermato-lassoluzione-di-appendino--5ac93867-8fc4-484a-bade-61873eca778a.html",
+      "https://www.rainews.it/tgr/piemonte/articoli/2024/06/tragedia-di-piazza-san-carlo-nuovo-processo-dappello--per-chiara-appendino-11cf1448-294b-4d2c-9dd1-774e6c44c8ce.html",
+      "https://www.ansa.it/piemonte/notizie/2025/01/20/i-fatti-di-piazza-s.carlo-del-2017-un-anno-cinque-mesi-e-23-giorni-ad-appendino_4b59e3ad-0446-425b-9518-68ad0e780d0c.html",
+      "https://www.rainews.it/tgr/piemonte/articoli/2025/05/processo-smog-la-procura-generale-rinuncia-allappello-9b799d6d-fb38-4829-b1a4-cb76b880145d.html",
+      "https://www.ansa.it/sito/notizie/cronaca/2025/05/08/smog-a-torino-pg-rinuncia-a-ricorso-in-appello_25063a5a-8968-4846-ba72-0542f78072fd.html"
+    ]
   },
   "record": {
-    "judicialStatus": "convicted-final",
+    "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
-      "result": "public-proceedings-found"
+      "lastVerifiedAt": "2026-09-18",
+      "result": "multiple-public-proceedings-found"
     },
     "proceedings": [
       {
@@ -25,7 +43,7 @@
         "court": "Corte di Cassazione / Corte d'assise d'appello di Torino",
         "startDate": "2017-06-03",
         "lastUpdate": "2025-01-20",
-        "description": "Il procedimento riguarda i fatti avvenuti in Piazza San Carlo a Torino il 3 giugno 2017 durante la proiezione della finale di Champions League. Nel giugno 2024 la Cassazione ha dichiarato irrevocabile la responsabilità penale di Chiara Appendino, disponendo un nuovo giudizio esclusivamente per il ricalcolo della pena. Nel gennaio 2025 la Corte d'assise d'appello di Torino ha determinato la pena in un anno, cinque mesi e 23 giorni.",
+        "description": "Il procedimento riguarda i fatti avvenuti in Piazza San Carlo a Torino il 3 giugno 2017 durante la proiezione della finale di Champions League. Il 17 giugno 2024 la Corte di Cassazione ha dichiarato irrevocabile la responsabilità penale di Chiara Appendino per tutti i capi di accusa, disponendo un nuovo giudizio limitato al ricalcolo della pena. Il 20 gennaio 2025 la Corte d'assise d'appello di Torino ha rideterminato la pena in un anno, cinque mesi e 23 giorni di reclusione.",
         "finalJudgment": true,
         "finalJudgmentDate": "2024-06-17",
         "timeline": [
@@ -35,11 +53,11 @@
           },
           {
             "date": "2024-06-17",
-            "title": "La Cassazione rende irrevocabile la responsabilità penale e dispone il ricalcolo della pena"
+            "title": "La Cassazione dichiara irrevocabile la responsabilità penale e dispone il ricalcolo della pena"
           },
           {
             "date": "2025-01-20",
-            "title": "La Corte d'assise d'appello ricalcola la pena in un anno, cinque mesi e 23 giorni"
+            "title": "La Corte d'assise d'appello ridetermina la pena in un anno, cinque mesi e 23 giorni"
           }
         ],
         "sources": [
@@ -48,7 +66,15 @@
             "publisher": "Rai News",
             "url": "https://www.rainews.it/tgr/piemonte/articoli/2024/06/tragedia-di-piazza-san-carlo-nuovo-processo-dappello--per-chiara-appendino-11cf1448-294b-4d2c-9dd1-774e6c44c8ce.html",
             "publicationDate": "2024-06-17",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Piazza San Carlo, appello bis per Appendino",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2024/06/17/piazza-san-carlo-appello-bis-per-appendino_4e40549d-5625-4f96-9665-6cb75fd60991.html",
+            "publicationDate": "2024-06-18",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           },
           {
@@ -56,7 +82,7 @@
             "publisher": "ANSA",
             "url": "https://www.ansa.it/piemonte/notizie/2025/01/20/i-fatti-di-piazza-s.carlo-del-2017-un-anno-cinque-mesi-e-23-giorni-ad-appendino_4b59e3ad-0446-425b-9518-68ad0e780d0c.html",
             "publicationDate": "2025-01-20",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]
@@ -70,22 +96,34 @@
         "court": "Corte di Cassazione",
         "startDate": null,
         "lastUpdate": "2023-06-15",
-        "description": "Nel procedimento relativo ai bilanci del Comune di Torino e alla vicenda Ream, Chiara Appendino era stata condannata in primo grado e successivamente assolta in appello. Nel giugno 2023 la Cassazione ha reso definitiva l'assoluzione respingendo il ricorso della procura generale.",
+        "description": "Nel procedimento relativo ai bilanci del Comune di Torino e alla vicenda Ream, Chiara Appendino era stata condannata in primo grado a sei mesi e successivamente assolta in appello. Il 15 giugno 2023 la Corte di Cassazione ha rigettato il ricorso della Procura generale di Torino, rendendo definitiva l'assoluzione.",
         "finalJudgment": true,
         "finalJudgmentDate": "2023-06-15",
         "timeline": [
           {
+            "date": "2022-05-16",
+            "title": "La Corte d'appello assolve Chiara Appendino"
+          },
+          {
             "date": "2023-06-15",
-            "title": "La Cassazione rende definitiva l'assoluzione"
+            "title": "La Cassazione rigetta il ricorso della Procura generale e rende definitiva l'assoluzione"
           }
         ],
         "sources": [
           {
-            "name": "Processo Ream, Appendino incassa l'assoluzione definitiva dalla Cassazione",
-            "publisher": "Corriere della Sera",
-            "url": "https://torino.corriere.it/notizie/cronaca/23_giugno_15/processo-ream-appendino-incassa-l-assoluzione-definitiva-della-cassazione-44cc8cd1-fddd-4e8c-b153-93819f2caxlk.shtml",
+            "name": "Cassazione rigetta ricorso, Appendino assolta per il caso Ream",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/amp/piemonte/notizie/2023/06/15/cassazione-rigetta-ricorso-appendino-assolta-per-il-caso-ream_f5031102-d58c-49d7-89b0-599b03efa3ff.html",
             "publicationDate": "2023-06-15",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Ream, furono errori inconsapevoli: così la Cassazione ha confermato l'assoluzione di Appendino",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/piemonte/articoli/2023/09/ream-furono-errori-inconsapevoli-cosi-la-cassazione-ha-confermato-lassoluzione-di-appendino--5ac93867-8fc4-484a-bade-61873eca778a.html",
+            "publicationDate": "2023-09-28",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]
@@ -96,20 +134,20 @@
         "allegedOffence": "Inquinamento ambientale colposo",
         "offence": null,
         "status": "dismissed",
-        "court": "Tribunale di Torino",
+        "court": "Tribunale di Torino / Corte d'appello di Torino",
         "startDate": null,
         "lastUpdate": "2025-05-08",
-        "description": "Chiara Appendino figurava tra gli amministratori coinvolti nel cosiddetto processo Smog relativo alla gestione della qualità dell'aria a Torino. Nel 2024 era stata pronunciata sentenza di non luogo a procedere; nel maggio 2025 la procura generale ha rinunciato all'appello.",
+        "description": "Chiara Appendino figurava tra gli amministratori coinvolti nel procedimento relativo alla gestione della qualità dell'aria a Torino. Nel luglio 2024 il giudice pronunciò sentenza di non luogo a procedere in sede predibattimentale. La Procura ordinaria impugnò il provvedimento, ma l'8 maggio 2025 la Procura generale rinunciò al ricorso e la Corte dichiarò l'impugnazione inammissibile. Il procedimento si è quindi chiuso con il proscioglimento degli amministratori.",
         "finalJudgment": true,
         "finalJudgmentDate": "2025-05-08",
         "timeline": [
           {
-            "date": "2024-07-01",
-            "title": "Sentenza di non luogo a procedere"
+            "date": "2024-07-04",
+            "title": "Sentenza di non luogo a procedere in sede predibattimentale"
           },
           {
             "date": "2025-05-08",
-            "title": "La procura generale rinuncia all'appello"
+            "title": "La Procura generale rinuncia al ricorso e la Corte dichiara l'impugnazione inammissibile"
           }
         ],
         "sources": [
@@ -118,7 +156,15 @@
             "publisher": "Rai News",
             "url": "https://www.rainews.it/tgr/piemonte/articoli/2025/05/processo-smog-la-procura-generale-rinuncia-allappello-9b799d6d-fb38-4829-b1a4-cb76b880145d.html",
             "publicationDate": "2025-05-08",
-            "accessedAt": "2026-09-16",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Smog a Torino, pg rinuncia a ricorso in appello",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2025/05/08/smog-a-torino-pg-rinuncia-a-ricorso-in-appello_25063a5a-8968-4846-ba72-0542f78072fd.html",
+            "publicationDate": "2025-05-08",
+            "accessedAt": "2026-09-18",
             "type": "journalistic"
           }
         ]

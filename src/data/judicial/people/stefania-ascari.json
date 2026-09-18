@@ -2,11 +2,44 @@
   "schemaVersion": 1,
   "id": "stefania-ascari",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e legislativa. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Stefania Ascari. Le principali occorrenze giudiziarie individuate riguardano la sua attività parlamentare e istituzionale su procedimenti concernenti altri soggetti. Nel 2025 Ascari ha inoltre annunciato e presentato una querela contro il quotidiano Il Tempo per articoli da lei ritenuti diffamatori, vicenda nella quale risulta querelante e non soggetto sottoposto a procedimento. Non sono emerse fonti affidabili che la indichino personalmente come indagata, imputata, rinviata a giudizio o condannata.",
+    "queries": [
+      "\"Stefania Ascari\" indagata",
+      "\"Stefania Ascari\" imputata",
+      "\"Stefania Ascari\" \"rinvio a giudizio\"",
+      "\"Stefania Ascari\" processo tribunale",
+      "\"Stefania Ascari\" condannata",
+      "\"Stefania Ascari\" assolta",
+      "\"Stefania Ascari\" archiviazione",
+      "\"Stefania Ascari\" prescrizione",
+      "\"Stefania Ascari\" patteggiamento",
+      "\"Stefania Ascari\" querela",
+      "\"Stefania Ascari\" querelata",
+      "\"Stefania Ascari\" denunciata",
+      "\"Stefania Ascari\" diffamazione",
+      "\"Stefania Ascari\" procura tribunale"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/18-307302?tab=attivita_svolta",
+      "https://agenparl.eu/2025/08/17/ascari-m5s-presentata-querela-per-articoli-de-il-tempo/",
+      "https://www.iltempo.it/politica/2025/08/21/news/tv-giordana-roya-tv-attacca-il-tempo-inchiesta-filo-hamas-pedulla-querela-43811086/",
+      "https://documenti.camera.it/leg19/resoconti/commissioni/stenografici/html/24/audiz2/audizione/2024/03/07/indice_stenografico.0036.html",
+      "https://www.ansa.it/lazio/notizie/2025/02/27/sposa-a-12-annia-latina-chiusa-indagine-per-violenza-sessuale_fb82db4a-4779-49c2-aca9-65bc91f61932.html",
+      "https://corrieredelveneto.corriere.it/notizie/cronaca/26_marzo_11/la-misteriosa-morte-di-sissy-trovato-mazza-i-3-800-file-spariti-dal-telefono-ora-serve-una-commissione-d-inchiesta-061bd2c7-5f74-4fac-82cd-2e85a59c6xlk_amp.shtml",
+      "https://www.ilrestodelcarlino.it/bologna/cronaca/morto-suicida-in-diretta-interrogazione-b8d59615"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

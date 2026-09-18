@@ -2,11 +2,44 @@
   "schemaVersion": 1,
   "id": "anna-ascani",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e istituzionale. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili alla deputata Anna Ascani. Nel 2018 Ascani diede mandato al proprio legale per tutelarsi da affermazioni ritenute diffamatorie sui social e denunciò minacce ricevute online, risultando quindi persona offesa o denunciante. Nel settembre 2025 Forza Nuova annunciò un'iniziativa per diffamazione relativa a dichiarazioni rese da Ascani durante una trasmissione televisiva, ma le fonti disponibili indicavano come destinatario dell'azione il conduttore Paolo Del Debbio e non documentano una posizione processuale personale di Ascani. Le altre principali occorrenze giudiziarie individuate riguardano la sua attività politica o commenti su procedimenti concernenti altri soggetti.",
+    "queries": [
+      "\"Anna Ascani\" indagata",
+      "\"Anna Ascani\" imputata",
+      "\"Anna Ascani\" \"rinvio a giudizio\"",
+      "\"Anna Ascani\" processo tribunale",
+      "\"Anna Ascani\" condannata",
+      "\"Anna Ascani\" assolta",
+      "\"Anna Ascani\" archiviazione",
+      "\"Anna Ascani\" prescrizione",
+      "\"Anna Ascani\" patteggiamento",
+      "\"Anna Ascani\" querela",
+      "\"Anna Ascani\" diffamazione",
+      "\"Anna Ascani\" procura tribunale",
+      "\"Anna Ascani\" denunciata",
+      "\"Anna Ascani\" \"registro degli indagati\"",
+      "\"Anna Ascani\" \"Forza Nuova\" querela"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=305704&tipoAttivita=attivitanonlegislativaassemblea&tipoPersona=C&tipoVisAtt=1",
+      "https://storia.camera.it/deputato/anna-ascani-19871017/atti?anno=2013",
+      "https://www.umbriajournal.com/politica/insulti-su-facebook-272631/",
+      "https://www.corriere.it/cronache/18_agosto_19/deputata-pd-minacciata-morte-aver-svelato-fake-news-7aa52f24-a386-11e8-9b60-adccaa96935d.shtml",
+      "https://www.forzanuova1997.it/berizzi-a-processo-per-diffamazione-contro-fiore-e-forza-nuova-rischi-anche-per-del-debbio/",
+      "https://civico20-news.it/cronaca/giornalista-del-debbio-diffamazione-aggravata/20/09/2025/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

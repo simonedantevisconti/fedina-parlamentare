@@ -2,11 +2,44 @@
   "schemaVersion": 1,
   "id": "giovanni-arruzzolo",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. I risultati pertinenti riguardano principalmente attività parlamentare e verifiche di incompatibilità con precedenti cariche regionali, che non costituiscono procedimenti penali. Da sottoporre a deep review prima di un eventuale stato clean."
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Giovanni Arruzzolo. Il suo nome compare nelle carte e nelle ricostruzioni giornalistiche dell'inchiesta 'Faust' sulla cosca Pisano di Rosarno, ma le fonti consultate specificano espressamente che Arruzzolo non risultava indagato; gli inquirenti avevano rilevato riferimenti politici privi di riscontri investigativi personali. Sono state inoltre escluse le procedure relative all'incompatibilità tra la carica di consigliere regionale della Calabria e il mandato parlamentare, trattandosi di verifiche istituzionali e non di procedimenti penali.",
+    "queries": [
+      "\"Giovanni Arruzzolo\" indagato",
+      "\"Giovanni Arruzzolo\" imputato",
+      "\"Giovanni Arruzzolo\" \"rinvio a giudizio\"",
+      "\"Giovanni Arruzzolo\" processo",
+      "\"Giovanni Arruzzolo\" condannato",
+      "\"Giovanni Arruzzolo\" assolto",
+      "\"Giovanni Arruzzolo\" archiviazione",
+      "\"Giovanni Arruzzolo\" prescrizione",
+      "\"Giovanni Arruzzolo\" patteggiamento",
+      "\"Giovanni Arruzzolo\" querela",
+      "\"Giovanni Arruzzolo\" diffamazione",
+      "\"Giovanni Arruzzolo\" procura tribunale",
+      "\"Giovanni Arruzzolo\" Faust",
+      "\"Giovanni Arruzzolo\" ndrangheta indagato"
+    ],
+    "sourceUrls": [
+      "https://www.camera.it/deputati/elenco/19-308906",
+      "https://www.lacnews24.it/politica/operazione-faust-larresto-del-sindaco-ida-indebolisce-politicamente-arruzzolo-loaqdb5o",
+      "https://napoli.repubblica.it/cronaca/2021/01/18/news/ndrangheta_49_arresti_in_tutta_italia_blitz_anche_a_salerno-283033393/",
+      "https://www.ilfattoquotidiano.it/2021/01/18/ndrangheta-ai-domiciliari-per-scambio-elettorale-politico-mafioso-il-sindaco-di-rosarno-ida-appoggiato-dalla-cosca-pisano/6069069/",
+      "https://www.corrieredellacalabria.it/2021/01/18/faust-il-patto-tra-ida-e-i-diavoli-di-rosarno-video-e-nomi/",
+      "https://documenti.camera.it/leg19/resoconti/commissioni/bollettini/pdf/2022/12/14/leg.19.bol0026.data20221214.pdf",
+      "https://documenti.camera.it/leg19/resoconti/commissioni/bollettini/pdf/2023/01/19/leg.19.bol0047.data20230119.pdf"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

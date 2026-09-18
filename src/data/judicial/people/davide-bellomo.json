@@ -2,19 +2,43 @@
   "schemaVersion": 1,
   "id": "davide-bellomo",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "La notizia del 4 aprile 2024 specifica che Bellomo non è indagato nell’inchiesta barese citata. Nei risultati compaiono omonimie e incarichi difensivi. Un ruolo d’udienza del Tribunale di Bari è emerso nella ricerca, ma il PDF non è stato renderizzabile: la sola anteprima non viene interpretata come prova di un’imputazione personale.",
+    "readyForClean": true,
+    "notes": "Verifica definitiva effettuata su fonti istituzionali e giornalistiche mediante ricerche mirate relative a indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e provvedimenti di autorità giudiziarie. Non sono emersi procedimenti penali personali sufficientemente documentati riferibili al deputato Davide Bellomo. Nell'inchiesta barese del 2024 su corruzione elettorale il suo nome compare nelle carte per contatti avuti con Armando Defrancesco, ma le fonti specificano espressamente che Bellomo non era indagato; il contatto era inoltre collegato alla sua attività professionale di avvocato penalista. Un ruolo d'udienza del Tribunale di Bari del luglio 2024 riporta Davide Bellomo tra gli avvocati e non tra gli imputati. Sono stati esclusi anche risultati relativi all'omonimo Francesco Bellomo, ex consigliere di Stato coinvolto in una distinta vicenda giudiziaria. Nel 2026 Davide Bellomo compare inoltre come avvocato in una denuncia relativa al ristorante del lido Il Trampolino, quindi come legale della parte denunciante e non come soggetto sottoposto a procedimento.",
     "queries": [
-      "\"Davide Bellomo\" (indagato OR condannato OR assolto OR processo OR archiviato)",
-      "\"Davide Bellomo\" indagato rimborsi Puglia",
-      "\"Davide Bellomo\" (imputato OR rinviato OR archiviato OR patteggiamento)"
+      "\"Davide Bellomo\" indagato",
+      "\"Davide Bellomo\" imputato",
+      "\"Davide Bellomo\" \"rinvio a giudizio\"",
+      "\"Davide Bellomo\" processo tribunale",
+      "\"Davide Bellomo\" condannato",
+      "\"Davide Bellomo\" assolto",
+      "\"Davide Bellomo\" archiviazione",
+      "\"Davide Bellomo\" prescrizione",
+      "\"Davide Bellomo\" patteggiamento",
+      "\"Davide Bellomo\" querela",
+      "\"Davide Bellomo\" diffamazione",
+      "\"Davide Bellomo\" denunciato",
+      "\"Davide Bellomo\" procura Bari",
+      "\"Davide Bellomo\" corruzione elettorale",
+      "\"Davide Bellomo\" Defrancesco",
+      "\"Davide Bellomo\" lido Trampolino"
     ],
     "sourceUrls": [
-      "https://www.ilfattoquotidiano.it/2024/04/04/deputato-leghista-e-contatti-con-amico-arrestato-indagine-di-bari-mi-chiamo-per-essere-assistito-ero-consigliere-rinunciai/7501738/"
+      "https://www.ilfattoquotidiano.it/2024/04/04/deputato-leghista-e-contatti-con-amico-arrestato-indagine-di-bari-mi-chiamo-per-essere-assistito-ero-consigliere-rinunciai/7501738/",
+      "https://tribunale-bari.giustizia.it/cmsresources/cms/documents/Ruolo_seconda_collegiale_coll_A_9_luglio.pdf",
+      "https://bari.repubblica.it/cronaca/2026/06/22/news/inchiesta_per_truffa_a_bari_finisce_sotto_sequestro_il_ristorante_del_lido_trampolino-425427638/amp/",
+      "https://www.rainews.it/archivio-rainews/articoli/ContentItem-e6226c4a-90ee-4f9c-aff1-1a827bc8059e.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

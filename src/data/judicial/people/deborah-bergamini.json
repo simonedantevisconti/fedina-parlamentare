@@ -2,11 +2,94 @@
   "schemaVersion": 1,
   "id": "deborah-bergamini",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-16",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Sono emersi riferimenti storici a un'indagine interna RAI, non a un procedimento penale personale sufficientemente documentato per il database."
+    "notes": "Verifica approfondita effettuata su fonti giornalistiche e istituzionali. Nel gennaio 2008 Deborah Bergamini e l'ex direttore generale Rai Flavio Cattaneo risultarono indagati per interruzione di pubblico servizio nel cosiddetto filone RaiSet, relativo a presunti accordi tra dirigenti Rai e Mediaset sulla gestione dell'informazione durante le elezioni regionali del 2005. Il 21 ottobre 2008 la Procura di Roma chiese l'archiviazione del procedimento, rilevando un ostacolo processuale all'utilizzo delle intercettazioni provenienti da un diverso procedimento. Non è stata reperita una fonte affidabile che documenti espressamente il successivo decreto del GIP di accoglimento della richiesta di archiviazione. Per tale ragione il procedimento viene registrato nello stato storico documentato di investigated, senza descriverlo come tuttora pendente. L'indagine interna Rai e la sospensione cautelativa aziendale connesse alla vicenda della cosiddetta Struttura Delta non costituiscono procedimenti penali e vengono mantenute distinte.",
+    "queries": [
+      "\"Deborah Bergamini\" indagata",
+      "\"Deborah Bergamini\" imputata",
+      "\"Deborah Bergamini\" \"rinvio a giudizio\"",
+      "\"Deborah Bergamini\" condannata",
+      "\"Deborah Bergamini\" assolta",
+      "\"Deborah Bergamini\" archiviazione",
+      "\"Deborah Bergamini\" \"richiesta di archiviazione\"",
+      "\"Deborah Bergamini\" \"interruzione di pubblico servizio\"",
+      "\"Deborah Bergamini\" Cattaneo indagati",
+      "\"Deborah Bergamini\" Cattaneo archiviazione",
+      "\"Deborah Bergamini\" RaiSet",
+      "\"Deborah Bergamini\" procura Roma",
+      "\"Deborah Bergamini\" querela",
+      "\"Deborah Bergamini\" diffamazione",
+      "\"Deborah Bergamini\" Struttura Delta"
+    ],
+    "sourceUrls": [
+      "https://tivubiz.it/news/raiset-indagine-contro-ignoti-per-interruzione-di-pubblico-servizio/",
+      "https://tivubiz.it/news/raiset-bergamini-e-cattaneo-indagati/",
+      "https://tivubiz.it/news/raiset-il-pm-chiede-l-archiviazione/",
+      "https://www.e-duesse.it/senza-categoria/raiset-il-pm-chiede-l-archiviazione/",
+      "https://www.corriere.it/cronache/07_dicembre_13/sacca_sospensione_edeaf526-a94c-11dc-b997-0003ba99c53b.shtml",
+      "https://inchieste.repubblica.it/it/repubblica/rep-it/2011/07/04/news/la_class_action_struttura_delta-18629709/index.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "deborah-bergamini-001",
+        "title": "Procedimento RaiSet per interruzione di pubblico servizio",
+        "allegedOffence": "Interruzione di pubblico servizio",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura della Repubblica di Roma",
+        "startDate": "2008-01-15",
+        "lastUpdate": "2008-10-21",
+        "description": "Deborah Bergamini, all'epoca già ex direttrice del marketing strategico Rai, risultò indagata insieme all'ex direttore generale Rai Flavio Cattaneo per l'ipotesi di interruzione di pubblico servizio. Il procedimento riguardava presunti accordi tra dirigenti Rai e Mediaset sulla gestione e diffusione dell'informazione durante le elezioni regionali del 2005 ed era collegato alle intercettazioni emerse nell'inchiesta Hdc. Il 21 ottobre 2008 la Procura di Roma chiese l'archiviazione, rilevando l'impossibilità di utilizzare nel nuovo procedimento le intercettazioni raccolte nell'ambito di un diverso fascicolo. Non è stata reperita una fonte affidabile che documenti espressamente il successivo decreto del GIP di accoglimento della richiesta. Lo status investigated descrive pertanto la fase storicamente documentata e non implica che il procedimento sia ancora pendente.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2008-01-15",
+            "title": "Deborah Bergamini e Flavio Cattaneo risultano indagati per interruzione di pubblico servizio"
+          },
+          {
+            "date": "2008-10-21",
+            "title": "La Procura di Roma chiede l'archiviazione del procedimento"
+          }
+        ],
+        "sources": [
+          {
+            "name": "RaiSet: Bergamini e Cattaneo indagati",
+            "publisher": "Duesse / TivùBiz",
+            "url": "https://tivubiz.it/news/raiset-bergamini-e-cattaneo-indagati/",
+            "publicationDate": "2008-01-15",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "RaiSet: il pm chiede l'archiviazione",
+            "publisher": "Duesse / TivùBiz",
+            "url": "https://tivubiz.it/news/raiset-il-pm-chiede-l-archiviazione/",
+            "publicationDate": "2008-10-21",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "RaiSet: il pm chiede l'archiviazione",
+            "publisher": "Duesse Media Network",
+            "url": "https://www.e-duesse.it/senza-categoria/raiset-il-pm-chiede-l-archiviazione/",
+            "publicationDate": "2008-10-21",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }
