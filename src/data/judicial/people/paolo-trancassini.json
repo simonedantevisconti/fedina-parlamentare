@@ -2,10 +2,94 @@
   "schemaVersion": 1,
   "id": "paolo-trancassini",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Paolo Trancassini\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La cronaca locale documenta una condanna di primo grado per abuso d’ufficio nel caso dei permessi edilizi a Leonessa, annullata da assoluzione in appello nel 2012. Un distinto procedimento relativo ai lavori a Campo Stella è riferito nel 2017 dalle associazioni che presentarono l’esposto; fase ed esito successivi non verificati. Non è stata verificata l’irrevocabilità dell’assoluzione del 2012.",
+    "sourceUrls": [
+      "https://www.leonessa.org/2007/comitato/stampa.htm",
+      "https://www.leonessa.org/2012/comunicati/abusi.htm",
+      "https://www.mountainwilderness.it/impianti-di-risalita/terminillo-stazione-montana-aperto-un-procedimento-carico-del-sindaco-leonessa/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "paolo-trancassini-001",
+        "title": "Permessi edilizi a Leonessa",
+        "allegedOffence": "Abuso d’ufficio e violazioni edilizie",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Roma",
+        "startDate": null,
+        "lastUpdate": "2012-04-07",
+        "description": "La Corte d’appello ha annullato la condanna di primo grado del 2011, ritenendo che il fatto non costituisse reato. La fonte è una rassegna stampa locale; irrevocabilità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2012-04-07",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rassegna stampa Leonessa",
+            "publisher": "Rassegna stampa Leonessa",
+            "url": "https://www.leonessa.org/2007/comitato/stampa.htm",
+            "publicationDate": "2012-04-07",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Leonessa.org",
+            "publisher": "Leonessa.org",
+            "url": "https://www.leonessa.org/2012/comunicati/abusi.htm",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "paolo-trancassini-002",
+        "title": "Lavori della seggiovia di Campo Stella",
+        "allegedOffence": "Ipotesi di lavori senza le autorizzazioni ambientali necessarie, secondo le associazioni denuncianti",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2017-11-14",
+        "description": "Le associazioni che presentarono un esposto riferirono nel 2017 l’avvio di un procedimento relativo ai lavori del 2013-2015. La fase processuale, i reati formalmente contestati e l’esito non sono stati verificati.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-11-14",
+            "title": "Comunicato delle associazioni denuncianti"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Mountain Wilderness Italia, comunicato delle associazioni",
+            "publisher": "Mountain Wilderness Italia",
+            "url": "https://www.mountainwilderness.it/impianti-di-risalita/terminillo-stazione-montana-aperto-un-procedimento-carico-del-sindaco-leonessa/",
+            "publicationDate": "2017-11-14",
+            "accessedAt": "2026-09-18",
+            "type": "primary"
+          }
+        ]
+      }
+    ]
+  }
 }

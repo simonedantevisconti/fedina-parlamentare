@@ -2,10 +2,64 @@
   "schemaVersion": 1,
   "id": "franco-mirabelli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Franco Mirabelli\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "sourceUrls": [
+      "https://www.senato.it/Web/AutorizzazioniAProcedere.nsf/a7d748e45edcc6cfc125708100418ed6/f76234f6251cde2dc12580e50053ce87/%24FILE/10.05.2017.pdf",
+      "https://www.senato.it/show-doc?id=1298062&leg=18&part=doc_dc&tipodoc=Resaula"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "franco-mirabelli-001",
+        "title": "Dichiarazioni su Ostia",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2021-01-01",
+        "description": "Gli atti del Senato documentano una richiesta di insindacabilità connessa a un procedimento per diffamazione. La decisione parlamentare non prova l’esito penale, che resta da verificare.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-01-01",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Senato della Repubblica",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/Web/AutorizzazioniAProcedere.nsf/a7d748e45edcc6cfc125708100418ed6/f76234f6251cde2dc12580e50053ce87/%24FILE/10.05.2017.pdf",
+            "publicationDate": "2017-05-10",
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          },
+          {
+            "name": "Senato della Repubblica",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1298062&leg=18&part=doc_dc&tipodoc=Resaula",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
 }

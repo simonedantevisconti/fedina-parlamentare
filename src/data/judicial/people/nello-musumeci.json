@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "nello-musumeci",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Nello Musumeci\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "sourceUrls": [
+      "https://www.ansa.it/sicilia/notizie/2026/06/09/frana-niscemi-musumeci-si-avvale-della-facolta-di-non-rispondere_90f5da9a-6aef-47e0-bf0f-e173472c473d.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "nello-musumeci-001",
+        "title": "Frana di Niscemi",
+        "allegedOffence": "Ipotesi di reato nell’inchiesta sulla frana",
+        "offence": null,
+        "status": "investigated",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2026-06-09",
+        "description": "Indagato nell’inchiesta sulla frana di Niscemi; convocato dagli inquirenti, si è avvalso della facoltà di non rispondere. Nessun esito conclusivo verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-06-09",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sicilia/notizie/2026/06/09/frana-niscemi-musumeci-si-avvale-della-facolta-di-non-rispondere_90f5da9a-6aef-47e0-bf0f-e173472c473d.html",
+            "publicationDate": "2026-06-09",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

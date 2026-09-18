@@ -2,10 +2,73 @@
   "schemaVersion": 1,
   "id": "massimo-garavaglia",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Massimo Garavaglia\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto nel 2019 e nuovamente in appello nel 2022 nel processo sulla gara del trasporto dei dializzati. Non è stata verificata l’irrevocabilità. Nel 2017 fu aperto un fascicolo per valutare una possibile iscrizione per falsa testimonianza in un’altra vicenda; le fonti consultate non documentano un’imputazione personale.",
+    "sourceUrls": [
+      "https://www.ansa.it/sito/notizie/cronaca/2022/03/14/garavaglia-e-mantovani-assolti-in-appello-a-milano_fb204f9d-2cee-4e9a-a1c8-726b6743e831.html",
+      "https://www.rainews.it/amp/articoli/2022/03/ministro-garavaglia-assolto-per-non-aver-commesso-il-fatto-nessuna-turbativa-dasta-df5b870d-6730-456f-94f1-90b8c2102560.html",
+      "https://milano.corriere.it/notizie/cronaca/16_ottobre_19/assessore-regionale-garavaglia-giudizio-appalti-truccati-f7d515d8-95f8-11e6-9c27-eb69b8747d1f.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "massimo-garavaglia-001",
+        "title": "Gara per il trasporto dei pazienti dializzati in Lombardia",
+        "allegedOffence": "Turbativa d’asta",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2022-03-14",
+        "description": "Confermata l’assoluzione di primo grado perché non aveva commesso il fatto; irrevocabilità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-03-14",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2022/03/14/garavaglia-e-mantovani-assolti-in-appello-a-milano_fb204f9d-2cee-4e9a-a1c8-726b6743e831.html",
+            "publicationDate": "2022-03-14",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rai News",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/amp/articoli/2022/03/ministro-garavaglia-assolto-per-non-aver-commesso-il-fatto-nessuna-turbativa-dasta-df5b870d-6730-456f-94f1-90b8c2102560.html",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Corriere della Sera",
+            "publisher": "Corriere della Sera",
+            "url": "https://milano.corriere.it/notizie/cronaca/16_ottobre_19/assessore-regionale-garavaglia-giudizio-appalti-truccati-f7d515d8-95f8-11e6-9c27-eb69b8747d1f.shtml",
+            "publicationDate": "2016-10-19",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

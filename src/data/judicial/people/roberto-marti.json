@@ -2,10 +2,64 @@
   "schemaVersion": 1,
   "id": "roberto-marti",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Roberto Marti\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La posizione personale nell’inchiesta sugli alloggi popolari di Lecce è stata archiviata dal GIP. La fonte giornalistica cita il decreto di archiviazione.",
+    "sourceUrls": [
+      "https://www.senato.it/show-doc?id=1178115&idoggetto=0&leg=18&part=doc_dc-sedetit_ip&tipodoc=SommComm",
+      "https://www.corrieresalentino.it/2022/08/inchiesta-case-popolari-archiviata-posizione-del-senatore-roberto-marti/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "roberto-marti-001",
+        "title": "Assegnazione alloggi popolari a Lecce",
+        "allegedOffence": "Tentato abuso d’ufficio, falso e tentato peculato",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Lecce",
+        "startDate": null,
+        "lastUpdate": "2022-08-23",
+        "description": "Indagine personale archiviata. La notizia iniziale è confermata da un atto del Senato; la fonte successiva riferisce il provvedimento di archiviazione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2022-08-23",
+        "timeline": [
+          {
+            "date": "2022-08-23",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Senato della Repubblica",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1178115&idoggetto=0&leg=18&part=doc_dc-sedetit_ip&tipodoc=SommComm",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          },
+          {
+            "name": "Corriere Salentino",
+            "publisher": "Corriere Salentino",
+            "url": "https://www.corrieresalentino.it/2022/08/inchiesta-case-popolari-archiviata-posizione-del-senatore-roberto-marti/",
+            "publicationDate": "2022-08-23",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

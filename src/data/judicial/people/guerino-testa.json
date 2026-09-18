@@ -2,10 +2,98 @@
   "schemaVersion": 1,
   "id": "guerino-testa",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Guerino Testa\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nel filone principale del crac De Nicola Testa ha patteggiato 18 mesi per alcune bancarotte, con pena sospesa; altri capi si sono chiusi con assoluzione o prescrizione secondo le cronache. Il distinto filone APD Group è stato archiviato. L’archiviazione successiva non cancella il patteggiamento precedente.",
+    "sourceUrls": [
+      "https://www.rete8.it/cronaca/45678pescara-fallimento-de-nicola-il-testa-patteggia/",
+      "https://www.ilcentro.it/pescara/bancarotta-del-gruppo-de-nicola-archiviazione-per-testa-e-altri-5-1.3045801",
+      "https://www.ilcentro.it/pescara/bancarotta-del-gruppo-de-nicola-archiviazione-per-testa-e-altri-5-1.3045801",
+      "https://www.rete8.it/cronaca/crac-imprenditore-gip-pescara-proscioglie-deputato-fdi-testa/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "guerino-testa-001",
+        "title": "Crac delle società del gruppo De Nicola",
+        "allegedOffence": "Bancarotta in relazione ad alcune società",
+        "offence": null,
+        "status": "plea-bargain",
+        "court": "GUP del Tribunale di Pescara",
+        "startDate": null,
+        "lastUpdate": "2019-11-04",
+        "description": "Patteggiamento di un anno e sei mesi, pena sospesa. I resoconti riferiscono assoluzione dall’associazione per delinquere e prescrizione di altri reati; non è stata verificata la data di irrevocabilità.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2019-11-04",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rete8",
+            "publisher": "Rete8",
+            "url": "https://www.rete8.it/cronaca/45678pescara-fallimento-de-nicola-il-testa-patteggia/",
+            "publicationDate": "2019-11-04",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Il Centro",
+            "publisher": "Il Centro",
+            "url": "https://www.ilcentro.it/pescara/bancarotta-del-gruppo-de-nicola-archiviazione-per-testa-e-altri-5-1.3045801",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "guerino-testa-002",
+        "title": "Società APD Group",
+        "allegedOffence": "Bancarotta fraudolenta",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Pescara",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Il GIP ha accolto la richiesta di archiviazione per Testa e altri cinque nel filone separato APD Group.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Il Centro",
+            "publisher": "Il Centro",
+            "url": "https://www.ilcentro.it/pescara/bancarotta-del-gruppo-de-nicola-archiviazione-per-testa-e-altri-5-1.3045801",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rete8",
+            "publisher": "Rete8",
+            "url": "https://www.rete8.it/cronaca/crac-imprenditore-gip-pescara-proscioglie-deputato-fdi-testa/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

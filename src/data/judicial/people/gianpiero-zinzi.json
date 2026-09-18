@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "gianpiero-zinzi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Gianpiero Zinzi\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Le condanne riferite a Domenico Zinzi riguardano il padre del deputato. Nessun procedimento penale personale sostenuto dalle fonti consultate. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

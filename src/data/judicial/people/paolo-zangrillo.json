@@ -2,10 +2,54 @@
   "schemaVersion": 1,
   "id": "paolo-zangrillo",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Paolo Zangrillo\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito conclusivo riportato dalle fonti.",
+    "sourceUrls": [
+      "https://www.rainews.it/tgr/piemonte/articoli/2023/04/zangrillo-fuori-dal-processo-su-zaca-2810c924-da67-4688-8106-de56995377a5.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "paolo-zangrillo-001",
+        "title": "Lista Zacà nelle amministrative di Moncalieri",
+        "allegedOffence": "Concorso in falso",
+        "status": "archived",
+        "court": "GIP di Torino",
+        "startDate": null,
+        "lastUpdate": "2023-04-24",
+        "description": "Inizialmente indagato; la fonte Rai riferisce il decreto di archiviazione che esclude la sua responsabilità nella modifica della lista elettorale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2023-04-24",
+        "timeline": [
+          {
+            "date": "2023-04-24",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "RaiNews",
+            "publisher": "RaiNews",
+            "url": "https://www.rainews.it/tgr/piemonte/articoli/2023/04/zangrillo-fuori-dal-processo-su-zaca-2810c924-da67-4688-8106-de56995377a5.html",
+            "publicationDate": "2023-04-24",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

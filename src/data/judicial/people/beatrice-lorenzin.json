@@ -2,10 +2,85 @@
   "schemaVersion": 1,
   "id": "beatrice-lorenzin",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Beatrice Lorenzin\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Il Senato documenta l’archiviazione nel giugno 2023 del procedimento ministeriale relativo alla gestione della pandemia. Una denuncia del 2015 riguardava il tavolo sui metodi alternativi alla sperimentazione animale: la richiesta di archiviazione è documentata, ma non è stato reperito il relativo decreto. In altre cronache figura come persona informata sui fatti o parte offesa, non come imputata.",
+    "sourceUrls": [
+      "https://www.senato.it/show-doc?id=1380546&idoggetto=0&leg=19&part=doc_dc-allegatob_ab-sezionetit_prarpda96dctddda&tipodoc=resaula",
+      "https://roma.corriere.it/notizie/cronaca/15_maggio_08/procura-roma-chiede-archiviazione-ministro-lorenzin-38c940d0-f584-11e4-9c1c-931a52508e78.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "beatrice-lorenzin-001",
+        "title": "Gestione ministeriale della pandemia",
+        "allegedOffence": "Ipotesi di responsabilità penale ministeriale",
+        "offence": null,
+        "status": "archived",
+        "court": "Collegio per i reati ministeriali di Roma",
+        "startDate": null,
+        "lastUpdate": "2023-06-14",
+        "description": "Il collegio ha archiviato gli atti nei suoi confronti; comunicazione ufficiale al Senato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-06-14",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Senato della Repubblica",
+            "publisher": "Senato della Repubblica",
+            "url": "https://www.senato.it/show-doc?id=1380546&idoggetto=0&leg=19&part=doc_dc-allegatob_ab-sezionetit_prarpda96dctddda&tipodoc=resaula",
+            "publicationDate": "2023-06-22",
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          }
+        ]
+      },
+      {
+        "id": "beatrice-lorenzin-002",
+        "title": "Tavolo sui metodi alternativi alla sperimentazione animale",
+        "allegedOffence": "Omissione di atti d’ufficio secondo la denuncia",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Tribunale dei ministri di Roma",
+        "startDate": null,
+        "lastUpdate": "2015-05-08",
+        "description": "La Procura ha inviato la denuncia al Tribunale dei ministri con richiesta di archiviazione. Il decreto di archiviazione non è stato verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2015-05-08",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere della Sera",
+            "publisher": "Corriere della Sera",
+            "url": "https://roma.corriere.it/notizie/cronaca/15_maggio_08/procura-roma-chiede-archiviazione-ministro-lorenzin-38c940d0-f584-11e4-9c1c-931a52508e78.shtml",
+            "publicationDate": "2015-05-08",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

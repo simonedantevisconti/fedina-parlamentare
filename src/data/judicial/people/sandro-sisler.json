@@ -2,10 +2,63 @@
   "schemaVersion": 1,
   "id": "sandro-sisler",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Sandro Sisler\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito conclusivo riportato dalle fonti.",
+    "sourceUrls": [
+      "https://tg24.sky.it/cronaca/2012/10/19/tangenti_indagato_coordinatore_provinciale_pdl_milano_sandro_sisler_perquisizioni_carate_brianza",
+      "https://primamonza.it/politica/elezioni-lex-assessore-allurbanistica-di-carate-e-senatore/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "sandro-sisler-001",
+        "title": "Inchiesta Carate Nostra",
+        "allegedOffence": "Corruzione",
+        "status": "archived",
+        "court": "GIP di Monza",
+        "startDate": null,
+        "lastUpdate": "2015-11-05",
+        "description": "Indagato nel 2012 per corruzione; la posizione personale è stata archiviata dal GIP nel 2015, senza rinvio a giudizio.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2015-11-05",
+        "timeline": [
+          {
+            "date": "2015-11-05",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Sky TG24",
+            "publisher": "Sky TG24",
+            "url": "https://tg24.sky.it/cronaca/2012/10/19/tangenti_indagato_coordinatore_provinciale_pdl_milano_sandro_sisler_perquisizioni_carate_brianza",
+            "publicationDate": "2012-10-19",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Prima Monza",
+            "publisher": "Prima Monza",
+            "url": "https://primamonza.it/politica/elezioni-lex-assessore-allurbanistica-di-carate-e-senatore/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

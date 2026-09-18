@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "michele-schiano-di-visconti",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Michele Schiano Di Visconti\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto dal GUP di Napoli nel 2022 dall’accusa di voto di scambio perché il fatto non sussiste. Non è stata verificata l’irrevocabilità della sentenza. La distinta condanna della Corte dei conti riguarda responsabilità erariale e non è una condanna penale.",
+    "sourceUrls": [
+      "https://www.ansa.it/campania/notizie/assemblea_informa/2022/02/18/voto-di-scambioschiano-di-viscontiassolto-giustizia-fatta_ca80a7ce-6cca-4aad-9537-fb3dddcb0308.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "michele-schiano-di-visconti-001",
+        "title": "Voto di scambio nelle comunali di Napoli del 2016",
+        "allegedOffence": "Voto di scambio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "GUP del Tribunale di Napoli",
+        "startDate": null,
+        "lastUpdate": "2022-02-18",
+        "description": "Assoluzione in rito abbreviato perché il fatto non sussiste; irrevocabilità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-02-18",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/campania/notizie/assemblea_informa/2022/02/18/voto-di-scambioschiano-di-viscontiassolto-giustizia-fatta_ca80a7ce-6cca-4aad-9537-fb3dddcb0308.html",
+            "publicationDate": "2022-02-18",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

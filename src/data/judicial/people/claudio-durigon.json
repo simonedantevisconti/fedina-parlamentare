@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "claudio-durigon",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Claudio Durigon\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "L’inchiesta giornalistica su Durigon e il successivo procedimento per diffamazione contro i giornalisti non documentano un’accusa penale a suo carico. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

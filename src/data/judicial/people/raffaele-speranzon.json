@@ -2,10 +2,49 @@
   "schemaVersion": 1,
   "id": "raffaele-speranzon",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Raffaele Speranzon\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare.",
+    "sourceUrls": [
+      "https://www.nuovavenezia.it/cronaca/speranzon-assolto-dalla-diffamazione-ymq91qfr"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "raffaele-speranzon-001",
+        "title": "Dichiarazioni su Paolo e Tommaso Cacciari",
+        "allegedOffence": "Diffamazione",
+        "status": "acquitted",
+        "court": "Corte d’appello di Venezia",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Assolto in appello dopo una condanna di primo grado del 2008. Irrevocabilità della decisione non verificata.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "La Nuova Venezia",
+            "publisher": "La Nuova Venezia",
+            "url": "https://www.nuovavenezia.it/cronaca/speranzon-assolto-dalla-diffamazione-ymq91qfr",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

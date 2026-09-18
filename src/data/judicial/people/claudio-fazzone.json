@@ -2,10 +2,94 @@
   "schemaVersion": 1,
   "id": "claudio-fazzone",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Claudio Fazzone\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto nel processo sulle segnalazioni all’ASL di Latina nel 2016. In una distinta indagine avviata nel 2023 a Latina risulta indagato per corruzione nell’esercizio della funzione; l’esito successivo non è stato verificato. La confisca di un immobile del 2015 non era a suo carico come imputato.",
+    "sourceUrls": [
+      "https://www.latinapress.it/provincia/raccomandazioni-assolto-il-senatore-claudio-fazzone/",
+      "https://roma.repubblica.it/cronaca/2023/11/18/news/assunzioni_e_favori_claudio_fazzone_sotto_inchiesta-420634377/amp/",
+      "https://www.rainews.it/tgr/lazio/articoli/2024/05/corruzione-sospeso-dirigente-della-regione-lazio-b107e342-b68b-4f28-9362-60b29f565055.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "claudio-fazzone-001",
+        "title": "Segnalazioni di candidati alla ASL di Latina",
+        "allegedOffence": "Abuso d’ufficio",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Latina",
+        "startDate": null,
+        "lastUpdate": "2016-09-22",
+        "description": "Assolto; la cronaca riferisce che aveva rinunciato alla prescrizione. Irrevocabilità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2016-09-22",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "LatinaPress",
+            "publisher": "LatinaPress",
+            "url": "https://www.latinapress.it/provincia/raccomandazioni-assolto-il-senatore-claudio-fazzone/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "claudio-fazzone-002",
+        "title": "Proroga di un corso finanziato in una scuola di Fondi",
+        "allegedOffence": "Corruzione per l’esercizio della funzione, secondo l’ipotesi investigativa",
+        "offence": null,
+        "status": "investigated",
+        "court": "Procura di Latina",
+        "startDate": null,
+        "lastUpdate": "2023-11-18",
+        "description": "Risulta indagato secondo le cronache del 2023. Fase ed esito successivi non verificati.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-11-18",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "la Repubblica",
+            "publisher": "la Repubblica",
+            "url": "https://roma.repubblica.it/cronaca/2023/11/18/news/assunzioni_e_favori_claudio_fazzone_sotto_inchiesta-420634377/amp/",
+            "publicationDate": "2023-11-18",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rai News TGR Lazio",
+            "publisher": "Rai News TGR Lazio",
+            "url": "https://www.rainews.it/tgr/lazio/articoli/2024/05/corruzione-sospeso-dirigente-della-regione-lazio-b107e342-b68b-4f28-9362-60b29f565055.html",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

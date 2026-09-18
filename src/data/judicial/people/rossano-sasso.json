@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "rossano-sasso",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Rossano Sasso\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Le notizie giudiziarie trovate riguardano terzi da lui commentati o un collaboratore, non un procedimento personale. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

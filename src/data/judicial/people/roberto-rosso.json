@@ -2,10 +2,18 @@
   "schemaVersion": 1,
   "id": "roberto-rosso",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Roberto Rosso\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale personale attribuibile con sufficiente certezza. Le notizie sul voto di scambio politico mafioso riguardano l’ex assessore regionale nato nel 1969; il senatore di Forza Italia in elenco è nato nel 1967, come attestano le rispettive schede istituzionali. L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
+    "sourceUrls": [
+      "https://www.senato.it/node/75345/printable/print?did=32779",
+      "https://www.cr.piemonte.it/cms/archivio-storico/legislatura-xi/consiglieri/roberto-rosso"
+    ]
   },
   "record": null
 }

@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "silvio-franceschelli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Silvio Franceschelli\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Un condannato omonimo citato in una cronaca salernitana non è identificabile come il senatore nato a Pistoia nel 1970. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

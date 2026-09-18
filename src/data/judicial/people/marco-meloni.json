@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "marco-meloni",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Marco Meloni\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "L’indagine personale sui fondi del gruppo regionale sardo risulta archiviata secondo ANSA.",
+    "sourceUrls": [
+      "https://www.ansa.it/sardegna/notizie/2017/05/10/fondiarchiviata-indagine-su-meloni-pd_92992040-e579-44de-92e3-3e6876840230.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "marco-meloni-001",
+        "title": "Fondi del gruppo regionale sardo",
+        "allegedOffence": "Utilizzo fondi del gruppo",
+        "offence": null,
+        "status": "archived",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2017-05-10",
+        "description": "Archiviata l’indagine personale sui fondi del gruppo regionale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-05-10",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sardegna/notizie/2017/05/10/fondiarchiviata-indagine-su-meloni-pd_92992040-e579-44de-92e3-3e6876840230.html",
+            "publicationDate": "2017-05-10",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

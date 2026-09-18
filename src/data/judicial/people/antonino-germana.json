@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "antonino-germana",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Antonino Germanà\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Le notizie sulla bancarotta Gedim riguardano Basilio Germanà e suo fratello Antonino, non il senatore Antonino Salvatore Germanà nato nel 1976. Una decisione della Corte dei conti relativa a Innovabic non è penale. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

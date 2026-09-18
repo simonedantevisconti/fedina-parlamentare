@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "maria-carolina-varchi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Maria Carolina Varchi\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La sentenza del 2025 sulla fotografia di Sestini riguarda risarcimento civile per diritto d’autore, non una condanna penale. Nessun procedimento penale personale sostenuto dalle fonti consultate. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

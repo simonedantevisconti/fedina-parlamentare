@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "marcello-pera",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Marcello Pera\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "sourceUrls": [
+      "https://www.cortecostituzionale.it/scheda-pronuncia/ECLI%3AIT%3ACOST%3A2004%3A348"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "marcello-pera-001",
+        "title": "Dichiarazioni su Giancarlo Caselli",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2004-11-24",
+        "description": "La Corte costituzionale ha deciso sul conflitto di attribuzione relativo all’insindacabilità; l’esito penale non risulta verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2004-11-24",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corte costituzionale",
+            "publisher": "Corte costituzionale",
+            "url": "https://www.cortecostituzionale.it/scheda-pronuncia/ECLI%3AIT%3ACOST%3A2004%3A348",
+            "publicationDate": "2004-11-24",
+            "accessedAt": "2026-09-18",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
 }

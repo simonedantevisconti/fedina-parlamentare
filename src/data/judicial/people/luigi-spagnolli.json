@@ -2,10 +2,54 @@
   "schemaVersion": 1,
   "id": "luigi-spagnolli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Luigi Spagnolli\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare.",
+    "sourceUrls": [
+      "https://www.ladige.it/territori/alto-adige-s%C3%BCdtirol/2021/07/10/ampliamento-del-centro-commerciale-twenty-assolto-l-ex-sindaco-spagnolli-1.2953166"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "acquitted",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "luigi-spagnolli-001",
+        "title": "Ampliamento del centro commerciale Twenty",
+        "allegedOffence": "Abuso d’ufficio",
+        "status": "acquitted",
+        "court": "Tribunale di Bolzano",
+        "startDate": null,
+        "lastUpdate": "2021-07-09",
+        "description": "Assolto in primo grado perché il fatto non costituisce reato. Eventuale impugnazione e irrevocabilità non verificate.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-07-09",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "l’Adige",
+            "publisher": "l’Adige",
+            "url": "https://www.ladige.it/territori/alto-adige-s%C3%BCdtirol/2021/07/10/ampliamento-del-centro-commerciale-twenty-assolto-l-ex-sindaco-spagnolli-1.2953166",
+            "publicationDate": "2021-07-10",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

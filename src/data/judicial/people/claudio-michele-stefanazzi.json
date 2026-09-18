@@ -2,10 +2,94 @@
   "schemaVersion": 1,
   "id": "claudio-michele-stefanazzi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Claudio Michele Stefanazzi\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Due vicende distinte: indagine barese su un piano formativo archiviata nel 2022; assoluzione in appello a Torino nel 2025 per finanziamento illecito dopo una condanna di primo grado. Irrevocabilità dell’assoluzione non verificata.",
+    "sourceUrls": [
+      "https://bari.corriere.it/notizie/cronaca/22_novembre_13/notizia-reato-infondataarchiviata-l-inchiesta-stefanazzi-2c1d50d0-633e-11ed-9479-f8a1a4aeaa2b.shtml",
+      "https://www.rainews.it/tgr/puglia/articoli/2025/07/stefanazzi-ladisa-assolti-b361a41b-8a9e-44d4-99cb-c7734aad92e1.html",
+      "https://www.ansa.it/piemonte/notizie/2023/05/04/emiliano-assolto-dallaccusa-di-finanziamento-illecito_163d2957-ce18-42ac-8310-eb39149fe213.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "claudio-michele-stefanazzi-001",
+        "title": "Piano formativo aziendale in Puglia",
+        "allegedOffence": "Truffa aggravata e abuso d’ufficio",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Bari",
+        "startDate": null,
+        "lastUpdate": "2022-11-13",
+        "description": "Il GIP ha accolto la richiesta di archiviazione per infondatezza della notizia di reato.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-11-13",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere del Mezzogiorno",
+            "publisher": "Corriere del Mezzogiorno",
+            "url": "https://bari.corriere.it/notizie/cronaca/22_novembre_13/notizia-reato-infondataarchiviata-l-inchiesta-stefanazzi-2c1d50d0-633e-11ed-9479-f8a1a4aeaa2b.shtml",
+            "publicationDate": "2022-11-13",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "claudio-michele-stefanazzi-002",
+        "title": "Finanziamento delle primarie PD",
+        "allegedOffence": "Finanziamento illecito ai partiti",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte d’appello di Torino",
+        "startDate": null,
+        "lastUpdate": "2025-07-03",
+        "description": "Condannato in primo grado per uno degli episodi contestati; assolto in appello. Non è stata verificata l’irrevocabilità.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2025-07-03",
+            "title": "Ultimo passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rai News TGR Puglia",
+            "publisher": "Rai News TGR Puglia",
+            "url": "https://www.rainews.it/tgr/puglia/articoli/2025/07/stefanazzi-ladisa-assolti-b361a41b-8a9e-44d4-99cb-c7734aad92e1.html",
+            "publicationDate": "2025-07-03",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/piemonte/notizie/2023/05/04/emiliano-assolto-dallaccusa-di-finanziamento-illecito_163d2957-ce18-42ac-8310-eb39149fe213.html",
+            "publicationDate": "2023-05-04",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

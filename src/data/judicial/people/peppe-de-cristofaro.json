@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "peppe-de-cristofaro",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Peppe De Cristofaro\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Risultati relativi a un Giuseppe De Cristofaro in cronache di criminalità organizzata non sono attribuibili al senatore. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

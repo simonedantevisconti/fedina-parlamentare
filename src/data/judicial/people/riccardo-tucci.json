@@ -2,10 +2,59 @@
   "schemaVersion": 1,
   "id": "riccardo-tucci",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Riccardo Tucci\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "ANSA documenta il rinvio a giudizio del 2023 per ipotesi di frode fiscale. Una cronaca successiva riferisce rinvio del dibattimento ad aprile 2026 per mancanza del giudice. Non è stata verificata una sentenza.",
+    "sourceUrls": [
+      "https://www.ansa.it/sito/notizie/cronaca/2023/05/25/deputato-m5s-tucci-a-giudizio-per-frode-evasione-imposte_8d58fcc1-0e7e-43e8-9991-9d576e30f4de.html",
+      "https://calabria7.news/giudiziaria/giustizia-bloccata-a-vibo-rinviato-di-sei-mesi-il-processo-al-deputato-tucci-tribunale-senza-giudice-da-quattro-mesi/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "trial",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "riccardo-tucci-001",
+        "title": "Dichiarazioni fiscali e fatture 2011-2018",
+        "allegedOffence": "Dichiarazione fraudolenta e emissione di fatture per operazioni inesistenti, a vario titolo",
+        "offence": null,
+        "status": "trial",
+        "court": "Tribunale di Vibo Valentia",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Rinviato a giudizio nel maggio 2023. Una cronaca del 2025 riferisce che il processo è stato rinviato ad aprile 2026; esito successivo non verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2023/05/25/deputato-m5s-tucci-a-giudizio-per-frode-evasione-imposte_8d58fcc1-0e7e-43e8-9991-9d576e30f4de.html",
+            "publicationDate": "2023-05-25",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Calabria 7",
+            "publisher": "Calabria 7",
+            "url": "https://calabria7.news/giudiziaria/giustizia-bloccata-a-vibo-rinviato-di-sei-mesi-il-processo-al-deputato-tucci-tribunale-senza-giudice-da-quattro-mesi/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

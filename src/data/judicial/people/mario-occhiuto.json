@@ -2,10 +2,221 @@
   "schemaVersion": 1,
   "id": "mario-occhiuto",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Mario Occhiuto\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Più procedimenti distinti. Nel caso Ofin i capi patrimoniali sono definitivi; il capo fiscale è stato annullato con rinvio e la pena aggregata deve essere rideterminata. Restano altri filoni da approfondire.",
+    "sourceUrls": [
+      "https://www.corrieredellacalabria.it/2025/04/29/caso-rimborsi-assoluzione-definitiva-per-mario-occhiuto/",
+      "https://www.rainews.it/tgr/calabria/articoli/2025/06/bancarotta-fraudolenta-il-senatore-mario-occhiuto-condannato-in-appello-83336230-9acb-421d-8f07-9fa898742f35.html",
+      "https://calabria7.news/giudiziaria/mario-occhiuto-condannato-per-tre-capi-daccusa-annullamento-con-rinvio-per-bancarotta-impropria/",
+      "https://www.lacnews24.it/cronaca/ancora-guai-per-larchitetto-senatore-mario-occhiuto-nuovo-rinvio-a-giudizio-per-due-bancarotte-fraudolente-ynbe75g5",
+      "https://www.lacnews24.it/cronaca/associazione-a-delinquere-transnazionale-il-sindaco-mario-occhiuto-rinviato-a-giudizio-cdy8s0vv",
+      "https://www.cosenzachannel.it/cronaca/passepartout-tutti-a-processo-tranne-mario-occhiuto-prosciolto-lfvkbt4m"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "mario-occhiuto-001",
+        "title": "Rimborsi del Comune di Cosenza",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Corte di cassazione",
+        "startDate": null,
+        "lastUpdate": "2025-04-29",
+        "description": "Assoluzione confermata in Cassazione; la fonte riferisce espressamente la definitività.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2025-04-29",
+        "timeline": [
+          {
+            "date": "2025-04-29",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere della Calabria",
+            "publisher": "Corriere della Calabria",
+            "url": "https://www.corrieredellacalabria.it/2025/04/29/caso-rimborsi-assoluzione-definitiva-per-mario-occhiuto/",
+            "publicationDate": "2025-04-29",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "mario-occhiuto-002",
+        "title": "Bancarotta Ofin: capi patrimoniali confermati",
+        "allegedOffence": "Bancarotta fraudolenta patrimoniale",
+        "offence": null,
+        "status": "convicted-final",
+        "court": "Corte di cassazione",
+        "startDate": null,
+        "lastUpdate": "2026-02-13",
+        "description": "La Cassazione ha confermato definitivamente i capi relativi alla bancarotta patrimoniale. Il distinto capo fiscale è stato annullato con rinvio; la pena complessiva resta da rideterminare.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2026-02-13",
+        "timeline": [
+          {
+            "date": "2026-02-13",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "RaiNews",
+            "publisher": "RaiNews",
+            "url": "https://www.rainews.it/tgr/calabria/articoli/2025/06/bancarotta-fraudolenta-il-senatore-mario-occhiuto-condannato-in-appello-83336230-9acb-421d-8f07-9fa898742f35.html",
+            "publicationDate": "2025-06-01",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Calabria7",
+            "publisher": "Calabria7",
+            "url": "https://calabria7.news/giudiziaria/mario-occhiuto-condannato-per-tre-capi-daccusa-annullamento-con-rinvio-per-bancarotta-impropria/",
+            "publicationDate": "2026-02-13",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "mario-occhiuto-003",
+        "title": "Bancarotte Oltrestudio e Mostre e servizi",
+        "allegedOffence": "Bancarotta fraudolenta",
+        "offence": null,
+        "status": "trial",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2023-10-05",
+        "description": "Rinvio a giudizio per due distinte ipotesi di bancarotta. Esito successivo non verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2023-10-05",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "LaC News24",
+            "publisher": "LaC News24",
+            "url": "https://www.lacnews24.it/cronaca/ancora-guai-per-larchitetto-senatore-mario-occhiuto-nuovo-rinvio-a-giudizio-per-due-bancarotte-fraudolente-ynbe75g5",
+            "publicationDate": "2023-10-05",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "mario-occhiuto-004",
+        "title": "Vicenda Clini e finanziamenti ambientali",
+        "allegedOffence": "Associazione a delinquere transnazionale",
+        "offence": null,
+        "status": "trial",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2020-07-08",
+        "description": "Rinvio a giudizio riferito nel 2020; esito successivo non verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2020-07-08",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "LaC News24",
+            "publisher": "LaC News24",
+            "url": "https://www.lacnews24.it/cronaca/associazione-a-delinquere-transnazionale-il-sindaco-mario-occhiuto-rinviato-a-giudizio-cdy8s0vv",
+            "publicationDate": "2020-07-08",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "mario-occhiuto-005",
+        "title": "Inchiesta Passepartout",
+        "allegedOffence": "Corruzione",
+        "offence": null,
+        "status": "dismissed",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2020-01-01",
+        "description": "Prosciolto dal GUP; il provvedimento e la sua irrevocabilità non sono stati consultati direttamente.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2020-01-01",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "CosenzaChannel",
+            "publisher": "CosenzaChannel",
+            "url": "https://www.cosenzachannel.it/cronaca/passepartout-tutti-a-processo-tranne-mario-occhiuto-prosciolto-lfvkbt4m",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "mario-occhiuto-006",
+        "title": "Bancarotta Ofin: capo fiscale annullato con rinvio",
+        "allegedOffence": "Bancarotta impropria per omesso pagamento tributario",
+        "offence": null,
+        "status": "annulled",
+        "court": "Corte di cassazione",
+        "startDate": null,
+        "lastUpdate": "2026-02-13",
+        "description": "La Cassazione ha annullato con rinvio il capo relativo alla bancarotta impropria per il mancato pagamento dei debiti fiscali. Esito del giudizio di rinvio non verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-02-13",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "RaiNews",
+            "publisher": "RaiNews",
+            "url": "https://www.rainews.it/tgr/calabria/articoli/2025/06/bancarotta-fraudolenta-il-senatore-mario-occhiuto-condannato-in-appello-83336230-9acb-421d-8f07-9fa898742f35.html",
+            "publicationDate": "2025-06-01",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Calabria7",
+            "publisher": "Calabria7",
+            "url": "https://calabria7.news/giudiziaria/mario-occhiuto-condannato-per-tre-capi-daccusa-annullamento-con-rinvio-per-bancarotta-impropria/",
+            "publicationDate": "2026-02-13",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

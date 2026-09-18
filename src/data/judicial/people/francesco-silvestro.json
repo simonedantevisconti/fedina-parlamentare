@@ -2,10 +2,63 @@
   "schemaVersion": 1,
   "id": "francesco-silvestro",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Francesco Silvestro\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare.",
+    "sourceUrls": [
+      "https://www.ansa.it/sito/notizie/politica/2026/06/08/violenza-sessuale-al-senato-il-senatore-silvestro-indagato_998fcb9b-d0cb-4667-a2b5-4c5e03caa94d.html",
+      "https://www.repubblica.it/politica/2026/07/01/news/silvestro_indagato_violenza_sessuale_ritorno_senato_video_cancellati-425444016/amp/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "investigated",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-silvestro-001",
+        "title": "Denuncia relativa a un incontro in uffici parlamentari",
+        "allegedOffence": "Violenza sessuale",
+        "status": "investigated",
+        "court": "Procura di Roma",
+        "startDate": null,
+        "lastUpdate": "2026-07-01",
+        "description": "La Procura di Roma ha iscritto il senatore nel registro degli indagati dopo una denuncia. Accusa contestata e ancora da accertare; nessun esito conclusivo verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-07-01",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "ANSA",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/politica/2026/06/08/violenza-sessuale-al-senato-il-senatore-silvestro-indagato_998fcb9b-d0cb-4667-a2b5-4c5e03caa94d.html",
+            "publicationDate": "2026-06-08",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "la Repubblica",
+            "publisher": "la Repubblica",
+            "url": "https://www.repubblica.it/politica/2026/07/01/news/silvestro_indagato_violenza_sessuale_ritorno_senato_video_cancellati-425444016/amp/",
+            "publicationDate": "2026-07-01",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,10 +2,73 @@
   "schemaVersion": 1,
   "id": "domenica-spinelli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Domenica Spinelli\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito conclusivo riportato dalle fonti.",
+    "sourceUrls": [
+      "https://giornalesm.com/coriano-franchini-fine-della-storia-sindaco-spinelli-prosciolto/",
+      "https://www.corriereromagna.it/archivio/rimini-la-spinelli-non-ha-diffamato-talacci-LUCR411864"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "domenica-spinelli-001",
+        "title": "Vicenda Franchini nel Comune di Coriano",
+        "allegedOffence": "Abuso d’ufficio",
+        "status": "archived",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Indagine personale archiviata dal giudice, secondo la fonte locale. La vicenda della Corte dei conti è distinta dal procedimento penale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "GiornaleSM",
+            "publisher": "GiornaleSM",
+            "url": "https://giornalesm.com/coriano-franchini-fine-della-storia-sindaco-spinelli-prosciolto/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "domenica-spinelli-002",
+        "title": "Dichiarazioni su Roberta Talacci",
+        "allegedOffence": "Diffamazione",
+        "status": "archived",
+        "court": "GIP del Tribunale di Rimini",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "La giudice del Tribunale di Rimini ha disposto l’archiviazione dopo l’opposizione alla richiesta della Procura.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Corriere Romagna",
+            "publisher": "Corriere Romagna",
+            "url": "https://www.corriereromagna.it/archivio/rimini-la-spinelli-non-ha-diffamato-talacci-LUCR411864",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

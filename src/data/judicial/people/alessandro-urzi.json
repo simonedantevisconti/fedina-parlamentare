@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "alessandro-urzi",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Alessandro Urzì\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "La decisione del 2019 della Corte dei conti riguarda responsabilità erariale, non una condanna penale. Nessun procedimento penale personale sostenuto dalle fonti consultate. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

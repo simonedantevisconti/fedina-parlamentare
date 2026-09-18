@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "mario-turco",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Mario Turco\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale personale attribuibile con sufficiente certezza. Una condanna di un omonimo del 2008 non è attribuibile al senatore nato a Taranto. L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
+    "sourceUrls": []
   },
   "record": null
 }

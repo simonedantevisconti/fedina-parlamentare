@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "nicola-irto",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Nicola Irto\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "I risultati giudiziari su omonimi o su altri politici calabresi non sono attribuibili al senatore nato nel 1982. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }

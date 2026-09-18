@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "daniele-manca",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Daniele Manca\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale attribuibile con sufficiente certezza a questa persona. La vicenda Con.Ami riguarda la giurisdizione contabile, non una condanna penale personale. L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
+    "sourceUrls": []
   },
   "record": null
 }

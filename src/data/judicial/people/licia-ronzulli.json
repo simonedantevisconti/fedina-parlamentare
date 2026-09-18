@@ -2,10 +2,58 @@
   "schemaVersion": 1,
   "id": "licia-ronzulli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceedings-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Licia Ronzulli\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito conclusivo riportato dalle fonti.",
+    "sourceUrls": [
+      "https://milano.repubblica.it/cronaca/2015/07/01/news/ruby_ter-118097927/",
+      "https://www.tag43.it/licia-ronzulli-badante-silvio-berlusconi-ministra-salute/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "licia-ronzulli-001",
+        "title": "Inchiesta Ruby ter",
+        "allegedOffence": "Falsa testimonianza",
+        "status": "archived",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Indagata nel filone Ruby ter; fonti successive riferiscono l’archiviazione della sua posizione. Non è fra gli imputati assolti nel processo principale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "la Repubblica",
+            "publisher": "la Repubblica",
+            "url": "https://milano.repubblica.it/cronaca/2015/07/01/news/ruby_ter-118097927/",
+            "publicationDate": "2015-07-01",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Tag43",
+            "publisher": "Tag43",
+            "url": "https://www.tag43.it/licia-ronzulli-badante-silvio-berlusconi-ministra-salute/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

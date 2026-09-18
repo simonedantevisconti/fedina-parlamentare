@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "stefania-pucciarelli",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Stefania Pucciarelli\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "sourceUrls": [
+      "https://genova.repubblica.it/cronaca/2018/11/14/news/invoca_le_ruspe_contro_i_migranti_e_viene_eletta_presidente_della_commissione_diritti_umani_in_senato-211650306/amp/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "stefania-pucciarelli-001",
+        "title": "Like a post sui migranti",
+        "allegedOffence": "Istigazione all’odio razziale",
+        "offence": null,
+        "status": "archived",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2018-11-14",
+        "description": "L’indagine sul like a un post sui migranti è indicata come archiviata dalla fonte. La senatrice è parte offesa, non imputata, in altri processi per diffamazione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-11-14",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "la Repubblica",
+            "publisher": "la Repubblica",
+            "url": "https://genova.repubblica.it/cronaca/2018/11/14/news/invoca_le_ruspe_contro_i_migranti_e_viene_eletta_presidente_della_commissione_diritti_umani_in_senato-211650306/amp/",
+            "publicationDate": "2018-11-14",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

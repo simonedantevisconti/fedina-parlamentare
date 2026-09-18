@@ -2,10 +2,80 @@
   "schemaVersion": 1,
   "id": "ignazio-la-russa",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Ignazio La Russa\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Assolto nel 2018 in un procedimento per diffamazione nei confronti di Giancarlo Tulliani. Una ricostruzione storica riferisce che nel 1973 fu indagato e poi prosciolto nell’inchiesta sui fatti del “giovedì nero” a Milano, senza rinvio a giudizio; non è stato reperito il provvedimento giudiziario originale. Le notizie sul figlio Leonardo e sul fratello Romano sono vicende di persone distinte.",
+    "sourceUrls": [
+      "https://www.lastampa.it/cronaca/2018/01/26/news/la-russa-assolto-dall-accusa-di-diffamazione-nei-confronti-di-giancarlo-tulliani-1.33972066/amp/",
+      "https://milano.repubblica.it/cronaca/2023/04/11/news/ignazio_romano_la_russa_agente_marino_giovedi_nero_milano-395781398/amp/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "multiple",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "ignazio-la-russa-001",
+        "title": "Dichiarazioni su Giancarlo Tulliani",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "acquitted",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2018-01-26",
+        "description": "Assolto dal giudice monocratico su richiesta del pubblico ministero. Irrevocabilità non verificata.",
+        "finalJudgment": false,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-01-26",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "La Stampa",
+            "publisher": "La Stampa",
+            "url": "https://www.lastampa.it/cronaca/2018/01/26/news/la-russa-assolto-dall-accusa-di-diffamazione-nei-confronti-di-giancarlo-tulliani-1.33972066/amp/",
+            "publicationDate": "2018-01-26",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "ignazio-la-russa-002",
+        "title": "Fatti del “giovedì nero” a Milano",
+        "allegedOffence": "Ipotesi non ricostruita negli atti originali consultati",
+        "offence": null,
+        "status": "dismissed",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Secondo una ricostruzione giornalistica fu indagato nel 1973 e poi prosciolto da tutte le accuse; non fu rinviato a giudizio. Provvedimento originale non verificato.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "la Repubblica",
+            "publisher": "la Repubblica",
+            "url": "https://milano.repubblica.it/cronaca/2023/04/11/news/ignazio_romano_la_russa_agente_marino_giovedi_nero_milano-395781398/amp/",
+            "publicationDate": "2023-04-11",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

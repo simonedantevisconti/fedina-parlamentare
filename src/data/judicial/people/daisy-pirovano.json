@@ -2,10 +2,55 @@
   "schemaVersion": 1,
   "id": "daisy-pirovano",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "complete-with-follow-up",
+    "lastCheckedAt": "2026-09-18",
+    "result": "public-proceeding-requiring-outcome-verification",
+    "readyForClean": false,
+    "queries": [
+      "\"Daisy Pirovano\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "sourceUrls": [
+      "https://bergamo.corriere.it/bergamo/notizie/cronaca/13_dicembre_20/daisy-pirovano-duello-tribunale-c6f15806-694a-11e3-95c3-b5f040bb6318.shtml"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "trial",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-18",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "daisy-pirovano-001",
+        "title": "Dichiarazioni su Oscar Mor",
+        "allegedOffence": "Diffamazione aggravata",
+        "offence": null,
+        "status": "trial",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2013-12-20",
+        "description": "La fonte documenta il processo per un comunicato del periodo in cui era sindaca di Misano Gera d’Adda. Non è stato reperito l’esito successivo.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2013-12-20",
+            "title": "Passaggio documentato nelle fonti consultate"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Corriere della Sera",
+            "publisher": "Corriere della Sera",
+            "url": "https://bergamo.corriere.it/bergamo/notizie/cronaca/13_dicembre_20/daisy-pirovano-duello-tribunale-c6f15806-694a-11e3-95c3-b5f040bb6318.shtml",
+            "publicationDate": "2013-12-20",
+            "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

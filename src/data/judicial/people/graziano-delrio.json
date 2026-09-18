@@ -2,10 +2,15 @@
   "schemaVersion": 1,
   "id": "graziano-delrio",
   "review": {
-    "stage": "not-started",
-    "lastCheckedAt": null,
-    "result": null,
-    "readyForClean": false
+    "stage": "preliminary",
+    "lastCheckedAt": "2026-09-18",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": false,
+    "queries": [
+      "\"Graziano Delrio\" indagato imputato condannato assolto archiviato"
+    ],
+    "notes": "Nel caso dei presunti dossier del 2016 Delrio ha presentato un esposto; le fonti lo descrivono come testimone in altre indagini, non come imputato. La ricerca pubblica non certifica la fedina penale.",
+    "sourceUrls": []
   },
   "record": null
 }
