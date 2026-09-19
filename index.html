@@ -2,6 +2,24 @@
 <html lang="it">
   <head>
     <meta charset="UTF-8" />
+    <script>
+      (() => {
+        try {
+          const savedTheme = localStorage.getItem("fedina-parlamentare-theme");
+          const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+          const theme = savedTheme === "dark" || savedTheme === "light"
+            ? savedTheme
+            : prefersDark
+              ? "dark"
+              : "light";
+
+          document.documentElement.dataset.theme = theme;
+          document.documentElement.style.colorScheme = theme;
+        } catch {
+          document.documentElement.dataset.theme = "light";
+        }
+      })();
+    </script>
     <!-- TITOLO -->
     <link
       rel="icon"

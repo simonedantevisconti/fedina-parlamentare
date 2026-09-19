@@ -1,0 +1,480 @@
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --dark-bg: #0c111b;
+  --dark-bg-soft: #111824;
+  --dark-surface: #171f2d;
+  --dark-surface-raised: #1d2736;
+  --dark-border: #2c3748;
+  --dark-border-strong: #3b485c;
+  --dark-text: #f1f4f9;
+  --dark-text-soft: #c6ceda;
+  --dark-text-muted: #919caf;
+}
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] #root,
+html[data-theme="dark"] .default-layout {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] .site-header {
+  border-color: var(--dark-border);
+  background-color: rgba(12, 17, 27, 0.94);
+}
+
+html[data-theme="dark"] .site-header__brand,
+html[data-theme="dark"] .site-header__link,
+html[data-theme="dark"] .site-header__link:hover,
+html[data-theme="dark"] .site-header__link--active {
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] .site-header__link:not(.site-header__link--active) {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] .site-header__link::after {
+  background-color: var(--dark-text);
+}
+
+html[data-theme="dark"] .theme-toggle {
+  border-color: var(--dark-border-strong);
+  background-color: var(--dark-surface-raised);
+  color: #ffd36a;
+}
+
+html[data-theme="dark"] .theme-toggle:hover {
+  border-color: #69778e;
+  background-color: #253145;
+}
+
+html[data-theme="dark"] .theme-toggle:focus-visible {
+  outline-color: rgba(198, 206, 218, 0.35);
+}
+
+html[data-theme="dark"] :is(
+    .home-page,
+    .home-hero,
+    .home-principle,
+    .camera-page,
+    .camera-page__hero,
+    .senato-page,
+    .senato-page__hero,
+    .methodology-page,
+    .methodology-page__hero,
+    .not-found-page
+  ) {
+  background-color: var(--dark-bg);
+}
+
+html[data-theme="dark"] .home-hero {
+  background:
+    radial-gradient(circle at 85% 15%, rgba(130, 148, 178, 0.12), transparent 30%),
+    var(--dark-bg);
+}
+
+html[data-theme="dark"] :is(
+    .home-stats,
+    .camera-page__directory,
+    .senato-page__directory,
+    .methodology-page__content,
+    .politician-page,
+    .politician-page__content
+  ) {
+  background-color: var(--dark-bg-soft);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero,
+    .camera-page__hero,
+    .senato-page__hero,
+    .methodology-page__hero,
+    .politician-page__hero
+  ) {
+  border-color: var(--dark-border);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero__title,
+    .home-section-heading h2,
+    .home-section-heading__side strong,
+    .home-stat-card__count,
+    .home-stat-card h3,
+    .home-principle h2,
+    .camera-page__hero h1,
+    .camera-page__hemicycle-heading h2,
+    .camera-page__count strong,
+    .senato-page__hero h1,
+    .senato-page__hemicycle-heading h2,
+    .senato-page__count strong,
+    .methodology-page__hero h1,
+    .methodology-section__heading h2,
+    .methodology-callout strong,
+    .methodology-status__heading h3,
+    .methodology-source-list strong,
+    .not-found-page h1,
+    .politician-card h2,
+    .politician-page__identity h1,
+    .politician-page__meta strong,
+    .politician-page__section-heading h2,
+    .politician-page__info-card dd,
+    .politician-page__status strong,
+    .politician-page__presumption strong,
+    .politician-page__verification > strong,
+    .politician-page__empty h3,
+    .politician-page__proceeding-header h3,
+    .politician-page__proceeding-grid strong,
+    .politician-page__timeline-item strong,
+    .politician-page__sources h4,
+    .politician-page__not-found h1
+  ) {
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero__description,
+    .home-hero__secondary,
+    .home-stat-card p,
+    .home-principle__content > p,
+    .camera-page__description,
+    .camera-page__count,
+    .camera-page__alphabet > p,
+    .camera-page__hemicycle-heading span,
+    .camera-page__hemicycle-controls-label,
+    .senato-page__description,
+    .senato-page__count,
+    .senato-page__alphabet > p,
+    .senato-page__hemicycle-heading span,
+    .senato-page__hemicycle-controls-label,
+    .methodology-page__description,
+    .methodology-text > p,
+    .methodology-callout p,
+    .methodology-status > p,
+    .methodology-source-list p,
+    .not-found-page__description,
+    .politician-card__details strong,
+    .politician-card__status,
+    .politician-page__back,
+    .politician-page__meta,
+    .politician-page__status p,
+    .politician-page__judicial-summary,
+    .politician-page__presumption p,
+    .politician-page__verification,
+    .politician-page__empty p,
+    .politician-page__proceeding-grid,
+    .politician-page__proceeding-description p,
+    .politician-page__timeline-item,
+    .politician-page__sources-list a,
+    .politician-page__not-found > p
+  ) {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero__eyebrow,
+    .home-section-heading__eyebrow,
+    .home-section-heading__side span,
+    .home-stats__note,
+    .home-principle__eyebrow,
+    .camera-page__eyebrow,
+    .camera-page__hemicycle-heading p,
+    .senato-page__eyebrow,
+    .senato-page__hemicycle-heading p,
+    .methodology-page__eyebrow,
+    .methodology-section__heading > span,
+    .methodology-section__heading p,
+    .not-found-page__eyebrow,
+    .politician-card__role,
+    .politician-card__details span,
+    .politician-page__eyebrow,
+    .politician-page__meta span,
+    .politician-page__section-label,
+    .politician-page__info-card dt,
+    .politician-page__proceeding-header p,
+    .politician-page__proceeding-grid span,
+    .politician-page__timeline-item time
+  ) {
+  color: var(--dark-text-muted);
+}
+
+html[data-theme="dark"] .home-hero__title span {
+  color: #aeb8c9;
+}
+
+html[data-theme="dark"] .home-hero::after {
+  background: linear-gradient(to bottom, transparent, var(--dark-border), transparent);
+}
+
+html[data-theme="dark"] .home-hero__logo {
+  border-color: var(--dark-border-strong);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.38);
+  filter: brightness(0.82);
+}
+
+html[data-theme="dark"] :is(
+    .home-stat-card,
+    .home-principle__card,
+    .politician-card,
+    .chamber-hemicycle,
+    .methodology-callout,
+    .methodology-status,
+    .methodology-source-list > div,
+    .politician-page__info-card,
+    .politician-page__judicial-section,
+    .politician-page__proceedings,
+    .politician-page__proceeding
+  ) {
+  border-color: var(--dark-border);
+  background-color: var(--dark-surface);
+}
+
+html[data-theme="dark"] .home-stat-card:hover,
+html[data-theme="dark"] .politician-card:hover {
+  border-color: var(--dark-border-strong);
+  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.28);
+}
+
+html[data-theme="dark"] .home-stat-card__chart {
+  background: conic-gradient(
+    var(--chart-color) 0 var(--percentage),
+    var(--dark-border) var(--percentage) 100%
+  );
+}
+
+html[data-theme="dark"] .home-stat-card__chart-inner {
+  background-color: var(--dark-surface);
+}
+
+html[data-theme="dark"] .home-stat-card__chart-inner strong {
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero__button--secondary,
+    .not-found-page__button--secondary,
+    .camera-page__hemicycle-toggle,
+    .senato-page__hemicycle-toggle,
+    .alphabet-filter__button,
+    .politician-search__input,
+    .politician-page__sources-list a
+  ) {
+  border-color: var(--dark-border-strong);
+  background-color: var(--dark-surface);
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero__button--secondary:hover,
+    .not-found-page__button--secondary:hover,
+    .alphabet-filter__button:hover:not(:disabled),
+    .politician-page__sources-list a:hover
+  ) {
+  border-color: #71809a;
+  background-color: var(--dark-surface-raised);
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] :is(
+    .home-hero__button--primary,
+    .not-found-page__button--primary,
+    .camera-page__empty button,
+    .senato-page__empty button,
+    .alphabet-filter__button--active,
+    .camera-page__hemicycle-toggle-button--active,
+    .senato-page__hemicycle-toggle-button--active,
+    .politician-page__back-button
+  ) {
+  border-color: #dbe2ed;
+  background-color: #e5eaf2;
+  color: #111722;
+}
+
+html[data-theme="dark"] :is(
+    .camera-page__hemicycle-toggle-button,
+    .senato-page__hemicycle-toggle-button
+  ) {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] .politician-search__input::placeholder {
+  color: #7f8a9c;
+}
+
+html[data-theme="dark"] .politician-search__input:focus {
+  border-color: #8190a8;
+  box-shadow: 0 0 0 3px rgba(159, 174, 198, 0.14);
+}
+
+html[data-theme="dark"] :is(.politician-search__icon, .politician-search__clear) {
+  color: var(--dark-text-muted);
+}
+
+html[data-theme="dark"] .politician-search__clear:hover {
+  background-color: var(--dark-surface-raised);
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] .alphabet-filter__button:disabled {
+  color: #5c6677;
+  opacity: 0.7;
+}
+
+html[data-theme="dark"] .chamber-hemicycle__guide {
+  stroke: var(--dark-border);
+}
+
+html[data-theme="dark"] .chamber-hemicycle__dot {
+  stroke: var(--dark-surface);
+}
+
+html[data-theme="dark"] .chamber-hemicycle__footer {
+  border-color: var(--dark-border);
+  background-color: var(--dark-bg-soft);
+  color: var(--dark-text-muted);
+}
+
+html[data-theme="dark"] .chamber-hemicycle__footer span:first-child {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] :is(.camera-page__legend, .senato-page__legend) {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] :is(.camera-page__empty, .senato-page__empty) {
+  border-color: var(--dark-border);
+  background-color: var(--dark-surface);
+}
+
+html[data-theme="dark"] :is(.camera-page__empty h2, .senato-page__empty h2) {
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] :is(.camera-page__empty p, .senato-page__empty p) {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] .methodology-section {
+  border-color: var(--dark-border);
+}
+
+html[data-theme="dark"] .methodology-callout {
+  border-left-color: #aeb8c9;
+}
+
+html[data-theme="dark"] .not-found-page__code {
+  color: #303b4d;
+}
+
+html[data-theme="dark"] .politician-card__photo-wrapper,
+html[data-theme="dark"] .politician-card__photo-fallback,
+html[data-theme="dark"] .politician-page__photo-wrapper,
+html[data-theme="dark"] .politician-page__photo-fallback {
+  border-color: var(--dark-border);
+  background: var(--dark-surface-raised);
+  color: var(--dark-text-muted);
+}
+
+html[data-theme="dark"] .politician-card__party {
+  background-color: var(--dark-surface-raised);
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] .politician-card__details,
+html[data-theme="dark"] .politician-page__info-card dl > div,
+html[data-theme="dark"] .politician-page__proceeding-header,
+html[data-theme="dark"] .politician-page__verification,
+html[data-theme="dark"] .politician-page__sources {
+  border-color: var(--dark-border);
+}
+
+html[data-theme="dark"] .politician-page__hero {
+  background-color: var(--dark-bg);
+}
+
+html[data-theme="dark"] .politician-page__party span {
+  background-color: #e5eaf2;
+  color: #111722;
+}
+
+html[data-theme="dark"] .politician-page__party strong {
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] .politician-page__judicial-summary span,
+html[data-theme="dark"] .politician-page__sources-list span {
+  border-color: var(--dark-border);
+  background-color: var(--dark-surface-raised);
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] .politician-page__proceedings-count {
+  background-color: #e5eaf2;
+  color: #111722;
+}
+
+html[data-theme="dark"] .politician-page__proceeding-badge {
+  background-color: var(--dark-surface-raised);
+  color: var(--dark-text-soft);
+}
+
+html[data-theme="dark"] :is(
+    .politician-page__proceeding-badge--investigated,
+    .politician-page__proceeding-badge--charged,
+    .politician-page__proceeding-badge--trial
+  ) {
+  color: #efbd58;
+}
+
+html[data-theme="dark"] .politician-page__proceeding-badge--convicted-non-final {
+  color: #e59a6e;
+}
+
+html[data-theme="dark"] .politician-page__proceeding-badge--convicted-final {
+  color: #e98989;
+}
+
+html[data-theme="dark"] :is(
+    .politician-page__proceeding-badge--acquitted,
+    .politician-page__proceeding-badge--archived,
+    .politician-page__proceeding-badge--dismissed
+  ) {
+  color: #aebbd1;
+}
+
+html[data-theme="dark"] :is(
+    .politician-page__timeline h4,
+    .politician-page__sources h4
+  ) {
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] :is(
+    .politician-page__status,
+    .politician-page__judicial-summary,
+    .politician-page__presumption,
+    .politician-page__empty,
+    .politician-page__proceeding-description
+  ) {
+  border-color: var(--dark-border);
+  background-color: var(--dark-bg-soft);
+}
+
+html[data-theme="dark"] .politician-page__timeline-list {
+  background-color: transparent;
+}
+
+html[data-theme="dark"] .politician-page__timeline-marker::after {
+  background-color: var(--dark-border-strong);
+}
+
+html[data-theme="dark"] .politician-page__timeline-marker span {
+  border-color: var(--dark-surface);
+  box-shadow: 0 0 0 1px var(--dark-border-strong);
+}
+
+html[data-theme="dark"] .site-footer {
+  background-color: #080c13;
+}
