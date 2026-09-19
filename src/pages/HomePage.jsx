@@ -67,41 +67,51 @@ const HomePage = () => {
       {/* HERO */}
       <section className="home-hero">
         <div className="container">
-          <div className="home-hero__content">
-            <p className="home-hero__eyebrow">
-              Trasparenza · Parlamento · Giustizia
-            </p>
+          <div className="home-hero__inner">
+            <div className="home-hero__content">
+              <p className="home-hero__eyebrow">
+                Trasparenza · Parlamento · Giustizia
+              </p>
 
-            <h1 className="home-hero__title">
-              Conosci chi
-              <span> ti rappresenta.</span>
-            </h1>
+              <h1 className="home-hero__title">
+                Conosci chi
+                <span> ti rappresenta.</span>
+              </h1>
 
-            <p className="home-hero__description">
-              Fedina Parlamentare raccoglie e organizza informazioni documentate
-              sui procedimenti giudiziari che hanno coinvolto deputati e
-              senatori della Repubblica Italiana.
-            </p>
+              <p className="home-hero__description">
+                Fedina Parlamentare raccoglie e organizza informazioni
+                documentate sui procedimenti giudiziari che hanno coinvolto
+                deputati e senatori della Repubblica Italiana.
+              </p>
 
-            <p className="home-hero__secondary">
-              Ogni informazione viene associata al suo stato giudiziario, alla
-              data di aggiornamento e alle relative fonti.
-            </p>
+              <p className="home-hero__secondary">
+                Ogni informazione viene associata al suo stato giudiziario, alla
+                data di aggiornamento e alle relative fonti.
+              </p>
 
-            <div className="home-hero__actions">
-              <Link
-                to="/camera"
-                className="home-hero__button home-hero__button--primary"
-              >
-                Esplora la Camera
-              </Link>
+              <div className="home-hero__actions">
+                <Link
+                  to="/camera"
+                  className="home-hero__button home-hero__button--primary"
+                >
+                  Esplora la Camera
+                </Link>
 
-              <Link
-                to="/senato"
-                className="home-hero__button home-hero__button--secondary"
-              >
-                Esplora il Senato
-              </Link>
+                <Link
+                  to="/senato"
+                  className="home-hero__button home-hero__button--secondary"
+                >
+                  Esplora il Senato
+                </Link>
+              </div>
+            </div>
+
+            <div className="home-hero__visual">
+              <img
+                src="/fedina-parlamentare-logo.png"
+                alt="Logo di Fedina Parlamentare"
+                className="home-hero__logo"
+              />
             </div>
           </div>
         </div>
@@ -172,8 +182,6 @@ const HomePage = () => {
       <section className="home-principle">
         <div className="container">
           <div className="home-principle__card">
-            <div className="home-principle__number">01</div>
-
             <div className="home-principle__content">
               <p className="home-principle__eyebrow">
                 Un principio fondamentale
