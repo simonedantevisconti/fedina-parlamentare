@@ -8,6 +8,8 @@
     "dev": "vite",
     "prebuild": "npm run data:build",
     "build": "vite build",
+    "assets:portraits": "node scripts/importPoliticianPortraits.mjs",
+    "assets:parties": "node scripts/importPartyLogos.mjs",
     "data:build": "node scripts/buildJudicialData.mjs",
     "data:check": "node scripts/buildJudicialData.mjs --check",
     "test": "npm run data:check && node --test",

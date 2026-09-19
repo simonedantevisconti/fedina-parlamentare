@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-09-19T16:44:48.632Z",
+  "notice": "I simboli e i marchi appartengono ai rispettivi titolari e non indicano affiliazione o sostegno al progetto.",
+  "logos": [
+    {
+      "acronym": "FDI",
+      "localPath": "/partiti/fdi.png",
+      "mimeType": "image/png",
+      "bytes": 135084,
+      "sourcePage": "https://www.fratelli-italia.it/logo/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/fratelli-italia"
+    },
+    {
+      "acronym": "PD",
+      "localPath": "/partiti/pd.png",
+      "mimeType": "image/png",
+      "bytes": 17561,
+      "sourcePage": "https://www.partitodemocratico.it/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/partito-democratico"
+    },
+    {
+      "acronym": "LEGA",
+      "localPath": "/partiti/lega.png",
+      "mimeType": "image/png",
+      "bytes": 19463,
+      "sourcePage": "https://legaonline.it/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/lega"
+    },
+    {
+      "acronym": "FI",
+      "localPath": "/partiti/fi.png",
+      "mimeType": "image/png",
+      "bytes": 277616,
+      "sourcePage": "https://forzaitalia.it/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/forza-italia"
+    },
+    {
+      "acronym": "M5S",
+      "localPath": "/partiti/m5s.png",
+      "mimeType": "image/png",
+      "bytes": 66150,
+      "sourcePage": "https://www.movimento5stelle.eu/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/movimento-5-stelle"
+    },
+    {
+      "acronym": "AZ",
+      "localPath": "/partiti/az.png",
+      "mimeType": "image/png",
+      "bytes": 64624,
+      "sourcePage": "https://www.azione.it/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/azione"
+    },
+    {
+      "acronym": "AVS",
+      "localPath": "/partiti/avs.png",
+      "mimeType": "image/png",
+      "bytes": 65542,
+      "sourcePage": "https://verdisinistra.it/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/alleanza-verdi-sinistra"
+    },
+    {
+      "acronym": "NM",
+      "localPath": "/partiti/nm.png",
+      "mimeType": "image/png",
+      "bytes": 29762,
+      "sourcePage": "https://noimoderati.it/",
+      "downloadUrl": "https://www.noimoderati.it/assets/logo.png"
+    },
+    {
+      "acronym": "IV",
+      "localPath": "/partiti/iv.jpg",
+      "mimeType": "image/jpeg",
+      "bytes": 995434,
+      "sourcePage": "https://www.italiaviva.it/",
+      "downloadUrl": "https://politici.dovevannoinostrisoldi.com/politici/simboli/italia-viva"
+    }
+  ],
+  "unavailable": {
+    "MISTO": "Il gruppo Misto non rappresenta un singolo partito e non ha un simbolo ufficiale unico."
+  }
+}
