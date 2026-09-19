@@ -46,22 +46,6 @@ test("mixed outcomes retain both conviction and acquittal information", () => {
   assert.equal(summary.hasAcquittals, true);
 });
 
-test("parliamentary immunity count includes each politician only once", () => {
-  const people = politicians.filter(
-    (person) => person.judicialSummary.hasParliamentaryImmunity,
-  );
-
-  assert.ok(people.length > 0);
-  assert.equal(new Set(people.map((person) => person.id)).size, people.length);
-
-  for (const person of people) {
-    assert.ok(
-      person.judicialSummary.uniqueStatuses.includes("parliamentary-immunity"),
-      person.id,
-    );
-  }
-});
-
 test("homepage categories include every politician once and respect priority", () => {
   const counts = { clean: 0, ongoing: 0, convicted: 0, concluded: 0 };
 

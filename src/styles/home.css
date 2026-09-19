@@ -438,111 +438,6 @@
 }
 
 /* ======================================================
-   PARLIAMENTARY IMMUNITY
-====================================================== */
-
-.home-immunity {
-  padding: 100px 0 0;
-
-  background-color: #ffffff;
-}
-
-.home-immunity__card {
-  padding: 44px 48px;
-
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-
-  gap: 56px;
-
-  border: 1px solid #e3e6ec;
-  border-radius: 14px;
-
-  background-color: #ffffff;
-}
-
-.home-immunity__content {
-  max-width: 780px;
-}
-
-.home-immunity__eyebrow {
-  margin: 0 0 10px;
-
-  color: #808797;
-
-  font-size: 0.75rem;
-  font-weight: 800;
-
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.home-immunity h2 {
-  margin: 0 0 14px;
-
-  color: #172033;
-
-  font-family: "Open Sans", sans-serif;
-
-  font-size: clamp(1.65rem, 3vw, 2.35rem);
-  font-weight: 800;
-
-  letter-spacing: -0.04em;
-  line-height: 1.2;
-}
-
-.home-immunity__content > p:last-child {
-  margin: 0;
-
-  color: #606879;
-
-  line-height: 1.75;
-}
-
-.home-immunity__metric {
-  min-width: 190px;
-  padding: 28px 34px;
-
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-
-  gap: 10px;
-
-  border-radius: 12px;
-
-  background-color: #f2f4f7;
-}
-
-.home-immunity__metric strong {
-  color: #172033;
-
-  font-family: "Open Sans", sans-serif;
-
-  font-size: clamp(2.8rem, 6vw, 4.5rem);
-  font-weight: 800;
-
-  letter-spacing: -0.06em;
-  line-height: 1;
-}
-
-.home-immunity__metric span {
-  color: #747c8d;
-
-  font-size: 0.82rem;
-  font-weight: 700;
-}
-
-.home-immunity__note {
-  margin: 18px 0 0;
-
-  color: #9399a5;
-
-  font-size: 0.8rem;
-}
-
-/* ======================================================
    PRINCIPLE
 ====================================================== */
 
@@ -637,15 +532,6 @@
     padding: 42px;
   }
 
-  .home-immunity__card {
-    grid-template-columns: 1fr;
-
-    gap: 30px;
-  }
-
-  .home-immunity__metric {
-    justify-self: start;
-  }
 }
 
 /* ======================================================
@@ -684,13 +570,8 @@
   }
 
   .home-stats,
-  .home-immunity,
   .home-principle {
     padding: 75px 0;
-  }
-
-  .home-immunity {
-    padding-bottom: 0;
   }
 
   .home-section-heading {
@@ -719,14 +600,4 @@
     padding: 28px;
   }
 
-  .home-immunity__card {
-    padding: 28px;
-  }
-
-  .home-immunity__metric {
-    width: 100%;
-    min-width: 0;
-
-    justify-content: flex-start;
-  }
 }

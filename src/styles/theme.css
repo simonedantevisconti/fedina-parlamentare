@@ -57,7 +57,6 @@ html[data-theme="dark"] .theme-toggle:focus-visible {
 html[data-theme="dark"] :is(
     .home-page,
     .home-hero,
-    .home-immunity,
     .home-principle,
     .camera-page,
     .camera-page__hero,
@@ -103,8 +102,6 @@ html[data-theme="dark"] :is(
     .home-section-heading__side strong,
     .home-stat-card__count,
     .home-stat-card h3,
-    .home-immunity h2,
-    .home-immunity__metric strong,
     .home-principle h2,
     .camera-page__hero h1,
     .camera-page__hemicycle-heading h2,
@@ -140,7 +137,6 @@ html[data-theme="dark"] :is(
     .home-hero__description,
     .home-hero__secondary,
     .home-stat-card p,
-    .home-immunity__content > p,
     .home-principle__content > p,
     .camera-page__description,
     .camera-page__count,
@@ -181,9 +177,6 @@ html[data-theme="dark"] :is(
     .home-section-heading__eyebrow,
     .home-section-heading__side span,
     .home-stats__note,
-    .home-immunity__eyebrow,
-    .home-immunity__metric span,
-    .home-immunity__note,
     .home-principle__eyebrow,
     .camera-page__eyebrow,
     .camera-page__hemicycle-heading p,
@@ -222,7 +215,6 @@ html[data-theme="dark"] .home-hero__logo {
 
 html[data-theme="dark"] :is(
     .home-stat-card,
-    .home-immunity__card,
     .home-principle__card,
     .politician-card,
     .chamber-hemicycle,
@@ -257,10 +249,6 @@ html[data-theme="dark"] .home-stat-card__chart-inner {
 
 html[data-theme="dark"] .home-stat-card__chart-inner strong {
   color: var(--dark-text);
-}
-
-html[data-theme="dark"] .home-immunity__metric {
-  background-color: var(--dark-surface-raised);
 }
 
 html[data-theme="dark"] :is(

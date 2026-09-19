@@ -76,10 +76,6 @@ export const buildJudicialSummary = ({
 
   const hasPleaBargain = statuses.includes("plea-bargain");
 
-  const hasParliamentaryImmunity = statuses.includes(
-    "parliamentary-immunity",
-  );
-
   const hasConcludedProceedings = statuses.some((status) =>
     CONCLUDED_STATUSES.includes(status),
   );
@@ -147,7 +143,6 @@ export const buildJudicialSummary = ({
 
     hasPleaBargain,
 
-    hasParliamentaryImmunity,
   };
 };
 
