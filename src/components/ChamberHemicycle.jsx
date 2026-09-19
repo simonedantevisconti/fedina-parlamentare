@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { getJudicialStatus } from "../data/judicialStatuses";
@@ -8,6 +8,7 @@ import "../styles/chamber-hemicycle.css";
 
 const ChamberHemicycle = ({ politicians, mode = "party" }) => {
   const navigate = useNavigate();
+  const [hoveredMember, setHoveredMember] = useState(null);
 
   const width = 1200;
   const height = 680;
@@ -206,6 +207,61 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
     navigate(`/politico/${politicianId}`);
   };
 
+  const formatName = (value) =>
+    value
+      .toLocaleLowerCase("it-IT")
+      .replace(/(^|[\s'’-])\p{L}/gu, (match) => match.toLocaleUpperCase("it-IT"));
+
+  const showPointerCard = (event, politician) => {
+    const canvas = event.currentTarget.closest(".chamber-hemicycle__canvas");
+
+    if (!canvas) {
+      return;
+    }
+
+    const bounds = canvas.getBoundingClientRect();
+
+    const y = event.clientY - bounds.top;
+    const pointerX = event.clientX - bounds.left + canvas.scrollLeft;
+    const x = Math.min(
+      Math.max(pointerX, canvas.scrollLeft + 128),
+      canvas.scrollLeft + canvas.clientWidth - 128,
+    );
+
+    setHoveredMember({
+      politician,
+      x,
+      y,
+      placement: y < 125 ? "below" : "above",
+    });
+  };
+
+  const showKeyboardCard = (event, politician) => {
+    const canvas = event.currentTarget.closest(".chamber-hemicycle__canvas");
+
+    if (!canvas) {
+      return;
+    }
+
+    const bounds = canvas.getBoundingClientRect();
+    const memberBounds = event.currentTarget.getBoundingClientRect();
+
+    const y = memberBounds.top - bounds.top;
+    const memberX =
+      memberBounds.left + memberBounds.width / 2 - bounds.left + canvas.scrollLeft;
+    const x = Math.min(
+      Math.max(memberX, canvas.scrollLeft + 128),
+      canvas.scrollLeft + canvas.clientWidth - 128,
+    );
+
+    setHoveredMember({
+      politician,
+      x,
+      y,
+      placement: y < 125 ? "below" : "above",
+    });
+  };
+
   return (
     <div className="chamber-hemicycle">
       <div className="chamber-hemicycle__canvas">
@@ -234,6 +290,11 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
               tabIndex="0"
               aria-label={getTitle(politician)}
               onClick={() => handleOpenPolitician(politician.id)}
+              onPointerEnter={(event) => showPointerCard(event, politician)}
+              onPointerMove={(event) => showPointerCard(event, politician)}
+              onPointerLeave={() => setHoveredMember(null)}
+              onFocus={(event) => showKeyboardCard(event, politician)}
+              onBlur={() => setHoveredMember(null)}
               onKeyDown={(event) => {
                 if (event.key === "Enter" || event.key === " ") {
                   event.preventDefault();
@@ -249,11 +310,47 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
                 fill={getColor(politician)}
                 className="chamber-hemicycle__dot"
               />
-
-              <title>{getTitle(politician)}</title>
             </g>
           ))}
         </svg>
+
+        {hoveredMember && (
+          <div
+            className="chamber-hemicycle__tooltip"
+            style={{
+              "--tooltip-x": `${hoveredMember.x}px`,
+              "--tooltip-y": `${hoveredMember.y}px`,
+            }}
+            data-placement={hoveredMember.placement}
+            role="presentation"
+          >
+            <div className="chamber-hemicycle__tooltip-photo">
+              <span aria-hidden="true">
+                {hoveredMember.politician.firstName.charAt(0)}
+                {hoveredMember.politician.lastName.charAt(0)}
+              </span>
+
+              <img
+                key={hoveredMember.politician.id}
+                src={hoveredMember.politician.photo}
+                alt=""
+                onError={(event) => {
+                  event.currentTarget.style.display = "none";
+                }}
+              />
+            </div>
+
+            <div className="chamber-hemicycle__tooltip-content">
+              <strong>
+                {formatName(
+                  `${hoveredMember.politician.firstName} ${hoveredMember.politician.lastName}`,
+                )}
+              </strong>
+
+              <span>{hoveredMember.politician.party.acronym.toUpperCase()}</span>
+            </div>
+          </div>
+        )}
       </div>
 
       <div className="chamber-hemicycle__footer">

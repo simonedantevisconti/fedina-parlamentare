@@ -329,6 +329,25 @@ html[data-theme="dark"] .chamber-hemicycle__dot {
   stroke: var(--dark-surface);
 }
 
+html[data-theme="dark"] .chamber-hemicycle__tooltip {
+  border-color: var(--dark-border-strong);
+  background-color: var(--dark-surface-raised);
+  box-shadow: 0 16px 38px rgba(0, 0, 0, 0.42);
+}
+
+html[data-theme="dark"] .chamber-hemicycle__tooltip-photo {
+  background-color: var(--dark-border);
+  color: var(--dark-text-muted);
+}
+
+html[data-theme="dark"] .chamber-hemicycle__tooltip-content strong {
+  color: var(--dark-text);
+}
+
+html[data-theme="dark"] .chamber-hemicycle__tooltip-content span {
+  color: var(--dark-text-muted);
+}
+
 html[data-theme="dark"] .chamber-hemicycle__footer {
   border-color: var(--dark-border);
   background-color: var(--dark-bg-soft);
