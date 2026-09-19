@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readJudicialData, validateJudicialData, roster, getCoverage } from "../scripts/lib/judicialData.mjs";
+import { readJudicialData, validateJudicialData, roster } from "../scripts/lib/judicialData.mjs";
 import { buildJudicialSummary, getHomepageJudicialCategory } from "../src/data/judicialSummary.js";
 import politicians from "../src/data/politicians.js";
 import judicialReviewLog from "../src/data/judicialReviewLog.js";
@@ -28,8 +28,6 @@ test("lightweight cards preserve every status and count from full proceedings", 
 });
 
 test("unstarted checks cannot be counted as complete or clean", () => {
-  const coverage = getCoverage(entries);
-  assert.equal(Object.values(coverage.counts).reduce((sum, count) => sum + count, 0), roster.length);
   for (const person of politicians.filter((item) => item.judicialReview.stage === "not-started")) {
     assert.equal(person.judicialStatus, "not-reviewed");
     assert.equal(person.judicialReview.lastCheckedAt, null);

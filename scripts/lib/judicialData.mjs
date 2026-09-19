@@ -75,23 +75,3 @@ export function buildIndex(entries) {
     } : {}),
   }]));
 }
-
-export function getCoverage(entries) {
-  const groups = { "not-started": [], preliminary: [], "follow-up": [], complete: [] };
-  const findingsWithoutRecord = [];
-  for (const person of roster) {
-    const { review, record } = entries[person.id] ?? { review: { stage: "not-started" } };
-    let category = "preliminary";
-    if (review.stage === "not-started") category = "not-started";
-    else if (review.stage === "complete" && (record || review.readyForClean)) category = "complete";
-    else if (review.stage.includes("follow-up") || review.stage.includes("needed") || review.stage === "complete") category = "follow-up";
-    groups[category].push({ id: person.id, name: `${person.firstName} ${person.lastName}`, chamber: person.chamber });
-    if (review.result?.includes("public-proceeding") && !record) findingsWithoutRecord.push(person.id);
-  }
-  return {
-    total: roster.length,
-    counts: Object.fromEntries(Object.entries(groups).map(([stage, people]) => [stage, people.length])),
-    findingsWithoutRecord,
-    groups,
-  };
-}

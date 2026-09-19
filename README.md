@@ -11,8 +11,6 @@ npm run dev
 npm run build
 npm run lint
 npm test
-npm run audit:judicial
-npm run audit:judicial -- --list
 ```
 
 `dev` e `build` rigenerano prima l'indice e validano i dati. Dopo una modifica ai
@@ -30,7 +28,7 @@ gli elenchi. `npm run data:check` verifica che gli artefatti generati siano alli
   automaticamente; non modificare a mano.
 - `src/data/judicialReviewLog.js`: registro sintetico che comprende tutti gli ID.
 - `src/data/judicialRecords.js`: caricamento asincrono della scheda individuale.
-- `scripts/lib/judicialData.mjs`: validazione e conteggi condivisi dagli strumenti.
+- `scripts/lib/judicialData.mjs`: validazione e generazione dei dati condivise dagli strumenti.
 
 Gli elenchi, i filtri e gli emicicli usano solo gli stati e i conteggi. Descrizioni,
 cronologie e fonti vengono scaricate quando si apre la singola scheda. La pagina
@@ -48,7 +46,7 @@ come se fosse l'esito della ricerca.
 4. Cercare espressamente gli sviluppi successivi, inclusi assoluzioni,
    archiviazioni, prescrizioni e impugnazioni. Una notizia storica di indagine
    non dimostra che il procedimento sia ancora aperto.
-5. Eseguire `npm run data:build`, `npm test` e `npm run audit:judicial`.
+5. Eseguire `npm run data:build`, `npm test` e `npm run build`.
 
 I file iniziali senza ricerca usano `stage: "not-started"`, data nulla e `record:
 null`. La presenza di un file registra la persona, non una verifica compiuta.
@@ -56,7 +54,7 @@ null`. La presenza di un file registra la persona, non una verifica compiuta.
 Gli stati `preliminary`, `complete-with-follow-up` e `legacy-record` mantengono
 visibili gli approfondimenti necessari. `complete` descrive la conclusione della
 ricerca sulle fonti disponibili alla data indicata, non un certificato penale e
-non l'irrevocabilità di tutte le decisioni. L'audit conta separatamente questi stati.
+non l'irrevocabilità di tutte le decisioni.
 
 `finalJudgment` ammette `true`, `false` e `null`: definitività documentata,
 decisione non definitiva, informazione non verificata. Una data ignota resta
@@ -69,8 +67,7 @@ Per i nuovi controlli vengono registrate anche le query e le eventuali lacune.
 
 ## Limiti della copertura
 
-L'audit usa gli elenchi effettivi del progetto (alla migrazione: 398 deputati e
-205 senatori). Non certifica da solo che la composizione del Parlamento o le
-appartenenze ai gruppi siano aggiornate. L'assenza di riscontri pubblici non
-equivale a un certificato del casellario giudiziale; i procedimenti in corso
-restano distinti dalle condanne definitive.
+La validazione usa gli elenchi effettivi del progetto. Non certifica da sola che
+la composizione del Parlamento o le appartenenze ai gruppi siano aggiornate.
+L'assenza di riscontri pubblici non equivale a un certificato del casellario
+giudiziale; i procedimenti in corso restano distinti dalle condanne definitive.
