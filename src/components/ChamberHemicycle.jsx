@@ -334,6 +334,7 @@ const ChamberHemicycle = ({ politicians, mode = "party" }) => {
                 key={hoveredMember.politician.id}
                 src={hoveredMember.politician.photo}
                 alt=""
+                decoding="async"
                 onError={(event) => {
                   event.currentTarget.style.display = "none";
                 }}

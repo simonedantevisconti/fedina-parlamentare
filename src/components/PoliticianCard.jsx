@@ -21,6 +21,8 @@ const PoliticianCard = ({ politician }) => {
           src={politician.photo}
           alt={fullName}
           className="politician-card__photo"
+          loading="lazy"
+          decoding="async"
           onError={(event) => {
             event.currentTarget.style.display = "none";
           }}

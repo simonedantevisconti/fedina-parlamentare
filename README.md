@@ -35,6 +35,29 @@ cronologie e fonti vengono scaricate quando si apre la singola scheda. La pagina
 gestisce caricamento, errore e nuovo tentativo senza mostrare un archivio vuoto
 come se fosse l'esito della ricerca.
 
+## Fotografie e simboli
+
+- `public/politici/`: 603 ritratti associati agli ID locali. Il relativo
+  `manifest.json` conserva per ogni file l'identificativo e l'URL dichiarati dai
+  dati ufficiali di Camera o Senato.
+- `public/partiti/`: simboli dei nove partiti censiti e un manifesto con le fonti.
+  Il gruppo Misto non ha un unico simbolo di partito e usa quindi il fallback
+  grafico dell'interfaccia.
+- `src/data/generated/partyLogos.js`: mappa generata fra sigla e file locale,
+  usata da `parties.js`.
+
+Per aggiornare gli asset:
+
+```sh
+npm run assets:portraits
+npm run assets:parties
+```
+
+Gli script verificano il formato delle risposte prima di salvarle e scrivono i
+manifesti di provenienza. Le fotografie nelle liste vengono caricate solo quando
+si avvicinano all'area visibile, così l'apertura della pagina non trasferisce
+l'intero archivio.
+
 ## Aggiungere o aggiornare una verifica
 
 1. Aprire il JSON corrispondente all'ID generato dall'anagrafica.

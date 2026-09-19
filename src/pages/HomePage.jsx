@@ -20,6 +20,10 @@ const HomePage = () => {
     { clean: 0, ongoing: 0, convicted: 0, concluded: 0 },
   );
 
+  const parliamentaryImmunityCount = politicians.filter(
+    (politician) => politician.judicialSummary.hasParliamentaryImmunity,
+  ).length;
+
   const getPercentage = (value) => {
     if (totalPoliticians === 0) {
       return 0;
@@ -174,6 +178,42 @@ const HomePage = () => {
           <p className="home-stats__note">
             Le statistiche sono calcolate automaticamente sulle schede
             attualmente presenti nel dataset.
+          </p>
+        </div>
+      </section>
+
+      {/* IMMUNITÀ PARLAMENTARE */}
+      <section className="home-immunity">
+        <div className="container">
+          <div className="home-immunity__card">
+            <div className="home-immunity__content">
+              <p className="home-immunity__eyebrow">
+                Garanzie parlamentari
+              </p>
+
+              <h2>Insindacabilità parlamentare deliberata</h2>
+
+              <p>
+                Parlamentari per i quali il dataset documenta almeno una
+                deliberazione di insindacabilità ai sensi dell’articolo 68
+                della Costituzione.
+              </p>
+            </div>
+
+            <div className="home-immunity__metric">
+              <strong>{parliamentaryImmunityCount}</strong>
+
+              <span>
+                {parliamentaryImmunityCount === 1
+                  ? "parlamentare"
+                  : "parlamentari"}
+              </span>
+            </div>
+          </div>
+
+          <p className="home-immunity__note">
+            Il conteggio considera ogni parlamentare una sola volta, anche in
+            presenza di più deliberazioni registrate.
           </p>
         </div>
       </section>

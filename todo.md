@@ -1,5 +1,3 @@
 TODO:
-- foto senatori
-- foto deputati
-- foto partiti
-- quanti hanno usufruito di immunità parlamentare
+- cliccare su grafico per vedere i nomi
+

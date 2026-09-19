@@ -144,6 +144,7 @@ const PoliticianPage = () => {
                 src={politician.photo}
                 alt={fullName}
                 className="politician-page__photo"
+                decoding="async"
                 onError={(event) => {
                   event.currentTarget.style.display = "none";
                 }}
