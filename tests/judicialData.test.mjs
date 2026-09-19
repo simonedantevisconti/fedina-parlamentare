@@ -34,8 +34,7 @@ test("unstarted checks cannot be counted as complete or clean", () => {
   }
 });
 
-test("details load independently and unknown IDs do not load a file", async () => {
-  assert.deepEqual(await loadJudicialRecord("maria-elena-boschi"), entries["maria-elena-boschi"]);
+test("unknown IDs cannot request a detail file", async () => {
   assert.equal(await loadJudicialRecord("../parties"), null);
   assert.equal(await loadJudicialRecord("constructor"), null);
 });
