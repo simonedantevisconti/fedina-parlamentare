@@ -2,15 +2,57 @@
   "schemaVersion": 1,
   "id": "ylenia-zambito",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Ylenia Zambito\" indagato imputato condannato assolto archiviato"
+      "\"Ylenia Zambito\" indagata imputata condannata assolta archiviata",
+      "\"Ylenia Zambito\" Villa Madrè archiviazione penale",
+      "\"Ylenia Zambito\" procedimento penale Villa Madre"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale personale attribuibile con sufficiente certezza.  L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
-    "sourceUrls": []
+    "notes": "La stampa locale documenta che il fronte penale della vicenda Villa Madrè, relativa alla locazione di appartamenti destinati all'emergenza abitativa, si concluse con un'archiviazione. La distinta decisione della Corte dei conti, favorevole a Zambito, appartiene alla giurisdizione contabile e non viene registrata come esito penale.",
+    "sourceUrls": [
+      "https://www.iltirreno.it/pisa/cronaca/2020/12/16/news/l-ex-assessora-ylenia-zambito-assolta-dall-accusa-di-danno-erariale-1.39667159"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "documented-archived-proceeding"
+    },
+    "proceedings": [
+      {
+        "id": "ylenia-zambito-001",
+        "title": "Vicenda Villa Madrè e alloggi per l'emergenza abitativa",
+        "allegedOffence": "Ipotesi non precisata nella fonte consultata",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura della Repubblica di Pisa",
+        "startDate": null,
+        "lastUpdate": "2020-12-16",
+        "description": "Il procedimento penale relativo alla locazione degli appartamenti di Villa Madrè, nella quale Zambito era rimasta coinvolta come assessora del Comune di Pisa, risulta archiviato. La fonte non indica la data o gli estremi del provvedimento penale.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2020-12-16",
+            "title": "La stampa riferisce l'avvenuta archiviazione sul fronte penale"
+          }
+        ],
+        "sources": [
+          {
+            "name": "L'ex assessora Ylenia Zambito assolta dall'accusa di danno erariale",
+            "publisher": "Il Tirreno",
+            "url": "https://www.iltirreno.it/pisa/cronaca/2020/12/16/news/l-ex-assessora-ylenia-zambito-assolta-dall-accusa-di-danno-erariale-1.39667159",
+            "publicationDate": "2020-12-16",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

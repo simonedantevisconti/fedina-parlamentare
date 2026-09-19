@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "andrea-delmastro-delle-vedove",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Caso Cospito: condanna a otto mesi in primo grado nel febbraio 2025 e conferma in appello nel maggio 2026. Annunciato ricorso in Cassazione; condanna non definitiva."
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Caso Cospito: condanna a otto mesi in primo grado nel febbraio 2025 e conferma in appello nel maggio 2026. Annunciato ricorso in Cassazione; nessuna decisione successiva verificata. La condanna resta non definitiva."
   },
   "record": {
     "judicialStatus": "convicted-non-final",

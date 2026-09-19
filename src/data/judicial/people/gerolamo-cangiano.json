@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "gerolamo-cangiano",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Gerolamo Cangiano\" indagato condannato assolto"
+      "\"Gerolamo Cangiano\" indagato condannato assolto",
+      "\"Gerolamo Cangiano\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Le notizie del 2026 su Report e sull'attentato al giornalista Ranucci citano accuse giornalistiche o dichiarazioni difensive di Cangiano. I quattro indagati menzionati nelle notizie sull'attentato non sono identificati come lui. Non è stata trovata una fonte che attesti un procedimento penale personale a suo carico; verifica ancora preliminare.",
+    "notes": "Le notizie del 2026 su Report e sull'attentato al giornalista Ranucci citano accuse giornalistiche o dichiarazioni difensive di Cangiano. I quattro indagati menzionati nelle notizie sull'attentato non sono identificati come lui. Non è stata trovata una fonte che attesti un procedimento penale personale a suo carico; verifica ancora preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario. Le fonti del 2026 lo indicano come autore annunciato di una denuncia per calunnia e diffamazione, non come indagato nel procedimento sull'attentato a Sigfrido Ranucci.",
     "sourceUrls": [
       "https://www.iltempo.it/attualita/2026/07/13/news/gerolamo-cangiano-intervista-io-accusato-senza-prove-denuncio-report-per-calunnia-e-diffamazione-aggravata--48525328/",
       "https://roma.corriere.it/notizie/politica/26_luglio_22/ranucci-confermati-arresti-93ca528a-b761-4a11-a77b-bc94cdf10xlk.shtml"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

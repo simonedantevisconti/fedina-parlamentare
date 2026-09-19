@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "paolo-ciani",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Paolo Ciani\" deputato indagato condannato assolto",
-      "\"paolo ciani\" indagato imputato condannato archiviato"
+      "\"paolo ciani\" indagato imputato condannato archiviato",
+      "\"Paolo Ciani\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le corrispondenze esaminate riguardano l’attività parlamentare, anche su temi di giustizia. Nessun procedimento personale documentato; controllo preliminare. La condanna della Corte dei conti riportata per Paolo Ciani riguarda un ex consigliere regionale del Friuli Venezia Giulia: omonimia con il deputato; inoltre non è una condanna penale.",
+    "notes": "Le corrispondenze esaminate riguardano l’attività parlamentare, anche su temi di giustizia. Nessun procedimento personale documentato; controllo preliminare. La condanna della Corte dei conti riportata per Paolo Ciani riguarda un ex consigliere regionale del Friuli Venezia Giulia: omonimia con il deputato; inoltre non è una condanna penale. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://parlamento19.openpolis.it/persone/paolo-ciani-1970-05-15",
       "https://www.messaggeroveneto.it/cronaca/corte-dei-conti-blasoni-doveva-risarcire-ciani-condannato-v8q1nv7m"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

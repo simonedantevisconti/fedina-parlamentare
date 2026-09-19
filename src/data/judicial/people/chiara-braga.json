@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "chiara-braga",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Chiara Braga\" indagata condannata assolta processo",
-      "\"chiara braga\" indagato imputato condannato archiviato"
+      "\"chiara braga\" indagato imputato condannato archiviato",
+      "\"Chiara Braga\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Le notizie di assoluzione reperite riguardano Mario Lucini; Braga interviene con un commento politico. Anche le nuove notizie su inchieste Perugia, ponte sullo Stretto e altri casi la citano come parlamentare che commenta, non come indagata. Nessun procedimento personale documentato; ricerca ancora preliminare.",
+    "notes": "Le notizie di assoluzione reperite riguardano Mario Lucini; Braga interviene con un commento politico. Anche le nuove notizie su inchieste Perugia, ponte sullo Stretto e altri casi la citano come parlamentare che commenta, non come indagata. Nessun procedimento personale documentato; ricerca ancora preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.ilgiorno.it/como/cronaca/tutti-assolti-le-reazioni-lucini-e-stato-corretto-la-sentenza-lo-conferma-7987286c"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

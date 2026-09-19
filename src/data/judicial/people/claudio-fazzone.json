@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "claudio-fazzone",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Claudio Fazzone\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Assolto nel processo sulle segnalazioni all’ASL di Latina nel 2016. In una distinta indagine avviata nel 2023 a Latina risulta indagato per corruzione nell’esercizio della funzione; l’esito successivo non è stato verificato. La confisca di un immobile del 2015 non era a suo carico come imputato.",
+    "notes": "Assolto nel processo sulle segnalazioni all’ASL di Latina nel 2016. In una distinta indagine avviata nel 2023 a Latina risulta indagato per corruzione nell’esercizio della funzione; l’esito successivo non è stato verificato. La confisca di un immobile del 2015 non era a suo carico come imputato. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.latinapress.it/provincia/raccomandazioni-assolto-il-senatore-claudio-fazzone/",
       "https://roma.repubblica.it/cronaca/2023/11/18/news/assunzioni_e_favori_claudio_fazzone_sotto_inchiesta-420634377/amp/",
@@ -20,7 +20,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

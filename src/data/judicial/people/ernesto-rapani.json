@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "ernesto-rapani",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Ernesto Rapani\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Nel processo per calunnia la Corte d'Appello di Catanzaro ha confermato nel giugno 2026 la condanna a un anno e sei mesi. Non è documentato il passaggio in giudicato: la condanna è registrata come non definitiva.",
     "sourceUrls": [
       "https://www.ansa.it/calabria/notizie/2023/09/15/il-senatore-rapani-fdi-condannato-per-calunnia_e967d670-4409-41dd-a4a7-d488ea33ac14.html",
       "https://www.lacnews24.it/cronaca/calunnia-condanna-ernesto-rapani-appello-catanzaro-q2a1oqxn"

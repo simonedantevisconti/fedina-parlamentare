@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "gianni-lampis",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Gianni Lampis\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Risulta tra gli indagati nell’inchiesta Arpas resa nota il 9 giugno 2026. Le accuse sono ipotesi investigative; verificare gli sviluppi.",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Risulta tra gli indagati nell'inchiesta Arpas resa nota il 9 giugno 2026. Non è documentata una decisione giudiziaria successiva; le accuse sono ipotesi investigative.",
     "sourceUrls": [
       "https://www.unionesarda.it/news-sardegna/cagliari/sistema-arpas-26-indagati-fra-tecnici-e-politici-bmbeic10?amp=1"
     ]
@@ -32,7 +32,7 @@
         "startDate": null,
         "lastUpdate": "2026-06-09",
         "description": "Secondo la stampa Lampis è tra i 26 indagati. Per lui viene riferita un’ipotesi di induzione indebita a modificare un parere su Eurallumina. Nessuna responsabilità accertata.",
-        "finalJudgment": false,
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {

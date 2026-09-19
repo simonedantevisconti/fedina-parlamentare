@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "marcello-gemmato",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Marcello Gemmato\" indagato imputato condannato assolto archiviato"
+      "\"Marcello Gemmato\" indagato imputato condannato assolto archiviato",
+      "\"Marcello Gemmato\" indagato indagata imputato imputata rinviato rinviata processo condannato condannata patteggiamento assolto assolta archiviato archiviata prescritto prescritta"
     ],
-    "notes": "Nel processo per minacce sui social Gemmato è la persona offesa, non l’imputato. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "notes": "Nel processo per minacce sui social Gemmato è la persona offesa, non l’imputato. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti. Nel procedimento reperito per minacce Marcello Gemmato figura come persona offesa, non come indagato o imputato. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://bari.repubblica.it/cronaca/2025/10/21/news/minaccio_social_sottosegretario_marcello_gemmato_finisci_a_piazzale_loreto_processo_bari-424927710/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

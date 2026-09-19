@@ -2,17 +2,25 @@
   "schemaVersion": 1,
   "id": "luca-de-carlo",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"luca de carlo\" indagato imputato condannato archiviato"
     ],
-    "notes": "Le notizie giudiziarie riferite a un sindaco Luca De Carlo di Vernole riguardano un omonimo, non il senatore già sindaco di Calalzo di Cadore.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Le cronache giudiziarie riferite all'omonimo sindaco di Vernole non riguardano il senatore, già sindaco di Calalzo di Cadore.",
     "sourceUrls": [
       "https://bari.repubblica.it/cronaca/2014/03/17/news/falesie-81236308/amp/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

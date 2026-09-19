@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "elena-bonetti",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Le ricerche nominative non hanno restituito elementi sufficienti per documentare un procedimento personale. L’assenza di risultati pertinenti non completa il controllo.",
+    "readyForClean": true,
+    "notes": "Le ricerche nominative non hanno restituito elementi sufficienti per documentare un procedimento personale. L’assenza di risultati pertinenti non completa il controllo. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "queries": [
       "\"Elena Bonetti\" indagata condannata assolta archiviazione",
       "\"Elena Bonetti\" \"indagata\" OR \"processo\" OR \"condannata\"",
-      "\"elena bonetti\" indagato imputato condannato archiviato"
+      "\"elena bonetti\" indagato imputato condannato archiviato",
+      "\"Elena Bonetti\" indagato imputato condannato assolto archiviato procura"
     ],
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

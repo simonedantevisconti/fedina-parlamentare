@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "monica-ciaburro",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Monica Ciaburro\" indagata condannata assolta archiviata",
-      "\"monica ciaburro\" indagato imputato condannato archiviato"
+      "\"monica ciaburro\" indagato imputato condannato archiviato",
+      "\"Monica Ciaburro\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "I risultati esaminati sono istituzionali o riferiti all’attività politica. Nessuna fonte sufficiente per attribuire un procedimento personale; ricerca preliminare.",
+    "notes": "I risultati esaminati sono istituzionali o riferiti all’attività politica. Nessuna fonte sufficiente per attribuire un procedimento personale; ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.cortedicassazione.it/resources/cms/documents/Verbale_elezione_camera_deputati_mod_89_par16_18.pdf"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

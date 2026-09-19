@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "dimitri-coin",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
@@ -11,11 +11,44 @@
       "\"Dimitri Coin\" diffamazione archiviazione",
       "\"Dimitri Coin\" processo diffamazione 2018 2019"
     ],
-    "notes": "La Tribuna di Treviso riferì il 20 maggio 2017 che la Procura aveva iscritto Coin come indagato per diffamazione a seguito della denuncia di Enrico Chinellato. Non è stato verificato un provvedimento successivo né la pendenza attuale. In altra vicenda di diffamazione Coin risulta persona offesa, non imputato.",
+    "notes": "La Tribuna di Treviso riferì il 20 maggio 2017 che la Procura aveva iscritto Coin come indagato per diffamazione a seguito della denuncia di Enrico Chinellato. Non è stato verificato un provvedimento successivo né la pendenza attuale. In altra vicenda di diffamazione Coin risulta persona offesa, non imputato. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.tribunatreviso.it/cronaca/lega-coin-indagato-dalla-procura-x19igwor",
       "https://www.tribunatreviso.it/cronaca/coin-lega-diffamato-su-facebook-il-pm-chiede-la-condanna-per-la-pasionaria-di-django-m9z14a8e"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "dimitri-coin-001",
+        "title": "Denuncia di Enrico Chinellato",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Treviso",
+        "startDate": null,
+        "lastUpdate": "2017-05-20",
+        "description": "La stampa riferì nel 2017 l'iscrizione di Coin come indagato dopo la denuncia di Enrico Chinellato. Non è stato reperito un provvedimento conclusivo della posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Lega, Coin indagato dalla Procura",
+            "publisher": "La Tribuna di Treviso",
+            "url": "https://www.tribunatreviso.it/cronaca/lega-coin-indagato-dalla-procura-x19igwor",
+            "publicationDate": "2017-05-20",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

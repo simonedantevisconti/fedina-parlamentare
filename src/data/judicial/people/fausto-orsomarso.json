@@ -2,15 +2,57 @@
   "schemaVersion": 1,
   "id": "fausto-orsomarso",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
-      "\"Fausto Orsomarso\" indagato imputato condannato assolto archiviato"
+      "\"Fausto Orsomarso\" indagato imputato condannato assolto archiviato",
+      "\"Fausto Orsomarso\" abuso d'ufficio Calabria Verde archiviazione assolto",
+      "\"Fausto Orsomarso\" avviso garanzia distacco Calabria Verde"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale attribuibile con sufficiente certezza a questa persona.  L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
-    "sourceUrls": []
+    "notes": "Nel maggio 2018, durante una seduta ufficiale del Consiglio regionale della Calabria, Fausto Orsomarso dichiarò di avere ricevuto un avviso di conclusione delle indagini nel quale gli veniva contestato abuso d'ufficio per un ipotizzato intervento relativo al distacco di un dipendente presso Calabria Verde. Non è stato reperito un successivo provvedimento personale di archiviazione, rinvio a giudizio o sentenza. La scheda conserva quindi l'ultimo passaggio documentato senza presentare il procedimento come tuttora pendente. L'abuso d'ufficio è stato successivamente abrogato, ma tale modifica normativa non permette di inferire l'esito individuale del fascicolo.",
+    "sourceUrls": [
+      "https://www.consiglioregionale.calabria.it/upload/integrali_aula/10_051_10052018.htm"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "fausto-orsomarso-001",
+        "title": "Indagine sul distacco di un dipendente presso Calabria Verde",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": null,
+        "startDate": null,
+        "lastUpdate": "2018-05-10",
+        "description": "In Consiglio regionale Orsomarso dichiarò di avere ricevuto un avviso di conclusione delle indagini per un ipotizzato intervento sul distacco di un dipendente presso Calabria Verde. Non è stato reperito un provvedimento successivo che definisca la sua posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2018-05-10",
+            "title": "Orsomarso riferisce in Consiglio regionale l'avviso di conclusione delle indagini"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Resoconto integrale della seduta n. 51",
+            "publisher": "Consiglio regionale della Calabria",
+            "url": "https://www.consiglioregionale.calabria.it/upload/integrali_aula/10_051_10052018.htm",
+            "publicationDate": "2018-05-10",
+            "accessedAt": "2026-09-19",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
 }

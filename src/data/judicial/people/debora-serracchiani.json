@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "id": "debora-serracchiani",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Debora Serracchiani\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Figura come parte civile nel processo Delmastro; ciò non è un procedimento penale a suo carico. La ricerca pubblica non certifica la fedina penale.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. La partecipazione come parte civile nel processo Delmastro non costituisce un procedimento penale a suo carico.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

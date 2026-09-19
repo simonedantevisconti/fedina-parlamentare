@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "adriano-galliani",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "multiple-public-proceedings-found",
     "readyForClean": false,
     "queries": [
@@ -12,7 +12,7 @@
       "\"Adriano Galliani\" falso bilancio prescrizione Sampdoria 2008",
       "\"Adriano Galliani\" frode fiscale Milan 2003 esito"
     ],
-    "notes": "Quattro vicende ricostruite separatamente. Restano da accertare l’esito del processo per frode fiscale sui fondi neri, il procedimento Milan-Sampdoria e l’irrevocabilità delle decisioni riportate. Le sanzioni sportive non sono provvedimenti penali.",
+    "notes": "Quattro vicende ricostruite separatamente. Restano da accertare l’esito del processo per frode fiscale sui fondi neri, il procedimento Milan-Sampdoria e l’irrevocabilità delle decisioni riportate. Le sanzioni sportive non sono provvedimenti penali. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.corriere.it/sport/calcio/serie-a/23_marzo_02/falso-uso-fatture-assolti-de-laurentis-lotito-galliani-percassi-e9a47d94-b911-11ed-b194-e55eac395b06_amp.html",
       "https://www.corriere.it/sport/08_gennaio_31/calcio_plusvalenze_prosciolti_3fc913d6-cfe6-11dc-894a-0003ba99c667.shtml",
@@ -24,7 +24,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-17",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceedings-found"
     },
     "proceedings": [

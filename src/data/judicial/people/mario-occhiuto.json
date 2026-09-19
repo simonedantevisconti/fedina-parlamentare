@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "mario-occhiuto",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Mario Occhiuto\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Più procedimenti distinti. Nel caso Ofin i capi patrimoniali sono definitivi; il capo fiscale è stato annullato con rinvio e la pena aggregata deve essere rideterminata. Restano altri filoni da approfondire.",
+    "notes": "Più procedimenti distinti. Nel caso Ofin i capi patrimoniali sono definitivi; il capo fiscale è stato annullato con rinvio e la pena aggregata deve essere rideterminata. Restano altri filoni da approfondire. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "sourceUrls": [
       "https://www.corrieredellacalabria.it/2025/04/29/caso-rimborsi-assoluzione-definitiva-per-mario-occhiuto/",
       "https://www.rainews.it/tgr/calabria/articoli/2025/06/bancarotta-fraudolenta-il-senatore-mario-occhiuto-condannato-in-appello-83336230-9acb-421d-8f07-9fa898742f35.html",
@@ -23,7 +23,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

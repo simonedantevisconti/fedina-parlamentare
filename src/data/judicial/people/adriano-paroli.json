@@ -2,24 +2,26 @@
   "schemaVersion": 1,
   "id": "adriano-paroli",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Adriano Paroli\" indagato imputato condannato assolto archiviato"
+      "\"Adriano Paroli\" indagato imputato condannato assolto archiviato",
+      "\"Adriano Paroli\" \"gip\" \"archivia\" \"carte di credito\""
     ],
-    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "notes": "La richiesta di archiviazione del febbraio 2011 fu accolta dal GIP di Brescia nell'aprile 2011. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; la scheda non equivale a un certificato del casellario.",
     "sourceUrls": [
-      "https://www.ilgiorno.it/brescia/cronaca/2011/02/22/463275-carte_credito_della_giunta.shtml"
+      "https://www.ilgiorno.it/brescia/cronaca/2011/02/22/463275-carte_credito_della_giunta.shtml",
+      "https://bsnews.it/2011/04/21/carte-di-credito-e-cene-il-gip-archivia-il-caso/"
     ]
   },
   "record": {
-    "judicialStatus": "outcome-unverified",
+    "judicialStatus": "archived",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
-      "result": "historical-proceeding-outcome-unverified"
+      "lastVerifiedAt": "2026-09-19",
+      "result": "documented-archived-proceeding"
     },
     "proceedings": [
       {
@@ -27,17 +29,21 @@
         "title": "Carte di credito del Comune di Brescia",
         "allegedOffence": "Peculato",
         "offence": null,
-        "status": "outcome-unverified",
-        "court": "Procura di Brescia",
+        "status": "archived",
+        "court": "GIP del Tribunale di Brescia",
         "startDate": null,
-        "lastUpdate": "2011-02-22",
-        "description": "La Procura aveva chiesto l’archiviazione; non è stato verificato il successivo decreto del GIP.",
-        "finalJudgment": null,
+        "lastUpdate": "2011-04-21",
+        "description": "La Procura chiese l'archiviazione nel febbraio 2011. Nell'aprile 2011 il GIP del Tribunale di Brescia accolse la richiesta e archiviò l'inchiesta sul presunto uso illecito delle carte di credito comunali nei confronti del sindaco Adriano Paroli e di nove assessori. La data esatta del decreto non è stata verificata; il 21 aprile è la data della notizia.",
+        "finalJudgment": true,
         "finalJudgmentDate": null,
         "timeline": [
           {
             "date": "2011-02-22",
-            "title": "Passaggio documentato nelle fonti consultate"
+            "title": "La Procura chiede l'archiviazione"
+          },
+          {
+            "date": "2011-04-21",
+            "title": "La stampa riferisce l'archiviazione disposta dal GIP"
           }
         ],
         "sources": [
@@ -47,6 +53,14 @@
             "url": "https://www.ilgiorno.it/brescia/cronaca/2011/02/22/463275-carte_credito_della_giunta.shtml",
             "publicationDate": "2011-02-22",
             "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Carte di credito e cene, il Gip archivia il caso",
+            "publisher": "BsNews",
+            "url": "https://bsnews.it/2011/04/21/carte-di-credito-e-cene-il-gip-archivia-il-caso/",
+            "publicationDate": "2011-04-21",
+            "accessedAt": "2026-09-19",
             "type": "journalistic"
           }
         ]

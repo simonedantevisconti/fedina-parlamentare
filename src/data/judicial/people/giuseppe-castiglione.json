@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "giuseppe-castiglione",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Procedimento CARA di Mineo. Tutte le contestazioni risultano prescritte nel 2026. Castiglione ha dichiarato di voler impugnare la decisione per ottenere un pronunciamento nel merito."
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Procedimento CARA di Mineo: le contestazioni a Castiglione risultano prescritte in primo grado, l'ultima nell'aprile 2025. La difesa ha impugnato la decisione per ottenere un'assoluzione nel merito; l'esito dell'appello non è documentato. La prescrizione non equivale a un'assoluzione."
   },
   "record": {
     "judicialStatus": "prescribed",
@@ -24,9 +24,9 @@
         "status": "prescribed",
         "court": "Tribunale di Catania",
         "startDate": null,
-        "lastUpdate": "2026-05-30",
-        "description": "Giuseppe Castiglione è stato imputato nel procedimento relativo alla gestione e agli appalti del CARA di Mineo, nel periodo in cui ricopriva il ruolo di soggetto attuatore del centro. Nel marzo 2024 il Tribunale di Catania ha dichiarato prescritta la contestazione di turbativa d'asta, mentre il procedimento proseguiva per l'ipotesi di corruzione finalizzata al reperimento di voti. Nel 2026 anche quest'ultima contestazione è risultata prescritta. Castiglione ha dichiarato di voler impugnare la decisione per ottenere un pronunciamento nel merito. La prescrizione non equivale a un'assoluzione.",
-        "finalJudgment": false,
+        "lastUpdate": "2025-04-06",
+        "description": "Giuseppe Castiglione è stato imputato nel procedimento relativo alla gestione e agli appalti del CARA di Mineo, nel periodo in cui ricopriva il ruolo di soggetto attuatore del centro. Nel marzo 2024 il Tribunale di Catania ha dichiarato prescritta la contestazione di turbativa d'asta, mentre il procedimento proseguiva per l'ipotesi di corruzione finalizzata al reperimento di voti. Nell'aprile 2025 anche quest'ultima contestazione è risultata prescritta. La difesa ha impugnato la decisione per ottenere un pronunciamento nel merito. La prescrizione non equivale a un'assoluzione.",
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {
@@ -38,7 +38,7 @@
             "title": "Il Tribunale di Catania dichiara prescritta la contestazione di turbativa d'asta"
           },
           {
-            "date": "2026-05-30",
+            "date": "2025-04-06",
             "title": "Risulta prescritta anche la contestazione di corruzione; la difesa annuncia impugnazione"
           }
         ],
@@ -55,7 +55,7 @@
             "name": "Su un binario morto il processo per il Cara di Mineo, prescritti tutti i reati per Castiglione",
             "publisher": "La Sicilia",
             "url": "https://www.lasicilia.it/cronaca/su-un-binario-morto-il-processo-per-il-cara-di-mineo-prescritti-tutti-i-reati-per-castiglione-perche-il-deputato-impugna-la-sentenza-2459538/",
-            "publicationDate": "2026-05-30",
+            "publicationDate": "2025-04-06",
             "accessedAt": "2026-09-16",
             "type": "journalistic"
           },
@@ -63,7 +63,7 @@
             "name": "Cara di Mineo, Castiglione rifiuta la prescrizione: dopo 11 anni pretendo la verità",
             "publisher": "La Sicilia",
             "url": "https://www.lasicilia.it/cronaca/cara-di-mineo-castiglione-rifiuta-la-prescrizione-dopo-11-anni-pretendo-la-verita-2459343/",
-            "publicationDate": "2026-05-30",
+            "publicationDate": "2025-04-06",
             "accessedAt": "2026-09-16",
             "type": "journalistic"
           }

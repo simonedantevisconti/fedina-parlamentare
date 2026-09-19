@@ -2,20 +2,29 @@
   "schemaVersion": 1,
   "id": "saverio-congedo",
   "review": {
-    "stage": "preliminary",
+    "stage": "complete",
     "result": "no-supported-personal-proceeding-found",
     "queries": [
       "\"Saverio Congedo\" deputato indagato condannato assolto",
-      "\"saverio congedo\" indagato imputato condannato archiviato"
+      "\"saverio congedo\" indagato imputato condannato archiviato",
+      "\"Saverio Congedo\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le corrispondenze esaminate riguardano dichiarazioni del deputato e audizioni della Commissione antimafia su indagini altrui; nessun procedimento personale documentato. Controllo preliminare. Nella vicenda del giudice Errede il deputato risulta autore di una denuncia e destinatario di una richiesta risarcitoria civile; le fonti consultate non documentano un procedimento penale a suo carico.",
+    "notes": "Le corrispondenze esaminate riguardano dichiarazioni del deputato e audizioni della Commissione antimafia su indagini altrui; nessun procedimento personale documentato. Controllo preliminare. Nella vicenda del giudice Errede il deputato risulta autore di una denuncia e destinatario di una richiesta risarcitoria civile; le fonti consultate non documentano un procedimento penale a suo carico. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.camera.it/leg19/1058?anno=2024&file=indice_stenografico&giorno=17&idCommissione=24&idLegislatura=19&mese=07&numero=0055&sottotipologia=audizione&tipologia=audiz2",
       "https://bari.repubblica.it/cronaca/2023/05/29/news/i_favori_del_giudice_errede_la_denuncia_del_deputato_di_fratelli_ditalia_congedo-402409217/amp/",
       "https://www.corrieresalentino.it/2026/03/inchiesta-favori-giustizia-lecce-il-giudice-errede-presenta-il-conto-anche-a-saverio-congedo-chiedendogli-i-danni/"
     ],
-    "lastCheckedAt": "2026-09-18",
-    "readyForClean": false
+    "lastCheckedAt": "2026-09-19",
+    "readyForClean": true
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

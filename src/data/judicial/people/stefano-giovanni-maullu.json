@@ -2,15 +2,69 @@
   "schemaVersion": 1,
   "id": "stefano-giovanni-maullu",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Stefano Giovanni Maullu\" indagato imputato condannato assolto archiviato"
+      "\"Stefano Giovanni Maullu\" indagato imputato condannato assolto archiviato",
+      "\"Stefano Maullu\" rimborsopoli appello prescrizione 13 luglio 2021"
     ],
-    "notes": "Ricerca preliminare per nome completo su indagini, processi ed esiti. Non è emerso un procedimento penale personale sufficientemente documentato nelle fonti consultate. La ricerca non certifica l’assenza di precedenti o procedimenti.",
-    "sourceUrls": []
+    "notes": "Nel procedimento sulle spese del Consiglio regionale della Lombardia Stefano Maullu fu condannato in primo grado a un anno e sei mesi per peculato nel 2019. Il 13 luglio 2021 la Corte d’Appello di Milano dichiarò non doversi procedere per prescrizione. La prescrizione non equivale a un’assoluzione nel merito.",
+    "sourceUrls": [
+      "https://www.ecodibergamo.it/stories/premium/bergamo-citta/rimborsopoli-condanne-in-appello-per-cinquanta-ex-consiglieri-regionali_1401863_11/",
+      "https://ticinonotizie.it/spese-pazze-in-regione-lombardia-52-condanne-su-57-da-1-anno-e-5-mesi-a-4-anni-e-8-mesi/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "stefano-giovanni-maullu-001",
+        "title": "Procedimento sulle spese dei consiglieri della Lombardia",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte d’Appello di Milano",
+        "startDate": null,
+        "lastUpdate": "2021-07-13",
+        "description": "Nel gennaio 2019 Stefano Maullu fu condannato in primo grado a un anno e sei mesi per peculato nel procedimento sulle spese regionali lombarde. Il 13 luglio 2021 la Corte d’Appello di Milano dichiarò non doversi procedere per intervenuta prescrizione. La prescrizione non costituisce assoluzione nel merito.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2019-01-18",
+            "title": "Condanna in primo grado a un anno e sei mesi"
+          },
+          {
+            "date": "2021-07-13",
+            "title": "Non doversi procedere per prescrizione in appello"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rimborsopoli, condanne in appello per cinquanta ex consiglieri regionali",
+            "publisher": "L’Eco di Bergamo",
+            "url": "https://www.ecodibergamo.it/stories/premium/bergamo-citta/rimborsopoli-condanne-in-appello-per-cinquanta-ex-consiglieri-regionali_1401863_11/",
+            "publicationDate": "2021-07-14",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Spese pazze in Regione Lombardia: 52 condanne su 57",
+            "publisher": "Ticino Notizie",
+            "url": "https://ticinonotizie.it/spese-pazze-in-regione-lombardia-52-condanne-su-57-da-1-anno-e-5-mesi-a-4-anni-e-8-mesi/",
+            "publicationDate": "2019-01-18",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

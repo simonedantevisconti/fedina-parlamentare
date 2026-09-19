@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "id": "silvio-franceschelli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Silvio Franceschelli\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Un condannato omonimo citato in una cronaca salernitana non è identificabile come il senatore nato a Pistoia nel 1970. La ricerca pubblica non certifica la fedina penale.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Sono stati esclusi risultati relativi a omonimi; i dati anagrafici non coincidono con quelli del senatore ed ex sindaco di Montalcino.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

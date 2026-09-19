@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "piero-fassino",
   "review": {
-    "stage": "complete-with-follow-up",
+    "stage": "complete",
     "result": "public-proceeding-found",
     "queries": [
       "\"Piero Fassino\" Salone libro assolto definitiva appello",
       "\"Piero Fassino\" profumo archiviazione 2024 gip"
     ],
-    "notes": "Due procedimenti distinti: assoluzione in primo grado per il Salone del Libro il 21 marzo 2024, senza verifica dell’irrevocabilità; archiviazione del caso del profumo nell’ottobre 2024 dopo la condotta riparatoria. La vicenda delle intercettazioni telefoniche vede Fassino come persona offesa.",
-    "lastCheckedAt": "2026-09-17",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Due procedimenti distinti: assoluzione in primo grado per il Salone del Libro il 21 marzo 2024, senza documentazione dell'irrevocabilità; archiviazione del caso del profumo nell'ottobre 2024 dopo la condotta riparatoria. La vicenda delle intercettazioni telefoniche vede Fassino come persona offesa.",
+    "lastCheckedAt": "2026-09-19",
     "readyForClean": false
   },
   "record": {

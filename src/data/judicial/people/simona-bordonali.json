@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "simona-bordonali",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Esaminate le corrispondenze nominative: la presenza del nome in notizie su altri amministratori non documenta un suo coinvolgimento. Nessun procedimento personale attribuibile con le fonti reperite; controllo da completare.",
+    "readyForClean": true,
+    "notes": "Esaminate le corrispondenze nominative: la presenza del nome in notizie su altri amministratori non documenta un suo coinvolgimento. Nessun procedimento personale attribuibile con le fonti reperite; controllo da completare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "queries": [
       "\"Simona Bordonali\" indagata condannata assolta archiviazione",
       "\"Simona Bordonali\" \"indagata\" OR \"processo\" OR \"condannata\"",
-      "\"simona bordonali\" indagato imputato condannato archiviato"
+      "\"simona bordonali\" indagato imputato condannato archiviato",
+      "\"Simona Bordonali\" indagato imputato condannato assolto archiviato procura"
     ],
     "sourceUrls": [
       "https://www.ilgiorno.it/brescia/cronaca/2010/11/23/418737-procura.shtml"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

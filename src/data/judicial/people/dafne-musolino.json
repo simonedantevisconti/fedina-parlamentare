@@ -2,24 +2,28 @@
   "schemaVersion": 1,
   "id": "dafne-musolino",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
-      "\"Dafne Musolino\" indagato imputato condannato assolto archiviato"
+      "\"Dafne Musolino\" indagato imputato condannato assolto archiviato",
+      "\"Dafne Musolino\" \"Portella Arena\" \"Vallone Guidari\"",
+      "\"Dafne Musolino\" \"Vallone Guidari\" rinvio giudizio sentenza 2026"
     ],
-    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "notes": "Le fonti distinguono due discariche: Portella Arena, per cui è documentata l'indagine personale nel 2022 senza esito successivo verificato, e Vallone Guidari, per cui è documentato il rinvio a giudizio nell'ottobre 2025. La fonte del febbraio 2024 riguarda Vallone Guidari, non Portella Arena. Manca una fonte affidabile su un'eventuale sentenza per entrambi i filoni: l'approfondimento resta aperto. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
-      "https://palermo.repubblica.it/cronaca/2024/02/29/news/messina_discarica_inquinante_mai_bonificata_fra_i_14_indagati_lex_sindaco_cateno_de_luca-422226312/"
+      "https://palermo.repubblica.it/cronaca/2024/02/29/news/messina_discarica_inquinante_mai_bonificata_fra_i_14_indagati_lex_sindaco_cateno_de_luca-422226312/",
+      "https://www.letteraemme.it/discarica-di-portella-arena-indagati-cateno-de-luca-dafne-musolino-e-pippo-lombardo/",
+      "https://www.stampalibera.it/2025/10/29/discarica-di-vallone-guidari-a-messina-rinvio-a-giudizio-per-tutti-i-14-indagati-tra-cui-gli-ex-sindaci-accorinti-e-de-luca/"
     ]
   },
   "record": {
-    "judicialStatus": "investigated",
+    "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
-      "result": "historical-proceeding-outcome-unverified"
+      "lastVerifiedAt": "2026-09-19",
+      "result": "public-proceedings-found"
     },
     "proceedings": [
       {
@@ -30,23 +34,64 @@
         "status": "investigated",
         "court": "Procura di Messina",
         "startDate": null,
-        "lastUpdate": "2024-02-29",
-        "description": "Risulta fra gli indagati nell’inchiesta sulla discarica, in relazione al precedente incarico di assessora. Esito successivo non verificato.",
+        "lastUpdate": "2022-11-16",
+        "description": "Nel novembre 2022 la Procura di Messina ha esteso le indagini sulla bonifica dell'ex discarica di Portella Arena anche all'ex assessora Dafne Musolino. Il rinvio a giudizio allora riferito dalle fonti riguardava altri ex amministratori; non è stato verificato un provvedimento successivo nei confronti di Musolino in questo filone.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2022-11-16",
+            "title": "La fonte riferisce l'estensione dell'indagine a Musolino"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Discarica di Portella Arena, indagati De Luca, Musolino e Lombardo",
+            "publisher": "Lettera Emme",
+            "url": "https://www.letteraemme.it/discarica-di-portella-arena-indagati-cateno-de-luca-dafne-musolino-e-pippo-lombardo/",
+            "publicationDate": "2022-11-16",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "dafne-musolino-002",
+        "title": "Discarica di Vallone Guidari, Messina",
+        "allegedOffence": "Ipotesi di reati ambientali",
+        "offence": null,
+        "status": "trial",
+        "court": "Tribunale di Messina",
+        "startDate": null,
+        "lastUpdate": "2025-10-29",
+        "description": "L'indagine sulla gestione della discarica dismessa di Vallone Guidari comprendeva anche Dafne Musolino, ex assessora all'Ambiente. Il 29 ottobre 2025 il GUP ha disposto il rinvio a giudizio di tutti i 14 indagati, tra cui Musolino, con prima udienza fissata al 28 gennaio successivo. La data della prima udienza non prova che il processo si sia celebrato come programmato; non è stata verificata una sentenza.",
         "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {
             "date": "2024-02-29",
-            "title": "Passaggio documentato nelle fonti consultate"
+            "title": "Documentata la chiusura delle indagini sulla gestione di Vallone Guidari"
+          },
+          {
+            "date": "2025-10-29",
+            "title": "Rinvio a giudizio disposto dal GUP"
           }
         ],
         "sources": [
           {
-            "name": "la Repubblica",
-            "publisher": "la Repubblica",
-            "url": "https://palermo.repubblica.it/cronaca/2024/02/29/news/messina_discarica_inquinante_mai_bonificata_fra_i_14_indagati_lex_sindaco_cateno_de_luca-422226312/",
+            "name": "Inchiesta sulla discarica di Vallone Guidari",
+            "publisher": "Rai News",
+            "url": "https://www.rainews.it/tgr/sicilia/articoli/2024/02/inchiesta-su-una-discarica-di-messina-indagato-cateno-de-luca--fbb5778f-db2c-4f0a-807d-32487f06e1a4.html",
             "publicationDate": "2024-02-29",
-            "accessedAt": "2026-09-18",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rinvio a giudizio per i 14 indagati nella vicenda Vallone Guidari",
+            "publisher": "Stampalibera",
+            "url": "https://www.stampalibera.it/2025/10/29/discarica-di-vallone-guidari-a-messina-rinvio-a-giudizio-per-tutti-i-14-indagati-tra-cui-gli-ex-sindaci-accorinti-e-de-luca/",
+            "publicationDate": "2025-10-29",
+            "accessedAt": "2026-09-19",
             "type": "journalistic"
           }
         ]

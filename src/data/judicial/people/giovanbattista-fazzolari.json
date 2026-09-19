@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "id": "giovanbattista-fazzolari",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Giovanbattista Fazzolari\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale attribuibile con sufficiente certezza a questa persona. L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Le notizie sulla scalata MPS-Mediobanca documentano un'indagine sull'operazione, senza indicare Fazzolari come indagato; nelle controversie con Report figura come autore di esposti o richieste risarcitorie.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

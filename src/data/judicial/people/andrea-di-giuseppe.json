@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "andrea-di-giuseppe",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Andrea Di Giuseppe\" indagato imputato condannato assolto archiviato"
+      "\"Andrea Di Giuseppe\" indagato imputato condannato assolto archiviato",
+      "\"Andrea Di Giuseppe\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Nell’inchiesta sui visti falsi il deputato risulta autore dell’esposto e bersaglio di minacce, non imputato. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "notes": "Nell’inchiesta sui visti falsi il deputato risulta autore dell’esposto e bersaglio di minacce, non imputato. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.panorama.it/attualita/cronaca/visti-falsi-88-casi-accertati-indagine-nata-dallesposto-di-andrea-di-giuseppe-fdi"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

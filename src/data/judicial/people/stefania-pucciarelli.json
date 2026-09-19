@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "stefania-pucciarelli",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Stefania Pucciarelli\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. La fonte citata riferisce l'archiviazione dell'indagine sul like a un post sui migranti. Negli altri casi di diffamazione individuati la senatrice risulta denunciante o persona offesa, non imputata. L'ordinanza integrale di archiviazione non è disponibile in questa scheda.",
     "sourceUrls": [
       "https://genova.repubblica.it/cronaca/2018/11/14/news/invoca_le_ruspe_contro_i_migranti_e_viene_eletta_presidente_della_commissione_diritti_umani_in_senato-211650306/amp/"
     ]

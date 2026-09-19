@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "valeria-sudano",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Valeria Sudano\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Una informativa di polizia ha attribuito a Sudano e Luca Sammartino ipotesi di falso e abuso d’ufficio per una firma del 2015. La posizione di Sudano è stata stralciata; una cronaca ipotizzava l’archiviazione ma non ne documenta il provvedimento. La distinta indagine per corruzione elettorale contro Sammartino non risulta contestata a Sudano.",
+    "notes": "Una informativa di polizia ha attribuito a Sudano e Luca Sammartino ipotesi di falso e abuso d’ufficio per una firma del 2015. La posizione di Sudano è stata stralciata; una cronaca ipotizzava l’archiviazione ma non ne documenta il provvedimento. La distinta indagine per corruzione elettorale contro Sammartino non risulta contestata a Sudano. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.lasicilia.it/news/cronaca/832368/abuso-d-ufficio-e-falso-ma-valeria-sudano-e-stata-stralciata-dall-indagine-su-sammartino-ecco-perche.html"
     ]
@@ -18,7 +18,7 @@
     "judicialStatus": "outcome-unverified",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

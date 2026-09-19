@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "id": "anastasio-carra",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Anastasio Carrà\" indagato condannato assolto archiviato",
       "\"Anastasio Carrà\" acque reflue Motta rinviato a giudizio 2021 esito"
     ],
-    "notes": "La precedente ricerca ometteva il rinvio a giudizio del 18 maggio 2021 per fatti relativi agli scarichi di acque reflue nel Comune di Motta Sant'Anastasia. La stampa lo indicava ancora a processo nel 2023; non è stato verificato l'esito successivo, quindi non presentarlo come processo tuttora pendente. Il diverso fascicolo sul video della giudice Apostolico è stato archiviato come modello 45 senza indagati: la sola menzione di Carrà non prova un procedimento a suo carico.",
+    "notes": "La precedente ricerca ometteva il rinvio a giudizio del 18 maggio 2021 per fatti relativi agli scarichi di acque reflue nel Comune di Motta Sant'Anastasia. La stampa lo indicava ancora a processo nel 2023; non è stato verificato l'esito successivo, quindi non presentarlo come processo tuttora pendente. Il diverso fascicolo sul video della giudice Apostolico è stato archiviato come modello 45 senza indagati: la sola menzione di Carrà non prova un procedimento a suo carico. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://livesicilia.it/motta-il-sindaco-carra-rinviato-a-giudizio-per-reati-ambientali/",
       "https://www.lasicilia.it/politica/il-video-della-apostolico-e-la-manina-di-catania-ecco-come-spunta-il-var-della-lega-1913884/",
@@ -21,7 +21,7 @@
     "judicialStatus": "outcome-unverified",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [
@@ -38,7 +38,10 @@
         "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2021-05-18", "title": "Rinvio a giudizio disposto dal GUP di Catania" }
+          {
+            "date": "2021-05-18",
+            "title": "Rinvio a giudizio disposto dal GUP di Catania"
+          }
         ],
         "sources": [
           {

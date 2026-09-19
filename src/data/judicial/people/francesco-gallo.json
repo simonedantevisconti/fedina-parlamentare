@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "francesco-gallo",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"francesco gallo\" indagato condannato assolto archiviato esito"
     ],
-    "notes": "Il deputato, all’epoca segretario provinciale del PD a Messina, ricevette nel 2011 una condanna di primo grado a otto mesi per abuso d’ufficio nel caso delle consulenze esterne. Alcune ricostruzioni indicano la prescrizione in appello, ma non è stata reperita fonte primaria o cronaca affidabile della pronuncia. Non attribuire al deputato condanne di omonimi calabresi.",
+    "notes": "Il deputato, all’epoca segretario provinciale del PD a Messina, ricevette nel 2011 una condanna di primo grado a otto mesi per abuso d’ufficio nel caso delle consulenze esterne. Alcune ricostruzioni indicano la prescrizione in appello, ma non è stata reperita fonte primaria o cronaca affidabile della pronuncia. Non attribuire al deputato condanne di omonimi calabresi. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.tempostretto.it/news/cronaca-consulenze-esterne-ex-sindaco-salvatore-leonardi-condannato-8-mesi-reclusione-abuso-d-ufficio.html"
     ]
@@ -18,7 +18,7 @@
     "judicialStatus": "outcome-unverified",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

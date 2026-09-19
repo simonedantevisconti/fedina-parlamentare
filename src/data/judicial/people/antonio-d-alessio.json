@@ -2,15 +2,24 @@
   "schemaVersion": 1,
   "id": "antonio-d-alessio",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Antonio D'Alessio\" indagato imputato condannato assolto archiviato"
+      "\"Antonio D'Alessio\" indagato imputato condannato assolto archiviato",
+      "\"Antonio D'Alessio\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Distinti il deputato dai magistrati omonimi e dalle sue dichiarazioni su procedimenti altrui. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "notes": "Distinti il deputato dai magistrati omonimi e dalle sue dichiarazioni su procedimenti altrui. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

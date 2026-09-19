@@ -2,17 +2,25 @@
   "schemaVersion": 1,
   "id": "renato-ancorotti",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"renato ancorotti\" indagato imputato condannato archiviato"
     ],
-    "notes": "Nel caso del furto in casa Ancorotti è la persona offesa; la condanna citata riguarda l’autrice del furto.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Nel procedimento relativo al furto nella sua abitazione Ancorotti è persona offesa; la condanna riguarda l'autrice del reato.",
     "sourceUrls": [
       "https://www.ilgiorno.it/cremona/cronaca/furto-renato-ancorotti-meloni-x46mq6m2"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

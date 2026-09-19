@@ -2,15 +2,24 @@
   "schemaVersion": 1,
   "id": "manuela-maffioli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Manuela Maffioli\" indagato imputato condannato assolto archiviato"
+      "\"Manuela Maffioli\" indagato imputato condannato assolto archiviato",
+      "\"Manuela Maffioli\" indagato indagata imputato imputata rinviato rinviata processo condannato condannata patteggiamento assolto assolta archiviato archiviata prescritto prescritta"
     ],
-    "notes": "Ricerca preliminare per nome completo su indagini, processi ed esiti. Non è emerso un procedimento penale personale sufficientemente documentato nelle fonti consultate. Questo non certifica l’assenza di precedenti o procedimenti.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

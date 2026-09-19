@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "deborah-bergamini",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Verifica approfondita effettuata su fonti giornalistiche e istituzionali. Nel gennaio 2008 Deborah Bergamini e l'ex direttore generale Rai Flavio Cattaneo risultarono indagati per interruzione di pubblico servizio nel cosiddetto filone RaiSet, relativo a presunti accordi tra dirigenti Rai e Mediaset sulla gestione dell'informazione durante le elezioni regionali del 2005. Il 21 ottobre 2008 la Procura di Roma chiese l'archiviazione del procedimento, rilevando un ostacolo processuale all'utilizzo delle intercettazioni provenienti da un diverso procedimento. Non è stata reperita una fonte affidabile che documenti espressamente il successivo decreto del GIP di accoglimento della richiesta di archiviazione. Per tale ragione il procedimento viene registrato nello stato storico documentato di investigated, senza descriverlo come tuttora pendente. L'indagine interna Rai e la sospensione cautelativa aziendale connesse alla vicenda della cosiddetta Struttura Delta non costituiscono procedimenti penali e vengono mantenute distinte.",
+    "notes": "Verifica approfondita effettuata su fonti giornalistiche e istituzionali. Nel gennaio 2008 Deborah Bergamini e l'ex direttore generale Rai Flavio Cattaneo risultarono indagati per interruzione di pubblico servizio nel cosiddetto filone RaiSet, relativo a presunti accordi tra dirigenti Rai e Mediaset sulla gestione dell'informazione durante le elezioni regionali del 2005. Il 21 ottobre 2008 la Procura di Roma chiese l'archiviazione del procedimento, rilevando un ostacolo processuale all'utilizzo delle intercettazioni provenienti da un diverso procedimento. Non è stata reperita una fonte affidabile che documenti espressamente il successivo decreto del GIP di accoglimento della richiesta di archiviazione. Per tale ragione il procedimento viene registrato nello stato storico documentato di investigated, senza descriverlo come tuttora pendente. L'indagine interna Rai e la sospensione cautelativa aziendale connesse alla vicenda della cosiddetta Struttura Delta non costituiscono procedimenti penali e vengono mantenute distinte. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "queries": [
       "\"Deborah Bergamini\" indagata",
       "\"Deborah Bergamini\" imputata",
@@ -37,7 +37,7 @@
     "judicialStatus": "investigated",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceeding-found"
     },
     "proceedings": [

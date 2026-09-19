@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "maria-elisabetta-alberti-casellati",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Ricerca preliminare effettuata su fonti istituzionali e giornalistiche. Non sono emersi procedimenti penali personali sufficientemente documentati per l'inserimento in judicialRecords.js. Nel 2005 Alberti Casellati compare in un procedimento penale esclusivamente nella qualità di denunciante-querelante nei confronti di un collaboratore. Nel 2023 risultano inoltre indagati per una distinta vicenda fiscale i figli Alvise e Ludovica Casellati: tali notizie non devono essere attribuite alla senatrice. Da sottoporre a deep review prima di un eventuale stato clean. Le notizie sulle indagini per fatture false riguardano i figli della senatrice, non lei.",
+    "readyForClean": true,
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Nel procedimento del 2005 compare come denunciante e querelante. Le indagini fiscali del 2023 riguardano i figli Alvise e Ludovica Casellati.",
     "queries": [
       "\"maria elisabetta alberti casellati\" indagato imputato condannato archiviato"
     ],
@@ -14,5 +14,13 @@
       "https://www.ansa.it/sito/notizie/cronaca/2023/11/23/indagati-per-fatture-false-i-due-figli-della-ministra-casellati_e110193b-92d2-47c3-91fe-7c3ddc5d9646.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

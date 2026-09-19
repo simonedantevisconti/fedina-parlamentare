@@ -2,24 +2,25 @@
   "schemaVersion": 1,
   "id": "mauro-antonio-donato-laus",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Mauro Antonio Donato Laus\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "La Procura ha chiesto l’archiviazione nell’inchiesta Rear; non verificato un decreto del GIP.",
+    "notes": "La Procura ha chiesto l’archiviazione nell’inchiesta Rear; non verificato un decreto del GIP. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset. Il 24 luglio 2026 ANSA ha documentato che il GIP di Torino ha disposto l'archiviazione per tutti gli indagati, incluso Laus.",
     "sourceUrls": [
-      "https://lospiffero.com/ls_article.php?id=98878"
+      "https://lospiffero.com/ls_article.php?id=98878",
+      "https://www.ansa.it/sito/notizie/cronaca/2026/07/24/caso-rear-il-gip-dispone-larchiviazione-per-laus-e-altri-indagati_1f714ca2-7677-4211-940f-af782a19ff0e.html"
     ]
   },
   "record": {
-    "judicialStatus": "outcome-unverified",
+    "judicialStatus": "archived",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
-      "result": "historical-proceeding-outcome-unverified"
+      "lastVerifiedAt": "2026-09-19",
+      "result": "documented-archived-proceeding"
     },
     "proceedings": [
       {
@@ -27,14 +28,19 @@
         "title": "Inchiesta Rear",
         "allegedOffence": "Truffa e malversazione a danno dello Stato, secondo le prime notizie",
         "offence": null,
-        "status": "outcome-unverified",
-        "court": "Procura di Torino",
+        "status": "archived",
+        "court": "GIP del Tribunale di Torino",
         "startDate": null,
-        "lastUpdate": null,
-        "description": "La stampa riferisce che la Procura ha chiesto l’archiviazione dell’indagine che includeva Laus. La richiesta non è una decisione del giudice.",
-        "finalJudgment": null,
-        "finalJudgmentDate": null,
-        "timeline": [],
+        "lastUpdate": "2026-07-24",
+        "description": "Dopo la richiesta della Procura, il 24 luglio 2026 il GIP di Torino ha disposto l'archiviazione per tutti gli indagati nell'inchiesta Rear, incluso Mauro Laus.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2026-07-24",
+        "timeline": [
+          {
+            "date": "2026-07-24",
+            "title": "Il GIP dispone l'archiviazione"
+          }
+        ],
         "sources": [
           {
             "name": "Inchiesta Rear",
@@ -42,6 +48,14 @@
             "url": "https://lospiffero.com/ls_article.php?id=98878",
             "publicationDate": null,
             "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          },
+          {
+            "name": "Caso Rear, il GIP dispone l'archiviazione per Laus e altri indagati",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/07/24/caso-rear-il-gip-dispone-larchiviazione-per-laus-e-altri-indagati_1f714ca2-7677-4211-940f-af782a19ff0e.html",
+            "publicationDate": "2026-07-24",
+            "accessedAt": "2026-09-19",
             "type": "journalistic"
           }
         ]

@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "andrea-gnassi",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Andrea Gnassi\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Assoluzione in appello nel processo Aeradria. Per la distinta indagine relativa a un diverbio con due vigilesse è documentata la richiesta di archiviazione del PM, non il provvedimento del GIP. Verificare anche eventuale ricorso contro la sentenza Aeradria.",
+    "notes": "Assoluzione in appello nel processo Aeradria. Per la distinta indagine relativa a un diverbio con due vigilesse è documentata la richiesta di archiviazione del PM, non il provvedimento del GIP. Verificare anche eventuale ricorso contro la sentenza Aeradria. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.ilrestodelcarlino.it/rimini/cronaca/fallimento-aeradria-assolti-appello-rnwpr1u3",
       "https://www.ilrestodelcarlino.it/rimini/cronaca/gnassi-vigilesse-c4b92e2d"
@@ -19,7 +19,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "alessandro-cattaneo",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
@@ -11,11 +11,52 @@
       "\"Alessandro Cattaneo\" \"abuso d’ufficio\" archiviazione",
       "\"Alessandro Cattaneo\" \"abuso d’ufficio\" rinvio giudizio"
     ],
-    "notes": "Fonti del settembre 2015 documentano un’indagine per abuso d’ufficio sulla nomina di un dirigente quando era sindaco di Pavia. Non è stato trovato il successivo provvedimento, né una conferma di pendenza. La presenza del nome in sentenze su altri imputati per mafia non dimostra un’indagine a suo carico.",
+    "notes": "Fonti del settembre 2015 documentano un’indagine per abuso d’ufficio sulla nomina di un dirigente quando era sindaco di Pavia. Non è stato trovato il successivo provvedimento, né una conferma di pendenza. La presenza del nome in sentenze su altri imputati per mafia non dimostra un’indagine a suo carico. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://laprovinciapavese.gelocal.it/pavia/cronaca/2015/09/24/news/abuso-d-ufficio-indagato-cattaneo-1.12147832",
       "https://milano.corriere.it/notizie/cronaca/15_settembre_24/pavia-ex-sindaco-indagato-abuso-d-ufficio-nomina-senza-concorso-8015d902-629f-11e5-95fc-7c4133631b69.shtml"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "alessandro-cattaneo-001",
+        "title": "Inchiesta sulla nomina di un dirigente del Comune di Pavia",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Pavia",
+        "startDate": null,
+        "lastUpdate": "2015-09-24",
+        "description": "Nel 2015 la stampa documentò l'indagine relativa a una nomina effettuata quando Cattaneo era sindaco. Le notizie successive reperite riguardano la denuncia collegata e la posizione di un altro soggetto, senza chiarire con certezza l'esito personale di Cattaneo.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Abuso d'ufficio, indagato Cattaneo",
+            "publisher": "La Provincia Pavese",
+            "url": "https://laprovinciapavese.gelocal.it/pavia/cronaca/2015/09/24/news/abuso-d-ufficio-indagato-cattaneo-1.12147832",
+            "publicationDate": "2015-09-24",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Bravi chiede 50mila euro di danni",
+            "publisher": "La Provincia Pavese",
+            "url": "https://laprovinciapavese.gelocal.it/pavia/cronaca/2017/11/01/news/bravi-chiede-50mila-euro-di-danni-a-vito-sabato-1.16068326",
+            "publicationDate": "2017-11-01",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

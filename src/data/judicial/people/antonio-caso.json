@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "antonio-caso",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Antonio Caso\" deputato indagato condannato assolto"
+      "\"Antonio Caso\" deputato indagato condannato assolto",
+      "\"Antonio Caso deputato\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Le corrispondenze reperite riguardano interventi parlamentari e procedimenti di altre persone. Nessun procedimento penale personale documentato; ricerca preliminare.",
+    "notes": "Le corrispondenze reperite riguardano interventi parlamentari e procedimenti di altre persone. Nessun procedimento penale personale documentato; ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.antoniocaso.it/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

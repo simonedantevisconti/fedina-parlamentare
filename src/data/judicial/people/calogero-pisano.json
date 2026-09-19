@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "calogero-pisano",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Calogero Pisano\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "ANSA riferisce che nel marzo 2026 Pisano ha ricevuto un avviso di garanzia nell’indagine sui fondi per eventi ad Agrigento. Indagine e ipotesi di reato non equivalgono a colpevolezza; esito successivo non verificato.",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. ANSA riferisce che nel marzo 2026 Pisano ha ricevuto un avviso di garanzia nell'indagine sui fondi per eventi ad Agrigento; la stampa locale ne riferisce ancora nel luglio 2026. Non è documentata una decisione giudiziaria. Indagine e ipotesi di reato non equivalgono a colpevolezza.",
     "sourceUrls": [
       "https://www.ansa.it/amp/sicilia/notizie/2026/03/30/deputato-fdi-pisano-indagato-con-altri-5-per-truffa-e-peculato-ad-agrigento_1610dfc2-ada3-4742-ab2d-8a3fc5bf855d.html"
     ]

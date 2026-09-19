@@ -2,17 +2,83 @@
   "schemaVersion": 1,
   "id": "manlio-messina",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Manlio Messina\" indagato imputato condannato assolto archiviato"
+      "\"Manlio Messina\" indagato imputato condannato assolto archiviato prescritto",
+      "\"Manlio Messina\" truffa aggravata rimborsi Comune sentenza prescrizione"
     ],
-    "notes": "Una notizia ANSA del 5 agosto 2025 riporta la comunicazione della Procura di Palermo secondo cui Messina non era indagato nel procedimento citato. Ciò riguarda quel fascicolo specifico e non certifica l’assenza generale di precedenti.",
+    "notes": "Procedimento personale sui rimborsi del Comune di Catania. Nel dicembre 2019 la Procura chiese al Tribunale di dichiarare prescritta la truffa aggravata e la difesa aderì; una fonte del marzo 2023 descrive Messina come prescritto per la medesima contestazione. La prescrizione non equivale a un'assoluzione nel merito. Una distinta notizia ANSA del 2025 precisa che Messina non era indagato nell'inchiesta palermitana citata in quell'articolo.",
     "sourceUrls": [
+      "https://www.lasicilia.it/news/catania/1080973/truffa-al-comune-per-la-procura-l-accusa-all-assessore-regionale-messina-e-prescritta.html",
+      "https://meridionews.it/rimborsi-consigliere-messina-udienza-nel-2017-spettro-prescrizione-su-accusa-truffa-allo-stato/",
+      "https://ilpezzoetneo.it/2023/03/02/fdi-beghe-meloniani-catanesi-amministrative-caso-nicotra-daidone-ferlito-moscato/",
       "https://www.ansa.it/amp/sito/notizie/politica/2025/08/05/messina-su-dimissioni-lento-processo-emarginazione-in-fdi_02527121-cd31-4080-b50c-aa656811c2fc.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "manlio-messina-001",
+        "title": "Rimborsi lavorativi del Comune di Catania",
+        "allegedOffence": "Truffa aggravata ai danni dello Stato",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Catania",
+        "startDate": null,
+        "lastUpdate": "2023-03-02",
+        "description": "Messina fu rinviato a giudizio nel 2015 per circa 30 mila euro di rimborsi lavorativi che, secondo l'accusa, sarebbero stati ottenuti tra il 2010 e il 2012 simulando il rapporto di lavoro con una società. Nel dicembre 2019 la Procura chiese di dichiarare il reato prescritto e la difesa aderì. Una fonte del marzo 2023 riferisce la vicenda come conclusa per prescrizione. La prescrizione non equivale a un'assoluzione nel merito.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2015-06-22",
+            "title": "Rinvio a giudizio documentato dalle fonti consultate"
+          },
+          {
+            "date": "2019-12-10",
+            "title": "La Procura chiede la dichiarazione di prescrizione; la difesa aderisce"
+          },
+          {
+            "date": "2023-03-02",
+            "title": "Una fonte successiva descrive il procedimento come prescritto"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rimborsi consigliere Messina, udienza nel 2017",
+            "publisher": "MeridioNews",
+            "url": "https://meridionews.it/rimborsi-consigliere-messina-udienza-nel-2017-spettro-prescrizione-su-accusa-truffa-allo-stato/",
+            "publicationDate": "2016-03-29",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Truffa al Comune, per la Procura l'accusa a Messina è prescritta",
+            "publisher": "La Sicilia",
+            "url": "https://www.lasicilia.it/news/catania/1080973/truffa-al-comune-per-la-procura-l-accusa-all-assessore-regionale-messina-e-prescritta.html",
+            "publicationDate": "2019-12-10",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Le vicende giudiziarie degli esponenti di FdI in Sicilia",
+            "publisher": "Il Pezzo Etneo",
+            "url": "https://ilpezzoetneo.it/2023/03/02/fdi-beghe-meloniani-catanesi-amministrative-caso-nicotra-daidone-ferlito-moscato/",
+            "publicationDate": "2023-03-02",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

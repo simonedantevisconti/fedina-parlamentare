@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "maria-rosaria-carfagna",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Maria Rosaria Carfagna\" indagata condannata assolta archiviata",
-      "\"Maria Rosaria Carfagna\" \"diffamazione\" \"insindacabilità\" 2025"
+      "\"Maria Rosaria Carfagna\" \"diffamazione\" \"insindacabilità\" 2025",
+      "\"Maria Rosaria Carfagna\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "La documentazione parlamentare sulla diffamazione riguarda un giudizio civile promosso da Carfagna contro Vittorio Sgarbi: non è un procedimento penale a carico della deputata. Nel caso Cosentino fu ascoltata dai PM nel 2010 come persona informata dei fatti, non come indagata. Controllo penale preliminare, senza esito personale documentato.",
+    "notes": "La documentazione parlamentare sulla diffamazione riguarda un giudizio civile promosso da Carfagna contro Vittorio Sgarbi: non è un procedimento penale a carico della deputata. Nel caso Cosentino fu ascoltata dai PM nel 2010 come persona informata dei fatti, non come indagata. Controllo penale preliminare, senza esito personale documentato. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.deputatipd.it/interventi/relazione-della-giunta-le-autorizzazioni-sulla-richiesta-di-deliberazione-materia-di-6",
       "https://napoli.repubblica.it/cronaca/2010/12/03/news/l_inchiesta_su_cosentino_sentita_mara_carfagna-9805069/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

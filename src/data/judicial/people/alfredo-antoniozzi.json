@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "alfredo-antoniozzi",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceedings-requiring-outcome-verification",
     "readyForClean": false,
-    "notes": "Verifica approfondita dei due procedimenti personali storici. Nel filone Hobby Flora/Punto Verde Qualità, fonti del 2015 documentano Alfredo Antoniozzi come indagato per abuso d'ufficio in relazione a una delibera comunale del 2010; non è stato reperito un successivo provvedimento di archiviazione, rinvio a giudizio o sentenza attribuibile con certezza alla sua posizione. Nel filone Palazzo Raggi, dopo la chiusura delle indagini nel 2016, il 30 novembre 2016 la Procura di Roma chiese l'archiviazione dell'accusa di abuso d'ufficio per i 12 ex assessori, incluso Antoniozzi, ritenendo corretto il loro operato e rilevando che non fossero a conoscenza del falso presupposto della pratica. Non è stato reperito il successivo decreto del GIP, pertanto la richiesta di archiviazione non viene classificata come archiviazione definitiva. L'abuso d'ufficio ex art. 323 c.p. è stato successivamente abrogato dalla legge n. 114/2024, ma questo dato normativo non viene utilizzato per inferire l'esito individuale dei fascicoli. Le vicende giudiziarie di Tancredi Antoniozzi riguardano il figlio e sono escluse. Le vicende contabili restano fuori dal censimento penale.",
+    "notes": "Verifica approfondita dei due procedimenti personali storici. Nel filone Hobby Flora/Punto Verde Qualità, fonti del 2015 documentano Alfredo Antoniozzi come indagato per abuso d'ufficio in relazione a una delibera comunale del 2010; non è stato reperito un successivo provvedimento di archiviazione, rinvio a giudizio o sentenza attribuibile con certezza alla sua posizione. Nel filone Palazzo Raggi, dopo la chiusura delle indagini nel 2016, il 30 novembre 2016 la Procura di Roma chiese l'archiviazione dell'accusa di abuso d'ufficio per i 12 ex assessori, incluso Antoniozzi, ritenendo corretto il loro operato e rilevando che non fossero a conoscenza del falso presupposto della pratica. Non è stato reperito il successivo decreto del GIP, pertanto la richiesta di archiviazione non viene classificata come archiviazione definitiva. L'abuso d'ufficio ex art. 323 c.p. è stato successivamente abrogato dalla legge n. 114/2024, ma questo dato normativo non viene utilizzato per inferire l'esito individuale dei fascicoli. Le vicende giudiziarie di Tancredi Antoniozzi riguardano il figlio e sono escluse. Le vicende contabili restano fuori dal censimento penale. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "queries": [
       "\"Alfredo Antoniozzi\" indagato condannato assolto archiviato processo",
       "\"Alfredo Antoniozzi\" \"Hobby Flora\"",
@@ -30,5 +30,62 @@
       "https://www.cortecostituzionale.it/scheda-pronuncia/2025/95"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceedings-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "alfredo-antoniozzi-001",
+        "title": "Inchiesta Hobby Flora / Punto Verde Qualità",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Roma",
+        "startDate": null,
+        "lastUpdate": "2015-10-26",
+        "description": "Nel 2015 la stampa documentò l'iscrizione di Alfredo Antoniozzi nell'indagine su una delibera comunale del 2010. Non è stato reperito un successivo provvedimento riferibile con certezza alla sua posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Pilotarono la delibera del 2010",
+            "publisher": "Corriere della Sera - Roma",
+            "url": "https://roma.corriere.it/notizie/cronaca/15_ottobre_26/pilotarono-delibera-2010-indagati-pomarici-antoniozzi-90e1e480-7c15-11e5-9069-1cf5f2fd4ce8.shtml",
+            "publicationDate": "2015-10-26",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "alfredo-antoniozzi-002",
+        "title": "Inchiesta Palazzo Raggi",
+        "allegedOffence": "Abuso d'ufficio",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Roma",
+        "startDate": null,
+        "lastUpdate": "2016-11-30",
+        "description": "La Procura di Roma chiese l'archiviazione per gli ex assessori, tra i quali Antoniozzi. Non è stato reperito il decreto del GIP, quindi la richiesta non viene registrata come archiviazione disposta.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Palazzo Raggi, chiesta l'archiviazione per gli ex assessori",
+            "publisher": "Corriere della Sera - Roma",
+            "url": "https://roma.corriere.it/notizie/cronaca/16_novembre_30/roma-inchiesta-procura-falso-condono-palazzo-raggi-dirigente-comune-giudizio-5e9bdf86-b728-11e6-aa72-c3459305a7ca.shtml",
+            "publicationDate": "2016-11-30",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "angelo-bonelli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "La nuova ricerca restituisce Bonelli come autore di esposti o commentatore di procedimenti contro altre persone, fra cui Delmastro e Vendola. Non è emersa una fonte sufficiente per attribuirgli un procedimento penale personale; il controllo resta preliminare.",
+    "readyForClean": true,
+    "notes": "La nuova ricerca restituisce Bonelli come autore di esposti o commentatore di procedimenti contro altre persone, fra cui Delmastro e Vendola. Non è emersa una fonte sufficiente per attribuirgli un procedimento penale personale; il controllo resta preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "queries": [
       "\"Angelo Bonelli\" indagato condannato assolto archiviato",
       "\"Angelo Bonelli\" condannato -Delmastro -Cospito -Salvini",
-      "\"angelo bonelli\" indagato imputato condannato archiviato"
+      "\"angelo bonelli\" indagato imputato condannato archiviato",
+      "\"Angelo Bonelli\" indagato imputato condannato assolto archiviato procura"
     ],
     "sourceUrls": [
       "https://roma.corriere.it/notizie/cronaca/23_luglio_06/del-mastro-respinta-la-richiesta-di-archiviazione-per-il-caso-cospito-7354bdc3-6446-4653-9bcd-0d09eeaedxlk_amp.shtml"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

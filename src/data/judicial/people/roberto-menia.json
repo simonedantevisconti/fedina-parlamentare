@@ -2,15 +2,74 @@
   "schemaVersion": 1,
   "id": "roberto-menia",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Roberto Menia\" indagato imputato condannato assolto archiviato"
+      "\"Roberto Menia\" indagato imputato condannato assolto archiviato",
+      "\"Roberto Menia\" Alessandro Metz procedimento 3362/03",
+      "\"Roberto Menia\" insindacabilità Camera 2006"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale attribuibile con sufficiente certezza a questa persona.  L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
-    "sourceUrls": []
+    "notes": "Un procedimento per diffamazione nacque dalla querela presentata nel 2003 da Alessandro Metz per dichiarazioni attribuite a Roberto Menia. Il GIP di Trieste sospese il procedimento e trasmise gli atti alla Camera. Il 1° febbraio 2006 la Camera approvò all'unanimità dei votanti la proposta secondo cui le dichiarazioni erano opinioni espresse nell'esercizio delle funzioni parlamentari e quindi coperte dall'articolo 68, primo comma, della Costituzione. Questa deliberazione non è un'assoluzione sul merito e viene registrata separatamente come insindacabilità parlamentare.",
+    "sourceUrls": [
+      "https://documenti.camera.it/_dati/leg14/lavori/documentiparlamentari/indiceetesti/004ter/020/divter020.pdf",
+      "https://documenti.camera.it/_dati/leg14/lavori/stenografici/sed741/pdfs001.pdf"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "parliamentary-immunity",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "documented-parliamentary-immunity-decision"
+    },
+    "proceedings": [
+      {
+        "id": "roberto-menia-001",
+        "title": "Querela di Alessandro Metz per dichiarazioni pubbliche",
+        "allegedOffence": "Diffamazione aggravata a mezzo stampa",
+        "offence": null,
+        "status": "parliamentary-immunity",
+        "court": "Tribunale di Trieste / Camera dei deputati",
+        "startDate": "2003-08-13",
+        "lastUpdate": "2006-02-01",
+        "description": "Il procedimento penale n. 3362/03 RGNR ebbe origine dalla querela di Alessandro Metz. Dopo la sospensione disposta dal GIP di Trieste, la Camera deliberò che le dichiarazioni contestate erano opinioni espresse da Menia nell'esercizio delle funzioni parlamentari e risultavano pertanto insindacabili ai sensi dell'articolo 68, primo comma, della Costituzione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2003-08-13",
+            "title": "Querela depositata presso la Procura di Trieste"
+          },
+          {
+            "date": "2005-12-20",
+            "title": "Il GIP sospende il procedimento e trasmette gli atti alla Camera"
+          },
+          {
+            "date": "2006-02-01",
+            "title": "La Camera approva la deliberazione di insindacabilità"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Relazione della Giunta per le autorizzazioni, Doc. IV-ter n. 20-A",
+            "publisher": "Camera dei deputati",
+            "url": "https://documenti.camera.it/_dati/leg14/lavori/documentiparlamentari/indiceetesti/004ter/020/divter020.pdf",
+            "publicationDate": null,
+            "accessedAt": "2026-09-19",
+            "type": "institutional"
+          },
+          {
+            "name": "Resoconto stenografico della seduta n. 741",
+            "publisher": "Camera dei deputati",
+            "url": "https://documenti.camera.it/_dati/leg14/lavori/stenografici/sed741/pdfs001.pdf",
+            "publicationDate": "2006-02-01",
+            "accessedAt": "2026-09-19",
+            "type": "institutional"
+          }
+        ]
+      }
+    ]
+  }
 }

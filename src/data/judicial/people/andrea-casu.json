@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "andrea-casu",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Andrea Casu\" deputato indagato condannato assolto"
+      "\"Andrea Casu\" deputato indagato condannato assolto",
+      "\"Andrea Casu deputato\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "I risultati relativi a Delmastro e ad altri procedimenti riportano commenti o interventi di Andrea Casu. Non è emersa una fonte sufficiente per attribuirgli un procedimento personale; ricerca preliminare.",
+    "notes": "I risultati relativi a Delmastro e ad altri procedimenti riportano commenti o interventi di Andrea Casu. Non è emersa una fonte sufficiente per attribuirgli un procedimento personale; ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.repubblica.it/politica/2025/02/21/news/anm_caso_delmastro_governo_magistrati-424018765/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

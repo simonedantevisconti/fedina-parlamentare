@@ -2,20 +2,30 @@
   "schemaVersion": 1,
   "id": "pino-bicchielli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Verificate ricerche nominative sia per Pino sia per Giuseppe Bicchielli. I risultati consultati riguardano attività parlamentare e sue dichiarazioni su procedimenti di altre persone; non documentano un procedimento penale personale. La verifica resta preliminare: l’assenza di riscontri pubblici non equivale a un certificato del casellario.",
+    "readyForClean": true,
+    "notes": "Verificate ricerche nominative sia per Pino sia per Giuseppe Bicchielli, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, avvisi di garanzia, rinvii a giudizio, querele e denunce. I risultati consultati riguardano attività parlamentare e sue dichiarazioni o interrogazioni su procedimenti di altre persone; non documentano un procedimento penale personale. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "queries": [
       "\"Pino Bicchielli\" indagato imputato condannato assolto archiviato",
       "\"Giuseppe Bicchielli\" indagato imputato procedimento penale",
-      "\"pino bicchielli\" indagato imputato condannato archiviato"
+      "\"pino bicchielli\" indagato imputato condannato archiviato",
+      "\"Pino Bicchielli\" procura tribunale querela denuncia",
+      "\"Giuseppe Bicchielli\" \"avviso di garanzia\" \"rinvio a giudizio\" \"registro degli indagati\""
     ],
     "sourceUrls": [
       "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308790&tipoAttivita=attivitalegislativacommissione&tipoPersona=C&tipoVisAtt=1",
       "https://www.giustizia.it/cmsresources/cms/documents/interrogazione_bicchielli_risposta_12feb2024.pdf"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

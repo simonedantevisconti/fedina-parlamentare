@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "federico-freni",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"federico freni\" indagato imputato condannato archiviato"
+      "\"federico freni\" indagato imputato condannato archiviato",
+      "\"Federico Freni\" indagato indagata imputato imputata rinviato rinviata processo condannato condannata patteggiamento assolto assolta archiviato archiviata prescritto prescritta"
     ],
-    "notes": "La ricostruzione di Report sul caso Verdini/Anas precisa che Freni non era indagato. La menzione in conversazioni altrui non è un procedimento personale.",
+    "notes": "La ricostruzione di Report sul caso Verdini/Anas precisa che Freni non era indagato. La menzione in conversazioni altrui non è un procedimento personale. Le fonti sul procedimento relativo alla commessa ANAS precisano espressamente che Federico Freni non risulta indagato. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.rai.it/dl/doc/1708456486334_DO%20UT%20DES%20-%20di%20Danilo%20Procaccianti.pdf"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

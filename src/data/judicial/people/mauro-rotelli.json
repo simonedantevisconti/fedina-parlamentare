@@ -2,15 +2,91 @@
   "schemaVersion": 1,
   "id": "mauro-rotelli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Mauro Rotelli\" indagato imputato condannato assolto archiviato"
+      "\"Mauro Rotelli\" indagato imputato condannato assolto archiviato prescritto",
+      "\"Mauro Rotelli\" processo mense Cassazione prescrizione",
+      "\"Mauro Rotelli\" processo CEV prescrizione"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale attribuibile con sufficiente certezza a questa persona. L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
-    "sourceUrls": []
+    "notes": "Due procedimenti penali personali documentati e conclusi per prescrizione: il processo sull'appalto delle mense scolastiche e il troncone CEV. Nel primo caso la Cassazione dichiarò inammissibile nel 2017 il ricorso con cui Rotelli chiedeva l'assoluzione nel merito, lasciando ferma la prescrizione. Le decisioni della Corte dei conti emerse nelle stesse vicende hanno natura contabile e non sono classificate come condanne penali.",
+    "sourceUrls": [
+      "https://www.tusciaweb.eu/2017/11/rotelli-vuole-lassoluzione-ma-la-cassazione-dice-no/",
+      "https://www.tusciaweb.eu/2013/01/processo-cev-via-allascolto-dei-testimoni/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "prescribed",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "mauro-rotelli-001",
+        "title": "Appalto delle mense scolastiche di Viterbo",
+        "allegedOffence": "Corruzione e turbativa d'asta; corruzione riqualificata in abuso d'ufficio",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Corte di Cassazione",
+        "startDate": null,
+        "lastUpdate": "2017-11-27",
+        "description": "Nel procedimento sull'appalto delle mense scolastiche il Tribunale di Viterbo riqualificò nel 2014 l'accusa di corruzione in abuso d'ufficio e dichiarò prescritti sia quest'ultimo reato sia la turbativa d'asta. La Corte d'appello confermò. Nel 2017 la Cassazione dichiarò inammissibile il ricorso con cui Rotelli chiedeva l'assoluzione nel merito, lasciando ferma la prescrizione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2017-11-27",
+        "timeline": [
+          {
+            "date": "2014-09-23",
+            "title": "Il Tribunale dichiara prescritti i reati dopo la riqualificazione"
+          },
+          {
+            "date": "2017-11-27",
+            "title": "La Cassazione dichiara inammissibile il ricorso"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Rotelli vuole l'assoluzione, ma la Cassazione dice no",
+            "publisher": "Tusciaweb",
+            "url": "https://www.tusciaweb.eu/2017/11/rotelli-vuole-lassoluzione-ma-la-cassazione-dice-no/",
+            "publicationDate": "2017-11-27",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "mauro-rotelli-002",
+        "title": "Procedimento sul crack della municipalizzata CEV",
+        "allegedOffence": "Abuso d'ufficio ed emissione di fatture false",
+        "offence": null,
+        "status": "prescribed",
+        "court": "Tribunale di Viterbo",
+        "startDate": null,
+        "lastUpdate": "2013-01-11",
+        "description": "Rotelli era tra gli imputati nel procedimento sul crack della municipalizzata CEV. Una fonte del gennaio 2013 riferisce che uscì dal processo già alla prima udienza per prescrizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2013-01-11",
+            "title": "Uscita dal procedimento per prescrizione documentata dalla fonte"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Processo CEV, via all'ascolto dei testimoni",
+            "publisher": "Tusciaweb",
+            "url": "https://www.tusciaweb.eu/2013/01/processo-cev-via-allascolto-dei-testimoni/",
+            "publicationDate": "2013-01-11",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

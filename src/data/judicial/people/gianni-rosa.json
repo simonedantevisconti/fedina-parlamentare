@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "gianni-rosa",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Gianni Rosa\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare.",
+    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "sourceUrls": [
       "https://bari.corriere.it/notizie/cronaca/24_novembre_08/sanita-lucana-rinviato-a-giudizio-il-governatore-vito-bardi-fi-a-processo-anche-tre-ex-assessori-5f9eacd4-2456-4493-922e-35de76a4fxlk.shtml",
       "https://www.rainews.it/tgr/basilicata/video/2026/02/processo-sanitopoli-lex-segretario-di-bardi-tagli-al-san-carlo-per-cacciare-il-dg-sgradito-a77bfcef-4ec2-48a8-914d-0c3d75fc55d4.html"
@@ -19,7 +19,7 @@
     "judicialStatus": "trial",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

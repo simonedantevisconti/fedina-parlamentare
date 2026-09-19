@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "luigi-marattin",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Luigi Marattin\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Condanna penale di primo grado a multa di 2.000 euro per diffamazione verso Claudio Borghi nel 2023; non verificato l’esito dell’appello. Separata condanna civile definitiva al risarcimento di Lucio Picci: non è una condanna penale e resta fuori dal record giudiziario penale.",
+    "notes": "Condanna penale di primo grado a multa di 2.000 euro per diffamazione verso Claudio Borghi nel 2023; non verificato l’esito dell’appello. Separata condanna civile definitiva al risarcimento di Lucio Picci: non è una condanna penale e resta fuori dal record giudiziario penale. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.estense.com/2023/1023054/diffamo-il-leghista-borghi-marattin-condannato-a-pagare-2-000-euro-di-multa/"
     ]
@@ -18,7 +18,7 @@
     "judicialStatus": "convicted-non-final",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

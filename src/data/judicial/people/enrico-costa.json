@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "enrico-costa",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Enrico Costa\" deputato indagato condannato assolto",
-      "\"enrico costa\" indagato imputato condannato archiviato"
+      "\"enrico costa\" indagato imputato condannato archiviato",
+      "\"Enrico Costa\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "I risultati esaminati riguardano le proposte del deputato sulla giustizia e procedimenti di altre persone citati nei suoi interventi. Nessun procedimento personale documentato. Controllo preliminare.",
+    "notes": "I risultati esaminati riguardano le proposte del deputato sulla giustizia e procedimenti di altre persone citati nei suoi interventi. Nessun procedimento personale documentato. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=301541&tipoAttivita=attivita&tipoPersona=&tipoVisAtt="
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "laura-cavandoli",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Laura Cavandoli\" indagata condannata assolta archiviata",
-      "\"laura cavandoli\" indagato imputato condannato archiviato"
+      "\"laura cavandoli\" indagato imputato condannato archiviato",
+      "\"Laura Cavandoli\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le notizie sulla vicenda Bibbiano e le discussioni parlamentari sulla giustizia mostrano il suo ruolo istituzionale, senza documentare un procedimento penale personale. Ricerca preliminare.",
+    "notes": "Le notizie sulla vicenda Bibbiano e le discussioni parlamentari sulla giustizia mostrano il suo ruolo istituzionale, senza documentare un procedimento penale personale. Ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://documenti.camera.it/leg18/resoconti/commissioni/stenografici/xhtml/78/audiz2/audizione/2022/02/22/resoconto.0020.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

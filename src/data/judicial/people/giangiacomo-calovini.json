@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "giangiacomo-calovini",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
@@ -11,7 +11,7 @@
       "\"Calovini\" \"patteggiamento\" \"giudice\" luglio 2023",
       "\"Calovini\" \"patteggiamento\" \"definitivo\""
     ],
-    "notes": "La fonte del 2024 conferma l’accoglimento del patteggiamento, oltre alla richiesta del 2023. La definitività è esplicitamente riferita a Fidanza: non viene automaticamente estesa a Calovini. Mancano data esatta e verifica del passaggio in giudicato della sua decisione."
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. La fonte del 2024 conferma l'accoglimento del patteggiamento, oltre alla richiesta del 2023. La definitività è esplicitamente riferita a Fidanza e non viene attribuita a Calovini senza un documento che la confermi. La data esatta del provvedimento resta sconosciuta."
   },
   "record": {
     "judicialStatus": "plea-bargain",

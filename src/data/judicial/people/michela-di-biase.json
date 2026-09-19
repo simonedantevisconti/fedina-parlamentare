@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "michela-di-biase",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Michela Di Biase\" indagato imputato condannato assolto archiviato"
+      "\"Michela Di Biase\" indagato imputato condannato assolto archiviato",
+      "\"Michela Di Biase\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Un articolo del 2011 su una paziente di Trieste omonima, che patteggiò per diffamazione, non offre elementi per identificarla con la deputata romana. Identità non verificata. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti.",
+    "notes": "Un articolo del 2011 su una paziente di Trieste omonima, che patteggiò per diffamazione, non offre elementi per identificarla con la deputata romana. Identità non verificata. Ricerca nominativa iniziale: nessuna fonte consultata documenta con sufficiente certezza un procedimento penale personale. L’assenza di risultati non dimostra l’assenza di precedenti. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.ilpiccolo.it/cronaca/diffama-il-ginecologo-in-un-forum-web-condannata-buwsssm4"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

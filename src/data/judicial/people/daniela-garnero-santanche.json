@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "id": "daniela-garnero-santanche",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Tre filoni principali verificati: processo Visibilia per false comunicazioni sociali; procedimento sulla presunta truffa INPS condizionato dal conflitto di attribuzione davanti alla Corte costituzionale; indagine Ki Group/Bioera chiusa nel luglio 2026 in vista delle determinazioni della Procura."
+    "notes": "Tre filoni principali verificati: processo Visibilia per false comunicazioni sociali; procedimento sulla presunta truffa INPS condizionato dal conflitto di attribuzione davanti alla Corte costituzionale; indagine Ki Group/Bioera chiusa nel luglio 2026 in vista delle determinazioni della Procura. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri."
   },
   "record": {
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceedings-found"
     },
     "proceedings": [

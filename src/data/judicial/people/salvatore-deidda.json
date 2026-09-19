@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "salvatore-deidda",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"salvatore deidda\" indagato imputato condannato archiviato"
+      "\"salvatore deidda\" indagato imputato condannato archiviato",
+      "\"Salvatore Deidda\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le notizie sull’inchiesta Monte Nuovo citano altri Deidda; non documentano un procedimento personale del deputato.",
+    "notes": "Le notizie sull’inchiesta Monte Nuovo citano altri Deidda; non documentano un procedimento personale del deputato. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.unionesarda.it/news-sardegna/inchiesta-monte-nuovo-in-27-rinviati-a-giudizio-ir1f9hla"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

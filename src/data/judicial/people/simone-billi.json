@@ -2,19 +2,29 @@
   "schemaVersion": 1,
   "id": "simone-billi",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Le ricerche nominative consultate restituiscono la scheda parlamentare e attività politica, senza una fonte che documenti un procedimento penale personale. La verifica resta preliminare e non certifica l’assenza di precedenti.",
+    "readyForClean": true,
+    "notes": "Le ricerche nominative consultate, estese a indagini, imputazioni, condanne, assoluzioni, archiviazioni, avvisi di garanzia, rinvii a giudizio, querele e denunce, restituiscono la scheda parlamentare e attività politica senza una fonte che documenti un procedimento penale personale. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "queries": [
       "\"Simone Billi\" indagato imputato condannato assolto archiviato",
       "\"Simone Billi\" procedimento penale procura",
-      "\"simone billi\" indagato imputato condannato archiviato"
+      "\"simone billi\" indagato imputato condannato archiviato",
+      "\"Simone Billi\" procura tribunale querela denuncia politico",
+      "\"Simone Billi\" \"avviso di garanzia\" \"rinvio a giudizio\" \"registro degli indagati\""
     ],
     "sourceUrls": [
       "https://www.camera.it/deputati/elenco/19-307151"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

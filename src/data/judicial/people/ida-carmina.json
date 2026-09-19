@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "ida-carmina",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Ida Carmina\" indagata condannata assolta archiviata"
+      "\"Ida Carmina\" indagata condannata assolta archiviata",
+      "\"Ida Carmina\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Le fonti reperite riguardano attività parlamentare o denunce di possibili illeciti altrui. Nessun procedimento personale attribuibile con sufficiente supporto; controllo preliminare.",
+    "notes": "Le fonti reperite riguardano attività parlamentare o denunce di possibili illeciti altrui. Nessun procedimento personale attribuibile con sufficiente supporto; controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.sicilialive24.it/2026/06/22/on-ida-carmina-m5s-interrogazione-urgente-al-ministro-dellambiente-la-situazione-e-preoccupante-tutelare-la-salute-pubblica-ipotesi-di-illecito-nella-discarica-di-gela/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

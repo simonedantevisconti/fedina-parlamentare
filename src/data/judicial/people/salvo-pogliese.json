@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "salvo-pogliese",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Salvo Pogliese\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "sourceUrls": [
       "https://www.ansa.it/sicilia/notizie/2023/05/03/spese-pazze-allars-in-appello-pena-ridotta-a-pogliese_3ac57c8f-bd37-4367-b314-5805030f55b8.html"
     ]
@@ -18,7 +18,7 @@
     "judicialStatus": "convicted-non-final",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

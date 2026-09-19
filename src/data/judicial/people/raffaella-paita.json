@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "raffaella-paita",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Raffaella Paita\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Procedimenti pubblici attribuiti alla persona e distinti per vicenda. Almeno un esito o la sua definitività richiede ancora verifica.",
+    "notes": "Procedimento sull'alluvione di Genova del 2014: assoluzione confermata in appello. La ricerca sulle fonti disponibili è stata completata il 19 settembre 2026; non è documentato il passaggio in giudicato e la scheda non lo attribuisce.",
     "sourceUrls": [
       "https://www.rainews.it/archivio-rainews/articoli/ContentItem-3d7267bc-9ab7-4194-a72d-275b3b82a449.html"
     ]

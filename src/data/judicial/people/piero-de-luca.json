@@ -2,11 +2,17 @@
   "schemaVersion": 1,
   "id": "piero-de-luca",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Procedimento Ifil: assoluzione in primo grado nel febbraio 2024 perché il fatto non costituisce reato; assoluzione confermata integralmente dalla Corte d'Appello di Salerno nel giugno 2026. Non ancora verificata l'eventuale irrevocabilità."
+    "notes": "Ricerca sulle fonti disponibili conclusa il 19 settembre 2026. Procedimento Ifil: assoluzione in primo grado nel febbraio 2024 perché il fatto non costituisce reato, confermata integralmente dalla Corte d'Appello di Salerno il 15 giugno 2026. Non è documentato il passaggio in giudicato; la scheda non presenta l'assoluzione come irrevocabile.",
+    "queries": [
+      "\"Piero De Luca\" \"Ifil\" Cassazione assoluzione settembre 2026"
+    ],
+    "sourceUrls": [
+      "https://napoli.repubblica.it/cronaca/2026/06/15/news/crac_ifil_confermata_in_appello_l_assoluzione_di_piero_de_luca-425412788/"
+    ]
   },
   "record": {
     "judicialStatus": "acquitted",
@@ -26,7 +32,7 @@
         "startDate": null,
         "lastUpdate": "2026-06-15",
         "description": "Piero De Luca è stato imputato nel procedimento relativo al fallimento della Ifil C&D Srl. Secondo l'accusa, alcuni viaggi di lavoro effettuati in Lussemburgo sarebbero stati pagati utilizzando fondi della società poi fallita. Il 14 febbraio 2024 il Tribunale di Salerno lo ha assolto perché il fatto non costituisce reato. Il 15 giugno 2026 la Corte d'Appello di Salerno ha rigettato l'appello proposto dalla Procura e confermato integralmente l'assoluzione di primo grado.",
-        "finalJudgment": false,
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {

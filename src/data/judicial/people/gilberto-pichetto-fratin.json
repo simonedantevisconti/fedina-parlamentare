@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "gilberto-pichetto-fratin",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Gilberto Pichetto Fratin\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Nel 2013 è stata riportata una indagine per il fallimento Novaceta. Non è stato verificato un provvedimento conclusivo personale; le condanne di altri imputati nel 2019 non vanno attribuite a Pichetto Fratin.",
+    "notes": "Nel 2013 è stata riportata una indagine per il fallimento Novaceta. Non è stato verificato un provvedimento conclusivo personale; le condanne di altri imputati nel 2019 non vanno attribuite a Pichetto Fratin. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.quotidianopiemontese.it/2013/12/08/il-vicepresidente-della-regione-piemonte-ha-ricevuto-un-avviso-di-garanzia-per-il-fallimento-della-novaceta"
     ]
@@ -18,7 +18,7 @@
     "judicialStatus": "outcome-unverified",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

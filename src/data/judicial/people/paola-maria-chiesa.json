@@ -2,19 +2,67 @@
   "schemaVersion": 1,
   "id": "paola-maria-chiesa",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Paola Maria Chiesa\" indagata condannata assolta archiviata",
       "\"Paola Maria Chiesa\" \"indagata\" Vespucci parte offesa 2025",
-      "\"paola maria chiesa\" indagato imputato condannato archiviato"
+      "\"paola maria chiesa\" indagato imputato condannato archiviato",
+      "\"Paola Maria Chiesa\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "L’esposto sulla salita sull’albero della nave Vespucci ha dato luogo a un’indagine preliminare, ma la cronaca riferisce che Chiesa sarebbe parte offesa e che non aveva notizia di indagini a suo carico. Nessuna imputazione personale supportata da questa fonte; controllo preliminare. Le notizie sulla vicenda Vespucci riportano dichiarazioni contrastanti sul suo ruolo, compresa la sua affermazione di essere persona offesa e di non aver ricevuto avvisi. Non è verificato un procedimento penale personale.",
+    "notes": "Nel novembre 2025 RaiNews e La Provincia Pavese hanno documentato l'apertura, da parte della Procura della Spezia, di un'indagine preliminare relativa alla salita di Paola Maria Chiesa sull'alberatura della nave Amerigo Vespucci. Le fonti non chiariscono in modo concorde la sua posizione personale: Chiesa dichiarò di non avere ricevuto avvisi e di ritenersi persona offesa. Non è stato reperito un provvedimento successivo che definisca la sua posizione o l'esito del fascicolo. La scheda conserva quindi l'ultimo passaggio documentato senza presentare l'indagine come tuttora pendente. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026.",
     "sourceUrls": [
+      "https://www.rainews.it/tgr/liguria/video/2025/11/deputata-sale-su-albero-della-vespucci-la-procura-spezzina-apre-inchiesta-f19f4170-edb0-4ce2-a2e2-f991c0449699.html",
       "https://laprovinciapavese.gelocal.it/pavia/cronaca/2025/11/21/news/deputata_chiesa_vespucci_indagata-15406619/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "paola-maria-chiesa-001",
+        "title": "Inchiesta sull'accesso all'alberatura della nave Amerigo Vespucci",
+        "allegedOffence": "Ipotesi non precisata nelle fonti consultate",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura della Repubblica della Spezia",
+        "startDate": null,
+        "lastUpdate": "2025-11-21",
+        "description": "Nel novembre 2025 le fonti riferirono l'apertura di un'indagine preliminare sui fatti relativi alla salita di Paola Maria Chiesa sull'alberatura della nave Amerigo Vespucci. Le fonti consultate non chiariscono in modo concorde la sua posizione personale; la deputata dichiarò di non avere ricevuto avvisi e di ritenersi persona offesa. Non è stato reperito un successivo provvedimento conclusivo.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2025-11-20",
+            "title": "RaiNews riferisce l'apertura dell'inchiesta"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Deputata di FdI sale su albero della Vespucci, la procura spezzina apre inchiesta",
+            "publisher": "RaiNews TGR Liguria",
+            "url": "https://www.rainews.it/tgr/liguria/video/2025/11/deputata-sale-su-albero-della-vespucci-la-procura-spezzina-apre-inchiesta-f19f4170-edb0-4ce2-a2e2-f991c0449699.html",
+            "publicationDate": "2025-11-20",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "La deputata Chiesa sull'albero maestro della Vespucci: aperta un'indagine",
+            "publisher": "La Provincia Pavese",
+            "url": "https://laprovinciapavese.gelocal.it/pavia/cronaca/2025/11/21/news/deputata_chiesa_vespucci_indagata-15406619/",
+            "publicationDate": "2025-11-21",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

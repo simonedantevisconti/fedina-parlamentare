@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "maria-cristina-caretta",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "L’Eco Vicentino riporta l’assoluzione nel novembre 2018 nel caso delle tessere PdL perché i due fatti contestati avevano cessato di costituire reato. La fonte attribuisce a Sergio Berlato la dichiarazione che l’assoluzione fosse definitiva; manca però il provvedimento o una verifica indipendente del passaggio in giudicato, lasciato non documentato.",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. L'Eco Vicentino riporta l'assoluzione nel novembre 2018 nel caso delle tessere PdL perché i fatti contestati avevano cessato di costituire reato. La fonte attribuisce a Sergio Berlato la dichiarazione che l'assoluzione fosse definitiva, ma non è stato reperito il provvedimento né una conferma indipendente: il passaggio in giudicato resta sconosciuto.",
     "queries": [
       "\"Maria Cristina Caretta\" deputata indagata condannata assolta archiviata",
       "\"Maria Cristina Caretta\" \"false tessere\" assoluzione Tribunale Roma 2018",

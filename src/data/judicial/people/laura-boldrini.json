@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "laura-boldrini",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
-    "readyForClean": false,
-    "notes": "La Stampa documenta una querela per diffamazione presentata da Matteo Camiciottoli contro Laura Boldrini nel 2019. La denuncia da sola non prova un’iscrizione come indagata. Una fonte enciclopedica riferisce un’archiviazione nel novembre 2021, ma non è stato reperito un provvedimento giudiziario o una fonte indipendente sufficiente per pubblicare quell’esito come accertato. Nei numerosi processi per offese rivolte a lei, Boldrini era persona offesa o parte civile, non imputata. Verificare l’esito della querela Camiciottoli.",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "no-supported-personal-proceeding-found",
+    "readyForClean": true,
+    "notes": "La Stampa documenta una querela per diffamazione presentata da Matteo Camiciottoli contro Laura Boldrini nel 2019. La denuncia da sola non prova un’iscrizione come indagata. Una fonte enciclopedica riferisce un’archiviazione nel novembre 2021, ma non è stato reperito un provvedimento giudiziario o una fonte indipendente sufficiente per pubblicare quell’esito come accertato. Nei numerosi processi per offese rivolte a lei, Boldrini era persona offesa o parte civile, non imputata. Verificare l’esito della querela Camiciottoli. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "queries": [
       "\"Laura Boldrini\" Camiciottoli querela archiviazione GIP Savona",
       "\"Laura Boldrini\" indagata processo imputata condannata",
@@ -17,5 +17,13 @@
       "https://www.procura.milano.giustizia.it/files/BRS-Procura-2015.pdf"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

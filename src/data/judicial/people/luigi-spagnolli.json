@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "luigi-spagnolli",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Luigi Spagnolli\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare.",
+    "notes": "Procedimento Twenty: assoluzione in primo grado perché il fatto non costituisce reato. Ricerca sulle fonti disponibili completata il 19 settembre 2026; eventuale impugnazione e irrevocabilità non documentate.",
     "sourceUrls": [
       "https://www.ladige.it/territori/alto-adige-s%C3%BCdtirol/2021/07/10/ampliamento-del-centro-commerciale-twenty-assolto-l-ex-sindaco-spagnolli-1.2953166"
     ]

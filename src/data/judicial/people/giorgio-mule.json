@@ -2,25 +2,26 @@
   "schemaVersion": 1,
   "id": "giorgio-mule",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Giorgio Mulè\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "La condanna di primo grado del 2013 per omesso controllo nel caso Messineo è stata riformata con assoluzione in appello nel 2017. Per la distinta querela Esposito, le notizie del 2024 riferiscono un appello, ma non ne è stato verificato l’esito. Un altro procedimento storico per diffamazione è citato nelle cronache del 1995 senza esito reperito.",
+    "notes": "La condanna di primo grado del 2013 per omesso controllo nel caso Messineo è stata riformata con assoluzione in appello nel 2017. Per la distinta querela Esposito, le notizie del 2024 riferiscono un appello, ma non ne è stato verificato l’esito. Un altro procedimento storico per diffamazione è citato nelle cronache del 1995 senza esito reperito. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.panorama.it/attualita/condanna-mule-sentenza",
       "https://livesicilia.it/panorama-non-diffamo-messineo-assolti-mule-e-due-giornalisti/",
-      "https://www.ilfattoquotidiano.it/in-edicola/articoli/2024/05/15/il-giudice-esposito-va-in-appello-mule-mi-diffamo/7548436/"
+      "https://www.ilfattoquotidiano.it/in-edicola/articoli/2024/05/15/il-giudice-esposito-va-in-appello-mule-mi-diffamo/7548436/",
+      "https://francescopaolosisto.it/it/informa/news/nessuna-diffamazione-a-giudice-cassazione-che-condanno-berlusconi-assolto-mule"
     ]
   },
   "record": {
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [
@@ -36,7 +37,10 @@
         "finalJudgment": false,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2017-10-23", "title": "Assoluzione in appello riportata dalla stampa" }
+          {
+            "date": "2017-10-23",
+            "title": "Assoluzione in appello riportata dalla stampa"
+          }
         ],
         "sources": [
           {
@@ -63,17 +67,32 @@
         "title": "Querela del giudice Antonio Esposito",
         "allegedOffence": "Diffamazione",
         "offence": null,
-        "status": "outcome-unverified",
+        "status": "acquitted",
         "court": "Corte d’appello di Roma",
         "startDate": null,
         "lastUpdate": "2024-05-15",
-        "description": "Le notizie del maggio 2024 riferiscono che la querela per dichiarazioni sulla sentenza Berlusconi sarebbe approdata in appello. Non è stato verificato l’esito del giudizio, né la decisione precedente.",
-        "finalJudgment": null,
+        "description": "Il Tribunale di Roma ha assolto Mulè in primo grado dall'accusa di diffamazione. Nel maggio 2024 la stampa ha riferito che Antonio Esposito ha impugnato la decisione; non è stato reperito l'esito dell'appello, quindi l'assoluzione non è indicata come irrevocabile.",
+        "finalJudgment": false,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2024-05-15", "title": "La stampa riferisce il passaggio in appello" }
+          {
+            "date": null,
+            "title": "Assoluzione in primo grado presso il Tribunale di Roma"
+          },
+          {
+            "date": "2024-05-15",
+            "title": "La stampa riferisce il passaggio in appello"
+          }
         ],
         "sources": [
+          {
+            "name": "Nessuna diffamazione al giudice Esposito: assolto Mulè",
+            "publisher": "Francesco Paolo Sisto",
+            "url": "https://francescopaolosisto.it/it/informa/news/nessuna-diffamazione-a-giudice-cassazione-che-condanno-berlusconi-assolto-mule",
+            "publicationDate": null,
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
           {
             "name": "Il giudice Esposito va in appello: Mulè mi diffamò",
             "publisher": "Il Fatto Quotidiano",

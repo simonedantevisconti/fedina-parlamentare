@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "virginio-caparvi",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Virginio Caparvi\" \"indagato\" OR \"imputato\" OR \"condannato\"",
-      "\"Virginio Caparvi\" \"archiviato\" OR \"assolto\""
+      "\"Virginio Caparvi\" \"archiviato\" OR \"assolto\"",
+      "\"Virginio Caparvi\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "I risultati esaminati si riferiscono ad attività politica e proposte legislative; non è emersa una fonte per un procedimento penale personale. Controllo preliminare.",
+    "notes": "I risultati esaminati si riferiscono ad attività politica e proposte legislative; non è emersa una fonte per un procedimento penale personale. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.cacciaedintorni.it/legittima-difesa-legge-cambia/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "michele-schiano-di-visconti",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Michele Schiano Di Visconti\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Assolto dal GUP di Napoli nel 2022 dall’accusa di voto di scambio perché il fatto non sussiste. Non è stata verificata l’irrevocabilità della sentenza. La distinta condanna della Corte dei conti riguarda responsabilità erariale e non è una condanna penale.",
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Assolto dal GUP di Napoli nel 2022 dall'accusa di voto di scambio perché il fatto non sussiste. Non è documentata l'irrevocabilità della sentenza. La distinta condanna della Corte dei conti riguarda responsabilità erariale e non è una condanna penale.",
     "sourceUrls": [
       "https://www.ansa.it/campania/notizie/assemblea_informa/2022/02/18/voto-di-scambioschiano-di-viscontiassolto-giustizia-fatta_ca80a7ce-6cca-4aad-9537-fb3dddcb0308.html"
     ]
@@ -32,7 +32,7 @@
         "startDate": null,
         "lastUpdate": "2022-02-18",
         "description": "Assoluzione in rito abbreviato perché il fatto non sussiste; irrevocabilità non verificata.",
-        "finalJudgment": false,
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {

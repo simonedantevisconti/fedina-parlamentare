@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "susanna-cherchi",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Susanna Cherchi\" indagata condannata assolta archiviata",
-      "\"susanna cherchi\" indagato imputato condannato archiviato"
+      "\"susanna cherchi\" indagato imputato condannato archiviato",
+      "\"Susanna Cherchi\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "La documentazione ministeriale rintracciata si riferisce a contenzioso civile promosso da una omonima; non costituisce dato penale attribuibile alla deputata. Controllo preliminare.",
+    "notes": "La documentazione ministeriale rintracciata si riferisce a contenzioso civile promosso da una omonima; non costituisce dato penale attribuibile alla deputata. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.crea.gov.it/documents/20126/184841/decreto_22_8_2015.pdf/fb7880ff-6c4a-80f5-a6e7-80ba08fbadc3?download=true&t=1563911129444&version=1.0"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

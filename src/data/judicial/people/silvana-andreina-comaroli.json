@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "silvana-andreina-comaroli",
   "review": {
-    "stage": "preliminary",
+    "stage": "complete",
     "result": "no-supported-personal-proceeding-found",
     "queries": [
       "\"Silvana Comaroli\" senatrice indagata condannata assolta",
-      "\"silvana andreina comaroli\" indagato imputato condannato archiviato"
+      "\"silvana andreina comaroli\" indagato imputato condannato archiviato",
+      "\"Silvana Andreina Comaroli\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le corrispondenze esaminate riguardano attività parlamentari e procedimenti discussi in commissione, senza un procedimento personale documentato. Controllo preliminare.",
+    "notes": "Le corrispondenze esaminate riguardano attività parlamentari e procedimenti discussi in commissione, senza un procedimento personale documentato. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://documenti.camera.it/leg17/resoconti/commissioni/bollettini/pdf/2015/06/30/leg.17.bol0472.data20150630.pdf"
     ],
-    "lastCheckedAt": "2026-09-18",
-    "readyForClean": false
+    "lastCheckedAt": "2026-09-19",
+    "readyForClean": true
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "giulio-centenaro",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Giulio Centenaro\" indagato condannato assolto archiviato",
       "\"Giulio Centenaro\" \"aggressione\" \"processo\"",
-      "\"giulio centenaro\" indagato imputato condannato archiviato"
+      "\"giulio centenaro\" indagato imputato condannato archiviato",
+      "\"Giulio Centenaro\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "La cronaca del litigio del 2017 con Daniele Canella riferisce una sospensione disciplinare di partito, non una sentenza penale. Altri risultati citano assoluzioni o condanne di persone diverse. Nessun procedimento personale documentato da questa ricerca preliminare.",
+    "notes": "La cronaca del litigio del 2017 con Daniele Canella riferisce una sospensione disciplinare di partito, non una sentenza penale. Altri risultati citano assoluzioni o condanne di persone diverse. Nessun procedimento personale documentato da questa ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.mattinopadova.it/cronaca/lega-alta-commissariata-canella-sospeso-per-3-mesi-sxjlpm17"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

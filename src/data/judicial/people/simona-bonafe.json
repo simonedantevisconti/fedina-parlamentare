@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "simona-bonafe",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
-    "notes": "Nuova ricerca nominativa su indagini, imputazioni, condanne e archiviazioni: i risultati pertinenti riguardano attività parlamentare o vicende altrui. Non è emersa una fonte che documenti un procedimento penale personale; il controllo resta preliminare.",
+    "readyForClean": true,
+    "notes": "Nuova ricerca nominativa su indagini, imputazioni, condanne e archiviazioni: i risultati pertinenti riguardano attività parlamentare o vicende altrui. Non è emersa una fonte che documenti un procedimento penale personale; il controllo resta preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "queries": [
       "\"Simona Bonafè\" indagata condannata assolta",
       "\"Simona Bonafè\" (inchiesta OR imputata OR prosciolta OR archiviazione)",
-      "\"simona bonafe\" indagato imputato condannato archiviato"
+      "\"simona bonafe\" indagato imputato condannato archiviato",
+      "\"Simona Bonafè\" indagato imputato condannato assolto archiviato procura"
     ],
     "sourceUrls": [
       "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=305549&tipoAttivita=attivitanonlegislativacommissione&tipoPersona=C&tipoVisAtt=1"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

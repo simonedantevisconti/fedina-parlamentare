@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "giovanni-luca-cannata",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Giovanni Luca Cannata\" indagato assolto archiviato",
-      "\"Luca Cannata\" \"indagato\" \"archiviata\""
+      "\"Luca Cannata\" \"indagato\" \"archiviata\"",
+      "\"Giovanni Luca Cannata\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "La notizia sull'assoluzione di Antonino Amato riguarda un altro imputato e Cannata come persona offesa. Una notizia sull'indagine relativa al fotovoltaico ad Avola cita atti della sua amministrazione, ma non documenta un'iscrizione personale di Cannata come indagato. Nessuna attribuzione personale supportata; verifica ancora preliminare.",
+    "notes": "La notizia sull'assoluzione di Antonino Amato riguarda un altro imputato e Cannata come persona offesa. Una notizia sull'indagine relativa al fotovoltaico ad Avola cita atti della sua amministrazione, ma non documenta un'iscrizione personale di Cannata come indagato. Nessuna attribuzione personale supportata; verifica ancora preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.avolanews.it/avola-tentata-violenza-privata-assolto-lex-consigliere-antonino-amato/",
       "https://www.lacivettapress.it/2015/06/03/fotovoltaico-avola-clamorosi-sviluppi/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

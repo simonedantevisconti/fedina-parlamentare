@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "marco-cerreto",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Marco Cerreto\" indagato condannato assolto archiviato",
-      "\"marco cerreto\" indagato imputato condannato archiviato"
+      "\"marco cerreto\" indagato imputato condannato archiviato",
+      "\"Marco Cerreto\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le notizie su archiviazioni trovate riportano commenti di Cerreto su procedimenti altrui. Il curriculum ministeriale non contiene un esito penale. Nessuna attribuzione personale documentata; controllo preliminare.",
+    "notes": "Le notizie su archiviazioni trovate riportano commenti di Cerreto su procedimenti altrui. Il curriculum ministeriale non contiene un esito penale. Nessuna attribuzione personale documentata; controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://agenparl.eu/2025/04/08/sangiuliano-cerreto-fdi-felici-per-larchiviazione-sinistra-resta-a-bocca-asciutta/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

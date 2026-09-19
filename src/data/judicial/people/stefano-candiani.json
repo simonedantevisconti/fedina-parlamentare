@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "stefano-candiani",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "multiple-public-proceedings-found",
     "readyForClean": false,
     "queries": [
@@ -12,7 +12,7 @@
       "Stefano Candiani Senato Doc IV-ter 7 diffamazione Antonio Giudice 19 maggio 2021",
       "Stefano Candiani Senato Doc IV-quater 5 San Berillo 16 febbraio 2022"
     ],
-    "notes": "La precedente esclusione di procedimenti personali era errata. Documentati dagli atti del Senato due fascicoli penali distinti: diffamazione a Roma per querela di Antonio Giudice e contestazione ex art. 604-bis a Catania per il video su San Berillo. Il Senato ha deliberato l'insindacabilità per entrambi, rispettivamente nel 2021 e nel 2022. Non si tratta di assoluzioni nel merito. Va verificato se vi siano successivi provvedimenti del giudice e se il secondo fascicolo sia stato chiuso.",
+    "notes": "La precedente esclusione di procedimenti personali era errata. Documentati dagli atti del Senato due fascicoli penali distinti: diffamazione a Roma per querela di Antonio Giudice e contestazione ex art. 604-bis a Catania per il video su San Berillo. Il Senato ha deliberato l'insindacabilità per entrambi, rispettivamente nel 2021 e nel 2022. Non si tratta di assoluzioni nel merito. Va verificato se vi siano successivi provvedimenti del giudice e se il secondo fascicolo sia stato chiuso. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.senato.it/show-doc?id=1298062&leg=18&part=doc_dc-ressten_rs&tipodoc=Resaula",
       "https://www.senato.it/show-doc?id=1332444&leg=18&part=doc_dc-ressten_rs&tipodoc=Resaula"
@@ -22,7 +22,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "multiple-public-proceedings-found"
     },
     "proceedings": [
@@ -39,8 +39,14 @@
         "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2019-01-21", "title": "Querela di Antonio Giudice" },
-          { "date": "2021-05-19", "title": "Il Senato delibera l'insindacabilità" }
+          {
+            "date": "2019-01-21",
+            "title": "Querela di Antonio Giudice"
+          },
+          {
+            "date": "2021-05-19",
+            "title": "Il Senato delibera l'insindacabilità"
+          }
         ],
         "sources": [
           {
@@ -66,8 +72,14 @@
         "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2020-10-12", "title": "Il GIP dispone la formulazione dell'imputazione" },
-          { "date": "2022-02-16", "title": "Il Senato delibera l'insindacabilità" }
+          {
+            "date": "2020-10-12",
+            "title": "Il GIP dispone la formulazione dell'imputazione"
+          },
+          {
+            "date": "2022-02-16",
+            "title": "Il Senato delibera l'insindacabilità"
+          }
         ],
         "sources": [
           {

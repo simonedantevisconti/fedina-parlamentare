@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "annarita-patriarca",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Annarita Patriarca\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Tre vicende distinte: prescrizione per peculato relativo ai rimborsi comunali; assoluzione confermata in appello per tentata concussione nel caso scuolabus; indagine sulle firme per le comunali di Giugliano resa nota nel 2026, con esito successivo da verificare. La prescrizione non equivale ad assoluzione.",
+    "notes": "Tre vicende distinte: prescrizione per peculato relativo ai rimborsi comunali; assoluzione confermata in appello per tentata concussione nel caso scuolabus; indagine sulle firme per le comunali di Giugliano resa nota nel 2026, con esito successivo da verificare. La prescrizione non equivale ad assoluzione. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.stylo24.it/rimborsi-prescrizione-patriarca-serrapica/",
       "https://napoli.corriere.it/notizie/cronaca/26_maggio_27/annarita-patriarca-la-deputata-di-forza-italia-assolta-dall-accusa-di-concussione-dopo-17-anni-e-la-fine-di-un-incubo-60780dd3-fb81-4f33-a8e5-954945bcfxlk.shtml",
@@ -20,7 +20,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

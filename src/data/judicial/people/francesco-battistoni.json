@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "francesco-battistoni",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Documentata dalla stampa un’indagine per peculato del 2013. Tusciaweb del 5 dicembre 2013 riferisce l’uscita dall’inchiesta, motivandola con l’assenza del nome nell’avviso di conclusione delle indagini. Un comunicato successivo parla di proscioglimento: manca il riscontro del provvedimento esatto. Non classificare il procedimento come tuttora pendente.",
+    "notes": "Documentata dalla stampa un’indagine per peculato del 2013. Tusciaweb del 5 dicembre 2013 riferisce l’uscita dall’inchiesta, motivandola con l’assenza del nome nell’avviso di conclusione delle indagini. Un comunicato successivo parla di proscioglimento: manca il riscontro del provvedimento esatto. Non classificare il procedimento come tuttora pendente. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset. Una fonte successiva riferisce espressamente che il fascicolo è stato archiviato; la scheda registra quindi l'archiviazione senza attribuirle una data completa non verificata.",
     "queries": [
       "\"Francesco Battistoni\" indagato peculato archiviazione",
       "\"Francesco Battistoni\" \"assolto\" peculato",
@@ -15,8 +15,50 @@
     ],
     "sourceUrls": [
       "https://roma.repubblica.it/cronaca/2013/06/04/news/fondi_del_pdl_le_spese_di_battistoni_le_cene_al_pepe_nero_erano_elettorali-60299410/",
-      "https://www.tusciaweb.eu/2013/12/gli-amici-che-volevano-farmi-fuori-sono-serviti/"
+      "https://www.tusciaweb.eu/2013/12/gli-amici-che-volevano-farmi-fuori-sono-serviti/",
+      "https://www.alessioporcu.it/politica/silenzio-parla-fiorito-tutti-sapevano-cera-un-accordo-la-finanza-pero-errori/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "documented-archived-proceeding"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-battistoni-001",
+        "title": "Inchiesta sui fondi del gruppo Pdl alla Regione Lazio",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "archived",
+        "court": "Procura di Roma",
+        "startDate": null,
+        "lastUpdate": null,
+        "description": "Battistoni fu coinvolto nell'indagine del 2013. Una fonte successiva riferisce che il fascicolo è stato archiviato; non è stato reperito il provvedimento integrale né una data completa dell'archiviazione.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Fondi del Pdl, le spese di Battistoni",
+            "publisher": "la Repubblica - Roma",
+            "url": "https://roma.repubblica.it/cronaca/2013/06/04/news/fondi_del_pdl_le_spese_di_battistoni_le_cene_al_pepe_nero_erano_elettorali-60299410/",
+            "publicationDate": "2013-06-04",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Silenzio, parla Fiorito",
+            "publisher": "Alessioporcu.it",
+            "url": "https://www.alessioporcu.it/politica/silenzio-parla-fiorito-tutti-sapevano-cera-un-accordo-la-finanza-pero-errori/",
+            "publicationDate": null,
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

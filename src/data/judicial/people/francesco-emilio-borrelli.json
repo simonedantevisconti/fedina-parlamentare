@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "francesco-emilio-borrelli",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
-    "notes": "Un procedimento personale per diffamazione aggravata, nato da una denuncia del garante dei detenuti campano Samuele Ciambriello, risulta archiviato dal GIP di Napoli il 17 marzo 2026. Va verificata l'ordinanza integrale. Sono state inoltre riportate una denuncia-querela del Comune di Atrani nell'agosto 2026 e l'intenzione del Comune di Pomigliano d'Arco di presentare un esposto nel gennaio 2026: non è stato verificato se da queste iniziative siano nati procedimenti a suo carico. Distinti i molti casi in cui Borrelli è denunciante o persona offesa.",
+    "notes": "Un procedimento personale per diffamazione aggravata, nato da una denuncia del garante dei detenuti campano Samuele Ciambriello, risulta archiviato dal GIP di Napoli il 17 marzo 2026. Va verificata l'ordinanza integrale. Sono state inoltre riportate una denuncia-querela del Comune di Atrani nell'agosto 2026 e l'intenzione del Comune di Pomigliano d'Arco di presentare un esposto nel gennaio 2026: non è stato verificato se da queste iniziative siano nati procedimenti a suo carico. Distinti i molti casi in cui Borrelli è denunciante o persona offesa. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "queries": [
       "\"Francesco Emilio Borrelli\" indagato condannato assolto archiviato",
       "\"Francesco Emilio Borrelli\" diffamazione assolto",
@@ -24,7 +24,7 @@
     "judicialStatus": "archived",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "documented-archived-proceeding"
     },
     "proceedings": [
@@ -41,7 +41,10 @@
         "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2026-03-17", "title": "Archiviazione disposta dal GIP di Napoli" }
+          {
+            "date": "2026-03-17",
+            "title": "Archiviazione disposta dal GIP di Napoli"
+          }
         ],
         "sources": [
           {

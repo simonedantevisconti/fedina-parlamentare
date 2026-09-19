@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "domenico-furgiuele",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"domenico furgiuele\" indagato condannato assolto archiviato esito"
     ],
-    "notes": "Nell’inchiesta Waterfront la DDA chiese il processo nel febbraio 2022 per turbativa d’asta; una notizia successiva riferisce il rinvio a giudizio. Non è stato trovato un esito del giudizio. La condanna civile di giornalisti per un articolo che lo riguardava non è un procedimento penale a suo carico.",
+    "notes": "Nell’inchiesta Waterfront la DDA chiese il processo nel febbraio 2022 per turbativa d’asta; una notizia successiva riferisce il rinvio a giudizio. Non è stato trovato un esito del giudizio. La condanna civile di giornalisti per un articolo che lo riguardava non è un procedimento penale a suo carico. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.ansa.it/calabria/notizie/2022/02/21/turbativa-dasta-chiesto-processo-a-deputato-lega-furgiuele_76fe059b-3750-49e2-802f-2e1231f16623.html",
       "https://www.nextquotidiano.it/appalti-clan-ndrangheta-imputato-nuovo-vicecapogruppo-lega-furgiuele/"
@@ -19,7 +19,7 @@
     "judicialStatus": "outcome-unverified",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

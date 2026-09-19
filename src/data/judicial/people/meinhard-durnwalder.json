@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "id": "meinhard-durnwalder",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Meinhard Durnwalder\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "La decisione della Corte dei conti sulla festa per i 70 anni di Luis Durnwalder riguarda responsabilità erariale, non una condanna penale. In altre indagini Meinhard Durnwalder figura come avvocato. La ricerca pubblica non certifica la fedina penale.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. La decisione relativa alla festa per i settant'anni di Luis Durnwalder è contabile; in altre cronache Meinhard Durnwalder compare come avvocato.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,13 +2,56 @@
   "schemaVersion": 1,
   "id": "francesco-filini",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"francesco filini\" indagato imputato condannato archiviato"
+      "\"francesco filini\" indagato imputato condannato archiviato",
+      "\"Francesco Filini\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
+    ],
+    "notes": "Il Partito dei CARC, autore della querela contro Francesco Filini e Sara Kelany, ha riferito che a fine marzo 2026 il Tribunale di Roma ha archiviato il procedimento, riconducendo le dichiarazioni contestate all'esercizio delle funzioni parlamentari. Non sono emersi altri procedimenti penali personali sufficientemente documentati. Verifica conclusa il 19 settembre 2026; la data esatta del provvedimento non è stata reperita.",
+    "sourceUrls": [
+      "https://www.carc.it/wp-content/uploads/2026/04/RE0426w.pdf"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "archived",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "documented-archived-proceeding"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-filini-001",
+        "title": "Querela del Partito dei CARC per dichiarazioni politiche",
+        "allegedOffence": "Diffamazione",
+        "offence": null,
+        "status": "archived",
+        "court": "Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2026-03-31",
+        "description": "Il soggetto che aveva presentato la querela ha riferito che, a fine marzo 2026, il Tribunale di Roma ha archiviato il procedimento contro Francesco Filini e Sara Kelany perché le dichiarazioni contestate erano state rese nello svolgimento delle funzioni parlamentari. Il giorno esatto del provvedimento non è stato reperito; il 31 marzo indica soltanto la fine del mese riportato dalla fonte.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2026-03-31",
+            "title": "La fonte riferisce l'archiviazione disposta dal Tribunale di Roma a fine marzo"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Archiviata la querela del P.CARC contro i deputati di Fratelli d'Italia",
+            "publisher": "Partito dei CARC - Resistenza",
+            "url": "https://www.carc.it/wp-content/uploads/2026/04/RE0426w.pdf",
+            "publicationDate": "2026-04-01",
+            "accessedAt": "2026-09-19",
+            "type": "primary"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "id": "paola-de-micheli",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Paola De Micheli\" indagata imputata condannata assolta",
       "\"Paola De Micheli\" Agridoro decreto penale assoluzione"
     ],
-    "notes": "Fonti giornalistiche riportano un decreto penale di condanna del 2003 per la gestione della cooperativa Agridoro e una successiva assoluzione in giudizio. Il decreto non va presentato come condanna attuale. Manca la sentenza originale o una fonte primaria che ne confermi dispositivo, data e irrevocabilità.",
+    "notes": "Fonti giornalistiche riportano un decreto penale di condanna del 2003 per la gestione della cooperativa Agridoro e una successiva assoluzione in giudizio. Il decreto non va presentato come condanna attuale. Manca la sentenza originale o una fonte primaria che ne confermi dispositivo, data e irrevocabilità. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "sourceUrls": [
       "https://www.antonioamorosi.it/2017/09/12/unesperta-di-pomodori-a-commissario-del-terremoto/",
       "https://www.butac.it/la-macchina-del-fango-paola-de-micheli-vol-2/"
@@ -20,7 +20,7 @@
     "judicialStatus": "acquitted",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceeding-found"
     },
     "proceedings": [
@@ -37,7 +37,10 @@
         "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
-          { "date": "2017-09-12", "title": "La stampa riferisce la successiva assoluzione" }
+          {
+            "date": "2017-09-12",
+            "title": "La stampa riferisce la successiva assoluzione"
+          }
         ],
         "sources": [
           {

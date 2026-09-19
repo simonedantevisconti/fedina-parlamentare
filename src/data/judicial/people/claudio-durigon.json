@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "id": "claudio-durigon",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Claudio Durigon\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "L’inchiesta giornalistica su Durigon e il successivo procedimento per diffamazione contro i giornalisti non documentano un’accusa penale a suo carico. La ricerca pubblica non certifica la fedina penale.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Nel procedimento per diffamazione relativo all'inchiesta Follow the money Durigon figura come persona offesa; i giornalisti e le fonti sono gli imputati.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

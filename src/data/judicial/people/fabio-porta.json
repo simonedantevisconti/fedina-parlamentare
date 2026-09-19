@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "fabio-porta",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Fabio Porta\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "La Camera ha riconosciuto l’insindacabilità delle dichiarazioni oggetto di querela per diffamazione presentata da Esteban Juan Caselli. Questo voto parlamentare non è un’assoluzione penale; non è stato verificato il provvedimento finale del giudice.",
+    "notes": "La Camera ha riconosciuto l’insindacabilità delle dichiarazioni oggetto di querela per diffamazione presentata da Esteban Juan Caselli. Questo voto parlamentare non è un’assoluzione penale; non è stato verificato il provvedimento finale del giudice. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://webtv.camera.it/apps/getAttivitaAudioVideo/index.php?legislatura=18&link=sed0501.stenografico.tit00070.sub00020.int00060&seduta=0501"
     ]
@@ -18,7 +18,7 @@
     "judicialStatus": "outcome-unverified",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

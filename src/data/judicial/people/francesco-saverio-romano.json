@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "francesco-saverio-romano",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Francesco Saverio Romano\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Il processo per concorso esterno in associazione mafiosa si è concluso con assoluzione nel 2012. Una distinta indagine della Procura di Palermo, su corruzione e turbata libertà degli incanti, risulta ancora senza esito giudiziario verificato a settembre 2026. Il GIP ha negato le misure cautelari per mancanza di gravi indizi: ciò non costituisce archiviazione.",
+    "notes": "Il processo per concorso esterno in associazione mafiosa si è concluso con assoluzione nel 2012. Una distinta indagine della Procura di Palermo, su corruzione e turbata libertà degli incanti, risulta ancora senza esito giudiziario verificato a settembre 2026. Il GIP ha negato le misure cautelari per mancanza di gravi indizi: ciò non costituisce archiviazione. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "sourceUrls": [
       "https://www.fanpage.it/politica/l-ex-ministro-romano-assolto-nel-processo-per-mafia-finalmente-e-finita/",
       "https://www.camera.it/leg19/824?anno=2026&commissione=17&giorno=14&mese=01&pagina=&tipo=C&view=",
@@ -20,7 +20,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "gianluca-caramanna",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Gianluca Caramanna\" indagato condannato assolto archiviato",
-      "\"Gianluca Caramanna\" \"indagato\" OR \"imputato\" OR \"condannato\""
+      "\"Gianluca Caramanna\" \"indagato\" OR \"imputato\" OR \"condannato\"",
+      "\"Gianluca Caramanna\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "I risultati riguardano la partecipazione a discussioni parlamentari sulla giustizia e altre persone coinvolte in procedimenti. Non sufficiente per attribuire un procedimento personale. Controllo preliminare.",
+    "notes": "I risultati riguardano la partecipazione a discussioni parlamentari sulla giustizia e altre persone coinvolte in procedimenti. Non sufficiente per attribuire un procedimento personale. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://webtv.camera.it/apps/getAttivitaAudioVideo/index.php?legislatura=19&link=sed0216.stenografico.tit00150.sub00010.int00340&seduta=0216"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

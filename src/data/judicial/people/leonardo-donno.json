@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "leonardo-donno",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"leonardo donno\" indagato imputato condannato archiviato"
+      "\"leonardo donno\" indagato imputato condannato archiviato",
+      "\"Leonardo Donno\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Nella vicenda dello scontro alla Camera del giugno 2024 Donno ha presentato denuncia; la fonte lo indica come denunciante, non come indagato.",
+    "notes": "Nella vicenda dello scontro alla Camera del giugno 2024 Donno ha presentato denuncia; la fonte lo indica come denunciante, non come indagato. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.ansa.it/sito/notizie/politica/2024/06/18/il-deputato-5s-donno-presenta-denuncia-ai-carabinieri-in-seguito-alla-rissa-alla-camera_7591d10d-2523-4321-b815-c5ac6045f70b.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

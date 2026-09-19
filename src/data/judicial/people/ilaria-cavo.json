@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "ilaria-cavo",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceedings-found",
     "readyForClean": false,
-    "notes": "Documentata l’assoluzione nel procedimento Avetrana bis del novembre 2018. Altre fonti riferiscono una vecchia imputazione per diffamazione su Matrix/Cogne (2009), un’indagine su via Poma (2007) e un’ulteriore assoluzione nel caso di materiale fotografico citata nel 2015: mancano atti ed esiti precisi per queste vicende distinte. Nell’inchiesta ligure del 2024 le fonti precisano che Cavo non era indagata.",
+    "notes": "Documentata l’assoluzione nel procedimento Avetrana bis del novembre 2018. Altre fonti riferiscono una vecchia imputazione per diffamazione su Matrix/Cogne (2009), un’indagine su via Poma (2007) e un’ulteriore assoluzione nel caso di materiale fotografico citata nel 2015: mancano atti ed esiti precisi per queste vicende distinte. Nell’inchiesta ligure del 2024 le fonti precisano che Cavo non era indagata. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "queries": [
       "\"Ilaria Cavo\" indagata condannata assolta archiviata",
       "\"Ilaria Cavo\" \"Avetrana\" assoluzione appello definitiva",
@@ -24,7 +24,7 @@
     "judicialStatus": "acquitted",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-17",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceeding-found"
     },
     "proceedings": [

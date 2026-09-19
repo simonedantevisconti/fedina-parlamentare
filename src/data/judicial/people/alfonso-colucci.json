@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "alfonso-colucci",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Alfonso Colucci\" deputato indagato condannato assolto",
-      "\"alfonso colucci\" indagato imputato condannato archiviato"
+      "\"alfonso colucci\" indagato imputato condannato archiviato",
+      "\"Alfonso Colucci\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "Le corrispondenze esaminate riguardano attività parlamentari e dichiarazioni su procedimenti altrui. Nessun procedimento personale documentato; controllo preliminare. Un resoconto del 2019 cita un omonimo testimone e una richiesta del giudice di valutare una possibile falsa testimonianza. L’identità con il deputato e l’apertura di un procedimento non sono verificate.",
+    "notes": "Le corrispondenze esaminate riguardano attività parlamentari e dichiarazioni su procedimenti altrui. Nessun procedimento personale documentato; controllo preliminare. Un resoconto del 2019 cita un omonimo testimone e una richiesta del giudice di valutare una possibile falsa testimonianza. L’identità con il deputato e l’apertura di un procedimento non sono verificate. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.camera.it/deputati/elenco/19-308841",
       "https://www.lagazzettadelmezzogiorno.it/news/bat/1132472/uccise-gioielliera-a-canosa-condannato-a-18-anni.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

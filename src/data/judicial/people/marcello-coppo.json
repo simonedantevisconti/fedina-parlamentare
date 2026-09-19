@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "marcello-coppo",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Marcello Coppo\" deputato indagato condannato assolto",
-      "\"marcello coppo\" indagato imputato condannato archiviato"
+      "\"marcello coppo\" indagato imputato condannato archiviato",
+      "\"Marcello Coppo\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "I risultati esaminati riguardano interventi del deputato sulle vicende giudiziarie di altre persone, tra cui Chiara Appendino. Nessun procedimento personale documentato. Controllo preliminare.",
+    "notes": "I risultati esaminati riguardano interventi del deputato sulle vicende giudiziarie di altre persone, tra cui Chiara Appendino. Nessun procedimento personale documentato. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.camera.it/deputati/elenco/19-308796"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

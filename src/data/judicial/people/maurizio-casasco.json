@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "maurizio-casasco",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Maurizio Casasco\" deputato indagato condannato assolto"
+      "\"Maurizio Casasco\" deputato indagato condannato assolto",
+      "\"Maurizio Casasco\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "I risultati nominativi esaminati riguardano attività parlamentare e incarichi associativi. Non emersa una fonte sufficiente per un procedimento penale personale; ricerca preliminare.",
+    "notes": "I risultati nominativi esaminati riguardano attività parlamentare e incarichi associativi. Non emersa una fonte sufficiente per un procedimento penale personale; ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.camera.it/leg19/1431?idLegislatura=19&shadow_deputato=308793&tipoAttivita=attivitalegislativaassemblea&tipoPersona=C&tipoVisAtt=1"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "paolo-trancassini",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
       "\"Paolo Trancassini\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "La cronaca locale documenta una condanna di primo grado per abuso d’ufficio nel caso dei permessi edilizi a Leonessa, annullata da assoluzione in appello nel 2012. Un distinto procedimento relativo ai lavori a Campo Stella è riferito nel 2017 dalle associazioni che presentarono l’esposto; fase ed esito successivi non verificati. Non è stata verificata l’irrevocabilità dell’assoluzione del 2012.",
+    "notes": "La cronaca locale documenta una condanna di primo grado per abuso d’ufficio nel caso dei permessi edilizi a Leonessa, annullata da assoluzione in appello nel 2012. Un distinto procedimento relativo ai lavori a Campo Stella è riferito nel 2017 dalle associazioni che presentarono l’esposto; fase ed esito successivi non verificati. Non è stata verificata l’irrevocabilità dell’assoluzione del 2012. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://www.leonessa.org/2007/comitato/stampa.htm",
       "https://www.leonessa.org/2012/comunicati/abusi.htm",
@@ -20,7 +20,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "historical-proceeding-outcome-unverified"
     },
     "proceedings": [

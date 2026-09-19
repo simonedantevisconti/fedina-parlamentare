@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "vito-de-palma",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-found",
     "readyForClean": false,
-    "notes": "Inchiesta sulle presunte irregolarità nello scrutinio delle Politiche 2022 a Taranto. Avviso di conclusione indagini nel novembre 2025; richiesta di rinvio a giudizio nel maggio 2026. Udienza preliminare fissata per il 21 ottobre 2026."
+    "notes": "Ricerca sulle fonti disponibili completata il 19 settembre 2026. Inchiesta sulle presunte irregolarità nello scrutinio delle Politiche 2022 a Taranto. Avviso di conclusione indagini nel novembre 2025; richiesta di rinvio a giudizio nel maggio 2026. Udienza preliminare fissata per il 21 ottobre 2026: non risulta una decisione giudiziaria sul merito."
   },
   "record": {
     "judicialStatus": "investigated",
@@ -26,7 +26,7 @@
         "startDate": null,
         "lastUpdate": "2026-05-30",
         "description": "Vito De Palma risulta coinvolto in un procedimento relativo a presunte irregolarità nelle operazioni di scrutinio delle elezioni politiche del 25 settembre 2022 presso il seggio 54 di Taranto. Nel novembre 2025 la Procura di Taranto ha notificato l'avviso di conclusione delle indagini. Secondo l'impostazione accusatoria riportata dalle fonti, sarebbero stati alterati dati dello scrutinio relativi ai voti attribuiti a Forza Italia e Fratelli d'Italia. Nel maggio 2026 la Procura ha chiesto il rinvio a giudizio di De Palma e di altri soggetti. L'udienza preliminare è stata fissata per il 21 ottobre 2026. Il procedimento è ancora pendente e non costituisce accertamento di responsabilità.",
-        "finalJudgment": false,
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {

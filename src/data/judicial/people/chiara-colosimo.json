@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "chiara-colosimo",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
@@ -11,11 +11,52 @@
       "\"Chiara Colosimo\" spese pazze archiviazione prosciolta",
       "\"Chiara Colosimo\" peculato esito 2014 2015"
     ],
-    "notes": "La cronaca del maggio 2013 indica esplicitamente Chiara Colosimo tra gli indagati nell’inchiesta sui fondi del gruppo Pdl alla Regione Lazio; la precedente nota che escludeva qualsiasi procedimento personale era incompleta. È distinto dal procedimento a carico di Franco Fiorito, nel quale il gruppo Pdl si era costituito parte offesa. Non è stato verificato l’esito successivo della posizione personale di Colosimo. Non presentare l’indagine storica come ancora pendente.",
+    "notes": "La cronaca del maggio 2013 indica esplicitamente Chiara Colosimo tra gli indagati nell’inchiesta sui fondi del gruppo Pdl alla Regione Lazio; la precedente nota che escludeva qualsiasi procedimento personale era incompleta. È distinto dal procedimento a carico di Franco Fiorito, nel quale il gruppo Pdl si era costituito parte offesa. Non è stato verificato l’esito successivo della posizione personale di Colosimo. Non presentare l’indagine storica come ancora pendente. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
       "https://roma.corriere.it/notizie/cronaca/13_maggio_28/fiorito-fondi-pdl-regione-consiglieri-procura-2221365343215.shtml",
       "https://roma.corriere.it/notizie/politica/13_maggio_31/maschere-maiali-era-politica-2221417146782.shtml"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "chiara-colosimo-001",
+        "title": "Inchiesta sui fondi del gruppo Pdl alla Regione Lazio",
+        "allegedOffence": "Peculato",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura di Roma",
+        "startDate": null,
+        "lastUpdate": "2013-05-31",
+        "description": "Nel maggio 2013 la stampa incluse Colosimo tra gli indagati nell'inchiesta sui fondi del gruppo regionale Pdl. Non è stato reperito un provvedimento conclusivo riferibile con certezza alla sua posizione.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [],
+        "sources": [
+          {
+            "name": "Fiorito, fondi Pdl e consiglieri",
+            "publisher": "Corriere della Sera - Roma",
+            "url": "https://roma.corriere.it/notizie/cronaca/13_maggio_28/fiorito-fondi-pdl-regione-consiglieri-procura-2221365343215.shtml",
+            "publicationDate": "2013-05-28",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Maschere e maiali, era politica",
+            "publisher": "Corriere della Sera - Roma",
+            "url": "https://roma.corriere.it/notizie/politica/13_maggio_31/maschere-maiali-era-politica-2221417146782.shtml",
+            "publicationDate": "2013-05-31",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

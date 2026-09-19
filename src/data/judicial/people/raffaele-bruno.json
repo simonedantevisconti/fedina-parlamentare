@@ -2,19 +2,28 @@
   "schemaVersion": 1,
   "id": "raffaele-bruno",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Raffaele Bruno\" deputato indagato condannato assolto",
-      "\"raffaele bruno\" indagato imputato condannato archiviato"
+      "\"raffaele bruno\" indagato imputato condannato archiviato",
+      "\"Raffaele Bruno deputato\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Esclusa l’omonimia con l’avvocato Elio Raffaele Bruno di Catanzaro: il deputato è biologo e autore teatrale, nato a Napoli nel 1974. Nessun procedimento personale documentato da questa ricerca preliminare.",
+    "notes": "Esclusa l’omonimia con l’avvocato Elio Raffaele Bruno di Catanzaro: il deputato è biologo e autore teatrale, nato a Napoli nel 1974. Nessun procedimento personale documentato da questa ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.camera.it/deputati/elenco/18-307193",
       "https://www.lacnews24.it/cronaca/inchiesta-sui-falsi-testamenti-torna-in-liberta-lavvocato-raffaele-bruno-qx1vki5h"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

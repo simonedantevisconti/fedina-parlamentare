@@ -2,15 +2,23 @@
   "schemaVersion": 1,
   "id": "alessandro-urzi",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Alessandro Urzì\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "La decisione del 2019 della Corte dei conti riguarda responsabilità erariale, non una condanna penale. Nessun procedimento penale personale sostenuto dalle fonti consultate. La ricerca pubblica non certifica la fedina penale.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. La condanna al risarcimento per l'uso dei fondi del gruppo consiliare è una decisione della Corte dei conti e non una condanna penale.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

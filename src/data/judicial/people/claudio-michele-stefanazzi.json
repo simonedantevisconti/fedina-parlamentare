@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "claudio-michele-stefanazzi",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Claudio Michele Stefanazzi\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Due vicende distinte: indagine barese su un piano formativo archiviata nel 2022; assoluzione in appello a Torino nel 2025 per finanziamento illecito dopo una condanna di primo grado. Irrevocabilità dell’assoluzione non verificata.",
+    "notes": "Due vicende distinte: indagine barese su un piano formativo archiviata nel 2022; assoluzione in appello a Torino nel 2025 per finanziamento illecito dopo una condanna di primo grado. Ricerca sulle fonti disponibili completata il 19 settembre 2026; irrevocabilità dell'assoluzione non documentata.",
     "sourceUrls": [
       "https://bari.corriere.it/notizie/cronaca/22_novembre_13/notizia-reato-infondataarchiviata-l-inchiesta-stefanazzi-2c1d50d0-633e-11ed-9479-f8a1a4aeaa2b.shtml",
       "https://www.rainews.it/tgr/puglia/articoli/2025/07/stefanazzi-ladisa-assolti-b361a41b-8a9e-44d4-99cb-c7734aad92e1.html",
@@ -63,7 +63,7 @@
         "startDate": null,
         "lastUpdate": "2025-07-03",
         "description": "Condannato in primo grado per uno degli episodi contestati; assolto in appello. Non è stata verificata l’irrevocabilità.",
-        "finalJudgment": false,
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {

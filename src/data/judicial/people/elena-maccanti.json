@@ -2,15 +2,65 @@
   "schemaVersion": 1,
   "id": "elena-maccanti",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
-      "\"Elena Maccanti\" indagato imputato condannato assolto archiviato"
+      "\"Elena Maccanti\" indagato imputato condannato assolto archiviato",
+      "\"Elena Maccanti\" patteggiamento peculato 14 luglio 2014"
     ],
-    "notes": "Ricerca preliminare per nome completo su indagini, processi ed esiti. Non è emerso un procedimento penale personale sufficientemente documentato nelle fonti consultate. Questo non certifica l’assenza di precedenti o procedimenti.",
-    "sourceUrls": []
+    "notes": "Nel procedimento sui rimborsi del Consiglio regionale del Piemonte Elena Maccanti ha patteggiato il 14 luglio 2014 una pena di un anno per peculato. Il patteggiamento è indicato separatamente da una condanna dibattimentale.",
+    "sourceUrls": [
+      "https://www.ilfattoquotidiano.it/2022/09/12/elezioni-politiche-2022-la-carica-dei-100-candidati-impresentabili-condannati-imputati-e-indagati-chi-li-candida-e-in-quali-circoscrizioni/6796264/2/",
+      "https://www.ilfattoquotidiano.it/2016/10/07/rimborsopoli-piemonte-assolto-ex-presidente-della-regione-roberto-cota/3081205/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "plea-bargain",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "public-proceeding-found"
+    },
+    "proceedings": [
+      {
+        "id": "elena-maccanti-001",
+        "title": "Procedimento sui rimborsi del Consiglio regionale del Piemonte",
+        "allegedOffence": "Peculato",
+        "offence": "Peculato",
+        "status": "plea-bargain",
+        "court": "Tribunale di Torino",
+        "startDate": null,
+        "lastUpdate": "2014-07-14",
+        "description": "Nel procedimento denominato Rimborsopoli Piemonte, relativo alle spese dei gruppi regionali, Elena Maccanti ha patteggiato una pena di un anno per peculato il 14 luglio 2014.",
+        "finalJudgment": true,
+        "finalJudgmentDate": "2014-07-14",
+        "timeline": [
+          {
+            "date": "2014-07-14",
+            "title": "Patteggiamento a un anno per peculato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Elezioni politiche 2022, candidati con vicende giudiziarie - Lega",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2022/09/12/elezioni-politiche-2022-la-carica-dei-100-candidati-impresentabili-condannati-imputati-e-indagati-chi-li-candida-e-in-quali-circoscrizioni/6796264/2/",
+            "publicationDate": "2022-09-12",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Rimborsopoli Piemonte, 10 condanne e 15 assoluzioni",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2016/10/07/rimborsopoli-piemonte-assolto-ex-presidente-della-regione-roberto-cota/3081205/",
+            "publicationDate": "2016-10-07",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

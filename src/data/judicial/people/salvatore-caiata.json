@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "salvatore-caiata",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceedings-found",
     "readyForClean": false,
-    "notes": "Documentata l’archiviazione riferita dalla stampa nel 2018 e, per una distinta vicenda, il rinvio a giudizio nell’inchiesta Hidden Partner nel 2024. Non reperito un esito successivo attendibile di quest’ultimo processo: lo stato rappresenta l’ultimo atto documentato, non una conferma della pendenza alla data del controllo.",
+    "notes": "Documentata l’archiviazione riferita dalla stampa nel 2018 e, per una distinta vicenda, il rinvio a giudizio nell’inchiesta Hidden Partner nel 2024. Non reperito un esito successivo attendibile di quest’ultimo processo: lo stato rappresenta l’ultimo atto documentato, non una conferma della pendenza alla data del controllo. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "queries": [
       "\"Salvatore Caiata\" (condannato OR assolto OR archiviazione OR indagato)",
       "\"Salvatore Caiata\" \"archiviata\" Siena 2018",
@@ -19,7 +19,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-17",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceeding-found"
     },
     "proceedings": [

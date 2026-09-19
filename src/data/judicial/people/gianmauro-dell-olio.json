@@ -2,15 +2,24 @@
   "schemaVersion": 1,
   "id": "gianmauro-dell-olio",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Gianmauro Dell'Olio\" indagato imputato condannato assolto archiviato"
+      "\"Gianmauro Dell'Olio\" indagato imputato condannato assolto archiviato",
+      "\"Gianmauro Dell'Olio\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "I risultati consultati riguardano attività parlamentare e politica, non procedimenti penali personali. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "notes": "I risultati consultati riguardano attività parlamentare e politica, non procedimenti penali personali. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": []
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

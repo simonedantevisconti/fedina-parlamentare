@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "antonio-angelucci",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Verifica approfondita della scheda ereditata. Sono emersi più procedimenti penali personali distinti. Nel procedimento relativo alla presunta truffa ai danni del sistema sanitario del Lazio, Antonio Angelucci è stato assolto il 24 settembre 2019 dal Tribunale di Roma perché il fatto non sussiste; le fonti consultate documentano la sentenza ma non consentono di accertarne l'irrevocabilità. Nel procedimento sui contributi pubblici percepiti da Libero e Il Riformista, il 3 novembre 2017 il Tribunale di Roma lo ha condannato in primo grado a un anno e quattro mesi, con pena sospesa, per falso e tentata truffa; una distinta contestazione di truffa è stata dichiarata prescritta. Fonti del 2024 continuano a qualificare tale decisione come condanna di primo grado e riferiscono l'assenza di condanne definitive, ma non è stato reperito l'esito dell'impugnazione. Nel 2014 Antonio Angelucci risultò inoltre indagato dalla Procura di Roma per associazione per delinquere finalizzata alla commissione di reati tributari e all'appropriazione indebita; non è stato reperito un successivo provvedimento conclusivo sufficientemente attribuibile a questo specifico fascicolo. Nel marzo 2017 risultò indagato in un distinto procedimento per traffico di influenze illecite relativo a un presunto tentativo di ottenere un intervento su un procedimento in Cassazione; anche per questo filone non è stato reperito un esito personale successivo sufficientemente documentato. Il procedimento per istigazione alla corruzione nato dalla denuncia di Alessio D'Amato è stato invece archiviato dal GIP di Roma il 5 novembre 2024, dopo la richiesta della Procura. Le vecchie indagini senza esito reperito non vengono descritte come tuttora pendenti.",
+    "notes": "Verifica approfondita della scheda ereditata. Sono emersi più procedimenti penali personali distinti. Nel procedimento relativo alla presunta truffa ai danni del sistema sanitario del Lazio, Antonio Angelucci è stato assolto il 24 settembre 2019 dal Tribunale di Roma perché il fatto non sussiste; le fonti consultate documentano la sentenza ma non consentono di accertarne l'irrevocabilità. Nel procedimento sui contributi pubblici percepiti da Libero e Il Riformista, il 3 novembre 2017 il Tribunale di Roma lo ha condannato in primo grado a un anno e quattro mesi, con pena sospesa, per falso e tentata truffa; una distinta contestazione di truffa è stata dichiarata prescritta. Fonti del 2024 continuano a qualificare tale decisione come condanna di primo grado e riferiscono l'assenza di condanne definitive, ma non è stato reperito l'esito dell'impugnazione. Nel 2014 Antonio Angelucci risultò inoltre indagato dalla Procura di Roma per associazione per delinquere finalizzata alla commissione di reati tributari e all'appropriazione indebita; non è stato reperito un successivo provvedimento conclusivo sufficientemente attribuibile a questo specifico fascicolo. Nel marzo 2017 risultò indagato in un distinto procedimento per traffico di influenze illecite relativo a un presunto tentativo di ottenere un intervento su un procedimento in Cassazione; anche per questo filone non è stato reperito un esito personale successivo sufficientemente documentato. Il procedimento per istigazione alla corruzione nato dalla denuncia di Alessio D'Amato è stato invece archiviato dal GIP di Roma il 5 novembre 2024, dopo la richiesta della Procura. Le vecchie indagini senza esito reperito non vengono descritte come tuttora pendenti. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "queries": [
       "\"Antonio Angelucci\" truffa sanità assolto appello Cassazione",
       "\"Antonio Angelucci\" 2019 assolto sanità definitiva",
@@ -39,7 +39,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
+      "lastVerifiedAt": "2026-09-19",
       "result": "multiple-public-proceedings-found"
     },
     "proceedings": [

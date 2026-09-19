@@ -2,20 +2,28 @@
   "schemaVersion": 1,
   "id": "aboubakar-soumahoro",
   "review": {
-    "stage": "preliminary",
+    "stage": "complete",
     "result": "no-supported-personal-proceeding-found",
     "queries": [
       "\"Aboubakar Soumahoro\" indagato processo assolto moglie cooperativa 2026",
       "\"Aboubakar Soumahoro\" \"non è indagato\" cooperativa 2025",
       "\"aboubakar soumahoro\" indagato imputato condannato archiviato"
     ],
-    "notes": "I procedimenti sulle cooperative Karibu e Aid riguardano familiari del deputato. Le fonti esaminate specificano che Soumahoro non risultava indagato in quella vicenda. È riportata una sanzione sui fondi elettorali, che non è stata trattata come precedente penale. Nessun procedimento penale personale documentato in questo controllo preliminare.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. I procedimenti sulle cooperative Karibu e Aid riguardano familiari del deputato; le fonti consultate precisano che Soumahoro non risultava indagato. Una sanzione sui fondi elettorali non è stata classificata come procedimento penale.",
     "sourceUrls": [
       "https://latinatu.it/caso-karibu-aid-la-versione-di-soumahoro/",
       "https://www.infoimpresa.info/wp-content/uploads/2023/11/infoimpresa_dicembre_2023_web.pdf"
     ],
-    "lastCheckedAt": "2026-09-18",
-    "readyForClean": false
+    "lastCheckedAt": "2026-09-19",
+    "readyForClean": true
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

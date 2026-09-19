@@ -2,11 +2,11 @@
   "schemaVersion": 1,
   "id": "michela-vittoria-brambilla",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-17",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceedings-found",
     "readyForClean": false,
-    "notes": "Tre filoni distinti: patteggiamento nel 2019 per Trafilerie del Lario; proscioglimento riferito da ANSA nel 2025 per una contestazione di evasione IVA a Lecco (formula e definitività da verificare); nuova indagine milanese sulle fatture del programma televisivo, documentata nel maggio 2026 senza esito successivo reperito.",
+    "notes": "Tre filoni distinti: patteggiamento nel 2019 per Trafilerie del Lario; proscioglimento riferito da ANSA nel 2025 per una contestazione di evasione IVA a Lecco (formula e definitività da verificare); nuova indagine milanese sulle fatture del programma televisivo, documentata nel maggio 2026 senza esito successivo reperito. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri.",
     "queries": [
       "\"Michela Vittoria Brambilla\" patteggiamento 2019 Trafilerie Lario",
       "\"Brambilla\" indagata \"2026\" Milano archiviata",
@@ -18,7 +18,7 @@
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-17",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceedings-found"
     },
     "proceedings": [

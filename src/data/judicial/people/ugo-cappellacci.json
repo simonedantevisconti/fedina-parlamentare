@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "id": "ugo-cappellacci",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-16",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "multiple-public-proceedings-found",
     "readyForClean": false,
-    "notes": "Esistono più procedimenti documentati, incluso un procedimento concluso con prescrizione nel febbraio 2026. Il modello dati supporta ora lo stato prescribed; resta da monitorare l'eventuale evoluzione successiva."
+    "notes": "Esistono più procedimenti documentati, incluso un procedimento concluso con prescrizione nel febbraio 2026. Il modello dati supporta ora lo stato prescribed; resta da monitorare l'eventuale evoluzione successiva. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026; gli stati non definitivi restano indicati come tali e richiedono solo il normale monitoraggio di eventuali sviluppi futuri."
   },
   "record": {
     "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-16",
+      "lastVerifiedAt": "2026-09-19",
       "result": "public-proceedings-found"
     },
     "proceedings": [

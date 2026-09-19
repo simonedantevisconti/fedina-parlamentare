@@ -2,24 +2,27 @@
   "schemaVersion": 1,
   "id": "isabella-rauti",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
-      "\"Isabella Rauti\" indagato imputato condannato assolto archiviato"
+      "\"Isabella Rauti\" indagato imputato condannato assolto archiviato",
+      "\"Isabella Rauti\" \"Bucci\" \"prescrizione\" truffa",
+      "\"Isabella Rauti\" \"archiviata\" \"abuso d'ufficio\" 2014"
     ],
-    "notes": "Procedimento personale documentato nelle fonti indicate. Esito o definitività da verificare.",
+    "notes": "Sono due vicende distinte: il GIP di Roma archiviò nel 2014 l'indagine per abuso d'ufficio sulla proroga al segretario generale del Consiglio regionale; nel 2019 Rauti fu rinviata a giudizio per la distinta vicenda delle consulenze e dei rimborsi regionali. Per quest'ultima non è stata reperita una sentenza o una dichiarazione di prescrizione: resta aperto l'approfondimento. Ricerca sulle fonti pubbliche disponibili conclusa il 19 settembre 2026. Dove non è stato reperito un provvedimento conclusivo, la scheda conserva l'ultimo passaggio documentato senza presentarlo come procedimento tuttora pendente; eventuali sviluppi futuri rientrano nel normale aggiornamento del dataset.",
     "sourceUrls": [
-      "https://roma.corriere.it/notizie/cronaca/19_giugno_07/rauti-bucci-giudizio-truffa-rimborsi-regionali-1d6325da-889d-11e9-9099-5a05167d4d6a.shtml"
+      "https://roma.corriere.it/notizie/cronaca/19_giugno_07/rauti-bucci-giudizio-truffa-rimborsi-regionali-1d6325da-889d-11e9-9099-5a05167d4d6a.shtml",
+      "https://www.secoloditalia.it/2014/04/abuso-dufficio-archiviata-lindagine-su-isabella-rauti-giustizia-e-fatta/"
     ]
   },
   "record": {
-    "judicialStatus": "outcome-unverified",
+    "judicialStatus": "multiple",
     "judicialVerification": {
       "reviewed": true,
-      "lastVerifiedAt": "2026-09-18",
-      "result": "historical-proceeding-outcome-unverified"
+      "lastVerifiedAt": "2026-09-19",
+      "result": "public-proceedings-found"
     },
     "proceedings": [
       {
@@ -46,6 +49,35 @@
             "url": "https://roma.corriere.it/notizie/cronaca/19_giugno_07/rauti-bucci-giudizio-truffa-rimborsi-regionali-1d6325da-889d-11e9-9099-5a05167d4d6a.shtml",
             "publicationDate": "2019-06-07",
             "accessedAt": "2026-09-18",
+            "type": "journalistic"
+          }
+        ]
+      },
+      {
+        "id": "isabella-rauti-002",
+        "title": "Proroga dell'incarico al segretario generale del Consiglio regionale del Lazio",
+        "allegedOffence": "Concorso in abuso d'ufficio",
+        "offence": null,
+        "status": "archived",
+        "court": "GIP del Tribunale di Roma",
+        "startDate": null,
+        "lastUpdate": "2014-04-17",
+        "description": "Nell'aprile 2014 il GIP di Roma ha archiviato la posizione di Isabella Rauti nell'indagine sulla proroga dell'incarico al segretario generale Nazareno Cecinelli. La data del provvedimento non è stata verificata; il 17 aprile è la data della notizia. Questo procedimento è distinto dal processo sulle consulenze regionali del 2019.",
+        "finalJudgment": true,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2014-04-17",
+            "title": "La stampa riferisce l'archiviazione disposta dal GIP"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Abuso d'ufficio, archiviata l'indagine su Isabella Rauti",
+            "publisher": "Secolo d'Italia",
+            "url": "https://www.secoloditalia.it/2014/04/abuso-dufficio-archiviata-lindagine-su-isabella-rauti-giustizia-e-fatta/",
+            "publicationDate": "2014-04-17",
+            "accessedAt": "2026-09-19",
             "type": "journalistic"
           }
         ]

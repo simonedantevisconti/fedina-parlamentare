@@ -2,15 +2,67 @@
   "schemaVersion": 1,
   "id": "francesco-zaffini",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
-      "\"Francesco Zaffini\" indagato imputato condannato assolto archiviato"
+      "\"Francesco Zaffini\" indagato imputato condannato assolto archiviato",
+      "\"Franco Zaffini\" peculato processo Perugia",
+      "\"Franco Zaffini\" utilizzo improprio fondi gruppo esito",
+      "\"Franco Zaffini\" prescrizione Perugia"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale personale attribuibile con sufficiente certezza.  L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
-    "sourceUrls": []
+    "notes": "Nel giugno 2017 ANSA documentò la notifica a Francesco, detto Franco, Zaffini dell'avviso di conclusione delle indagini per peculato e truffa, relativo al presunto impiego per fini politici di fondi del gruppo consiliare regionale nel 2011-2012. Non è stato reperito un successivo provvedimento personale di archiviazione, rinvio a giudizio, prescrizione o sentenza. Le decisioni della Corte dei conti sulla medesima area di spesa sono contabili e restano distinte. La scheda conserva l'ultimo passaggio penale documentato senza presentare il procedimento come tuttora pendente.",
+    "sourceUrls": [
+      "https://www.ansa.it/umbria/notizie/2017/06/28/ex-consigliere-umbro-accusato-per-fondi_7b43f3f9-8e05-4d66-a479-d1f65d678a0e.html",
+      "https://www.ilfattoquotidiano.it/2018/03/02/elezioni-la-guida-per-un-voto-consapevole-146-tra-indagati-condannati-prescritti-vince-il-centrodestra-39-voltagabbana-vince-il-centrosinistra-eccoli-divisi-per-nome-e-per-regione/4182938/10/"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "francesco-zaffini-001",
+        "title": "Inchiesta sui fondi del gruppo consiliare regionale dell'Umbria",
+        "allegedOffence": "Peculato e truffa",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Procura della Repubblica di Perugia",
+        "startDate": null,
+        "lastUpdate": "2017-06-28",
+        "description": "La Procura di Perugia notificò a Zaffini l'avviso di conclusione delle indagini sul presunto utilizzo improprio di fondi del gruppo consiliare per spese del 2011-2012. Non è stato reperito un provvedimento successivo che definisca con certezza la sua posizione personale.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2017-06-28",
+            "title": "Notificato l'avviso di conclusione delle indagini"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Ex consigliere umbro accusato per fondi",
+            "publisher": "ANSA",
+            "url": "https://www.ansa.it/umbria/notizie/2017/06/28/ex-consigliere-umbro-accusato-per-fondi_7b43f3f9-8e05-4d66-a479-d1f65d678a0e.html",
+            "publicationDate": "2017-06-28",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          },
+          {
+            "name": "Guida alle elezioni 2018: candidati sotto inchiesta",
+            "publisher": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2018/03/02/elezioni-la-guida-per-un-voto-consapevole-146-tra-indagati-condannati-prescritti-vince-il-centrodestra-39-voltagabbana-vince-il-centrosinistra-eccoli-divisi-per-nome-e-per-regione/4182938/10/",
+            "publicationDate": "2018-03-02",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

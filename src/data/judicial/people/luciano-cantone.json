@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "luciano-cantone",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Luciano Cantone\" deputato indagato condannato assolto archiviato"
+      "\"Luciano Cantone\" deputato indagato condannato assolto archiviato",
+      "\"Luciano Cantone deputato\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Le notizie penali trovate riguardano un omonimo imprenditore campano, mentre la scheda istituzionale identifica il deputato nato a Catania nel 1987. Nessuna attribuzione personale supportata; ricerca preliminare.",
+    "notes": "Le notizie penali trovate riguardano un omonimo imprenditore campano, mentre la scheda istituzionale identifica il deputato nato a Catania nel 1987. Nessuna attribuzione personale supportata; ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://documenti.camera.it/apps/commonServices/getDocumento.ashx?idLegislatura=18&idPersona=307416&sezione=deputati&tipoAttivita=attivitanonlegislativacommissione&tipoDoc=schedaDeputato&tipoPersona=&tipoVisAtt=",
       "https://www.stylo24.it/camorra-assoluzione-per-l-imprenditore-luciano-cantone/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

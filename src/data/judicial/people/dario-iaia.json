@@ -2,15 +2,60 @@
   "schemaVersion": 1,
   "id": "dario-iaia",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
-    "result": "no-supported-personal-proceeding-found",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-requiring-outcome-verification",
     "readyForClean": false,
     "queries": [
-      "\"Dario Iaia\" indagato imputato condannato assolto archiviato"
+      "\"Dario Iaia\" indagato imputato condannato assolto archiviato",
+      "\"Dario Iaia\" diffamazione Caforio decreto penale opposizione esito"
     ],
-    "notes": "Ricerca preliminare per nome completo su indagini, processi ed esiti. Non è emerso un procedimento penale personale sufficientemente documentato nelle fonti consultate. Questo non certifica l’assenza di precedenti o procedimenti.",
-    "sourceUrls": []
+    "notes": "Il GIP di Taranto emise il 21 aprile 2021 un decreto penale di condanna a 300 euro per diffamazione aggravata. Iaia presentò opposizione e chiese il giudizio immediato, fissato per il 2 novembre 2021. Non è stato reperito un esito successivo affidabile: il decreto opposto non viene presentato come condanna definitiva e lo stato è indicato come esito non verificato.",
+    "sourceUrls": [
+      "https://www.lavocedimaruggio.it/wp/sava-condannato-il-sindaco-dario-iaia-per-diffamazione-aveva-offeso-la-reputazione-di-un-giornalista.html"
+    ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "outcome-unverified",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "historical-proceeding-outcome-unverified"
+    },
+    "proceedings": [
+      {
+        "id": "dario-iaia-001",
+        "title": "Dichiarazioni su Giovanni Caforio durante un comizio",
+        "allegedOffence": "Diffamazione aggravata",
+        "offence": null,
+        "status": "outcome-unverified",
+        "court": "Tribunale di Taranto",
+        "startDate": null,
+        "lastUpdate": "2021-05-19",
+        "description": "Il 21 aprile 2021 il GIP di Taranto emise un decreto penale di condanna a 300 euro per dichiarazioni pronunciate durante un comizio del 2016. Dario Iaia presentò opposizione e chiese il giudizio immediato; l’udienza fu fissata al 2 novembre 2021. Le fonti consultate non documentano l’esito successivo, quindi il decreto opposto non è classificato come condanna definitiva.",
+        "finalJudgment": null,
+        "finalJudgmentDate": null,
+        "timeline": [
+          {
+            "date": "2021-04-21",
+            "title": "Il GIP emette un decreto penale di condanna"
+          },
+          {
+            "date": "2021-05-19",
+            "title": "La fonte riferisce l’opposizione e la richiesta di giudizio immediato"
+          }
+        ],
+        "sources": [
+          {
+            "name": "Sava: condannato il sindaco Dario Iaia per diffamazione; presentata opposizione",
+            "publisher": "La Voce di Maruggio",
+            "url": "https://www.lavocedimaruggio.it/wp/sava-condannato-il-sindaco-dario-iaia-per-diffamazione-aveva-offeso-la-reputazione-di-un-giornalista.html",
+            "publicationDate": "2021-05-19",
+            "accessedAt": "2026-09-19",
+            "type": "journalistic"
+          }
+        ]
+      }
+    ]
+  }
 }

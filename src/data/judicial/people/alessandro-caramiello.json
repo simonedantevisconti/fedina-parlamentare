@@ -2,18 +2,28 @@
   "schemaVersion": 1,
   "id": "alessandro-caramiello",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Alessandro Caramiello\" indagato condannato assolto archiviato"
+      "\"Alessandro Caramiello\" indagato condannato assolto archiviato",
+      "\"Alessandro Caramiello\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "L'indagine del MEF citata nei risultati riguarda l'amministrazione comunale di Portici; Caramiello vi interviene pubblicamente. Anche la notizia ANSA del 2026 sulle tessere elettorali lo indica come autore di una segnalazione al prefetto, non come indagato. Non è emerso un procedimento personale attribuibile; controllo preliminare.",
+    "notes": "L'indagine del MEF citata nei risultati riguarda l'amministrazione comunale di Portici; Caramiello vi interviene pubblicamente. Anche la notizia ANSA del 2026 sulle tessere elettorali lo indica come autore di una segnalazione al prefetto, non come indagato. Non è emerso un procedimento personale attribuibile; controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario. Una fonte del 2024 documenta un ordine comunale di demolizione e ripristino relativo all'abitazione di Villa Gallo e il precedente sequestro di una struttura; non indica Caramiello come indagato o imputato, quindi la vicenda non viene registrata come procedimento penale personale.",
     "sourceUrls": [
       "https://www.latorre1905.it/cronoca-locale/portici-indagini-mef-caramiello-m5s-lamministrazione-comunale-dovra-dimostrare-trasparenza-e-correttezza/",
-      "https://www.ansa.it/campania/notizie/2026/05/22/caramiello-m5s-a-portici-tessere-elettorali-ritirate-con-false-deleghe_cb8e9461-57bf-499c-8e54-57324c261977.html"
+      "https://www.ansa.it/campania/notizie/2026/05/22/caramiello-m5s-a-portici-tessere-elettorali-ritirate-con-false-deleghe_cb8e9461-57bf-499c-8e54-57324c261977.html",
+      "https://napoli.corriere.it/notizie/cronaca/24_aprile_26/portici-un-soppalco-due-balconi-e-un-vano-finestra-abusivi-nella-villa-vesuviana-nei-guai-deputato-cinque-stelle-2dd554d4-20a8-4360-a29a-f8648415cxlk.shtml"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

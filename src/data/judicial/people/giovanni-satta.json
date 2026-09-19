@@ -2,18 +2,26 @@
   "schemaVersion": 1,
   "id": "giovanni-satta",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Giovanni Satta\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Ricerca preliminare nelle fonti pubbliche con nome completo e termini giudiziari: non è emerso un procedimento penale personale attribuibile con sufficiente certezza. Le notizie sulle condanne per droga riguardano l’ex sindaco di Buddusò ed ex consigliere regionale; la scheda del senatore in elenco indica nascita a Roma nel 1965 e non consente di identificarlo con quella persona. L’assenza di risultati non certifica la fedina penale né esclude procedimenti non pubblici.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36444",
       "https://www.rainews.it/tgr/sardegna/articoli/2025/06/traffico-di-droga-lex-consigliere-giovanni-satta-condannato-a-8-anni-e-mezzo--f3db7404-53b9-4ecb-bd58-c7d2d7626ae0.html"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

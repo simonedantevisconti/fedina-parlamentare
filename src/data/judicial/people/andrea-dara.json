@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "andrea-dara",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Andrea Dara\" indagato imputato condannato assolto archiviato"
+      "\"Andrea Dara\" indagato imputato condannato assolto archiviato",
+      "\"Andrea Dara\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "La vicenda del bonus INPS 2020 e la sospensione dal partito non attestano, nelle fonti consultate, un procedimento penale personale. Il commercialista siciliano omonimo citato nel processo Saguto è una persona diversa. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "notes": "La vicenda del bonus INPS 2020 e la sospensione dal partito non attestano, nelle fonti consultate, un procedimento penale personale. Il commercialista siciliano omonimo citato nel processo Saguto è una persona diversa. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.corriere.it/economia/aziende/22_marzo_28/parlamentari-furbetti-bonus-l-inps-fece-bene-controllare-384513c8-ae82-11ec-89b4-33ef6a8626b0.shtml",
       "https://palermo.repubblica.it/cronaca/2018/03/21/news/l_atto_d_accusa_dell_amministratore_dara_vi_racconto_il_sistema_saguto-cappellano_-191872153/amp/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

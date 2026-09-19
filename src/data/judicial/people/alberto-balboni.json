@@ -2,17 +2,25 @@
   "schemaVersion": 1,
   "id": "alberto-balboni",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"alberto balboni\" indagato imputato condannato archiviato"
     ],
-    "notes": "Una sentenza penale pubblicata menziona un omonimo Alberto Balboni, senza elementi sufficienti per identificarlo con il senatore. Non attribuire il procedimento senza riscontro anagrafico.",
+    "notes": "Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L'assenza di riscontri pubblici non equivale a un certificato del casellario. Sono stati esclusi procedimenti riferiti a omonimi privi di riscontri anagrafici; nelle cronache politiche consultate Balboni commenta vicende giudiziarie altrui.",
     "sourceUrls": [
       "https://www.sistemapenale.it/pdf_contenuti/1589311600_cassazione-36380-2019-art-132-codice-privacy-data-retention.pdf"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

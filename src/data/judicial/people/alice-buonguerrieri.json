@@ -2,18 +2,27 @@
   "schemaVersion": 1,
   "id": "alice-buonguerrieri",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
       "\"Alice Buonguerrieri\" indagata condannata assolta",
-      "\"alice buonguerrieri\" indagato imputato condannato archiviato"
+      "\"alice buonguerrieri\" indagato imputato condannato archiviato",
+      "\"Alice Buonguerrieri\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "La condanna menzionata dall’associazione dei giornalisti è una presa di posizione su un comunicato, non una sentenza penale. Le nuove notizie su indagini Covid la citano come componente della commissione parlamentare, non come indagata. Nessun procedimento personale documentato; ricerca preliminare.",
+    "notes": "La condanna menzionata dall’associazione dei giornalisti è una presa di posizione su un comunicato, non una sentenza penale. Le nuove notizie su indagini Covid la citano come componente della commissione parlamentare, non come indagata. Nessun procedimento personale documentato; ricerca preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.aser.bo.it/NEW/2024/11/08/aser-e-ordine-ferma-condanna-al-comunicato-della-deputata-buonguerrieri-fdi-contro-teleromagna/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

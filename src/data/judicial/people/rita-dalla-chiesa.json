@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "rita-dalla-chiesa",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Rita Dalla Chiesa\" indagato imputato condannato assolto archiviato"
+      "\"Rita Dalla Chiesa\" indagato imputato condannato assolto archiviato",
+      "\"Rita Dalla Chiesa\" indagato indagata imputato imputata condannato condannata assolto assolta archiviato archiviata procura processo"
     ],
-    "notes": "La causa con Agenzia delle entrate era tributaria e la deputata risultò vittoriosa; altri risultati riguardano l’omicidio del padre. Nessun procedimento penale personale documentato. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti.",
+    "notes": "La causa con Agenzia delle entrate era tributaria e la deputata risultò vittoriosa; altri risultati riguardano l’omicidio del padre. Nessun procedimento penale personale documentato. Ricerca preliminare: l’assenza di risultati pertinenti non prova l’assenza di precedenti. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, rinvii a giudizio, processi, condanne, assoluzioni, archiviazioni, proscioglimenti, prescrizioni, patteggiamenti, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://roma.repubblica.it/cronaca/2019/08/07/news/rita_dalla_chiesa-233082708/"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

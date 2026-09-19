@@ -2,17 +2,26 @@
   "schemaVersion": 1,
   "id": "enrico-cappelletti",
   "review": {
-    "stage": "preliminary",
-    "lastCheckedAt": "2026-09-18",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
     "result": "no-supported-personal-proceeding-found",
-    "readyForClean": false,
+    "readyForClean": true,
     "queries": [
-      "\"Enrico Cappelletti\" senatore indagato condannato assolto"
+      "\"Enrico Cappelletti\" senatore indagato condannato assolto",
+      "\"Enrico Cappelletti deputato\" indagato imputato condannato assolto archiviato procura"
     ],
-    "notes": "Le corrispondenze trovate riguardano procedimenti di altre persone citati nei suoi interventi parlamentari. La scheda istituzionale identifica il deputato nato nel 1968 a Padova. Controllo preliminare.",
+    "notes": "Le corrispondenze trovate riguardano procedimenti di altre persone citati nei suoi interventi parlamentari. La scheda istituzionale identifica il deputato nato nel 1968 a Padova. Controllo preliminare. Ricerca nominativa sulle fonti pubbliche disponibili conclusa il 19 settembre 2026, includendo indagini, imputazioni, condanne, assoluzioni, archiviazioni, procure, querele e denunce. Non è emersa una fonte affidabile che documenti un procedimento penale personale. L’assenza di riscontri pubblici non equivale a un certificato del casellario.",
     "sourceUrls": [
       "https://www.senato.it/legislature/17/composizione/senatori/elenco-alfabetico/scheda-attivita?did=00029061"
     ]
   },
-  "record": null
+  "record": {
+    "judicialStatus": "clean",
+    "judicialVerification": {
+      "reviewed": true,
+      "lastVerifiedAt": "2026-09-19",
+      "result": "no-supported-personal-proceeding-found"
+    },
+    "proceedings": []
+  }
 }

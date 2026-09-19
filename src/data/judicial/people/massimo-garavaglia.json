@@ -2,14 +2,14 @@
   "schemaVersion": 1,
   "id": "massimo-garavaglia",
   "review": {
-    "stage": "complete-with-follow-up",
-    "lastCheckedAt": "2026-09-18",
-    "result": "public-proceeding-requiring-outcome-verification",
+    "stage": "complete",
+    "lastCheckedAt": "2026-09-19",
+    "result": "public-proceeding-found",
     "readyForClean": false,
     "queries": [
       "\"Massimo Garavaglia\" indagato imputato condannato assolto archiviato"
     ],
-    "notes": "Assolto nel 2019 e nuovamente in appello nel 2022 nel processo sulla gara del trasporto dei dializzati. Non è stata verificata l’irrevocabilità. Nel 2017 fu aperto un fascicolo per valutare una possibile iscrizione per falsa testimonianza in un’altra vicenda; le fonti consultate non documentano un’imputazione personale.",
+    "notes": "Procedimento sulla gara del trasporto dei dializzati: assoluzione confermata in appello nel 2022. Ricerca sulle fonti disponibili completata il 19 settembre 2026; passaggio in giudicato non documentato. La notizia del 2017 su un possibile fascicolo per falsa testimonianza non prova l'iscrizione o l'imputazione personale.",
     "sourceUrls": [
       "https://www.ansa.it/sito/notizie/cronaca/2022/03/14/garavaglia-e-mantovani-assolti-in-appello-a-milano_fb204f9d-2cee-4e9a-a1c8-726b6743e831.html",
       "https://www.rainews.it/amp/articoli/2022/03/ministro-garavaglia-assolto-per-non-aver-commesso-il-fatto-nessuna-turbativa-dasta-df5b870d-6730-456f-94f1-90b8c2102560.html",
@@ -34,7 +34,7 @@
         "startDate": null,
         "lastUpdate": "2022-03-14",
         "description": "Confermata l’assoluzione di primo grado perché non aveva commesso il fatto; irrevocabilità non verificata.",
-        "finalJudgment": false,
+        "finalJudgment": null,
         "finalJudgmentDate": null,
         "timeline": [
           {
