@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readJudicialData, validateJudicialData, roster, getCoverage } from "../scripts/lib/judicialData.mjs";
-import { buildJudicialSummary } from "../src/data/judicialSummary.js";
+import { buildJudicialSummary, getHomepageJudicialCategory } from "../src/data/judicialSummary.js";
 import politicians from "../src/data/politicians.js";
 import judicialReviewLog from "../src/data/judicialReviewLog.js";
 import { loadJudicialRecord } from "../src/data/judicialRecords.js";
@@ -47,4 +47,25 @@ test("mixed outcomes retain both conviction and acquittal information", () => {
   assert.equal(summary.displayStatus, "multiple");
   assert.equal(summary.hasFinalConviction, true);
   assert.equal(summary.hasAcquittals, true);
+});
+
+test("homepage categories include every politician once and respect priority", () => {
+  const counts = { clean: 0, ongoing: 0, convicted: 0, concluded: 0 };
+
+  for (const person of politicians) {
+    const category = getHomepageJudicialCategory(person.judicialSummary);
+    assert.ok(category in counts, `${person.id}: unknown homepage category`);
+    counts[category] += 1;
+  }
+
+  assert.equal(Object.values(counts).reduce((sum, count) => sum + count, 0), politicians.length);
+
+  const mixed = buildJudicialSummary({
+    proceedings: [
+      { status: "convicted-final" },
+      { status: "acquitted" },
+      { status: "trial" },
+    ],
+  });
+  assert.equal(getHomepageJudicialCategory(mixed), "convicted");
 });

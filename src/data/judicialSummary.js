@@ -8,6 +8,45 @@ const CONCLUDED_STATUSES = [
   "plea-bargain",
 ];
 
+const HOMEPAGE_CONCLUDED_STATUSES = [
+  ...CONCLUDED_STATUSES,
+  "parliamentary-immunity",
+  "annulled",
+];
+
+const HOMEPAGE_ONGOING_STATUSES = [
+  ...ONGOING_STATUSES,
+  "convicted-non-final",
+  "outcome-unverified",
+];
+
+/*
+ * Assegna ogni parlamentare a una sola categoria della homepage.
+ * In presenza di più procedimenti applica la priorità editoriale:
+ * condanna definitiva, esito concluso, procedimento in corso, nessun procedimento.
+ */
+export const getHomepageJudicialCategory = (summary) => {
+  const statuses = summary?.uniqueStatuses ?? [];
+
+  if (statuses.includes("convicted-final")) {
+    return "convicted";
+  }
+
+  if (statuses.some((status) => HOMEPAGE_CONCLUDED_STATUSES.includes(status))) {
+    return "concluded";
+  }
+
+  if (statuses.some((status) => HOMEPAGE_ONGOING_STATUSES.includes(status))) {
+    return "ongoing";
+  }
+
+  if (summary?.proceedingCount > 0) {
+    return "ongoing";
+  }
+
+  return "clean";
+};
+
 export const buildJudicialSummary = ({
   judicialStatus,
   judicialVerification,

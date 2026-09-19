@@ -1,34 +1,24 @@
 import { Link } from "react-router-dom";
 
 import politicians from "../data/politicians";
+import { getHomepageJudicialCategory } from "../data/judicialSummary";
 
 import "../styles/home.css";
 
 const HomePage = () => {
   const totalPoliticians = politicians.length;
 
-  const cleanCount = politicians.filter(
-    (politician) => politician.judicialStatus === "clean",
-  ).length;
+  const categoryCounts = politicians.reduce(
+    (counts, politician) => {
+      const category = getHomepageJudicialCategory(
+        politician.judicialSummary,
+      );
 
-  const ongoingStatuses = [
-    "investigated",
-    "charged",
-    "trial",
-    "convicted-non-final",
-  ];
-
-  const ongoingCount = politicians.filter((politician) =>
-    ongoingStatuses.includes(politician.judicialStatus),
-  ).length;
-
-  const convictedCount = politicians.filter(
-    (politician) => politician.judicialStatus === "convicted-final",
-  ).length;
-
-  const concludedCount = politicians.filter((politician) =>
-    ["acquitted", "archived"].includes(politician.judicialStatus),
-  ).length;
+      counts[category] += 1;
+      return counts;
+    },
+    { clean: 0, ongoing: 0, convicted: 0, concluded: 0 },
+  );
 
   const getPercentage = (value) => {
     if (totalPoliticians === 0) {
@@ -41,32 +31,34 @@ const HomePage = () => {
   const stats = [
     {
       id: "clean",
-      count: cleanCount,
-      percentage: getPercentage(cleanCount),
+      count: categoryCounts.clean,
+      percentage: getPercentage(categoryCounts.clean),
       label: "Nessun procedimento noto",
       description:
         "Parlamentari per i quali non risultano procedimenti registrati nel dataset.",
     },
     {
       id: "ongoing",
-      count: ongoingCount,
-      percentage: getPercentage(ongoingCount),
+      count: categoryCounts.ongoing,
+      percentage: getPercentage(categoryCounts.ongoing),
       label: "Procedimenti in corso",
-      description: "Indagini, imputazioni, processi o condanne non definitive.",
+      description:
+        "Indagini, imputazioni, processi, condanne non definitive o esiti ancora da verificare.",
     },
     {
       id: "convicted",
-      count: convictedCount,
-      percentage: getPercentage(convictedCount),
+      count: categoryCounts.convicted,
+      percentage: getPercentage(categoryCounts.convicted),
       label: "Condanne definitive",
       description: "Casi registrati con una condanna definitiva.",
     },
     {
       id: "concluded",
-      count: concludedCount,
-      percentage: getPercentage(concludedCount),
+      count: categoryCounts.concluded,
+      percentage: getPercentage(categoryCounts.concluded),
       label: "Assolti o archiviati",
-      description: "Procedimenti conclusi con assoluzione o archiviazione.",
+      description:
+        "Assoluzioni, archiviazioni e altri esiti conclusi registrati.",
     },
   ];
 
@@ -173,55 +165,6 @@ const HomePage = () => {
             Le statistiche sono calcolate automaticamente sulle schede
             attualmente presenti nel dataset.
           </p>
-        </div>
-      </section>
-
-      {/* CAMERA / SENATO */}
-      <section className="home-chambers">
-        <div className="container">
-          <div className="home-section-heading">
-            <div>
-              <p className="home-section-heading__eyebrow">
-                Consulta il Parlamento
-              </p>
-
-              <h2>Camera e Senato</h2>
-            </div>
-          </div>
-
-          <div className="row g-4">
-            <div className="col-12 col-lg-6">
-              <Link to="/camera" className="home-chamber-card">
-                <div>
-                  <p>Camera dei Deputati</p>
-
-                  <h3>Consulta i deputati</h3>
-
-                  <span>
-                    Cerca per nome o cognome e consulta le singole schede.
-                  </span>
-                </div>
-
-                <strong aria-hidden="true">→</strong>
-              </Link>
-            </div>
-
-            <div className="col-12 col-lg-6">
-              <Link to="/senato" className="home-chamber-card">
-                <div>
-                  <p>Senato della Repubblica</p>
-
-                  <h3>Consulta i senatori</h3>
-
-                  <span>
-                    Esplora i membri censiti e le informazioni associate.
-                  </span>
-                </div>
-
-                <strong aria-hidden="true">→</strong>
-              </Link>
-            </div>
-          </div>
         </div>
       </section>
 
