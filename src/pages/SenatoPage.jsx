@@ -69,25 +69,6 @@ const SenatoPage = () => {
 
       <section className="senato-page__directory">
         <div className="container">
-          {/* SEARCH */}
-          <div className="senato-page__toolbar">
-            <div className="senato-page__search">
-              <PoliticianSearch
-                value={search}
-                onChange={setSearch}
-                placeholder="Cerca un senatore per nome o cognome"
-              />
-            </div>
-
-            <div className="senato-page__count">
-              <strong>{filteredSenators.length}</strong>
-
-              <span>
-                {filteredSenators.length === 1 ? "senatore" : "senatori"}
-              </span>
-            </div>
-          </div>
-
           {/* EMICICLO */}
           <div className="senato-page__hemicycle">
             <div className="senato-page__hemicycle-heading">
@@ -176,6 +157,25 @@ const SenatoPage = () => {
                 </div>
               </div>
             )}
+          </div>
+
+          {/* SEARCH */}
+          <div className="senato-page__toolbar">
+            <div className="senato-page__search">
+              <PoliticianSearch
+                value={search}
+                onChange={setSearch}
+                placeholder="Cerca un senatore per nome o cognome"
+              />
+            </div>
+
+            <div className="senato-page__count">
+              <strong>{filteredSenators.length}</strong>
+
+              <span>
+                {filteredSenators.length === 1 ? "senatore" : "senatori"}
+              </span>
+            </div>
           </div>
 
           {/* FILTRO ALFABETICO */}

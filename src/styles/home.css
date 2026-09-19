@@ -456,10 +456,6 @@
   background-color: #ffffff;
 }
 
-.home-principle__content {
-  max-width: 760px;
-}
-
 .home-principle__eyebrow {
   margin: 0 0 12px;
 
@@ -487,8 +483,6 @@
 }
 
 .home-principle__content > p:not(.home-principle__eyebrow) {
-  max-width: 700px;
-
   margin: 0 0 12px;
 
   color: #606879;

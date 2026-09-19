@@ -71,25 +71,6 @@ const CameraPage = () => {
       {/* DIRECTORY */}
       <section className="camera-page__directory">
         <div className="container">
-          {/* SEARCH */}
-          <div className="camera-page__toolbar">
-            <div className="camera-page__search">
-              <PoliticianSearch
-                value={search}
-                onChange={setSearch}
-                placeholder="Cerca un deputato per nome o cognome"
-              />
-            </div>
-
-            <div className="camera-page__count">
-              <strong>{filteredDeputies.length}</strong>
-
-              <span>
-                {filteredDeputies.length === 1 ? "deputato" : "deputati"}
-              </span>
-            </div>
-          </div>
-
           {/* EMICICLO */}
           <div className="camera-page__hemicycle">
             <div className="camera-page__hemicycle-heading">
@@ -180,6 +161,25 @@ const CameraPage = () => {
                 </div>
               </div>
             )}
+          </div>
+
+          {/* SEARCH */}
+          <div className="camera-page__toolbar">
+            <div className="camera-page__search">
+              <PoliticianSearch
+                value={search}
+                onChange={setSearch}
+                placeholder="Cerca un deputato per nome o cognome"
+              />
+            </div>
+
+            <div className="camera-page__count">
+              <strong>{filteredDeputies.length}</strong>
+
+              <span>
+                {filteredDeputies.length === 1 ? "deputato" : "deputati"}
+              </span>
+            </div>
           </div>
 
           {/* FILTRO ALFABETICO */}

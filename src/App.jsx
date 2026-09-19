@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
+import ScrollToTop from "./components/ScrollToTop";
 import DefaultLayout from "./layout/DefaultLayout";
 
 import HomePage from "./pages/HomePage";
@@ -14,6 +15,8 @@ const PoliticianPage = lazy(() => import("./pages/PoliticianPage"));
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
+
       <Routes>
         <Route element={<DefaultLayout />}>
           <Route index element={<HomePage />} />
